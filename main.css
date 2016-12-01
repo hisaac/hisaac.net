@@ -1,5 +1,12 @@
+/* for testing */
+/** {border: 1px solid red}*/
+
 body {
   font-family: sans-serif;
+}
+
+header, footer {
+  text-align: center;
 }
 
 img {
@@ -12,5 +19,4 @@ img {
 main {
   max-width: 85ch;
   margin: 0 auto;
-  /*border: 1px solid red;*/
 }
