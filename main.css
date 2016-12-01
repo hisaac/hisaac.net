@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 450px;
+  border-radius: 1%;
+  display: block;
+  margin: auto;
+}
+
+main {
+  max-width: 85ch;
+  margin: 0 auto;
+  /*border: 1px solid red;*/
+}
