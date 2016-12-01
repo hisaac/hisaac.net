@@ -3,10 +3,16 @@
 
 body {
   font-family: sans-serif;
+  color: #111;
+  line-height: 1.3;
 }
 
 header, footer {
   text-align: center;
+}
+
+footer {
+  font-size: .8em;
 }
 
 img {
@@ -17,6 +23,14 @@ img {
 }
 
 main {
-  max-width: 85ch;
+  max-width: 65ch;
   margin: 0 auto;
+}
+
+a, a:visited {
+  color: #111;
+}
+
+a:hover {
+  color: black;
 }
