@@ -1,73 +1,78 @@
 <!--
-  v1.1 - published 2016-12-05
-  Copyright 2016 Isaac Halvorson
-  contact me at: hello@hisaac.net
+  v1.2 - published 2017-01-07
+  Copyright 2017 Isaac Halvorson
+  Contact me at: hello@hisaac.net
 -->
 
 <!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1">
-    <meta name="copyright" content="$copy; 2016 Isaac Halvorson">
-    <title>hisaac.net</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="skeleton.css">
-    <link rel="stylesheet" href="main.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1">
+  <meta name="copyright" content="$copy; 2016 Isaac Halvorson">
+  <title>hisaac.net</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
 
-    <!--google analytics-->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <!-- google analytics -->
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-75354131-2', 'auto');
-        ga('send', 'pageview');
-    </script>
+    ga('create', 'UA-75354131-2', 'auto');
+    ga('send', 'pageview');
+  </script>
 
 </head>
 
 <body>
-    <header>
-        <h3>Welcome to</h3>
-        <h1><a href="http://hisaac.net">hisaac.net</a></h1>
-    </header>
+  <hr />
 
-    <hr />
+  <header>
+    <h1 id="hiddenTitle" class="center">hisaac.net</h1>
+    <h3>Hello, my name is Isaac Halvorson.</h3>
+  </header>
 
-    <main>
-        <p id="salutation">👋 Hello! I'm Isaac Halvorson. Welcome to my personal webspace.</p>
+  <main>
+    <p>I'm a full-stack web developer living in Saint Paul, MN. In my free time, I blog at <a href="http://hisaac.blog">hisaac.blog</a>, and am developing a podcast called <a href="http://albumart.net">Album Art</a>. I'm very interested in science-fiction, music, technology, and open source software.</p>
 
-        <p>I'm a full-stack web developer living in Saint Paul, MN. In my free time, I blog at <a href="http://hisaac.blog">hisaac.blog</a>, and I host a podcast called <a href="http://albumart.net">Album Art</a>. I'm very interested in science fiction, music, technology, and open source software.</p>
+    <p>You can click the icons below to find me elsewhere on the web.</p>
+  </main>
 
-        <hr />
+  <hr />
 
-        <p id="elsewhere">Want to contact me, or look me up elsewhere?</p>
+  <footer class="center">
 
-        <ul>
-            <li><a href="mailto:hello@hisaac.net">Email</a></li>
-            <li><a href="https://twitter.com/hisaac">Twitter</a></li>
-            <li><a href="https://www.linkedin.com/in/isaachalvorson">LinkedIn</a></li>
-            <li><a href="https://bandcamp.com/hisaac">Bandcamp</a></li>
-            <li><a href="http://www.last.fm/user/hisaaac">last.fm</a></li>
-            <li><a href="https://keybase.io/hisaac">Keybase</a></li>
-            <li><a href="http://github.com/hisaac">GitHub</a></li>
-            <li><a href="http://stackexchange.com/users/5023139/hisaac">Stack Exchange</a></li>
-            <li><a href="http://stackoverflow.com/users/story/4118208">Stack Overflow Developer Story</a></li>
-        </ul>
+    <section id="social-icons">
+      <a href="mailto:hello@hisaac.net" class="social-icon"><i class="fa fa-envelope"></i></a>
+      <a href="https://twitter.com/hisaac" class="social-icon"><i class="fa fa-twitter"></i></a>
+      <a href="http://github.com/hisaac" class="social-icon"><i class="fa fa-github"></i></a>
+      <a href="http://stackoverflow.com/users/story/4118208" class="social-icon"><i class="fa fa-stack-overflow"></i></a>
+      <a href="http://stackexchange.com/users/5023139/hisaac" class="social-icon"><i class="fa fa-stack-exchange"></i></a>
+      <a href="https://www.linkedin.com/in/isaachalvorson" class="social-icon"><i class="fa fa-linkedin"></i></a>
+      <a href="https://bandcamp.com/hisaac" class="social-icon"><i class="fa fa-bandcamp"></i></a>
+      <a href="http://www.last.fm/user/hisaaac" class="social-icon"><i class="fa fa-lastfm"></i></a>
+      <a href="https://keybase.io/hisaac" class="social-icon"><i class="fa fa-key"></i></a>
+    </section>
 
-    </main>
+    <p id="copyright">
+      &copy; 2008–<script type="text/javascript">
+        document.write(new Date().getFullYear());
+      </script>, Isaac Halvorson
+    </p>
 
-    <hr />
-
-    <footer>
-        <p>
-            &copy; 2008–<script type="text/javascript">document.write(new Date().getFullYear());</script>, Isaac Halvorson
-        </p>
-        <p><a href="https://github.com/hisaac/hisaac.net">View the code for this page on GitHub</a></p>
-    </footer>
+  </footer>
 
 </body>
 

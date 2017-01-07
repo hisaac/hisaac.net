@@ -1,34 +1,151 @@
+/*
+  v1.2 - published 2017-01-07
+  Copyright 2017 Isaac Halvorson
+  Contact me at: hello@hisaac.net
+*/
+
+/*----------------------------- GENERAL STYLING ------------------------------*/
+/*------------- Some styling based on Skeleton (getskeleton.com) -------------*/
+
+html { font-size: 62.5%; }
+
 body {
-    line-height: 1.2;
-    padding: 20px;
+  font-size: 1.5em;
+  line-height: 1.2;
+  font-weight: 400;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-main {
-    max-width: 550px;
-    margin: 0 auto;
+main, header, footer {
+  max-width: 550px;
+  margin: 0 auto;
 }
+
+footer p {
+  font-size: .8em;
+  margin: 5px;
+}
+
+a { color: #1EAEDB; }
+a:hover { color: #0FA0CE; }
 
 hr {
-    max-width: 600px;
-    clear: both;
+  border-width: 0;
+  border-top: 1px solid #e1e1e1;
+  margin-top: 20px;
 }
 
-h1, h3 { margin: 0; }
-h1 a { text-decoration: none; }
+.center { text-align: center; }
+#hiddenTitle { display: none; }
 
-header, footer {
-    text-align: center;
-    clear: both;
+/*------------------------------- SOCIAL ICONS -------------------------------*/
+/*---- Some styling based on: https://codepen.io/Deadlymuffin/pen/hGiqo/ -----*/
+
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+  height: 100px;
 }
 
-footer { font-size: .8em; }
-
-li {
-    line-height: 1;
-    margin-right: 20px;
+.fa-envelope {
+  padding: 10px 12px;
+  transition: .3s;
+  color: black;
 }
 
-#salutation, #elsewhere {
-    text-align: center;
-    font-weight: 600;
+.fa-envelope:hover {
+  color: white;
+  background-color: black;
+}
+
+.fa-twitter {
+  padding: 10px 12px;
+  transition: .3s;
+  color: #00aced;
+}
+
+.fa-twitter:hover {
+  color: white;
+  background-color: #00aced;
+}
+
+.fa-linkedin {
+  padding: 10px 12px;
+  transition: .3s;
+  color: #0073a4;
+}
+
+.fa-linkedin:hover {
+  color: white;
+  background-color: #0073a4;
+}
+
+.fa-bandcamp {
+  padding: 10px 12px;
+  transition: .3s;
+  color: #629AA9;
+}
+
+.fa-bandcamp:hover {
+  color: white;
+  background-color: #629AA9;
+}
+
+.fa-lastfm {
+  padding: 10px 12px;
+  transition: .3s;
+  color: #DF1303;
+}
+
+.fa-lastfm:hover {
+  color: white;
+  background-color: #DF1303;
+}
+
+.fa-key {
+  padding: 10px 12px;
+  transition: .3s;
+  color: #ff7101;
+}
+
+.fa-key:hover {
+  color: white;
+  background-color: #ff7101;
+}
+
+.fa-github {
+  padding: 10px 12px;
+  transition: .3s;
+  color: black;
+}
+
+.fa-github:hover {
+  color: white;
+  background-color: black;
+}
+
+.fa-stack-exchange {
+  padding: 10px 12px;
+  transition: .3s;
+  color: #205296;
+}
+
+.fa-stack-exchange:hover {
+  color: white;
+  background-color: #205296;
+}
+
+.fa-stack-overflow {
+  padding: 10px 12px;
+  transition: .3s;
+  color: #FE7A15;
+}
+
+.fa-stack-overflow:hover {
+  color: white;
+  background-color: #FE7A15;
 }
