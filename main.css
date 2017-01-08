@@ -1,5 +1,5 @@
 /*
-  v1.2 - published 2017-01-07
+  v1.3 - published 2017-01-08
   Copyright 2017 Isaac Halvorson
   Contact me at: hello@hisaac.net
 */
@@ -20,9 +20,17 @@ body {
   margin: 0 auto;
 }
 
-main, header, footer {
+header, main, footer {
   max-width: 550px;
   margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+  max-width: 50%;
+  height: auto;
+  border-radius: 7.5px;
 }
 
 footer p {
@@ -44,6 +52,8 @@ hr {
 
 /*------------------------------- SOCIAL ICONS -------------------------------*/
 /*---- Some styling based on: https://codepen.io/Deadlymuffin/pen/hGiqo/ -----*/
+
+/* TODO add media queries to make icons look better on smaller screens */
 
 .social-icons li {
   vertical-align: top;
