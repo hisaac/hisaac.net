@@ -55,11 +55,13 @@ hr {
 
 /* TODO add media queries to make icons look better on smaller screens */
 
-.social-icons li {
-  vertical-align: top;
-  display: inline;
-  height: 100px;
+/*#socialIcons a {
+  float: left;
 }
+
+#copyright {
+  clear: both;
+}*/
 
 .fa-envelope {
   padding: 10px 12px;
@@ -158,4 +160,23 @@ hr {
 .fa-stack-overflow:hover {
   color: white;
   background-color: #FE7A15;
+}
+
+.letterboxd-icon {
+  vertical-align: bottom;
+  padding: 10px 12px;
+  transition: .3s;
+}
+
+.letterboxd-icon:hover {
+  background-color: #62ce21;
+}
+
+.letterboxd-icon:hover #letterboxd-decal {
+  fill: white;
+}
+
+#letterboxd-decal {
+  fill: #62ce21;
+  transition: .3s;
 }
