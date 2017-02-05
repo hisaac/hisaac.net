@@ -2,7 +2,7 @@ Thanks for your interest! If you'd like to talk to me about working for you or y
 
 ## My story
 
-I’ve been dreaming of becoming a software developer since before grade school. Now, with the help of Prime, that dream has finally come true.
+I’ve been dreaming of becoming a software developer since before grade school. Now, with the help of Prime Ac, that dream has finally come true.
 
 I’ve worked in technology since graduating college in 2010 — from supporting specialized hardware, software, and infrastructure for both individuals and entire offices, to testing web applications as a quality assurance engineer — and because of this, I feel I’m uniquely prepared to be a software developer.
 
