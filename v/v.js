@@ -1,20 +1,5 @@
-let userInput;
-
 $(document).ready(function() {
-  $('button').click(function() {
-    userInput = $('#userInput').val();
-    inputChecker(userInput);
+  $('#startGame').click(function(event) {
+    event.preventDefault();
   });
 });
-
-function inputChecker(input) {
-
-	$('#correct, #incorrect').addClass('hidden');
-
-  if (input == 'test') {
-  	$('#correct').removeClass();
-  } else {
-  	$('#incorrect').removeClass();
-  }
-}
-
