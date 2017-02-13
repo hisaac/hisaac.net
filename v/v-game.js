@@ -27,7 +27,7 @@ var clueArray = [
     clueTitle: 'Final Clue',
     clue: "You've made it to the <strong>FINAL CLUE</strong>! I'm very impressed. It is time now for you to get your actual gift!<br><br>I wanted to hide it in the apartment, but it's just too big! It barely fit in my truck bed! Hopefully you can find it before I get home.",
     correctAnswer: '',
-    success: "Text me when you've found it! I'm probably still on the plane, but you can leave me a message for when I land.\n\nI'd sure love a picture of you using your new gift. 😉",
+    success: "Text me when you've found it!\n\nI'm probably still on the plane, but you can leave me a message for when I land.\n\nI'd sure love a picture of you using your new gift. 😉",
     failure: "Having trouble? Here's a hint:\n\nIf it barely fit in my truck bed, and was too big to bring upstairs, where could it be?"
   }
 ];
