@@ -18,6 +18,10 @@ img {
   border-radius: 7.5px;
 }
 
+input, button {
+  -webkit-appearance: none;
+}
+
 .center { text-align: center; }
 .hidden { display: none; }
 
