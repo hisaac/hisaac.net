@@ -132,10 +132,21 @@ hr {
 .fa-github {
   padding: 10px 12px;
   transition: .3s;
-  color: black;
+  color: #4078c0;
 }
 
 .fa-github:hover {
+  color: white;
+  background-color: #4078c0;
+}
+
+.fa-codepen {
+  padding: 10px 12px;
+  transition: .3s;
+  color: black;
+}
+
+.fa-codepen:hover {
   color: white;
   background-color: black;
 }
