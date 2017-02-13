@@ -1,3 +1,6 @@
+var clueIndex = 0;
+var currentClue, userInput;
+
 var clueArray = [
   keyboard = {
     clueTitle: 'Clue 1',
@@ -29,28 +32,36 @@ var clueArray = [
   }
 ];
 
-var clueIndex = 0;
-var currentClue, userInput;
-
 $(document).ready(function() {
   init();
 
   $('form').submit(function() {
     event.preventDefault();
-    userInput = $('#userInput').val();
+    userInput = $('#userInput').val().toLowerCase();
     $('#userInput').val('');
     checkAnswer(userInput);
+  });
+
+  $('#help').click(function() {
+    alert(currentClue.failure);
+  });
+
+  $('#text').click(function() {
+    alert(currentClue.success);
   });
 });
 
 function init() {
   currentClue = clueArray[clueIndex];
+  if (clueIndex === 3) {
+    $('form').addClass('hidden');
+    $('#finalForm').removeClass('hidden');
+  }
   $('#clueTitle').html(currentClue.clueTitle);
   $('#clue').html(currentClue.clue);
 }
 
 function checkAnswer(input) {
-  let isCorrect = false;
   if (input == currentClue.correctAnswer) {
     alert(currentClue.success);
     clueIndex++;
