@@ -4,10 +4,10 @@ var currentClue, userInput;
 var clueArray = [
   keyboard = {
     clueTitle: 'Clue 1',
-    clue: "I may have too many of these, but I just can't stop buying them. It is what I used to write all of this, so perhaps that will convince you of their value? <br> <br> The answer to this clue is the number of these that I'll need before I'm satisfied.",
+    clue: "I may have too many of these, but I just can't stop buying them! It is what I used to write all of this though, so perhaps that will convince you of their value? <br> <br> The answer to this clue is the number of these that I'll need before I am satisfied.",
     correctAnswer: '42',
-    success: "Nice work! You know me well. Do you think 42 keyboards is too much?",
-    failure: "Having trouble? Here's a hint: My newest one of these holds the answer you seek."
+    success: "Nice work! You know me well. 42 keyboards isn't too outrageous, is it?",
+    failure: "Having trouble? Here's a hint: \n \n My newest one of these holds the answer you seek."
   },
   growler = {
     clueTitle: 'Clue 2',
