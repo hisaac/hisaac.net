@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<main>
+	{{ range .Data.Pages.GroupByDate "2006" }}
+
+	<!-- https://discourse.gohugo.io/t/blog-archives-page/2577/6 -->
+
+	<div class="post-list">
+		<h2>{{ .Key }}</h2>
+		<ul>
+			{{ range .Pages }}
+				<li><time datetime="{{ .Date }}">{{ .Date.Format "January 2" }}</time><span class="spacer">•</span><a href="{{ .URL }}">{{ .Title }}</a></li>
+			{{ end }}
+		</ul>
+	</div>
+
+	{{ end }}
+</main>
+
+{{ end }}

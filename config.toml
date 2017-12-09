@@ -1,0 +1,16 @@
+baseURL			= "https://hisaac.blog/"
+languageCode	= "en-us"
+title			= "hisaac.blog"
+
+uglyurls = true
+pygmentsCodefences = true
+
+[params]
+	Title = "hisaac.blog"
+	SiteDescription = "The personal weblog of Isaac Halvorson"
+	author = "Isaac Halvorson"
+	twitter = "hisaac"
+	email = "hello@hisaac.net"
+
+[permalinks]
+	posts = "/:year/:month/:day/:title/"

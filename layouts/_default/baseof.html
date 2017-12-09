@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{{ define "title" }}
+	{{ if .Params.title }}
+		{{ .Params.title }}
+	{{ else if .Title }}
+		{{ .Title }}
+	{{ else }}
+		{{ .Site.Title }}
+	{{ end }}
+{{ end }}
+
+{{ define "description" }}
+	{{ if .Params.description }}
+		{{ .Params.description }}
+	{{ else if .Description }}
+		{{ .Description }}
+	{{ else }}
+		{{ .Site.Params.SiteDescription }}
+	{{ end }}
+{{ end }}
+
+<head>
+	<!-- Title / Description -->
+	<title>{{ block "title" . }}{{ end }}</title>
+	<meta name="apple-mobile-web-app-title" content="{{ block "title" . }}{{ end }}" />
+	<meta id="description" name="description" content="{{ block "description" . }}{{ end }}" />
+
+	<!-- Twitter Card Setup -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="{{ block "title" . }}{{ end }}" />
+	<meta name="twitter:description" content="{{ block "description" . }}{{ end }}" />
+	<meta name="twitter:site" content="@{{ .Site.Params.twitter }}" />
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/main.css" />
+	
+	{{ if .Params.customcss }}
+	<link rel="stylesheet" href="{{ .Params.customcss }}" />
+	{{ end }}
+
+	<!-- meta -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+{{ partial "header" . }}
+
+{{ block "main" . }}{{ end }}
+
+{{ partial "footer" . }}
+</body>
+
+<script type="text/javascript">
+	document.getElementById("yearRange").innerHTML = "2008–" + new Date().getFullYear();
+</script>
+
+</html>
