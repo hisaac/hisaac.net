@@ -25,3 +25,4 @@ All other directories and files are MIT Licensed. Feel free to use the code as y
 - [Paul Frazee's blog](https://pfrazee.hashbase.io)
 - [Ben Balter’s blog](https://ben.balter.com/)
 - <https://southwest.ridecell.com/request> - I like the color of text here
+- [Ole Begemann's blog](https://oleb.net)
