@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+
+
+<head>
+
+	<title>
+
+		Test
+
+	</title>
+	<meta name="apple-mobile-web-app-title" content="
+	
+		Test
+	
+" />
+	<meta id="description" name="description" content="
+	
+		The personal weblog of Isaac Halvorson
+	
+" />
+
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="
+	
+		Test
+	
+" />
+	<meta name="twitter:description" content="
+	
+		The personal weblog of Isaac Halvorson
+	
+" />
+	<meta name="twitter:site" content="@hisaac" />
+
+
+	<link rel="stylesheet" href="/css/main.css" />
+
+
+
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<header>
+		<h1><a href="/" alt="hisaac.blog">hisaac.blog</a></h1>
+
+		<nav>
+			<a href="https://hisaac.net">about</a> •
+			<a href="/canon.html">canon</a> •
+			<a href="/artifacts.html">artifacts</a> •
+			<a href="/now.html">now</a>
+		</nav>
+	</header>
+
+
+
+
+	<article>
+		<h1>Test</h1>
+
+
+		<div class="post-meta">
+			<p><time datetime="2017-03-19 00:00:00 &#43;0000 UTC">Sunday, Mar 19, 2017</time></p>
+
+			<p>Author: The GitHub Primer Team</p>
+
+		</div>
+
+
+		<section class="content">
+
+
+			<h1 id="primer-css-markdown">Primer CSS Markdown</h1>
+
+			<p><a href="https://www.npmjs.org/package/primer-markdown"><img src="http://img.shields.io/npm/v/primer-markdown.svg" alt="NPM version" /></a>
+				<a href="https://travis-ci.org/primer/markdown"><img src="https://travis-ci.org/primer/markdown.svg?branch=master" alt="Build Status" /></a></p>
+
+			<blockquote>
+				<p>Stylesheets for rendering GitHub Flavored Markdown and syntax highlighted code snippets.</p>
+			</blockquote>
+
+			<p>This repository is a module of the full <a href="https://github.com/primer/primer">primer-css</a> repository.</p>
+			<div class="highlight">
+				<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">crazy</span>(<span style="color:#a6e22e">argument</span>) {
+	<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">love</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">9</span>;
+	<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">HELLO</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+	<span style="color:#66d9ef">return</span> [<span style="color:#e6db74">&#39;hi&#39;</span>];
+}</code></pre>
+			</div>
+			<h2 id="install">Install</h2>
+
+			<p>This repository is distributed with <a href="https://www.npmjs.com/">npm</a>. After <a href="https://docs.npmjs.com/getting-started/installing-node">installing npm</a>, you can install <code>primer-markdown</code> with this command.</p>
+			<div class="highlight">
+				<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">npm install --save primer-markdown</code></pre>
+			</div>
+			<h2 id="usage">Usage</h2>
+
+			<p>The source files included are written in <a href="http://sass-lang.com/">Sass</a> (<code>scss</code>) You can simply point your sass <code>include-path</code> at your <code>node_modules</code> directory and import it like this.</p>
+			<div class="highlight">
+				<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#66d9ef">@import</span> <span style="color:#e6db74">&#34;primer-markdown/index.scss&#34;</span>;</code></pre>
+			</div>
+			<p>You can also import specific portions of the module by importing those partials from the <code>/lib/</code> folder. <em>Make sure you import any requirements along with the modules.</em></p>
+
+			<h2 id="build">Build</h2>
+
+			<p>For a compiled <strong>css</strong> version of this module, a npm script is included that will output a css version to <code>build/build.css</code> The built css file is also included in the npm package.</p>
+			<div class="highlight">
+				<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">npm run build</code></pre>
+			</div>
+			<h2 id="documentation">Documentation</h2>
+
+			<!-- %docs
+title: Markdown
+status: Stable
+-->
+
+			<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>. <a href="https://github.com">Links</a> should be blue with no underlines (unless hovered over).</p>
+
+			<p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</p>
+
+			<p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</p>
+
+			<blockquote>
+				<p>There should be no margin above this first sentence.</p>
+
+				<p>Blockquotes should be a lighter gray with a gray border along the left side.</p>
+
+				<p>There should be no margin below this final sentence.</p>
+			</blockquote>
+
+			<h1 id="header-1">Header 1</h1>
+
+			<p>This is a normal paragraph following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs
+				biltong.</p>
+
+			<h2 id="header-2">Header 2</h2>
+
+			<blockquote>
+				<p>This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
+			</blockquote>
+
+			<h3 id="header-3">Header 3</h3>
+
+			<pre><code>This is a code block following a header.
+</code></pre>
+
+			<h4 id="header-4">Header 4</h4>
+
+			<ul>
+				<li>This is an unordered list following a header.</li>
+				<li>This is an unordered list following a header.</li>
+				<li>This is an unordered list following a header.</li>
+			</ul>
+
+			<h5 id="header-5">Header 5</h5>
+
+			<ol>
+				<li>This is an ordered list following a header.</li>
+				<li>This is an ordered list following a header.</li>
+				<li>This is an ordered list following a header.</li>
+			</ol>
+
+			<h6 id="header-6">Header 6</h6>
+
+			<table>
+				<thead>
+					<tr>
+						<th>What</th>
+						<th>Follows</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>A table</td>
+						<td>A header</td>
+					</tr>
+
+					<tr>
+						<td>A table</td>
+						<td>A header</td>
+					</tr>
+
+					<tr>
+						<td>A table</td>
+						<td>A header</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<hr />
+
+			<p>There&rsquo;s a horizontal rule above and below this.</p>
+
+			<hr />
+
+			<p>Here is an unordered list:</p>
+
+			<ul>
+				<li>Salt-n-Pepa</li>
+				<li>Bel Biv DeVoe</li>
+				<li>Kid &lsquo;N Play</li>
+			</ul>
+
+			<p>And an ordered list:</p>
+
+			<ol>
+				<li>Michael Jackson</li>
+				<li>Michael Bolton</li>
+				<li>Michael Bublé</li>
+			</ol>
+
+			<p>And an unordered task list:</p>
+
+			<ul class="task-list">
+				<li><label><input type="checkbox" checked disabled class="task-list-item"> Create a sample markdown document</label></li>
+				<li><label><input type="checkbox" checked disabled class="task-list-item"> Add task lists to it</label></li>
+				<li><label><input type="checkbox" disabled class="task-list-item"> Take a vacation</label></li>
+			</ul>
+
+			<p>And a &ldquo;mixed&rdquo; task list:</p>
+
+			<ul class="task-list">
+				<li><label><input type="checkbox" disabled class="task-list-item"> Steal underpants</label></li>
+				<li>?</li>
+				<li><label><input type="checkbox" disabled class="task-list-item"> Profit!</label></li>
+			</ul>
+
+			<p>And a nested list:</p>
+
+			<ul>
+				<li>Jackson 5
+
+					<ul>
+						<li>Michael</li>
+						<li>Tito</li>
+						<li>Jackie</li>
+						<li>Marlon</li>
+						<li>Jermaine</li>
+					</ul>
+				</li>
+				<li>TMNT
+
+					<ul>
+						<li>Leonardo</li>
+						<li>Michelangelo</li>
+						<li>Donatello</li>
+						<li>Raphael</li>
+					</ul>
+				</li>
+			</ul>
+
+			<p>Definition lists can be used with HTML syntax. Definition terms are bold and italic.</p>
+
+			<dl>
+				<dt>Name</dt>
+				<dd>Godzilla</dd>
+				<dt>Born</dt>
+				<dd>1952</dd>
+				<dt>Birthplace</dt>
+				<dd>Japan</dd>
+				<dt>Color</dt>
+				<dd>Green</dd>
+			</dl>
+
+			<hr />
+
+			<p>Tables should have bold headings and alternating shaded rows.</p>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Artist</th>
+						<th>Album</th>
+						<th>Year</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>Michael Jackson</td>
+						<td>Thriller</td>
+						<td>1982</td>
+					</tr>
+
+					<tr>
+						<td>Prince</td>
+						<td>Purple Rain</td>
+						<td>1984</td>
+					</tr>
+
+					<tr>
+						<td>Beastie Boys</td>
+						<td>License to Ill</td>
+						<td>1986</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p>If a table is too wide, it should condense down and/or scroll horizontally.</p>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Artist</th>
+						<th>Album</th>
+						<th>Year</th>
+						<th>Label</th>
+						<th>Awards</th>
+						<th>Songs</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>Michael Jackson</td>
+						<td>Thriller</td>
+						<td>1982</td>
+						<td>Epic Records</td>
+						<td>Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical</td>
+						<td>Wanna Be Startin&rsquo; Somethin&rsquo;, Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life</td>
+					</tr>
+
+					<tr>
+						<td>Prince</td>
+						<td>Purple Rain</td>
+						<td>1984</td>
+						<td>Warner Brothers Records</td>
+						<td>Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance
+							by a Duo or Group with Vocal</td>
+						<td>Let&rsquo;s Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I&rsquo;m a Star, Purple Rain</td>
+					</tr>
+
+					<tr>
+						<td>Beastie Boys</td>
+						<td>License to Ill</td>
+						<td>1986</td>
+						<td>Mercury Records</td>
+						<td>noawardsbutthistablecelliswide</td>
+						<td>Rhymin &amp; Stealin, The New Style, She&rsquo;s Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<hr />
+
+			<p>Code snippets like <code>var foo = &quot;bar&quot;;</code> can be shown inline.</p>
+
+			<p>Also, <code>this should vertically align</code> <del><code>with this</code></del> <del>and this</del>.</p>
+
+			<p>Code can also be shown in a block element.</p>
+
+			<pre><code>var foo = &quot;bar&quot;;
+</code></pre>
+
+			<p>Code can also use syntax highlighting.</p>
+			<div class="highlight">
+				<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">foo</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;bar&#34;</span>;</code></pre>
+			</div>
+			<pre><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+</code></pre>
+			<div class="highlight">
+				<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">foo</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;The same thing is true for code with syntax highlighting. A single line of code should horizontally scroll if it is really long.&#34;</span>;</code></pre>
+			</div>
+			<p>Inline code inside table cells should still be distinguishable.</p>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Language</th>
+						<th>Code</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>Javascript</td>
+						<td><code>var foo = &quot;bar&quot;;</code></td>
+					</tr>
+
+					<tr>
+						<td>Ruby</td>
+						<td><code>foo = &quot;bar&quot;</code></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<hr />
+
+			<p>Small images should be shown at their actual size.</p>
+
+			<p><img src="http://placekitten.com/g/300/200/" alt="" /></p>
+
+			<p>Large images should always scale down and fit in the content container.</p>
+
+			<p><img src="http://placekitten.com/g/1200/800/" alt="" /></p>
+
+			<pre><code>This is the final element on the page and there should be no margin below this.
+</code></pre>
+
+			<!-- %enddocs -->
+
+			<h2 id="license">License</h2>
+
+			<p><a href="./LICENSE">MIT</a> &copy; <a href="https://github.com/">GitHub</a></p>
+
+		</section>
+	</article>
+
+
+
+	<footer>
+		<p>
+			<small>&copy; <span id="yearRange"></span>, <a href="https://hisaac.net">Isaac Halvorson</a></small>
+		</p>
+		<p>
+			<small>
+			<a href="mailto:hello@hisaac.net" alt="hello@hisaac.net">email</a> •
+			<a href="https://twitter.com/hisaac" alt="@hisaac on Twitter">twitter</a> •
+			<a href="https://github.com/hisaac/">github</a> •
+			<a href="https://hisaac.blog/index.xml" alt="The Test RSS feed">rss</a>
+		</small>
+		</p>
+	</footer>
+
+</body>
+
+<script type="text/javascript">
+	document.getElementById("yearRange").innerHTML = "2008–" + new Date().getFullYear();
+
+</script>
+
+</html>

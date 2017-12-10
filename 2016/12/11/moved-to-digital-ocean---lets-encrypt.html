@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+
+
+<head>
+
+	<title>
+
+		Moved to Digital Ocean &#43; Let&#39;s Encrypt
+
+	</title>
+	<meta name="apple-mobile-web-app-title" content="
+	
+		Moved to Digital Ocean &#43; Let&#39;s Encrypt
+	
+" />
+	<meta id="description" name="description" content="
+	
+		The personal weblog of Isaac Halvorson
+	
+" />
+
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="
+	
+		Moved to Digital Ocean &#43; Let&#39;s Encrypt
+	
+" />
+	<meta name="twitter:description" content="
+	
+		The personal weblog of Isaac Halvorson
+	
+" />
+	<meta name="twitter:site" content="@hisaac" />
+
+
+	<link rel="stylesheet" href="/css/main.css" />
+
+
+
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<header>
+		<h1><a href="/" alt="hisaac.blog">hisaac.blog</a></h1>
+
+		<nav>
+			<a href="https://hisaac.net">about</a> •
+			<a href="/canon.html">canon</a> •
+			<a href="/artifacts.html">artifacts</a> •
+			<a href="/now.html">now</a>
+		</nav>
+	</header>
+
+
+
+
+	<article>
+		<h1>Moved to Digital Ocean &#43; Let&#39;s Encrypt</h1>
+
+
+		<div class="post-meta">
+			<p><time datetime="2016-12-11 01:24:57 -0600 CST">Sunday, Dec 11, 2016</time></p>
+
+		</div>
+
+
+		<section class="content">
+			<p>A quick update: I just moved both <a href="http://hisaac.net">hisaac.net</a> and <a href="http://hisaac.blog">hisaac.blog</a> to an Ubuntu VPS at <a href="http://digitalocean.com">Digital Ocean</a>. I&rsquo;d previously been hosting through GitHub
+				pages, but I wanted a little more control. This way, I can host both sites in one place, and get to learn more about servers, Linux, and Apache. The only issue now is git commits. I need to find a way to commit to GitHub <em>and</em> the VPS at the
+				same time. Currently, I&rsquo;m commiting from my local machine to GitHub, and then pulling the changes from GitHub to the VPS. It&rsquo;s not a very efficient routine.</p>
+
+			<p>I also enabled SSL on both domains using <a href="http://letsencrypt.com">Let&rsquo;s Encrypt</a>. I followed <a href="https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04">this guide</a>, and it
+				was surprisingly easy.</p>
+
+			<p>One note if you decide to use that guide: It&rsquo;s slightly out of date. They mention near the beginning:</p>
+
+			<blockquote>
+				<p>Although the Let&rsquo;s Encrypt project has renamed their client to <code>certbot</code>, the client included in the Ubuntu 16.04 repositories is simply called <code>letsencrypt</code>. This version is completely adequate for our purposes.</p>
+			</blockquote>
+
+			<p>For me, using <code>letsencrypt</code> didn&rsquo;t work, and I used <code>certbot</code> instead.</p>
+
+		</section>
+	</article>
+
+
+
+	<footer>
+		<p>
+			<small>&copy; <span id="yearRange"></span>, <a href="https://hisaac.net">Isaac Halvorson</a></small>
+		</p>
+		<p>
+			<small>
+			<a href="mailto:hello@hisaac.net" alt="hello@hisaac.net">email</a> •
+			<a href="https://twitter.com/hisaac" alt="@hisaac on Twitter">twitter</a> •
+			<a href="https://github.com/hisaac/">github</a> •
+			<a href="https://hisaac.blog/index.xml" alt="The Moved to Digital Ocean &#43; Let&#39;s Encrypt RSS feed">rss</a>
+		</small>
+		</p>
+	</footer>
+
+</body>
+
+<script type="text/javascript">
+	document.getElementById("yearRange").innerHTML = "2008–" + new Date().getFullYear();
+
+</script>
+
+</html>

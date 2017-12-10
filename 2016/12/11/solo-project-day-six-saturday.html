@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+
+
+<head>
+
+	<title>
+
+		Solo Project Day Six: Saturday
+
+	</title>
+	<meta name="apple-mobile-web-app-title" content="
+	
+		Solo Project Day Six: Saturday
+	
+" />
+	<meta id="description" name="description" content="
+	
+		The personal weblog of Isaac Halvorson
+	
+" />
+
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="
+	
+		Solo Project Day Six: Saturday
+	
+" />
+	<meta name="twitter:description" content="
+	
+		The personal weblog of Isaac Halvorson
+	
+" />
+	<meta name="twitter:site" content="@hisaac" />
+
+
+	<link rel="stylesheet" href="/css/main.css" />
+
+
+
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<header>
+		<h1><a href="/" alt="hisaac.blog">hisaac.blog</a></h1>
+
+		<nav>
+			<a href="https://hisaac.net">about</a> •
+			<a href="/canon.html">canon</a> •
+			<a href="/artifacts.html">artifacts</a> •
+			<a href="/now.html">now</a>
+		</nav>
+	</header>
+
+
+
+
+	<article>
+		<h1>Solo Project Day Six: Saturday</h1>
+
+
+		<div class="post-meta">
+			<p><time datetime="2016-12-11 00:08:50 -0600 CST">Sunday, Dec 11, 2016</time></p>
+
+		</div>
+
+
+		<section class="content">
+
+
+			<p>I didn&rsquo;t do too much today, as it&rsquo;s a weekend, but I did get a little work done. Namely, I used Twitter&rsquo;s API to look up the logged in user&rsquo;s Twitter username using the user_id I receive back from Firebase on login. I also started
+				building functionality for the draft of a tweet to be saved to the database for later editing.</p>
+
+			<h3 id="today-s-research">Today&rsquo;s Research</h3>
+
+			<ul>
+				<li><a href="http://www.restapitutorial.com/httpstatuscodes.html">HTTP Status Codes</a></li>
+				<li><a href="https://dev.twitter.com/rest/reference/get/account/verify_credentials">GET account/verify_credentials (Twitter API Docs)</a> - I was frustrated that I didn&rsquo;t get a user&rsquo;s email address back from Firebase or Twitter when doing
+					API calls, but I found out why. Twitter does allow for it, but I must provide links to my privacy policy and terms of service. I don&rsquo;t actually have a privacy policy or terms of service yet, but if I plan to make this into a real app (which
+					I do), I&rsquo;ll need to write those at some point.</li>
+			</ul>
+
+		</section>
+	</article>
+
+
+
+	<footer>
+		<p>
+			<small>&copy; <span id="yearRange"></span>, <a href="https://hisaac.net">Isaac Halvorson</a></small>
+		</p>
+		<p>
+			<small>
+			<a href="mailto:hello@hisaac.net" alt="hello@hisaac.net">email</a> •
+			<a href="https://twitter.com/hisaac" alt="@hisaac on Twitter">twitter</a> •
+			<a href="https://github.com/hisaac/">github</a> •
+			<a href="https://hisaac.blog/index.xml" alt="The Solo Project Day Six: Saturday RSS feed">rss</a>
+		</small>
+		</p>
+	</footer>
+
+</body>
+
+<script type="text/javascript">
+	document.getElementById("yearRange").innerHTML = "2008–" + new Date().getFullYear();
+
+</script>
+
+</html>

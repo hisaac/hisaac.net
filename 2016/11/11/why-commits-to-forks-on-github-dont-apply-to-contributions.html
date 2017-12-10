@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+
+
+<head>
+
+	<title>
+
+		Why Commits to Forks on GitHub Don&#39;t Apply to Contributions
+
+	</title>
+	<meta name="apple-mobile-web-app-title" content="
+	
+		Why Commits to Forks on GitHub Don&#39;t Apply to Contributions
+	
+" />
+	<meta id="description" name="description" content="
+	
+		The personal weblog of Isaac Halvorson
+	
+" />
+
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="
+	
+		Why Commits to Forks on GitHub Don&#39;t Apply to Contributions
+	
+" />
+	<meta name="twitter:description" content="
+	
+		The personal weblog of Isaac Halvorson
+	
+" />
+	<meta name="twitter:site" content="@hisaac" />
+
+
+	<link rel="stylesheet" href="/css/main.css" />
+
+
+
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<header>
+		<h1><a href="/" alt="hisaac.blog">hisaac.blog</a></h1>
+
+		<nav>
+			<a href="https://hisaac.net">about</a> •
+			<a href="/canon.html">canon</a> •
+			<a href="/artifacts.html">artifacts</a> •
+			<a href="/now.html">now</a>
+		</nav>
+	</header>
+
+
+
+
+	<article>
+		<h1>Why Commits to Forks on GitHub Don&#39;t Apply to Contributions</h1>
+
+
+		<div class="post-meta">
+			<p><time datetime="2016-11-11 13:35:56 -0600 CST">Friday, Nov 11, 2016</time></p>
+
+		</div>
+
+
+		<section class="content">
+			<p>Recently, I noticed that contributions I made to forks on GitHub were not being counted toward the contribution tracker on my profile&rsquo;s page. I was curious to know why, as I felt like those contributions were just as good as any other.</p>
+
+			<p>After a little research, I found <a href="https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile/">this article</a> on GitHub&rsquo;s support site. In it, they say:</p>
+
+			<blockquote>
+				<p>Commits made in a fork will not count toward your contributions. To make them count, you must do one of the following:</p>
+
+				<ul>
+					<li>Open a pull request to have your changes merged into the parent repository.</li>
+					<li>To detach the fork and turn it into a standalone repository on GitHub, contact GitHub Support.</li>
+				</ul>
+			</blockquote>
+
+			<p>So I found that there were ways around this, but I still wasn&rsquo;t sure why. So, I emailed GitHub support to get some more information. Their response:</p>
+
+			<blockquote>
+				<p>Hi Isaac,</p>
+
+				<p>Forks are designed as temporary places where you can work before merging your commits into the upstream repository. If commits in forks counted towards your contributions, in that workflow you&rsquo;d end up with two contributions for each commit.
+					One for the fork, one for the upstream repository.</p>
+
+				<p>If a fork becomes a different project from it&rsquo;s upstream repository, and will never have commits merged into the upstream repository, then you can ask GitHub Support to detach the fork and turn it into a standalone repository. This will make
+					the commits count towards your contributions. This is described here:</p>
+
+				<p>I hope this explains the situation. Let us know if you have any further questions.</p>
+
+				<p>Thanks, Alex</p>
+			</blockquote>
+
+			<p>This definitely helped my understanding, and makes total sense. I had been using forks incorrectly — not as temporary places to work before merging code back into the master, but as a permanent place for storing work.</p>
+
+			<p>So, thank you to Alex at GitHub for clarifying this. I&rsquo;ll be sure to use forks properly, and have correct expectations from now on.</p>
+
+		</section>
+	</article>
+
+
+
+	<footer>
+		<p>
+			<small>&copy; <span id="yearRange"></span>, <a href="https://hisaac.net">Isaac Halvorson</a></small>
+		</p>
+		<p>
+			<small>
+			<a href="mailto:hello@hisaac.net" alt="hello@hisaac.net">email</a> •
+			<a href="https://twitter.com/hisaac" alt="@hisaac on Twitter">twitter</a> •
+			<a href="https://github.com/hisaac/">github</a> •
+			<a href="https://hisaac.blog/index.xml" alt="The Why Commits to Forks on GitHub Don&#39;t Apply to Contributions RSS feed">rss</a>
+		</small>
+		</p>
+	</footer>
+
+</body>
+
+<script type="text/javascript">
+	document.getElementById("yearRange").innerHTML = "2008–" + new Date().getFullYear();
+
+</script>
+
+</html>

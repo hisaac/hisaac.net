@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+
+
+<head>
+
+	<title>
+
+		Solo Project Day Three: The Day I Tweeted
+
+	</title>
+	<meta name="apple-mobile-web-app-title" content="
+	
+		Solo Project Day Three: The Day I Tweeted
+	
+" />
+	<meta id="description" name="description" content="
+	
+		The personal weblog of Isaac Halvorson
+	
+" />
+
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="
+	
+		Solo Project Day Three: The Day I Tweeted
+	
+" />
+	<meta name="twitter:description" content="
+	
+		The personal weblog of Isaac Halvorson
+	
+" />
+	<meta name="twitter:site" content="@hisaac" />
+
+
+	<link rel="stylesheet" href="/css/main.css" />
+
+
+
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<header>
+		<h1><a href="/" alt="hisaac.blog">hisaac.blog</a></h1>
+
+		<nav>
+			<a href="https://hisaac.net">about</a> •
+			<a href="/canon.html">canon</a> •
+			<a href="/artifacts.html">artifacts</a> •
+			<a href="/now.html">now</a>
+		</nav>
+	</header>
+
+
+
+
+	<article>
+		<h1>Solo Project Day Three: The Day I Tweeted</h1>
+
+
+		<div class="post-meta">
+			<p><time datetime="2016-12-07 16:59:01 -0600 CST">Wednesday, Dec 7, 2016</time></p>
+
+		</div>
+
+
+		<section class="content">
+
+
+			<p>I tweeted using my app (sort of) for the first time today! I say sort of, because I didn&rsquo;t actually do it from my app, but I did use my my app&rsquo;s credentials and my <a href="http://twitter.com/hisaac0">test user</a>&rsquo;s credentials.
+				I used a wonderful API testing app called <a href="https://paw.cloud">Paw</a> to do my testing today. It&rsquo;s a really nice tool, and I plan to continue using it for this project.</p>
+
+			<p>I also implemented <a href="https://github.com/ftlabs/fastclick">FastClick</a>, a JavaScript library to remove the 300ms lag when tapping items on the screen on touch-screen devices. It was very easy to implement, just a short piece of code in my client-side
+				JavaScript after importing the library itself in the <code>index.html</code>.</p>
+			<div class="highlight">
+				<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// instantiates FastClick
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">if</span> (<span style="color:#e6db74">&#39;addEventListener&#39;</span> <span style="color:#66d9ef">in</span> document) {
+  document.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;DOMContentLoaded&#39;</span>, <span style="color:#66d9ef">function</span>() {
+    <span style="color:#a6e22e">FastClick</span>.<span style="color:#a6e22e">attach</span>(document.<span style="color:#a6e22e">body</span>);
+  }, <span style="color:#66d9ef">false</span>);
+}</code></pre>
+			</div>
+			<p>Lastly, I began building functionality for the client-side code to send a created tweet to the server for the server to then post to Twitter.</p>
+
+			<p>I&rsquo;ve been hearing good things about JetBrain&rsquo;s <a href="https://www.jetbrains.com/webstorm/">WebStorm</a> JavaScript IDE, so I&rsquo;m going to try using that for development for a while. One of my instructors really likes it, so hopefully
+				I&rsquo;ll be able to get support from him if I decide to do it.</p>
+
+			<h3 id="today-s-research">Today&rsquo;s Research</h3>
+
+			<ul>
+				<li>Twitter&rsquo;s API Documentation:
+
+					<ul>
+						<li><a href="https://dev.twitter.com/rest/reference/post/statuses/update">POST statuses/update</a> - General information on how to POST statuses to Twitter. It turns out it&rsquo;s much easier than I&rsquo;d expected. If the user is already logged in,
+							you simply URL encode the text, and then send it to Twitter in the request URL.</li>
+						<li><a href="https://dev.twitter.com/basics/counting-characters">Counting Characters</a> - This article describes in depth how a character is counted by Twitter. It turns out, it&rsquo;s not quite as simple as you&rsquo;d imagine. Certain types of characters
+							take up different amounts of bytes, and are therefor couted differently. The article says that &lsquo;character normalization&rsquo; is necessary, and it turns out JavaScript has a character normalization function built in.</li>
+						<li><a href="https://dev.twitter.com/basics/tco">t.co links</a> - Twitter&rsquo;s built in URL shortener — called <code>t.co</code> after the URLs it generates — works relatively automatically, with some caveats. When sending a tweet to Twitter, if
+							it detects a URL in the text, it will automatically convert it to a <code>t.co</code> link, <em>unless</em> it is less than the current maximum <code>t.co</code> URL length. As time goes on, the length of shortened URLs grows as more and more unique
+							links are used up. This means it&rsquo;s important to check with Twitter what the current maximum <code>t.co</code> link length is. This is done by periodically performing a GET request to Twitter&rsquo;s help/configureation URL.</li>
+						<li><a href="https://dev.twitter.com/rest/reference/get/help/configuration">GET help/configuration</a> - Information on how to get configuration data from Twitter&rsquo;s API.</li>
+					</ul>
+				</li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize">JavaScript Character Normalization (MDN)</a> - The Mozilla Developer Network&rsquo;s documentation on JavaScripts <code>.normalize()</code>					method.</li>
+				<li><a href="https://docs.angularjs.org/api/ngRoute/provider/$routeProvider">Angular $routeProvider</a> - Once again looking into how to route a user to different pages based on their logged in status using <code>$routeProvider</code>&rsquo;s <code>resolve</code>					functionality.</li>
+				<li><a href="http://unirest.io/nodejs.html">Unirest</a> - NodeJS REST API library for doing API calls from the server.</li>
+			</ul>
+
+		</section>
+	</article>
+
+
+
+	<footer>
+		<p>
+			<small>&copy; <span id="yearRange"></span>, <a href="https://hisaac.net">Isaac Halvorson</a></small>
+		</p>
+		<p>
+			<small>
+			<a href="mailto:hello@hisaac.net" alt="hello@hisaac.net">email</a> •
+			<a href="https://twitter.com/hisaac" alt="@hisaac on Twitter">twitter</a> •
+			<a href="https://github.com/hisaac/">github</a> •
+			<a href="https://hisaac.blog/index.xml" alt="The Solo Project Day Three: The Day I Tweeted RSS feed">rss</a>
+		</small>
+		</p>
+	</footer>
+
+</body>
+
+<script type="text/javascript">
+	document.getElementById("yearRange").innerHTML = "2008–" + new Date().getFullYear();
+
+</script>
+
+</html>
