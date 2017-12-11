@@ -54,7 +54,6 @@ header h1 {
   padding-top: .25em;
   padding-bottom: .25em;
   font-weight: 400;
-  color: #900;
 }
 
 header nav {
@@ -194,21 +193,20 @@ th {
 }
 
 .post-list {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
   margin-left: auto;
   margin-right: auto;
 }
 
-.post-list li {
-  list-style-type: none;
-  margin-bottom: .5em;
-  word-wrap: normal;
+.post-list ul {
+  margin-top: 4px;
 }
 
-.post-list .spacer {
-  margin: 0 5px;
+.post-list li {
+  margin-bottom: .3em;
+  border-bottom: 1px dotted #eaecef;
 }
 
 article {

@@ -23,7 +23,7 @@ header {
 		padding-top: .25em;
 		padding-bottom: .25em;
 		font-weight: 400;
-		color: #900;
+		// color: #900;
 	}
 
 	nav {
@@ -74,13 +74,6 @@ small {
 
 blockquote {
 	margin: 0;
-}
-
-ul,
-ol {
-	// padding-left: 0;
-	// margin-top: 0;
-	// margin-bottom: 0;
 }
 
 ol ol,
@@ -164,18 +157,17 @@ th {
 // Post List Styling ---------------------------------------------------------//
 
 .post-list {
-	width: max-content;
+	max-width: max-content;
 	margin-left: auto;
 	margin-right: auto;
 
-	li {
-		list-style-type: none;
-		margin-bottom: .5em;
-		word-wrap: normal;
+	ul {
+		margin-top: 4px;
 	}
 
-	.spacer {
-		margin: 0 5px;
+	li {
+		margin-bottom: .3em;
+		border-bottom: 1px dotted #eaecef;
 	}
 }
 
