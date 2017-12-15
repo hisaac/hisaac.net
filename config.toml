@@ -1,13 +1,13 @@
-baseURL			= "https://hisaac.blog/"
+baseURL			= "https://hisaac.net/"
 languageCode	= "en-us"
-title			= "hisaac.blog"
+title			= "hisaac.net"
 
 uglyurls = true
 pygmentsCodefences = true
 
 [params]
-	Title = "hisaac.blog"
-	SiteDescription = "The personal weblog of Isaac Halvorson"
+	Title = "hisaac.net"
+	SiteDescription = "The personal webpage and weblog of Isaac Halvorson"
 	author = "Isaac Halvorson"
 	twitter = "hisaac"
 	email = "hello@hisaac.net"
