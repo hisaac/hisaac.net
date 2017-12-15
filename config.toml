@@ -1,6 +1,6 @@
-baseURL			= "https://hisaac.net/"
-languageCode	= "en-us"
-title			= "hisaac.net"
+baseURL         = "https://hisaac.net/"
+languageCode    = "en-us"
+title           = "hisaac.net"
 
 uglyurls = true
 pygmentsCodefences = true
