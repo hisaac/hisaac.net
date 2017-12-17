@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Solo Project: Finished"
+tags: technology, twitter, webdev
 date: 2017-01-15T22:21:16-06:00
-tags:
-- technology
-- twitter
-- webdev
 ---
 
 I may have fell off the bandwagon with updating this blog with my solo project status, but rest assured, I did finish the project.
