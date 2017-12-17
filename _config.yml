@@ -10,6 +10,11 @@ author: Isaac Halvorson
 language: en
 timezone: America/North_Dakota/Center
 
+# Me
+twitter: hisaac
+github: hisaac
+email: hello@hisaac.net
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://hisaac.net
@@ -72,7 +77,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: web1
 
 # Include/Exclude
 exclude:

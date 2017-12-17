@@ -1,6 +1,6 @@
 ---
 title: World Mental Health Day
-time: 2016-10-11T10:13:47-05:00
+date: 2016-10-11T10:13:47-05:00
 layout: post
 tags: mental health
 ---
