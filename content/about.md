@@ -1,6 +1,6 @@
 ---
 title: "About"
-page: true
+type: page
 ---
 
 # About

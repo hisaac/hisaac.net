@@ -1,6 +1,6 @@
 ---
 title: "Canon"
-page: true
+type: page
 ---
 
 # Canon

@@ -1,6 +1,6 @@
 ---
 title: "Now"
-page: true
+type: page
 ---
 
 # Now

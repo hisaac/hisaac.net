@@ -1,6 +1,6 @@
 ---
 title: "Artifacts"
-page: true
+type: page
 ---
 
 # Artifacts
