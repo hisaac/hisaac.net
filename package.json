@@ -15,5 +15,9 @@
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-server": "^0.2.0"
+  },
+  "devDependencies": {
+    "hexo-browsersync": "^0.3.0",
+    "hexo-deployer-s3": "^0.2.4"
   }
 }
