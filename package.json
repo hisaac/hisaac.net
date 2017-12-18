@@ -15,5 +15,12 @@
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-server": "^0.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-jsbeautifier": "^2.1.1",
+    "gulp-sass": "^3.1.0"
   }
 }
