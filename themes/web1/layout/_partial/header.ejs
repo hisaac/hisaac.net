@@ -1,10 +1,37 @@
+<%
+	var currentPage = ""
+
+	if (page.title) {
+		currentPage = page.title.toLowerCase();
+	}
+%>
+
 <header>
 	<h1><a href="/" alt="hisaac.net">hisaac.net</a></h1>
 
 	<nav>
-		<a href="/about.html">about</a> •
-		<a href="/canon.html">canon</a> •
-		<a href="/artifacts.html">artifacts</a> •
-		<a href="/now.html">now</a>
+		<a href="/about.html"
+		<% if (currentPage == "about") { %>
+			class="current-page"
+		<% } %>
+		>about</a> •
+		
+		<a href="/canon.html"
+		<% if (currentPage == "canon") { %>
+			class="current-page"
+		<% } %>
+		>canon</a> •
+		
+		<a href="/artifacts.html"
+		<% if (currentPage == "artifacts") { %>
+			class="current-page"
+		<% } %>
+		>artifacts</a> •
+		
+		<a href="/now.html"
+		<% if (currentPage == "now") { %>
+			class="current-page"
+		<% } %>
+		>now</a>
 	</nav>
 </header>

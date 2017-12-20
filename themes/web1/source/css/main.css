@@ -58,6 +58,11 @@ header nav {
   font-size: 1.2em;
 }
 
+header .current-page {
+  color: black !important;
+  text-decoration: underline;
+}
+
 footer {
   margin-top: 1em;
   padding: 1.5em;
