@@ -1,5 +1,5 @@
 ---
-Title: "Fake News and Instagram | Manton Reece"
+title: "Fake News and Instagram | Manton Reece"
 date: 2016-11-22T11:46:32-06:00
 layout: post
 tags: social networks, twitter, facebook, instagram, internet, technology
