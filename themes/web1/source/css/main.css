@@ -1,6 +1,6 @@
 *,
-:before,
-:after {
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -29,6 +29,13 @@ img:not([alt]) {
 html {
   color: #222;
   background-color: #fff;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  padding-bottom: 6rem;
+  min-height: 100%;
 }
 
 main,
@@ -64,8 +71,12 @@ header .current-page {
 }
 
 footer {
-  margin-top: 1em;
-  padding: 1.5em;
+  padding: .5em .5em 1.5em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-top: 1px dotted #dfe2e5;
 }
 
 footer p {
@@ -203,6 +214,7 @@ th {
 
 .post-list ul {
   margin-top: 4px;
+  padding: 19px;
 }
 
 .post-list li {
@@ -212,13 +224,13 @@ th {
 
 article {
   /**
-		I like to keep my Markdown files well-structured and portable, which 
-		to me means having an `h1` element (e.g. `# Title of Post`) at the 
-		beginning of the text. The problem is, this creates a redundant title, 
+		I like to keep my Markdown files well-structured and portable, which
+		to me means having an `h1` element (e.g. `# Title of Post`) at the
+		beginning of the text. The problem is, this creates a redundant title,
 		because we're also using the title from the post's front matter.
 
-		So, this rule hides the first `h1` element within the article body text, 
-		allowing me to keep the post's title in both the front-matter, and the 
+		So, this rule hides the first `h1` element within the article body text,
+		allowing me to keep the post's title in both the front-matter, and the
 		post itself.
 	*/
 }
