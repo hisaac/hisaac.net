@@ -4,6 +4,7 @@ type: page
 ---
 
 # Now
+# Now
 
 > …a website with a link that says “now” goes to a page that tells you what this person is focused on at this point in their life. For short, we call it a “now page”.
 >
@@ -11,7 +12,7 @@ type: page
 
 [1]: http://nownownow.com/about
 
-## What I'm Doing Now
+### What I'm Doing Now
 
 - Working as an iOS developer at [C.H. Robinson](http://chrobinson.com)
 - [Constantly tinkering](https://github.com/hisaac/hisaac.net/commits/master) with this site's design and structure
