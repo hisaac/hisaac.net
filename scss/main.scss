@@ -1,13 +1,15 @@
 //---------------------------------- Reset -----------------------------------//
 
+/**
+	Minimalist reset by Matt Smith
+	source: http://allthingssmitty.com/2017/01/09/css-reset-for-minimalists/
+*/
 *,
-*:before,
-*:after {
+*::before,
+*::after {
 	box-sizing: border-box;
-}
-
-body {
 	margin: 0;
+	padding: 0;
 }
 
 //-------------------------------- Variables ---------------------------------//
