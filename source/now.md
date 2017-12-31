@@ -11,4 +11,12 @@ type: page
 
 [1]: http://nownownow.com/about
 
-These are the things that I'm currently working on.
+## What I'm Doing Now
+
+- Working as an iOS developer at [C.H. Robinson](http://chrobinson.com)
+- [Constantly tinkering](https://github.com/hisaac/hisaac.net/commits/master) with this site's design and structure
+- Developing my first personal iOS app, a quotebook called Adage
+- [Attempting to quench my insatiable thirst for new and interesting music](https://www.last.fm/user/hisaaac)
+- [Reading books](https://www.goodreads.com/review/list/32098770-isaac?shelf=currently-reading)
+- [Watching TV](https://trakt.tv/users/hisaac/history/)
+- [Writing open source code](https://github.com/hisaac)
