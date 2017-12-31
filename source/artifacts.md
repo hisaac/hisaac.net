@@ -7,7 +7,7 @@ type: page
 
 > Something viewed as a product of human conception or agency rather than an inherent element.
 >
-> – <cite>[Wiktionary][1]</cite>
+> ***Wiktionary*** — <cite>[en.wiktionary.org/wiki/artifact][1]</cite>
 
 [1]: https://en.wiktionary.org/wiki/artifact
 

@@ -1,4 +1,7 @@
-//---------------------------------- Reset -----------------------------------//
+@import "variables";
+@import "code-styling";
+
+//-------------------------------------------- Reset ---------------------------------------------//
 
 /**
 	Minimalist reset by Matt Smith
@@ -12,45 +15,7 @@
 	padding: 0;
 }
 
-//-------------------------------- Variables ---------------------------------//
-$sans-serif:
-	-apple-system,           // iOS Safari, macOS Safari, macOS Firefox
-	BlinkMacSystemFont,      // macOS Chrome
-	"Segoe UI",              // Windows
-	Roboto,                  // Android, Chrome OS
-	"Droid Sans",            // Older versions of Android
-	"Fira Sans",             // Firefox OS
-	"Oxygen",                // KDE Linux
-	"Oxygen-Sans",           // KDE Linux
-	"Ubuntu",                // Ubuntu Linux
-	"Cantarell",             // GNOME Linux
-	"Helvetica Neue",        // macOS 10.11+
-	Helvetica,               // macOS 10.0–10.10
-	Arial,                   // All
-	"Apple Color Emoji",     // Apple Emoji 😊
-	"Segoe UI Emoji",        // Windows Emoji 😎
-	"Segoe UI Symbol",       // Windows Emoji 🤓
-	sans-serif;
-
-$monospace:
-	"SF Mono",               // macOS
-	"SFMono-Regular",        // macOS
-	Consolas,                // Windows
-	"Droid Sans Mono",       // Android
-	"Source Code Pro",
-	"Liberation Mono",
-	"Fira Mono",
-	"Monaco",
-	"Inconsolata",
-	"Menlo",
-	Courier,                 // All
-	monospace;
-
-$link-color: #00e;
-$body-color: #222;
-$body-color-dimmed: #6a737d;
-
-//------------------------------- Base Styling -------------------------------//
+//----------------------------------------- Base Styling -----------------------------------------//
 
 html {
 	font-family: $sans-serif;
@@ -58,22 +23,6 @@ html {
 	line-height: 1.61803399; // The "Golden Ratio"
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-}
-
-//------------------------------ Accessibility -------------------------------//
-
-/**
-	Highlight images missing the `alt` attribute
-	source: A tweet by Matt Smith https://twitter.com/AllThingsSmitty/status/930617039085035520
-*/
-img[alt=""],
-img:not([alt]) {
-	border: 5px dashed #c00;
-}
-
-//------------------------------- Base Styling -------------------------------//
-
-html {
 	color: $body-color;
 	background-color: #fff;
 	height: 100%;
@@ -91,54 +40,16 @@ main {
 	width: 94%;
 }
 
-header,
-footer {
-	background-color: #efefef;
-	text-align: center;
-}
-
-header {
-	h1 {
-		font-family: serif;
-		font-size: 3em;
-		padding-top: .25em;
-		padding-bottom: .25em;
-		font-weight: 400;
-
-		> a,
-		> a:active,
-		> a:visited {
-			color: $body-color;
-			border-bottom: 1px solid transparentize($body-color, 1);
-		}
-
-		> a:hover {
-			border-bottom: 1px solid $body-color;
-		}
+a {
+	&:any-link {
+		color: $link-color;
+		transition: border ease 180ms;
+		text-decoration: none;
+		border-bottom: 1px solid transparentize($link-color, 1);
 	}
 
-	nav {
-		padding-bottom: 1em;
-		margin-bottom: 1em;
-		font-size: 1.2em;
-	}
-
-	.current-page {
-		color: $body-color !important;
-		border-bottom: 1px solid $body-color !important;
-	}
-}
-
-footer {
-	padding: .5em .5em 1.5em;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	border-top: 1px dotted #dfe2e5;
-
-	p {
-		margin: 0;
+	&:hover {
+		border-bottom: 1px solid $link-color;
 	}
 }
 
@@ -186,71 +97,82 @@ dd {
 	margin-left: 0;
 }
 
-code,
-pre,
-tt {
-	font-family: $monospace;
-	overflow-x: scroll;
-}
-
-pre {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-// Anchor Link Styling -------------------------------------------------------//
-
-a:any-link {
-	transition: border ease 180ms;
-}
-
-a,
-a:active,
-a:visited {
-	color: $link-color;
-	border-bottom: 1px solid transparentize($link-color, 1);
-	text-decoration: none;
-}
-
-a:hover {
-	border-bottom: 1px solid $link-color;
-}
-
-// Horizontal Rule Styling ---------------------------------------------------//
-
-hr,
-.rule {
-	height: 0;
-	margin: 15px 0;
-	overflow: hidden;
-	background: transparent;
-	border: 0;
-	border-bottom: 1px solid #dfe2e5;
-}
-
-hr::before,
-.rule::before {
-	display: table;
-	content: "";
-}
-
-hr::after,
-.rule::after {
-	display: table;
-	clear: both;
-	content: "";
-}
-
-// Table Styling -------------------------------------------------------------//
-
 table {
 	border-spacing: 0;
 	border-collapse: collapse;
 }
 
-td,
-th {
+hr {
+	height: 0;
+	margin: 15px 0;
 	padding: 0;
+	border: 0;
+	border-bottom: 1px solid #dfe3e5;
+	overflow: hidden;
+
+	&::before {
+		display: table;
+		content: "";
+	}
+
+	&::after {
+		display: table;
+		clear: both;
+		content: "";
+	}
+}
+
+//----------------------------------- Header and Footer Styling ----------------------------------//
+
+header,
+footer {
+	background-color: #efefef;
+	text-align: center;
+}
+
+header {
+	h1 {
+		font-family: serif;
+		font-size: 3em;
+		padding-top: .25em;
+		padding-bottom: .25em;
+		font-weight: 400;
+
+		> a {
+			&:any-link {
+				color: $body-color;
+				border-bottom: 1px solid transparentize($body-color, 1);
+			}
+
+			&:hover {
+				border-bottom: 1px solid $body-color;
+			}
+		}
+	}
+
+	nav {
+		padding-bottom: 1em;
+		margin-bottom: 1em;
+		font-size: 1.2em;
+	}
+
+	.current-page {
+		color: $body-color;
+		border-bottom: 1px solid $body-color;
+	}
+}
+
+footer {
+	padding: .5em .5em 1.5em;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-top: 1px dotted #dfe2e5;
+
+	p {
+		margin: 0;
+	}
 }
 
 // Post List Styling ---------------------------------------------------------//
@@ -263,32 +185,17 @@ th {
 	ul {
 		margin-top: 4px;
 		padding: 19px;
-	}
 
-	li {
-		margin-bottom: .3em;
-		border-bottom: 1px dotted #eaecef;
+		li {
+			margin-bottom: .3em;
+			border-bottom: 1px dotted #eaecef;
+		}
 	}
 }
 
 // Article Styling -----------------------------------------------------------//
 
 article {
-
-	.post-meta {
-		color: $body-color-dimmed;
-		line-height: .4;
-		margin-bottom: 2em;
-
-		a {
-			color: $body-color-dimmed;
-			border-bottom: 1px dotted;
-
-			&:hover {
-				border-bottom: 1px solid;
-			}
-		}
-	}
 
 	&::before {
 		display: table;
@@ -306,6 +213,21 @@ article {
 		text-decoration: none;
 	}
 
+	.post-meta {
+		color: $body-color-dimmed;
+		line-height: .4;
+		margin-bottom: 2em;
+
+		a {
+			color: $body-color-dimmed;
+			border-bottom: 1px dotted;
+
+			&:hover {
+				border-bottom: 1px solid;
+			}
+		}
+	}
+
 	p,
 	blockquote,
 	ul,
@@ -315,14 +237,6 @@ article {
 	pre {
 		margin-top: 0;
 		margin-bottom: 16px;
-	}
-
-	hr {
-		height: 0.25em;
-		padding: 0;
-		margin: 24px 0;
-		background-color: #e1e4e8;
-		border: 0;
 	}
 
 	blockquote {
@@ -425,17 +339,14 @@ article {
 	dl {
 		padding: 0;
 
-		& dt {
+		dt {
 			padding: 0;
-			margin-top: 16px;
-			font-size: 1em;
 			font-style: italic;
 			font-weight: 600;
 		}
 
-		& dd {
+		dd {
 			padding: 0 16px;
-			margin-bottom: 16px;
 		}
 	}
 
@@ -488,65 +399,6 @@ article {
 		background-color: transparent;
 	}
 
-	code,
-	tt {
-		padding: 0.2em 0.4em;
-		margin: 0;
-		font-size: 85%;
-		background-color: rgba(27, 31, 35, 0.05);
-		border-radius: 3px;
-
-		br {
-			display: none;
-		}
-	}
-
-	pre {
-		word-wrap: normal;
-		background-color: #f6f8fa;
-
-		> code {
-			padding: 0;
-			margin: 0;
-			font-size: 100%;
-			word-break: normal;
-			white-space: pre;
-			background: transparent;
-			border: 0;
-		}
-
-		code,
-		tt {
-			display: inline;
-			max-width: auto;
-			padding: 0;
-			margin: 0;
-			overflow: visible;
-			line-height: inherit;
-			word-wrap: normal;
-			background-color: transparent;
-			border: 0;
-		}
-	}
-
-	.highlight {
-		margin-bottom: 16px;
-
-		pre {
-			margin-bottom: 0;
-			word-break: normal;
-		}
-	}
-
-	.highlight pre,
-	pre {
-		padding: 16px;
-		overflow: auto;
-		font-size: 85%;
-		line-height: 1.45;
-		border-radius: 3px;
-	}
-
 	/**
 		I like to keep my Markdown files well-structured and portable, which
 		to me means having an `h1` element (e.g. `# Title of Post`) at the
@@ -569,4 +421,15 @@ article {
 		font-size: small;
 		font-style: italic;
 	}
+}
+
+//---------------------------------------- Accessibility -----------------------------------------//
+
+/**
+	Highlight images missing the `alt` attribute
+	source: A tweet by Matt Smith https://twitter.com/AllThingsSmitty/status/930617039085035520
+*/
+img[alt=""],
+img:not([alt]) {
+	border: 5px dashed #c00;
 }

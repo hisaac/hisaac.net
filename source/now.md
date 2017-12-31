@@ -5,9 +5,9 @@ type: page
 
 # Now
 
-> …a website with a link that says “now” goes to a page that tells you what this person is focused on at this point in their life. For short, we call it a “now page”.  
+> …a website with a link that says “now” goes to a page that tells you what this person is focused on at this point in their life. For short, we call it a “now page”.
 >
-> — <cite>[nownownow.com][1]</cite>
+> ***Derek Sivers*** — <cite>[nownownow.com][1]</cite>
 
 [1]: http://nownownow.com/about
 

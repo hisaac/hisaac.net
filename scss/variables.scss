@@ -1,0 +1,38 @@
+//------------------------------------------- Variables -------------------------------------------//
+
+$sans-serif:
+	-apple-system,           // iOS Safari, macOS Safari, macOS Firefox
+	BlinkMacSystemFont,      // macOS Chrome
+	"Segoe UI",              // Windows
+	Roboto,                  // Android, Chrome OS
+	"Droid Sans",            // Older versions of Android
+	"Fira Sans",             // Firefox OS
+	"Oxygen",                // KDE Linux
+	"Oxygen-Sans",           // KDE Linux
+	"Ubuntu",                // Ubuntu Linux
+	"Cantarell",             // GNOME Linux
+	"Helvetica Neue",        // macOS 10.11+
+	Helvetica,               // macOS 10.0–10.10
+	Arial,                   // All
+	"Apple Color Emoji",     // Apple Emoji 😊
+	"Segoe UI Emoji",        // Windows Emoji 😎
+	"Segoe UI Symbol",       // Windows Emoji 🤓
+	sans-serif;
+
+$monospace:
+	"SF Mono",               // macOS
+	"SFMono-Regular",        // macOS
+	Consolas,                // Windows
+	"Droid Sans Mono",       // Android
+	"Source Code Pro",
+	"Liberation Mono",
+	"Fira Mono",
+	"Monaco",
+	"Inconsolata",
+	"Menlo",
+	Courier,                 // All
+	monospace;
+
+$link-color: #00e;
+$body-color: #222;
+$body-color-dimmed: #6a737d;

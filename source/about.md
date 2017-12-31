@@ -5,6 +5,8 @@ layout: page
 
 # About
 
+## About Me
+
 Hello there, I'm Isaac Halvorson. I'm an iOS and full stack web developer living in [Saint Paul, MN](https://en.wikipedia.org/wiki/Saint_Paul,_Minnesota) with my wife Jenifer.
 
 I'm currently working at [C.H. Robinson](https://www.chrobinson.com) on their [Navisphere Carrier](https://itunes.apple.com/us/app/navisphere-carrier/id1089613477?mt=8) and [Navisphere Driver](https://itunes.apple.com/us/app/navisphere-driver/id1247478172?mt=8) iOS apps.
@@ -21,8 +23,10 @@ Here are all the places you can find me elsewhere:
 
 ## About This Blog
 
-I've been blogging since middle school on various platforms includding Microsoft "MyPages", Xanga, Wordpress, tumblr, and a self-hosted Jekyll blog. This time around, I'm trying out [Hexo](https://hexo.io). It's similar to Jekyll in that it processes [Markdown](https://daringfireball.net/projects/markdown/) files for the blog posts, but it's heavily steeped in [JavaScript](https://en.wikipedia.org/wiki/JavaScript), which is the programming language I'm most familiar with. It runs on [Node.js](https://nodejs.org/en/) and its templating engine is [EJS](http://www.embeddedjs.com)
+I've been blogging since middle school on various platforms including Microsoft's "MyPages", Xanga, Wordpress, tumblr, and a self-hosted Jekyll blog. This time around, I'm trying out [Hexo](https://hexo.io). It's similar to Jekyll in that it processes [Markdown](https://daringfireball.net/projects/markdown/) files for the blog posts, but it's heavily steeped in [JavaScript](https://en.wikipedia.org/wiki/JavaScript), which is the programming language I'm most familiar with. It runs on [Node.js](https://nodejs.org/en/) and its templating engine is [EJS](http://www.embeddedjs.com).
 
-For the design of this blog, I took inspiration from multiple sites. Philisophically, I was inspired by [Dan Loewenherz' blog](https://dlo.me/) goal of making the site as light as possible. From his [about page](https://dlo.me/about/):
+For the design of this blog, I took inspiration from multiple sites. Philosophically, I was inspired by [Dan Loewenherz' blog](https://dlo.me/) goal of making the site as light as possible. From his [about page](https://dlo.me/about/):
 
 > The site uses the latest semantic markup as recommended by the W3C and is built with a 56k modem philosophy in mind (for those who grew up after dial-up, that's a codeword for using as little bandwidth as possible).
+
+I don't think my site is quite as light as Dan's, but that's the goal I had in mind.
