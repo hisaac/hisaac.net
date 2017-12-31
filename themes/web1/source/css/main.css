@@ -1,12 +1,14 @@
+/**
+	Minimalist reset by Matt Smith
+	source: http://allthingssmitty.com/2017/01/09/css-reset-for-minimalists/
+*/
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-body {
   margin: 0;
+  padding: 0;
 }
 
 html {
@@ -38,8 +40,7 @@ body {
   min-height: 100%;
 }
 
-main,
-article {
+main {
   margin: 0 auto;
   max-width: 80ch;
   width: 94%;
@@ -59,6 +60,17 @@ header h1 {
   font-weight: 400;
 }
 
+header h1 > a,
+header h1 > a:active,
+header h1 > a:visited {
+  color: #222;
+  border-bottom: 1px solid rgba(34, 34, 34, 0);
+}
+
+header h1 > a:hover {
+  border-bottom: 1px solid #222;
+}
+
 header nav {
   padding-bottom: 1em;
   margin-bottom: 1em;
@@ -66,8 +78,8 @@ header nav {
 }
 
 header .current-page {
-  color: black !important;
-  text-decoration: underline;
+  color: #222 !important;
+  border-bottom: 1px solid #222 !important;
 }
 
 footer {
@@ -96,27 +108,6 @@ h6 {
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-h1 > a,
-h1 > a:active,
-h1 > a:visited,
-h2 > a,
-h2 > a:active,
-h2 > a:visited,
-h3 > a,
-h3 > a:active,
-h3 > a:visited,
-h4 > a,
-h4 > a:active,
-h4 > a:visited,
-h5 > a,
-h5 > a:active,
-h5 > a:visited,
-h6 > a,
-h6 > a:active,
-h6 > a:visited {
-  color: inherit;
 }
 
 p {
@@ -160,15 +151,34 @@ pre {
   margin-bottom: 0;
 }
 
+a:-webkit-any-link {
+  -webkit-transition: border ease 180ms;
+  -o-transition: border ease 180ms;
+  transition: border ease 180ms;
+}
+
+a:-moz-any-link {
+  -webkit-transition: border ease 180ms;
+  -o-transition: border ease 180ms;
+  transition: border ease 180ms;
+}
+
+a:any-link {
+  -webkit-transition: border ease 180ms;
+  -o-transition: border ease 180ms;
+  transition: border ease 180ms;
+}
+
 a,
 a:active,
 a:visited {
   color: #00e;
+  border-bottom: 1px solid rgba(0, 0, 238, 0);
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid #00e;
 }
 
 hr,
@@ -235,14 +245,19 @@ article {
 	*/
 }
 
-article .content h1:nth-of-type(1) {
-  display: none;
-}
-
 article .post-meta {
   color: #6a737d;
   line-height: .4;
   margin-bottom: 2em;
+}
+
+article .post-meta a {
+  color: #6a737d;
+  border-bottom: 1px dotted;
+}
+
+article .post-meta a:hover {
+  border-bottom: 1px solid;
 }
 
 article::before {
@@ -259,12 +274,6 @@ article::after {
 article a:not([href]) {
   color: inherit;
   text-decoration: none;
-}
-
-article a,
-article a:active,
-article a:visited {
-  text-decoration: underline;
 }
 
 article p,
@@ -518,4 +527,15 @@ article pre {
   line-height: 1.45;
   -webkit-border-radius: 3px;
           border-radius: 3px;
+}
+
+article .content h1:nth-of-type(1) {
+  display: none;
+}
+
+article .contact {
+  border-top: 1px solid #eaecef;
+  color: #6a737d;
+  font-size: small;
+  font-style: italic;
 }

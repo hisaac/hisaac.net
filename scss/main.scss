@@ -27,9 +27,9 @@ $sans-serif:
 	"Helvetica Neue",        // macOS 10.11+
 	Helvetica,               // macOS 10.0–10.10
 	Arial,                   // All
-	"Apple Color Emoji",     // Emoji 😊
-	"Segoe UI Emoji",        // Emoji 😎
-	"Segoe UI Symbol",       // Emoji 🤓
+	"Apple Color Emoji",     // Apple Emoji 😊
+	"Segoe UI Emoji",        // Windows Emoji 😎
+	"Segoe UI Symbol",       // Windows Emoji 🤓
 	sans-serif;
 
 $monospace:
@@ -47,6 +47,8 @@ $monospace:
 	monospace;
 
 $link-color: #00e;
+$body-color: #222;
+$body-color-dimmed: #6a737d;
 
 //------------------------------- Base Styling -------------------------------//
 
@@ -72,7 +74,7 @@ img:not([alt]) {
 //------------------------------- Base Styling -------------------------------//
 
 html {
-	color: #222;
+	color: $body-color;
 	background-color: #fff;
 	height: 100%;
 }
@@ -83,8 +85,7 @@ body {
 	min-height: 100%;
 }
 
-main,
-article {
+main {
 	margin: 0 auto;
 	max-width: 80ch;
 	width: 94%;
@@ -103,7 +104,17 @@ header {
 		padding-top: .25em;
 		padding-bottom: .25em;
 		font-weight: 400;
-		// color: #900;
+
+		> a,
+		> a:active,
+		> a:visited {
+			color: $body-color;
+			border-bottom: 1px solid transparentize($body-color, 1);
+		}
+
+		> a:hover {
+			border-bottom: 1px solid $body-color;
+		}
 	}
 
 	nav {
@@ -113,8 +124,8 @@ header {
 	}
 
 	.current-page {
-		color: black !important;
-		text-decoration: underline;
+		color: $body-color !important;
+		border-bottom: 1px solid $body-color !important;
 	}
 }
 
@@ -144,12 +155,6 @@ h6 {
 	line-height: 1.2;
 	margin-top: 0;
 	margin-bottom: 0;
-
-	> a,
-	> a:active,
-	> a:visited {
-		color: inherit;
-	}
 }
 
 p {
@@ -195,15 +200,20 @@ pre {
 
 // Anchor Link Styling -------------------------------------------------------//
 
+a:any-link {
+	transition: border ease 180ms;
+}
+
 a,
 a:active,
 a:visited {
 	color: $link-color;
+	border-bottom: 1px solid transparentize($link-color, 1);
 	text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+	border-bottom: 1px solid $link-color;
 }
 
 // Horizontal Rule Styling ---------------------------------------------------//
@@ -265,26 +275,19 @@ th {
 
 article {
 
-	/**
-		I like to keep my Markdown files well-structured and portable, which
-		to me means having an `h1` element (e.g. `# Title of Post`) at the
-		beginning of the text. The problem is, this creates a redundant title,
-		because we're also using the title from the post's front matter.
-
-		So, this rule hides the first `h1` element within the article body text,
-		allowing me to keep the post's title in both the front-matter, and the
-		post itself.
-	*/
-	.content {
-		h1:nth-of-type(1) {
-			display: none;
-		}
-	}
-
 	.post-meta {
-		color: #6a737d;
+		color: $body-color-dimmed;
 		line-height: .4;
 		margin-bottom: 2em;
+
+		a {
+			color: $body-color-dimmed;
+			border-bottom: 1px dotted;
+
+			&:hover {
+				border-bottom: 1px solid;
+			}
+		}
 	}
 
 	&::before {
@@ -301,12 +304,6 @@ article {
 	a:not([href]) {
 		color: inherit;
 		text-decoration: none;
-	}
-
-	a,
-	a:active,
-	a:visited {
-		text-decoration: underline;
 	}
 
 	p,
@@ -548,5 +545,28 @@ article {
 		font-size: 85%;
 		line-height: 1.45;
 		border-radius: 3px;
+	}
+
+	/**
+		I like to keep my Markdown files well-structured and portable, which
+		to me means having an `h1` element (e.g. `# Title of Post`) at the
+		beginning of the text. The problem is, this creates a redundant title,
+		because we're also using the title from the post's front matter.
+
+		So, this rule hides the first `h1` element within the article body text,
+		allowing me to keep the post's title in both the front-matter, and the
+		post itself.
+	*/
+	.content {
+		h1:nth-of-type(1) {
+			display: none;
+		}
+	}
+
+	.contact {
+		border-top: 1px solid #eaecef;
+		color: #6a737d;
+		font-size: small;
+		font-style: italic;
 	}
 }
