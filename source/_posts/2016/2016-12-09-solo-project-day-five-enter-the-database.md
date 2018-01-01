@@ -27,9 +27,14 @@ My issue was the `.schema` at the end of the sub-document require statements. I 
 
 ### Today's Research
 
-- [Routing - Express Documentation](https://expressjs.com/en/guide/routing.html)
-- [Difference Between `app.use()` and `router.use()` in Express - Stack Overflow](http://stackoverflow.com/questions/27227650/difference-between-app-use-and-router-use-in-express)
-- [Sub-Documents - Mongoose Documentation](http://mongoosejs.com/docs/subdocs.html)
-- [MongoDB: Updating Subdocument - Stack Overflow](http://stackoverflow.com/questions/5646798/mongodb-updating-subdocument) - Another handy piece of information that Alex showed me today, the use of the `$` positional operator when referring to Mongoose sub-documents.
-- [GET users/lookup - Twitter Developer Documentation](https://dev.twitter.com/rest/reference/get/users/lookup)
+- [Routing - Express Documentation][1]
+- [Difference Between `app.use()` and `router.use()` in Express - Stack Overflow][2]
+- [Sub-Documents - Mongoose Documentation][3]
+- [MongoDB: Updating Subdocument - Stack Overflow][4] - Another handy piece of information that Alex showed me today, the use of the `$` positional operator when referring to Mongoose sub-documents.
+- [GET users/lookup - Twitter Developer Documentation][5]
 
+[1]:	https://expressjs.com/en/guide/routing.html
+[2]:	http://stackoverflow.com/questions/27227650/difference-between-app-use-and-router-use-in-express
+[3]:	http://mongoosejs.com/docs/subdocs.html
+[4]:	http://stackoverflow.com/questions/5646798/mongodb-updating-subdocument
+[5]:	https://dev.twitter.com/rest/reference/get/users/lookup

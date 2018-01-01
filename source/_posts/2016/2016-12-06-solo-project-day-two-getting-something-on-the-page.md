@@ -11,11 +11,11 @@ I began the day by thinking through my database structure. I've decided to use M
 
 ```javascript
 var userSchema = new Schema({
-	email: String,
-	name: String,
-	username: String,
-	date_joined: { type: Date, default: Date.now },
-	tweets: { [tweet] }
+    email: String,
+    name: String,
+    username: String,
+    date_joined: { type: Date, default: Date.now },
+    tweets: { [tweet] }
 });
 ```
 
@@ -23,16 +23,16 @@ And a sub-document schema for the tweets themselves:
 
 ```javascript
 var tweetSchema = new Schema({
-	twitter_id: { type: String, default: "" },
-	url: { type: String, default: "" },
-	posted: { type: Boolean, default: false },
-	date_posted: Date,
-	date_created: { type: Date, default: Date.now },
-	hashtags: { type: String, default: "" },
-	mentions: { type: String, default: "" },
-	hearts: { type: Number, default: 0 },
-	retweets: { type: Number, default: 0 },
-	tweet: { type: String, default: "" }
+    twitter_id: { type: String, default: "" },
+    url: { type: String, default: "" },
+    posted: { type: Boolean, default: false },
+    date_posted: Date,
+    date_created: { type: Date, default: Date.now },
+    hashtags: { type: String, default: "" },
+    mentions: { type: String, default: "" },
+    hearts: { type: Number, default: 0 },
+    retweets: { type: Number, default: 0 },
+    tweet: { type: String, default: "" }
 });
 ```
 
@@ -48,20 +48,33 @@ Lastly, we had a brief lecture on JavaScript debuggers. I haven't looked into it
 
 ### Today's Research
 
-- [Angular $routeProvider](https://docs.angularjs.org/api/ngRoute/provider/$routeProvider) - specifically the `resolve` parameter. I need to be able to route the user to different pages based on if the user is logged into Twitter or not.
-- [Firebase Web API reference documentation](https://firebase.google.com/docs/reference/js/)
-	- Specifically the [TwitterAuthProvider documentation](https://firebase.google.com/docs/reference/js/firebase.auth.TwitterAuthProvider)
-- [Skeleton](http://getskeleton.com) - The main CSS framework I'm using during the development phase.
-- [Bootstrap's buttons](http://getbootstrap.com/css/#buttons)
-- [node-inspector](https://github.com/node-inspector/node-inspector) - The debugger that was shown during lecture today.
+- [Angular $routeProvider][1] - specifically the `resolve` parameter. I need to be able to route the user to different pages based on if the user is logged into Twitter or not.
+- [Firebase Web API reference documentation][2]
+	- Specifically the [TwitterAuthProvider documentation][3]
+- [Skeleton][4] - The main CSS framework I'm using during the development phase.
+- [Bootstrap's buttons][5]
+- [node-inspector][6] - The debugger that was shown during lecture today.
 
 ### Screenshots
 
 <figure class="image half-width">
-	[![Login Page](./login-page.png)](./login-page.png)
-	<figcaption>Login Page</figcaption>
-	[![Settings Page](./settings-page.png)](./settings-page.png)
-	<figcaption>Settings Page</figcaption>
-	[![Tweet Page](./tweet-page.png)](./tweet-page.png)
-	<figcaption>Tweet Page</figcaption>
+    [![Login Page](./login-page.png)](./login-page.png)
+    <figcaption>Login Page</figcaption>
 </figure>
+
+<figure class="image half-width">
+    [![Settings Page](./settings-page.png)](./settings-page.png)
+    <figcaption>Settings Page</figcaption>
+</figure>
+
+<figure class="image half-width">
+    [![Tweet Page](./tweet-page.png)](./tweet-page.png)
+    <figcaption>Tweet Page</figcaption>
+</figure>
+
+[1]:	https://docs.angularjs.org/api/ngRoute/provider/$routeProvider
+[2]:	https://firebase.google.com/docs/reference/js/
+[3]:	https://firebase.google.com/docs/reference/js/firebase.auth.TwitterAuthProvider
+[4]:	http://getskeleton.com
+[5]:	http://getbootstrap.com/css/#buttons
+[6]:	https://github.com/node-inspector/node-inspector

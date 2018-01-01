@@ -5,7 +5,7 @@ tags: twitter, projects, crow, webdev
 date: 2016-12-12T21:10:56-06:00
 ---
 
-This is technically the eighth day since I began my solo project, but I didn't do any work on the project on Sunday (although I did do [some other web work]({% post_url /2016/2016-12-11-moved-to-digital-ocean-lets-encrypt %})).
+This is technically the eighth day since I began my solo project, but I didn't do any work on the project on Sunday (although I did do {% post_link moved-to-digital-ocean-lets-encrypt "some other web work" %}.
 
 Today was a very productive day for me. I got more done than I expected to, and I made it to MVP (Minimum Viable Product)! I didn't think I'd get to MVP this fast, but I'm glad I did. At Prime, we all get industry mentors to work with, and tomorrow we meet with them to show them our solo projects. I was really hoping I'd have a usable product to show them.
 
@@ -70,5 +70,8 @@ Tomorrow's task will be mainly styling. I want the app to look nice for my mento
 
 ### Today's Research
 
-- [getting the id of the newly pushed embedded object - Stack Overflow](http://stackoverflow.com/questions/13195283/mongodb-getting-the-id-of-the-newly-pushed-embedded-object) - I needed to get this data when I created a new blank draft. Turns out, it's just basic JavaScript (`array.length - 1`). I shoulda known.
-- [Factory not keeping data when used in controller - Stack Overflow](http://stackoverflow.com/questions/21006222/factory-not-keeping-data-when-used-in-controller) - This was frustrating. I initially was trying to assign objects directly to my factories, but I found that I had to assign specific values to them instead (see the first client side code example above). I still don't know *why* I need to do it this way, but I know that it does work.
+- [getting the id of the newly pushed embedded object - Stack Overflow][1] - I needed to get this data when I created a new blank draft. Turns out, it's just basic JavaScript (`array.length - 1`). I shoulda known.
+- [Factory not keeping data when used in controller - Stack Overflow][2] - This was frustrating. I initially was trying to assign objects directly to my factories, but I found that I had to assign specific values to them instead (see the first client side code example above). I still don't know *why* I need to do it this way, but I know that it does work.
+
+[1]:	http://stackoverflow.com/questions/13195283/mongodb-getting-the-id-of-the-newly-pushed-embedded-object
+[2]:	http://stackoverflow.com/questions/21006222/factory-not-keeping-data-when-used-in-controller
