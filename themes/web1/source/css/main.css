@@ -177,34 +177,34 @@ main {
 }
 
 a:-webkit-any-link {
-  color: #00e;
+  color: #0366d6;
   -webkit-transition: border ease 180ms;
   -o-transition: border ease 180ms;
   transition: border ease 180ms;
   text-decoration: none;
-  border-bottom: 1px solid rgba(0, 0, 238, 0);
+  border-bottom: 1px solid rgba(3, 102, 214, 0);
 }
 
 a:-moz-any-link {
-  color: #00e;
+  color: #0366d6;
   -webkit-transition: border ease 180ms;
   -o-transition: border ease 180ms;
   transition: border ease 180ms;
   text-decoration: none;
-  border-bottom: 1px solid rgba(0, 0, 238, 0);
+  border-bottom: 1px solid rgba(3, 102, 214, 0);
 }
 
 a:any-link {
-  color: #00e;
+  color: #0366d6;
   -webkit-transition: border ease 180ms;
   -o-transition: border ease 180ms;
   transition: border ease 180ms;
   text-decoration: none;
-  border-bottom: 1px solid rgba(0, 0, 238, 0);
+  border-bottom: 1px solid rgba(3, 102, 214, 0);
 }
 
 a:hover {
-  border-bottom: 1px solid #00e;
+  border-bottom: 1px solid #0366d6;
 }
 
 img {
