@@ -11,11 +11,11 @@ I began the day by thinking through my database structure. I've decided to use M
 
 ```javascript
 var userSchema = new Schema({
-  email: String,
-  name: String,
-  username: String,
-  date_joined: { type: Date, default: Date.now },
-  tweets: { [tweet] }
+	email: String,
+	name: String,
+	username: String,
+	date_joined: { type: Date, default: Date.now },
+	tweets: { [tweet] }
 });
 ```
 
@@ -23,16 +23,16 @@ And a sub-document schema for the tweets themselves:
 
 ```javascript
 var tweetSchema = new Schema({
-  twitter_id: { type: String, default: "" },
-  url: { type: String, default: "" },
-  posted: { type: Boolean, default: false },
-  date_posted: Date,
-  date_created: { type: Date, default: Date.now },
-  hashtags: { type: String, default: "" },
-  mentions: { type: String, default: "" },
-  hearts: { type: Number, default: 0 },
-  retweets: { type: Number, default: 0 },
-  tweet: { type: String, default: "" }
+	twitter_id: { type: String, default: "" },
+	url: { type: String, default: "" },
+	posted: { type: Boolean, default: false },
+	date_posted: Date,
+	date_created: { type: Date, default: Date.now },
+	hashtags: { type: String, default: "" },
+	mentions: { type: String, default: "" },
+	hearts: { type: Number, default: 0 },
+	retweets: { type: Number, default: 0 },
+	tweet: { type: String, default: "" }
 });
 ```
 
@@ -57,8 +57,11 @@ Lastly, we had a brief lecture on JavaScript debuggers. I haven't looked into it
 
 ### Screenshots
 
-![Login Page](/assets/images/2016-12-06/login-page.png)
-
-![Settings Page](/assets/images/2016-12-06/settings-page.png)
-
-![Tweet Page](/assets/images/2016-12-06/tweet-page.png)
+<figure class="image half-width">
+	[![Login Page](./login-page.png)](./login-page.png)
+	<figcaption>Login Page</figcaption>
+	[![Settings Page](./settings-page.png)](./settings-page.png)
+	<figcaption>Settings Page</figcaption>
+	[![Tweet Page](./tweet-page.png)](./tweet-page.png)
+	<figcaption>Tweet Page</figcaption>
+</figure>

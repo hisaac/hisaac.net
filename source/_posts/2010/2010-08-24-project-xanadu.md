@@ -7,9 +7,8 @@ tags: internet, technology, programming
 
 Have you ever heard of hypertext? No? Well, you're life would be very much different without it. And without Ted Nelson, we wouldn't have hypertext.
 
-<figure class="figure-image">
-	<!-- Source: http://dazedimg.dazedgroup.netdna-cdn.com/320/0-0-640-426/azure/dazed-prod/1030/6/1036749.jpg -->
-	![Ted Nelson at His Computer](http://dazedimg.dazedgroup.netdna-cdn.com/320/0-0-640-426/azure/dazed-prod/1030/6/1036749.jpg)
+<figure class="image">
+	[![Ted Nelson at His Computer](./ted-nelson-at-computer.jpg)](./ted-nelson-at-computer.jpg)
 	<figcaption>Ted Nelson at His Computer</figcaption>
 </figure>
 

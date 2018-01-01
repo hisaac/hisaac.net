@@ -578,12 +578,30 @@ article img {
   background-color: 100%;
 }
 
-article img[align=right] {
-  padding-left: 20px;
+article figure.image {
+  text-align: center;
 }
 
-article img[align=left] {
-  padding-right: 20px;
+article figure.image.half-width {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article figure.image figcaption {
+  color: #6a737d;
+}
+
+article figure.image a:-webkit-any-link {
+  border: none;
+}
+
+article figure.image a:-moz-any-link {
+  border: none;
+}
+
+article figure.image a:any-link {
+  border: none;
 }
 
 article .emoji {
