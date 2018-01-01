@@ -4,9 +4,11 @@ layout: page
 ---
 
 # About
-## About Me
+# About
 
 Hello there, I'm Isaac Halvorson. I'm an iOS and full stack web developer living in [Saint Paul, MN](https://en.wikipedia.org/wiki/Saint_Paul,_Minnesota) with my wife Jenifer.
+
+## About Me
 
 ### Work
 

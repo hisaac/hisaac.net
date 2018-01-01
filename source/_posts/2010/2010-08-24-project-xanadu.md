@@ -7,7 +7,11 @@ tags: internet, technology, programming
 
 Have you ever heard of hypertext? No? Well, you're life would be very much different without it. And without Ted Nelson, we wouldn't have hypertext.
 
-![Ted Nelson at his Computer](/assets/images/2010-08-24/ted-nelson-at-computer.jpg)
+<figure class="figure-image">
+	<!-- Source: http://dazedimg.dazedgroup.netdna-cdn.com/320/0-0-640-426/azure/dazed-prod/1030/6/1036749.jpg -->
+	![Ted Nelson at His Computer](http://dazedimg.dazedgroup.netdna-cdn.com/320/0-0-640-426/azure/dazed-prod/1030/6/1036749.jpg)
+	<figcaption>Ted Nelson at His Computer</figcaption>
+</figure>
 
 So what is hypertext you ask? Well, have you ever used the internet? If so, then you've encountered hypertext. All web pages are made up of the stuff, and most people don't even realize it. Hypertext is text that references - or hyperlinks - other text or data. [Any](https://web.archive.org/web/20120925020956/http://www.latrobe.edu.au/screeningthepast/firstrelease/fr_18/BBfr18a00.jpg) [link](http://en.wikipedia.org/wiki/Xanadu_Project) [you](http://en.wikipedia.org/wiki/Hypertext) [see](http://en.wiktionary.org/wiki/see) on a [webpage](http://furyofthepope.ytmnd.com/) is an [example](http://www.youtube.com/watch?v=5P6UU6m3cqk) of [hypertext](http://absurd.org/). (Go ahead, click all of those.) Images, YouTube videos, flash games, and even that wonderful email from your mom informing you about your aunt's gout—they all utilize hypertext to get data from one place to another. But Ted Nelson's hypertextual world was much different than the one we live in today. Ted dreamed of a system that allowed both content creators and content consumers to utilize and enjoy information seamlessly, and to be able to track changes, and attribute credit where credit is due. The system was far ahead of its time, and paved the way for what we now call the internet, but sadly, Nelson's original idea has still yet to come to fruition.
 
@@ -17,4 +21,4 @@ So it is only natural that this, his greatest project, remains unfinished. But, 
 
 I'll leave you with a video of Nelson explaining his philosophy on computing. If you've got eight minutes, I highly recommend it.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zumdnI4EG14?rel=0" frameborder="0" allowfullscreen></iframe>
+{% youtube zumdnI4EG14 %}
