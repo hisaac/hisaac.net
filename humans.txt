@@ -1,13 +1,18 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+# humans.txt
 
-# TEAM
-	<Isaac Halvorson> -- <Developer> -- <@hisaac>
+Based on humanstxt.org, this is a list of all the humans involved in the creation of this site. For more information about me or about the site, please see the README or the about page.
 
-# THANKS
-	<Kris Szafranski> -- <Developer / Instructor>
-	<Luke Schlangen> -- <Developer / Instructor>
-	<Huck Brock> -- <Developer / Instructor>
+## Team
 
-# TECHNOLOGY COLOPHON
-  HTML5, CSS3, Apache Server Configs, Normalize.css
+webmaster: Isaac Halvorson
+    email: hello@hisaac.net
+  twitter: @hisaac
+   github: github.com/hisaac
+ location: Saint Paul, MN, United States
+
+## Thanks
+
+- My instructors at Prime Digital Academy <primeacademy.io>, who helped start me down the road of code:
+	- Kris Szafranski <github.com/kdszafranski>
+	- Luke Schlangen  <github.com/lukeschlangen>
+	- Huck Brock      <github.com/huckbee>

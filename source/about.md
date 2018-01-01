@@ -8,8 +8,6 @@ layout: page
 
 Hello there, I'm Isaac Halvorson. I'm an iOS and full stack web developer living in [Saint Paul, MN](https://en.wikipedia.org/wiki/Saint_Paul,_Minnesota) with my wife Jenifer.
 
-## About Me
-
 ### Work
 
 I'm currently working at [C.H. Robinson](https://www.chrobinson.com) on their [Navisphere Carrier](https://itunes.apple.com/us/app/navisphere-carrier/id1089613477?mt=8) and [Navisphere Driver](https://itunes.apple.com/us/app/navisphere-driver/id1247478172?mt=8) iOS apps.
