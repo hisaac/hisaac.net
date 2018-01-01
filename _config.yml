@@ -47,6 +47,14 @@ highlight:
 	line_number: false
 	tab_replace: '    '
 
+# RSS Feed Settings
+
+feed:
+	type: rss2
+	path: feed.xml
+	limit: false
+	content: true
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
