@@ -191,6 +191,29 @@ footer {
 			border-bottom: 1px dotted #eaecef;
 		}
 	}
+
+	table {
+		display: block;
+		width: 100%;
+		overflow: auto;
+
+		tr {
+			background-color: #fff;
+
+			&:nth-child(2n) {
+				background-color: #f6f8fa;
+			}
+		}
+
+		td {
+			padding: .25em;
+		}
+
+		.post-list-date {
+			text-align: right;
+			white-space: nowrap;
+		}
+	}
 }
 
 // Video Styling -------------------------------------------------------------//
