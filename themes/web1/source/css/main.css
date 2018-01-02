@@ -1,0 +1,654 @@
+code,
+pre,
+tt {
+  font-family: "SF Mono", "SFMono-Regular", Consolas, "Droid Sans Mono", "Source Code Pro", "Liberation Mono", "Fira Mono", "Monaco", "Inconsolata", "Menlo", Courier, monospace;
+  overflow-x: scroll;
+}
+
+code,
+tt {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(27, 31, 35, 0.05);
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+}
+
+code br,
+tt br {
+  display: none;
+}
+
+.highlight {
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  font-size: 85%;
+  line-height: 1.45;
+  margin-bottom: 16px;
+  overflow: auto;
+  padding: 16px;
+  word-break: normal;
+  word-wrap: normal;
+}
+
+.highlight * {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+	Adapted from highlight.js's "railscasts" theme
+	source: https://github.com/isagalaev/highlight.js/blob/905119aad47d4bb3d4fbaa14df7598034dccb6a3/src/styles/railscasts.css
+*/
+.highlight,
+.highlight tr {
+  background: #232323;
+  color: #e6e1dc;
+}
+
+.comment,
+.quote {
+  color: #bc9458;
+  font-style: italic;
+}
+
+.keyword,
+.selector-tag {
+  color: #c26230;
+}
+
+.string,
+.number,
+.regexp,
+.variable,
+.template-variable {
+  color: #a5c261;
+}
+
+.subst {
+  color: #519f50;
+}
+
+.tag,
+.name {
+  color: #e8bf6a;
+}
+
+.type {
+  color: #da4939;
+}
+
+.symbol,
+.bullet,
+.built_in,
+.builtin-name,
+.attr,
+.link {
+  color: #6d9cbe;
+}
+
+.params {
+  color: #d0d0ff;
+}
+
+.attribute {
+  color: #cda869;
+}
+
+.meta {
+  color: #9b859d;
+}
+
+.title,
+.section {
+  color: #ffc66d;
+}
+
+.addition {
+  background-color: #144212;
+  color: #e6e1dc;
+  display: inline-block;
+  width: 100%;
+}
+
+.deletion {
+  background-color: #600;
+  color: #e6e1dc;
+  display: inline-block;
+  width: 100%;
+}
+
+.selector-class {
+  color: #9b703f;
+}
+
+.selector-id {
+  color: #8b98ab;
+}
+
+.emphasis {
+  font-style: italic;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+/**
+	Minimalist reset by Matt Smith
+	source: http://allthingssmitty.com/2017/01/09/css-reset-for-minimalists/
+*/
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Droid Sans", "Fira Sans", "Oxygen", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-size: 1em;
+  line-height: 1.61803399;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #222;
+  background-color: #fff;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 80ch;
+  width: 94%;
+}
+
+a:-webkit-any-link {
+  color: #0366d6;
+  -webkit-transition: border ease 180ms;
+  -o-transition: border ease 180ms;
+  transition: border ease 180ms;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(3, 102, 214, 0);
+}
+
+a:-moz-any-link {
+  color: #0366d6;
+  -webkit-transition: border ease 180ms;
+  -o-transition: border ease 180ms;
+  transition: border ease 180ms;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(3, 102, 214, 0);
+}
+
+a:any-link {
+  color: #0366d6;
+  -webkit-transition: border ease 180ms;
+  -o-transition: border ease 180ms;
+  transition: border ease 180ms;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(3, 102, 214, 0);
+}
+
+a:hover {
+  border-bottom: 1px solid #0366d6;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+small {
+  font-size: 90%;
+}
+
+blockquote {
+  margin: 0;
+}
+
+ol ol,
+ul ol {
+  list-style-type: lower-roman;
+}
+
+ul ul ol,
+ul ol ol,
+ol ul ol,
+ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+dd {
+  margin-left: 0;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+hr {
+  height: 0;
+  margin: 15px 0;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid #dfe3e5;
+  overflow: hidden;
+}
+
+hr::before {
+  display: table;
+  content: "";
+}
+
+hr::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+header,
+footer {
+  background-color: #efefef;
+  text-align: center;
+}
+
+header h1 {
+  font-family: serif;
+  font-size: 3em;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  font-weight: 400;
+}
+
+header h1 > a:-webkit-any-link {
+  color: #222;
+  border-bottom: 1px solid rgba(34, 34, 34, 0);
+}
+
+header h1 > a:-moz-any-link {
+  color: #222;
+  border-bottom: 1px solid rgba(34, 34, 34, 0);
+}
+
+header h1 > a:any-link {
+  color: #222;
+  border-bottom: 1px solid rgba(34, 34, 34, 0);
+}
+
+header h1 > a:hover {
+  border-bottom: 1px solid #222;
+}
+
+header nav {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+header .current-page {
+  color: #222;
+  border-bottom: 1px solid #222;
+}
+
+footer {
+  padding: .5em .5em 1.5em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-top: 1px dotted #dfe2e5;
+}
+
+footer p {
+  margin: 0;
+}
+
+.post-list {
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-list ul {
+  margin-top: 4px;
+  padding: 19px;
+}
+
+.post-list ul li {
+  margin-bottom: .3em;
+  border-bottom: 1px dotted #eaecef;
+}
+
+.post-list table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+.post-list table tr {
+  background-color: #fff;
+}
+
+.post-list table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.post-list table td {
+  padding: .25em;
+}
+
+.post-list table .post-list-date {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.video-container {
+  height: 0;
+  margin-bottom: 1em;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 1em;
+  position: relative;
+}
+
+.video-container iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+article {
+  /**
+		I like to keep my Markdown files well-structured and portable, which
+		to me means having an `h1` element (e.g. `# Title of Post`) at the
+		beginning of the text. The problem is, this creates a redundant title,
+		because we're also using the title from the post's front matter.
+
+		So, this rule hides the first `h1` element within the article body text,
+		allowing me to keep the post's title in both the front-matter, and the
+		post itself.
+	*/
+}
+
+article::before {
+  display: table;
+  content: "";
+}
+
+article::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+article a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+article .post-meta {
+  color: #6a737d;
+  line-height: .4;
+  margin-bottom: 2em;
+}
+
+article .post-meta a {
+  color: #6a737d;
+  border-bottom: 1px dotted;
+}
+
+article .post-meta a:hover {
+  border-bottom: 1px solid;
+}
+
+article p,
+article blockquote,
+article ul,
+article ol,
+article dl,
+article table,
+article pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+article blockquote {
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+}
+
+article blockquote > :first-child {
+  margin-top: 0;
+}
+
+article blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+article kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #444d56;
+  vertical-align: middle;
+  background-color: #fafbfc;
+  border: solid 1px #c6cbd1;
+  border-bottom-color: #959da5;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-box-shadow: inset 0 -1px 0 #959da5;
+          box-shadow: inset 0 -1px 0 #959da5;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+article h1:hover .anchor,
+article h2:hover .anchor,
+article h3:hover .anchor,
+article h4:hover .anchor,
+article h5:hover .anchor,
+article h6:hover .anchor {
+  text-decoration: none;
+}
+
+article h1,
+article h2 {
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #eaecef;
+}
+
+article h1 {
+  font-size: 2em;
+}
+
+article h2 {
+  font-size: 1.5em;
+}
+
+article h3 {
+  font-size: 1.25em;
+}
+
+article h4 {
+  font-size: 1em;
+}
+
+article h5 {
+  font-size: 0.875em;
+}
+
+article h6 {
+  font-size: 0.85em;
+  color: #6a737d;
+}
+
+article ul,
+article ol {
+  padding-left: 2em;
+}
+
+article ul ul,
+article ul ol,
+article ol ol,
+article ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+article li {
+  word-wrap: break-all;
+}
+
+article li > p {
+  margin-top: 16px;
+}
+
+article li + li {
+  margin-top: 0.25em;
+}
+
+article dl {
+  padding: 0;
+}
+
+article dl dt {
+  padding: 0;
+  font-style: italic;
+  font-weight: 600;
+}
+
+article dl dd {
+  padding: 0 16px;
+}
+
+article table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+article table th {
+  font-weight: 600;
+}
+
+article table th,
+article table td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+article table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+article table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+article table img {
+  background-color: transparent;
+}
+
+article img {
+  max-width: 100%;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  background-color: 100%;
+}
+
+article figure.image {
+  text-align: center;
+}
+
+article figure.image.half-width {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article figure.image figcaption {
+  color: #6a737d;
+}
+
+article figure.image a:-webkit-any-link {
+  border: none;
+}
+
+article figure.image a:-moz-any-link {
+  border: none;
+}
+
+article figure.image a:any-link {
+  border: none;
+}
+
+article .emoji {
+  max-width: none;
+  vertical-align: text-top;
+  background-color: transparent;
+}
+
+article .content h1:nth-of-type(1) {
+  display: none;
+}
+
+article .contact {
+  border-top: 1px solid #eaecef;
+  color: #6a737d;
+  font-size: small;
+  font-style: italic;
+}
+
+/**
+	Highlight images missing the `alt` attribute
+	source: A tweet by Matt Smith https://twitter.com/AllThingsSmitty/status/930617039085035520
+*/
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed #c00;
+}

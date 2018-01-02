@@ -1,0 +1,4 @@
+---
+title: Canon
+layout: page
+---

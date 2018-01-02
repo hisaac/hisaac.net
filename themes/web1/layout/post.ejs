@@ -1,0 +1,60 @@
+<%
+	// Setup variables
+
+	/// A URL that will create an email with the To, Subject, and Body prefilled
+	var emailURL = "mailto:" + config.email + "?subject=Re: " + page.title + "&body=%0A%0Ahttps://hisaac.net/" + page.path;
+
+	/// A URL that links to this blog post's GitHub page
+	var postPath = (page.path.slice(0, -1)) + ".md";
+	var postGitHubURL = "https://github.com/hisaac/hisaac.net/blob/master/source/_posts/" + postPath;
+
+	function extractHostname(url) {
+		var hostname;
+
+		// Find & remove protocol (http, ftp, etc.) and get hostname
+		if (url.indexOf("://") > -1) {
+			hostname = url.split('/')[2];
+		} else {
+			hostname = url.split('/')[0];
+		}
+
+		hostname = hostname.replace(/^www\./,''); // Remove "www." from URL
+		hostname = hostname.split(':')[0];        // Remove port number
+		hostname = hostname.split('?')[0];        // Remove "?"
+
+		return hostname;
+	}
+%>
+
+<article>
+	<h1><%- page.title %></h1>
+
+	<div class="post-meta">
+		<p class="post-date"><time datetime="<%- page.date %>"><%- date(page.date, 'LL') %></time></p>
+
+		<% // If there is an author other than the site's author, display it %>
+		<% if (page.author && page.author !== config.author) { %>
+			<p>by <%- page.author %></p>
+		<% } %>
+
+		<% // If there is a `link` variable, display it as the post's source %>
+		<% if (page.link) { %>
+			<p>source: <a href="<%- page.link %>" target="_blank"><%- extractHostname(page.link) %>…</a></p>
+		<% } %>
+
+		<% // If there is a `via` variable, display it %>
+		<% if (page.via) { %>
+			<p>via: <a href="<%- page.via %>" target="_blank"><%- extractHostname(page.via) %>…</a></p>
+		<% } %>
+	</div>
+
+	<article class="content">
+		<%- page.content %>
+	</article>
+
+	<div class="contact">
+		<p>
+			Have a comment or notice a typo? <a href="<%- emailURL %>">Send me an email</a>, or <a href="<%- postGitHubURL %>">fork this post on GitHub</a>.
+		</p>
+	</div>
+<article>
