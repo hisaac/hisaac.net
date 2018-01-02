@@ -351,6 +351,29 @@ footer p {
   border-bottom: 1px dotted #eaecef;
 }
 
+.post-list table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+.post-list table tr {
+  background-color: #fff;
+}
+
+.post-list table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.post-list table td {
+  padding: .25em;
+}
+
+.post-list table .post-list-date {
+  text-align: right;
+  white-space: nowrap;
+}
+
 .video-container {
   height: 0;
   margin-bottom: 1em;

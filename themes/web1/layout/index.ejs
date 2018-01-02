@@ -1,7 +1,15 @@
 <div class="post-list">
-	<ul>
-		<% page.posts.each(function(post) { %>
-			<li><a href="<%- url_for(post.path) %>"><%- post.title %></a></li>
-		<% }); %>
-	</ul>
+	<table>
+	<% page.posts.each(function(post) { %>
+		<tr>
+			<td class="post-list-date">
+				<time datetime="<%- post.date %>"><%- date(post.date, 'MMM D, YYYY') %></time>
+			</td>
+			<td>-</td>
+			<td>
+				<a href="<%- url_for(post.path) %>"><%- post.title %></a>
+			</td>
+		</tr>
+	<% }); %>
+	</table>
 </div>
