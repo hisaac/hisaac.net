@@ -36,8 +36,8 @@ body {
 
 main {
 	margin: 0 auto;
-	max-width: 80ch;
-	width: 94%;
+	max-width: 60ch;
+	width: 90%;
 }
 
 a {
@@ -126,7 +126,7 @@ hr {
 
 header,
 footer {
-	background-color: #efefef;
+	background-color: #eee;
 	text-align: center;
 }
 
@@ -168,7 +168,6 @@ footer {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	border-top: 1px dotted #dfe2e5;
 
 	p {
 		margin: 0;
@@ -182,16 +181,6 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 
-	ul {
-		margin-top: 4px;
-		padding: 19px;
-
-		li {
-			margin-bottom: .3em;
-			border-bottom: 1px dotted #eaecef;
-		}
-	}
-
 	table {
 		display: block;
 		width: 100%;
@@ -201,7 +190,7 @@ footer {
 			background-color: #fff;
 
 			&:nth-child(2n) {
-				background-color: #f6f8fa;
+				background-color: rgba(238, 238, 238, 0.5);
 			}
 		}
 
