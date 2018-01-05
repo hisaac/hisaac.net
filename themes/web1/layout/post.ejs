@@ -5,8 +5,7 @@
 	var emailURL = "mailto:" + config.email + "?subject=Re: " + page.title + "&body=%0A%0Ahttps://hisaac.net/" + page.path;
 
 	/// A URL that links to this blog post's GitHub page
-	var postPath = (page.path.slice(0, -1)) + ".md";
-	var postGitHubURL = "https://github.com/hisaac/hisaac.net/blob/master/source/_posts/" + postPath;
+	var postGitHubURL = "https://github.com/hisaac/hisaac.net/blob/master/source/" + page.source;
 
 	function extractHostname(url) {
 		var hostname;
