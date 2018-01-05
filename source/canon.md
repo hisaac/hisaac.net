@@ -7,7 +7,7 @@ type: page
 # Canon
 
 > …the body of books, music, and art that scholars generally accept as the most important and influential…
->
+> 
 > ***Wikipedia*** — <cite>[en.wikipedia.org/wiki/Western\_canon][1]</cite>
 
 These are things created by others that are important to me. Things that have shaped the way I look at the world.
@@ -38,15 +38,13 @@ These are things created by others that are important to me. Things that have sh
 
 ## Music
 
-- [Aphex Twin][29]
-- [Dr. Dre][30]
-	- <cite>[The Chronic][31]</cite> (1992) [[Listen][32]]
-- [Neil Young][33]
-	- <cite>[On the Beach][34]</cite> (1974) [[Listen][35]]
-- [Radiohead][36]
-	- <cite>[In Rainbows][37]</cite> (2007) [[Listen][38]]
-- [Sonic Youth][39]
-	- <cite>[Sonic Nurse][40]</cite> (2004) [[Listen][41]]
+- <cite>[A Book of Human Language][29]</cite> (1998) by [Aceyalone][30]
+- <cite>[Body Riddle][31]</cite> (2006) by [Clark][32]
+- <cite>[Syro]()</cite> (2014) by [Aphex Twin][34]
+- <cite>[The Chronic][35]</cite> (1992) by [Dr. Dre][36]
+- <cite>[In Rainbows][37]</cite> (2007) by [Radiohead][38]
+- <cite>[On the Beach][39]</cite> (1974) by [Neil Young][40]
+- <cite>[Sonic Nurse][41]</cite> (2004) by [Sonic Youth][42]
 
 ## Online
 
@@ -80,16 +78,16 @@ These are things created by others that are important to me. Things that have sh
 [26]:	https://en.wikipedia.org/wiki/Frank_Herbert
 [27]:	https://en.wikipedia.org/wiki/East_of_Eden_(novel)
 [28]:	https://en.wikipedia.org/wiki/John_Steinbeck
-[29]:	https://en.wikipedia.org/wiki/Aphex_Twin
-[30]:	https://en.wikipedia.org/wiki/Dr._Dre
-[31]:	https://en.wikipedia.org/wiki/The_Chronic
-[32]:	https://song.link/album/us/i/6654037
-[33]:	https://en.wikipedia.org/wiki/Neil_Young
-[34]:	https://en.wikipedia.org/wiki/On_the_Beach_(Neil_Young_album)
-[35]:	https://song.link/album/us/i/1015732002
-[36]:	https://en.wikipedia.org/wiki/Radiohead
-[37]:	https://en.wikipedia.org/wiki/In_Rainbows "In Rainbows - Wikipedia"
-[38]:	https://song.link/album/us/i/1109714933 "In Rainbows by Radiohead"
-[39]:	https://en.wikipedia.org/wiki/Sonic_Youth
-[40]:	https://en.wikipedia.org/wiki/Sonic_Nurse
-[41]:	https://song.link/album/us/i/1132249548
+[29]:	https://song.link/album/us/i/1138405620 "A Book of Human Language by Aceyalone"
+[30]:	https://en.wikipedia.org/wiki/Aceyalone "Aceyalone - Wikipedia"
+[31]:	https://song.link/album/us/i/185514015 "Body Riddle by Clark"
+[32]:	https://en.wikipedia.org/wiki/Chris_Clark_(musician) "Clark - Wikipedia"
+[34]:	https://en.wikipedia.org/wiki/Aphex_Twin
+[35]:	https://song.link/album/us/i/6654037 "The Chronic by Dr. Dre"
+[36]:	https://en.wikipedia.org/wiki/Dr._Dre
+[37]:	https://song.link/album/us/i/1109714933 "In Rainbows by Radiohead"
+[38]:	https://en.wikipedia.org/wiki/Radiohead
+[39]:	https://song.link/album/us/i/1015732002 "On the Beach by Neil Young"
+[40]:	https://en.wikipedia.org/wiki/Neil_Young
+[41]:	https://song.link/album/us/i/1132249548 "Sonic Nurse by Sonic Youth"
+[42]:	https://en.wikipedia.org/wiki/Sonic_Youth
