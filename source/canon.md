@@ -4,10 +4,9 @@ type: page
 ---
 
 # Canon
-# Canon
 
 > …the body of books, music, and art that scholars generally accept as the most important and influential…
-> 
+>
 > ***Wikipedia*** — <cite>[en.wikipedia.org/wiki/Western\_canon][1]</cite>
 
 These are things created by others that are important to me. Things that have shaped the way I look at the world.

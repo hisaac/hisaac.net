@@ -36,3 +36,10 @@ $monospace:
 $link-color: #0366d6;
 $body-color: #222;
 $body-color-dimmed: #6a737d;
+
+// To be used for iPhone X safe areas
+$safe-area:
+	env(safe-area-inset-top),
+	env(safe-area-inset-right),
+	env(safe-area-inset-bottom),
+	env(safe-area-inset-left);

@@ -36,8 +36,9 @@ body {
 
 main {
 	margin: 0 auto;
-	max-width: 60ch;
+	max-width: 75ch;
 	width: 90%;
+	padding: $safe-area; // For iPhone X
 }
 
 a {
@@ -128,6 +129,10 @@ header,
 footer {
 	background-color: #eee;
 	text-align: center;
+
+	> * {
+		padding: $safe-area; // For iPhone X
+	}
 }
 
 header {
@@ -241,6 +246,10 @@ article {
 	a:not([href]) {
 		color: inherit;
 		text-decoration: none;
+	}
+
+	h1:nth-of-type(1) {
+		margin-top: 0;
 	}
 
 	.post-meta {
@@ -430,28 +439,6 @@ article {
 
 		a:any-link {
 			border: none;
-		}
-	}
-
-	.emoji {
-		max-width: none;
-		vertical-align: text-top;
-		background-color: transparent;
-	}
-
-	/**
-		I like to keep my Markdown files well-structured and portable, which
-		to me means having an `h1` element (e.g. `# Title of Post`) at the
-		beginning of the text. The problem is, this creates a redundant title,
-		because we're also using the title from the post's front matter.
-
-		So, this rule hides the first `h1` element within the article body text,
-		allowing me to keep the post's title in both the front-matter, and the
-		post itself.
-	*/
-	.content {
-		h1:nth-of-type(1) {
-			display: none;
 		}
 	}
 
