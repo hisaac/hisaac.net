@@ -6,7 +6,7 @@ type: page
 # Canon
 
 > …the body of books, music, and art that scholars generally accept as the most important and influential…
->
+> 
 > ***Wikipedia*** — <cite>[en.wikipedia.org/wiki/Western\_canon][1]</cite>
 
 These are things created by others that are important to me. Things that have shaped the way I look at the world.
@@ -47,7 +47,13 @@ These are things created by others that are important to me. Things that have sh
 
 ## Online
 
+- <cite>[The Curse of Xanadu][43]</cite> by Gary Wolf- This is my favorite piece of internet writing, and was very inspiring to me when I first read it years ago. It’s the story of [Ted Nelson][44] and [Project Xanadu][45]. While it may cast them both in a less than positive light, rest assured that [the Xanadu dream is still alive][46], and Ted Nelson [continues to be thinking crazy / genius thoughts][47].
+- <cite>[Is Facebook Making Us Lonely?][48]</cite> by Stephen Marche - The short answer is: Yes, Facebook is making us lonely. But is it Facebook's fault, or our own human nature? This article planted and nurtured the seed of doubt that eventually brought me to deactivate my Facebook account, and pull back on my other social activities.
+- <cite>[The Most Dangerous Gamer][49]</cite> by Taylor Clark - A profile of [Jonathan Blow][50], one of the few people to be pushing the boundaries of video games into the realm of art. Blow has some choice words to say about the current state of the video game industry, and manages to come off as very inspiring.
+
 ## Other
+
+- <cite>[Fish: A Tap Essay][51]</cite> by [Robin Sloan][52] - Probably the iPhone app that has inspired me the most, Fish is a short analyzation of the way we "like" things on the internet, and how it has changed our culture. The app is actually what gave me the idea of documenting my "canon" of things online that I love.
 
 [1]:	https://en.wikipedia.org/wiki/Western_canon
 [2]:	https://en.wikipedia.org/wiki/Videodrome
@@ -90,3 +96,13 @@ These are things created by others that are important to me. Things that have sh
 [40]:	https://en.wikipedia.org/wiki/Neil_Young
 [41]:	https://song.link/album/us/i/1132249548 "Sonic Nurse by Sonic Youth"
 [42]:	https://en.wikipedia.org/wiki/Sonic_Youth
+[43]:	https://www.wired.com/1995/06/xanadu/ "The Curse of Xanadu | Wired"
+[44]:	https://en.wikipedia.org/wiki/Ted_Nelson "Ted Nelson | Wikipedia"
+[45]:	https://en.wikipedia.org/wiki/Project_Xanadu "Project Xanadu | Wikipedia"
+[46]:	http://www.xanadu.net
+[47]:	https://www.youtube.com/user/TheTedNelson "TheTedNelson on YouTube"
+[48]:	https://www.theatlantic.com/magazine/archive/2012/05/is-facebook-making-us-lonely/308930/ "Is Facebook Making Us Lonely? | The Atlantic"
+[49]:	https://www.theatlantic.com/magazine/archive/2012/05/the-most-dangerous-gamer/308928/?single_page=true "The Most Dangerous Gamer | The Atlantic"
+[50]:	https://en.m.wikipedia.org/wiki/Jonathan_Blow "Jonathan Blow | Wikipedia"
+[51]:	https://www.robinsloan.com/fish/
+[52]:	https://www.robinsloan.com/
