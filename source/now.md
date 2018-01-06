@@ -4,7 +4,6 @@ type: page
 ---
 
 # Now
-# Now
 
 > …a website with a link that says “now” goes to a page that tells you what this person is focused on at this point in their life. For short, we call it a “now page”.
 >
