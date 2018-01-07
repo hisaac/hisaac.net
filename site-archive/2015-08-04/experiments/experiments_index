@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<!--
+	Isaac Halvorson
+	hello@hisaac.net
+	Copyright 2013
+-->
+
+<head>
+	<title>hisaac.net - experiments</title>        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>say hello to hisaac</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=0.6">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="./v3/assets/css/normalize.css">
+        <link rel="stylesheet" href="./v3/assets/css/main.css">
+        <script src="./v3/assets/js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+	</p>This is an index of my web experiments:</p>
+	<ul>
+		<li><a href="http://hisaac.net/experiments/v3/index.php">hisaac.net v3</a></li>
+		<li><a href="http://hisaac.net/experiments/farts-are-hilarious/farts.html">farts are hilarious</a></li>
+		<li><a href="http://hisaac.net/experiments/dice_roller/roll.php">Dice Roller</a></li>
+		<li><a href="string_analyzer/string_analyzer.php">String Analyzer (not currently working)</a></li>
+	</ul>
+	
+	</p>Things currently being experimented with:</p>
+	<ul>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>Javascript</li>
+		<li>PHP</li>
+	</ul>
+</body>
+</html>
