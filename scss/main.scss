@@ -435,10 +435,16 @@ article {
 
 		figcaption {
 			color: $body-color-dimmed;
+			margin-bottom: 1em;
 		}
 
 		a:any-link {
 			border: none;
+		}
+
+		/// Ignore automatically generated `br` elements
+		br {
+			display: none;
 		}
 	}
 
@@ -448,6 +454,35 @@ article {
 		font-size: small;
 		font-style: italic;
 	}
+}
+
+// Page Specific Styling -----------------------------------------------------------//
+
+.about-page {
+	&-salutation {
+		text-align: center;
+		font-size: 1.5em;
+		border: 0;
+		padding-top: .5em;
+		margin: 0;
+	}
+}
+
+// Utility -------------------------------------------------------------------------//
+
+/// Specify line break points
+.line {
+	display: inline-block;
+}
+
+/// Center align an element
+.center {
+	text-align: center;
+}
+
+/// Remove borders on an element
+.no-border {
+	border: none;
 }
 
 //---------------------------------------- Accessibility -----------------------------------------//

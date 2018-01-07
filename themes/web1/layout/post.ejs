@@ -45,6 +45,11 @@
 		<% if (page.via) { %>
 			<p>via: <a href="<%- page.via %>" target="_blank"><%- extractHostname(page.via) %>…</a></p>
 		<% } %>
+
+		<% // If there is a `meta` variable, display it %>
+		<% if (page.meta) { %>
+			<p><%- page.meta %></p>
+		<% } %>
 	</div>
 
 	<div class="content">

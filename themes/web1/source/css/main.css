@@ -599,6 +599,7 @@ article figure.image.half-width {
 
 article figure.image figcaption {
   color: #6a737d;
+  margin-bottom: 1em;
 }
 
 article figure.image a:-webkit-any-link {
@@ -613,11 +614,35 @@ article figure.image a:any-link {
   border: none;
 }
 
+article figure.image br {
+  display: none;
+}
+
 article .contact {
   border-top: 1px solid #eaecef;
   color: #6a737d;
   font-size: small;
   font-style: italic;
+}
+
+.about-page-salutation {
+  text-align: center;
+  font-size: 1.5em;
+  border: 0;
+  padding-top: .5em;
+  margin: 0;
+}
+
+.line {
+  display: inline-block;
+}
+
+.center {
+  text-align: center;
+}
+
+.no-border {
+  border: none;
 }
 
 /**
