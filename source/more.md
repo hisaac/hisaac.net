@@ -31,7 +31,7 @@ Other blogs from around the net that I enjoy keeping up with:
 - [The Last Psychiatrist][12] - "Wovon man nicht sprechen kann, darüber muß man schweigen."
 - [Kottke.org][13] - "Home of fine hypertext products"
 - [Beautiful Pixels][14]
-- [http://inessential.com][15]
+- [Inessential][15] - Brent Simmons’ personal blog
 - [http://worrydream.com][16]
 - [http://brettterpstra.com][17]
 - [https://daringfireball.net][18]
