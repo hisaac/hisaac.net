@@ -1,0 +1,74 @@
+body {
+	width: 500px;
+	background-color: #ffffff;
+	background-image: url(http://hisaac.net/assets/images/background.jpg);
+	background-repeat: repeat;
+	font-family: "vollkorn", serif;
+	/*text-shadow: 2px 2px 2px #aaa;*/
+	font-size: 20px;
+	color: #3b3b3b;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	}
+
+a:link {
+	text-decoration: none;
+	color: #47658C;
+	}
+
+a:active {
+	text-decoration: none;
+	color: #47658C;
+	}
+              
+a:visited {
+	text-decoration: none;
+	color: #47658C;
+	}
+
+a:hover {
+	text-decoration: underline }
+
+h1 {
+	color: #3b3b3b;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	}
+		
+h3 {
+	color: #3b3b3b;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	}
+	
+
+div.top {}
+
+/*
+div.top.shadow {
+	-moz-box-shadow:    3px 3px 5px 6px #ccc;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+	box-shadow:         3px 3px 5px 6px #ccc;
+}
+*/		
+
+hr {
+	height: 1px;
+	border-style: none;
+	color: #3b3b3b;
+	background-color: #3b3b3b
+	}	
+
+p {
+	text-align: left;
+}
+
+ul {
+	text-align: left;
+}
+
+li {
+	text-align: left;
+}

@@ -36,8 +36,9 @@ body {
 
 main {
 	margin: 0 auto;
-	max-width: 80ch;
-	width: 94%;
+	max-width: 75ch;
+	width: 90%;
+	padding: $safe-area; // For iPhone X
 }
 
 a {
@@ -126,8 +127,12 @@ hr {
 
 header,
 footer {
-	background-color: #efefef;
+	background-color: #eee;
 	text-align: center;
+
+	> * {
+		padding: $safe-area; // For iPhone X
+	}
 }
 
 header {
@@ -168,7 +173,6 @@ footer {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	border-top: 1px dotted #dfe2e5;
 
 	p {
 		margin: 0;
@@ -182,16 +186,6 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 
-	ul {
-		margin-top: 4px;
-		padding: 19px;
-
-		li {
-			margin-bottom: .3em;
-			border-bottom: 1px dotted #eaecef;
-		}
-	}
-
 	table {
 		display: block;
 		width: 100%;
@@ -201,7 +195,7 @@ footer {
 			background-color: #fff;
 
 			&:nth-child(2n) {
-				background-color: #f6f8fa;
+				background-color: rgba(238, 238, 238, 0.5);
 			}
 		}
 
@@ -252,6 +246,10 @@ article {
 	a:not([href]) {
 		color: inherit;
 		text-decoration: none;
+	}
+
+	h1:nth-of-type(1) {
+		margin-top: 0;
 	}
 
 	.post-meta {
@@ -437,31 +435,15 @@ article {
 
 		figcaption {
 			color: $body-color-dimmed;
+			margin-bottom: 1em;
 		}
 
 		a:any-link {
 			border: none;
 		}
-	}
 
-	.emoji {
-		max-width: none;
-		vertical-align: text-top;
-		background-color: transparent;
-	}
-
-	/**
-		I like to keep my Markdown files well-structured and portable, which
-		to me means having an `h1` element (e.g. `# Title of Post`) at the
-		beginning of the text. The problem is, this creates a redundant title,
-		because we're also using the title from the post's front matter.
-
-		So, this rule hides the first `h1` element within the article body text,
-		allowing me to keep the post's title in both the front-matter, and the
-		post itself.
-	*/
-	.content {
-		h1:nth-of-type(1) {
+		/// Ignore automatically generated `br` elements
+		br {
 			display: none;
 		}
 	}
@@ -472,6 +454,35 @@ article {
 		font-size: small;
 		font-style: italic;
 	}
+}
+
+// Page Specific Styling -----------------------------------------------------------//
+
+.about-page {
+	&-salutation {
+		text-align: center;
+		font-size: 1.5em;
+		border: 0;
+		padding-top: .5em;
+		margin: 0;
+	}
+}
+
+// Utility -------------------------------------------------------------------------//
+
+/// Specify line break points
+.line {
+	display: inline-block;
+}
+
+/// Center align an element
+.center {
+	text-align: center;
+}
+
+/// Remove borders on an element
+.no-border {
+	border: none;
 }
 
 //---------------------------------------- Accessibility -----------------------------------------//

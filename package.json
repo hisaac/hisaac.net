@@ -10,7 +10,7 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
     "gulp-htmlmin": "^3.0.0",
-    "gulp-jsbeautifier": "^2.1.1",
+    "gulp-jsbeautifier": "^2.1.2",
     "gulp-sass": "^3.1.0",
     "hexo": "^3.4.4",
     "hexo-browsersync": "^0.3.0",
@@ -22,7 +22,7 @@
     "hexo-generator-index": "^0.2.0",
     "hexo-generator-tag": "^0.2.0",
     "hexo-renderer-ejs": "^0.3.0",
-    "hexo-renderer-marked": "^0.3.0",
+    "hexo-renderer-marked": "^0.3.2",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0"
   }

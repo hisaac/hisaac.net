@@ -3,14 +3,11 @@ title: "Artifacts"
 type: page
 ---
 
-# Artifacts
-# Artifacts
-
 > Something viewed as a product of human conception or agency rather than an inherent element.
-> 
+>
 > ***Wiktionary*** — <cite>[en.wiktionary.org/wiki/artifact][1]</cite>
 
-This is my body of work; past projects that I'm proud of.
+These are my "artifacts". My body of work. Past projects that I'm proud of.
 
 ## Web
 
@@ -28,7 +25,7 @@ This is my body of work; past projects that I'm proud of.
 [3]:	https://en.wikipedia.org/wiki/Parnassus_on_Wheels "Parnassus on Wheels - Wikipedia"
 [4]:	https://en.wikipedia.org/wiki/Christopher_Morley "Christopher Morley - Wikipedia"
 [5]:	https://standardebooks.org "Standard Ebooks"
-[6]:	#
+[6]:	https://hisaac.github.io/do-date-manifesto/
 [7]:	https://level.software
 [8]:	http://sticky-construction.com
 [9]:	https://soundcloud.com/hisaac/gotta-write-a-song-mastered
