@@ -55,6 +55,12 @@ feed:
 	limit: false
 	content: true
 
+# hexo-generator-json-feed-org
+# Source: https://github.com/rmlewisuk/hexo-generator-json-feed-org
+jsonFeed:
+	limit: # Defaults to unlimited
+	name:  # Defaults to 'feed'
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
