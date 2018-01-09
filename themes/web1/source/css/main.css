@@ -352,6 +352,10 @@ footer p {
   overflow: auto;
 }
 
+.post-list table tbody {
+  width: 100%;
+}
+
 .post-list table tr {
   background-color: #fff;
 }
