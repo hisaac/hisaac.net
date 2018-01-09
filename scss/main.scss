@@ -158,7 +158,10 @@ header {
 	nav {
 		padding-bottom: 1em;
 		margin-bottom: 1em;
-		font-size: 1.2em;
+
+		@media only screen and (min-width: 375px) {
+			font-size: 1.2em;
+		}
 	}
 
 	.current-page {

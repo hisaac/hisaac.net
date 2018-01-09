@@ -5,6 +5,8 @@ layout: page
 
 # Adventure Games I’d Like to Play
 
+`Links for these entries coming soon`
+
 * Amnesia
 	* Amnesia: The Dark Descent (2010)\*
 	* Amnesia: A Machine for Pigs (2013)

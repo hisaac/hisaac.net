@@ -318,7 +318,12 @@ header h1 > a:hover {
 header nav {
   padding-bottom: 1em;
   margin-bottom: 1em;
-  font-size: 1.2em;
+}
+
+@media only screen and (min-width: 375px) {
+  header nav {
+    font-size: 1.2em;
+  }
 }
 
 header .current-page {
