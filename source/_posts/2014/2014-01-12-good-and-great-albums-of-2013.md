@@ -13,30 +13,32 @@ Welcome all to my Good and Great Albums of 2013 list! Please peruse the list and
 
 # Good Albums
 
-￼![Amber London - Tru 2 tha Phonk](artworks-000051395773-2jx7m7-original.jpg "Amber London - Tru 2 tha Phonk")
+![Amber London - Tru 2 tha Phonk album art](./optimized/Amber%20London%20-%20Tru%202%20tha%20Phonk.jpg)
 ￼
 **Amber London - Tru 2 Tha Phonk**
 
 Grimy, dirty, Southern phonk.
 
-Highlight: [Texas Phonk 1998](http://youtu.be/OCDhB70vZf8)
-Free download: [Internet Archive](https://archive.org/details/Amber_London_-_Tru_2_Tha_Phonk)
+- Highlight: [Texas Phonk 1998](http://youtu.be/OCDhB70vZf8 "Amber London - Texas Phonk 1998")
+- Free download: [Internet Archive](https://archive.org/details/Amber_London_-_Tru_2_Tha_Phonk)
 
-
+![Bonobo - The North Borders album art](Bonobo%20-%20North%20Borders.jpg "Bonobo - The North Borders")
 ￼
 **Bonobo - The North Borders**
-Highlight: [Cirrus](#)(http://youtu.be/WF34N4gJAKE)
-Buy: [iTunes](#)(https://itunes.apple.com/us/album/the-north-borders/id611171778)
 
 Strange and atmospheric rhythms.
 
-
+- Highlight: [Cirrus](https://song.link/us/i/611171963 "Bonobo - Cirrus")
+- Listen/Buy: [Song.link](https://song.link/album/us/i/611171778 "Bonobo - The North Borders")
 ￼
 **Ceephax - World Dissolver EP**
+
+![Ceephax Acid Crew - World Dissolver EP album art](Ceephax%20Acid%20Crew%20-%20World%20Dissolver%20EP.jpg "Ceephax Acid Crew - World Dissolver EP")
+
 Highlight: [Legend of Phaxalot](#)(http://ceephax.bandcamp.com/track/legend-of-phaxalot)
 Buy: [Bandcamp](#)(http://ceephax.bandcamp.com/album/world-dissolver-ep)
 
-Random acid. Mad acidic bro. (Also, watch the [amazing music video for Probey’s Poker](#)(http://youtu.be/-xq3srxF_B8))
+Random acid. Mad acidic bro. (Also, watch the [amazing music video for Probey’s Poker](#)(http://youtu.be/-xq3srxF\_B8))
 
 
 ￼
@@ -65,7 +67,7 @@ Makes Yeezus look like adult contemporary r&b. Yeezy wishes he was this good.
 
 ￼
 **DMX Krew - Broken SD140 Part II**
-Highlight: [Dramatic Exit](#)(http://youtu.be/eNr6srSB_BU)
+Highlight: [Dramatic Exit](#)(http://youtu.be/eNr6srSB\_BU)
 Buy: [iTunes](#)(https://itunes.apple.com/us/album/broken-sd140-part-ii-ep/id609393023)
 
 Melodic acid.
@@ -73,7 +75,7 @@ Melodic acid.
 
 ￼
 **DMX Krew - Cities in Flight**
-Highlight: [Cities in Flight](#)(http://www.youtube.com/watch?v=0-RLdgeOlC8&feature=share&list=PL-iw--mMCQ3Lh_MdNNjEqf-DwC-3RUtzq&index=1)
+Highlight: [Cities in Flight](#)(http://www.youtube.com/watch?v=0-RLdgeOlC8&feature=share&list=PL-iw--mMCQ3Lh\_MdNNjEqf-DwC-3RUtzq&index=1)
 Buy: [iTunes](#)(https://itunes.apple.com/us/album/cities-in-flight/id672079714)
 
 Computer acid.
@@ -97,7 +99,7 @@ I think the most surprising thing about this record is that I like it. More “s
 
 ￼
 **The Knife - Shaking the Habitual**
-Highlight: [Networking](#)(http://youtu.be/KtpDR_eq9Ic)
+Highlight: [Networking](#)(http://youtu.be/KtpDR\_eq9Ic)
 Buy: [iTunes](#)(https://itunes.apple.com/us/album/shaking-the-habitual/id721207989)
 
 Good: Completely not subtle production.
@@ -146,7 +148,7 @@ Gloomy, doomy, boomy, and slow.
 
 ￼
 **Ty Segall - Sleeper**
-Highlight: [Sleeper](#)(http://youtu.be/cN_m42N3s5w) (This really sets the tone for the whole album.)
+Highlight: [Sleeper](#)(http://youtu.be/cN\_m42N3s5w) (This really sets the tone for the whole album.)
 Buy: [iTunes](#)(https://itunes.apple.com/us/album/sleeper/id686543931)
 
 Not your average Ty Segall. Quiet, reserved. Also quite good at times. Each song sounds like the intro section to one of the more "standard" Ty Segall jams.
@@ -154,7 +156,7 @@ Not your average Ty Segall. Quiet, reserved. Also quite good at times. Each song
 
 ￼
 **Unknown Mortal Orchestra - II**
-Highlight: [Swim and Sleep (Like a Shark)](#)(http://youtu.be/E6Niqxw_Yz0) (a little NSFW)
+Highlight: [Swim and Sleep (Like a Shark)](#)(http://youtu.be/E6Niqxw\_Yz0) (a little NSFW)
 Buy: [iTunes](#)(https://itunes.apple.com/us/album/ii/id591839391)
 
 Music made for AM radios. The 1970s are alive. They even artificially removed all the highs from the mix (about the only thing I *don't* like about the record to be honest).
