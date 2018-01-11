@@ -158,7 +158,10 @@ header {
 	nav {
 		padding-bottom: 1em;
 		margin-bottom: 1em;
-		font-size: 1.2em;
+
+		@media only screen and (min-width: 375px) {
+			font-size: 1.2em;
+		}
 	}
 
 	.current-page {
@@ -277,7 +280,8 @@ article {
 	ol,
 	dl,
 	table,
-	pre {
+	pre,
+	aside {
 		margin-top: 0;
 		margin-bottom: 16px;
 	}
@@ -446,7 +450,9 @@ article {
 			border: none;
 		}
 
-		/// Ignore automatically generated `br` elements
+		/**
+			Ignore automatically generated `br` elements
+		*/
 		br {
 			display: none;
 		}
@@ -457,6 +463,23 @@ article {
 		color: #6a737d;
 		font-size: small;
 		font-style: italic;
+	}
+
+	/**
+		Override Hexo's strange behavior of making `span` elements in footnotes display `inline-block`
+	*/
+	#footnotelist {
+		span {
+			display: inline !important;
+		}
+	}
+
+	aside {
+		color: #6a737d;
+		background-color: #dfe2e571;
+		padding: 5px;
+		border-radius: 3px;
+		font-size: small;
 	}
 }
 

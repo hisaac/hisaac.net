@@ -318,7 +318,12 @@ header h1 > a:hover {
 header nav {
   padding-bottom: 1em;
   margin-bottom: 1em;
-  font-size: 1.2em;
+}
+
+@media only screen and (min-width: 375px) {
+  header nav {
+    font-size: 1.2em;
+  }
 }
 
 header .current-page {
@@ -390,6 +395,12 @@ footer p {
   width: 100%;
 }
 
+article {
+  /**
+		Override Hexo's strange behavior of making `span` elements in footnotes display `inline-block`
+	*/
+}
+
 article::before {
   display: table;
   content: "";
@@ -431,7 +442,8 @@ article ul,
 article ol,
 article dl,
 article table,
-article pre {
+article pre,
+article aside {
   margin-top: 0;
   margin-bottom: 16px;
 }
@@ -593,6 +605,9 @@ article img {
 
 article figure.image {
   text-align: center;
+  /**
+			Ignore automatically generated `br` elements
+		*/
 }
 
 article figure.image.half-width {
@@ -627,6 +642,19 @@ article .contact {
   color: #6a737d;
   font-size: small;
   font-style: italic;
+}
+
+article #footnotelist span {
+  display: inline !important;
+}
+
+article aside {
+  color: #6a737d;
+  background-color: #dfe2e571;
+  padding: 5px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  font-size: small;
 }
 
 .about-page-salutation {
