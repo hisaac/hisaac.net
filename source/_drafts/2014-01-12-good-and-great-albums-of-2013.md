@@ -1,6 +1,6 @@
 ---
 title: "Good and Great Albums of 2013"
-layout: post
+layout: draft
 date: 2014-01-12
 tags: music, best of
 ---
