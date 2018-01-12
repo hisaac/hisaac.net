@@ -8,9 +8,13 @@ before_install:
 - npm install -g hexo
 - npm install
 install:
-- gulp scss
-- hexo generate
-- gulp beautify
+  # `awscli` is required for invalidation of CloudFront distributions.
+  - pip install awscli
+
+  # Site build processes
+  - gulp scss
+  - hexo generate
+  - gulp beautify
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY_ID
