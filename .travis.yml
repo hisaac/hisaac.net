@@ -1,21 +1,19 @@
-language: node_js
-node_js:
-  - "node"
+language: python
+python: "3.6.4"
 
 branches:
   only:
   - master
 
 before_install:
-- npm install -g hexo
-- npm install
+- rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && (cd ~/.nvm && git checkout `git describe --abbrev=0 --tags`) && source ~/.nvm/nvm.sh && nvm install node
 
 install:
-  # `awscli` is required for invalidation of CloudFront distributions.
-  - pip install awscli
+  - npm install -g hexo
+  - npm install
+  - pip3 install awscli
 
 script:
-  # Site build processes
   - gulp scss
   - hexo generate
   - gulp beautify
@@ -30,7 +28,5 @@ deploy:
   cache_control: "max-age=21600"
 
 after_deploy:
-  # Allow `awscli` to make requests to CloudFront.
   - aws configure set preview.cloudfront true
-  # Invalidate every object in the targeted distribution.
   - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
