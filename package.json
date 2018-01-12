@@ -1,7 +1,10 @@
 {
-  "name": "hexo-site",
+  "name": "hisaac.net",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "start": "gulp scss && hexo generate && gulp beautify"
+  },
   "hexo": {
     "version": "3.4.4"
   },
