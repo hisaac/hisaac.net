@@ -1,20 +1,25 @@
 language: node_js
 node_js:
   - "node"
+
 branches:
   only:
   - master
+
 before_install:
 - npm install -g hexo
 - npm install
+
 install:
   # `awscli` is required for invalidation of CloudFront distributions.
   - pip install awscli
 
+script:
   # Site build processes
   - gulp scss
   - hexo generate
   - gulp beautify
+
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY_ID
@@ -23,6 +28,7 @@ deploy:
   skip_cleanup: true
   local_dir: public
   cache_control: "max-age=21600"
+
 after_deploy:
   # Allow `awscli` to make requests to CloudFront.
   - aws configure set preview.cloudfront true
