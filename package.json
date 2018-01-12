@@ -2,9 +2,6 @@
   "name": "hisaac.net",
   "version": "0.0.0",
   "private": true,
-  "engines": {
-    "node": "9.4.0"
-  },
   "scripts": {
     "start": "gulp scss && hexo generate && gulp beautify"
   },
