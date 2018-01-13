@@ -1,9 +1,9 @@
-language: python
-python: "3.6.4"
-
 branches:
   only:
   - master
+
+language: python
+python: "3.6.4"
 
 install:
   - rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && (cd ~/.nvm && git checkout `git describe --abbrev=0 --tags`) && source ~/.nvm/nvm.sh && nvm install node
@@ -12,9 +12,9 @@ install:
   - pip3 install awscli
 
 script:
-- gulp scss
-- hexo generate
-- gulp beautify
+  - gulp scss
+  - hexo generate
+  - gulp beautify
 
 deploy:
   provider: s3
