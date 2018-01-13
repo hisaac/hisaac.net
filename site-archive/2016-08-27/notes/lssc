@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>say hello to hisaac</title>
+		<meta name="viewport" content="initial-scale=1">
+        <meta name="copyright" content="$copy; 2013 Isaac Halvorson">
+        <link rel="stylesheet" href="notes.css">
+        
+        <script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-12758886-11']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+        
+    </head>
+    <body>
+                
+		<div style="text-align: center;">
+			<h1>Congratulations!</h1>
+		</div>
+
+		<hr>
+        
+        <h2>Vice President Biss,</h2>
+        
+        <p>As Vice President of the Le Sueur Science Consortium (LSSC), you have gone above and beyond the call of duty on countless occasions. You have successfully managed a distinguished scientific career, educated the community’s youth, and continued your own learning, all while maintaining a healthy social life. We don’t know how you do it, but we are proud and happy that you can.</p>
+        
+        <p>And so, in recognition of your efforts to help spread the wonders of science throughout the community of Le Sueur, MN, we present to you these flowers. We hope they provide some joy and pleasentness to your day and to your desk.</p>
+        
+        <p>In respect and admiration,</br>
+	        <em>The members of the Le Sueur Science Consortium</em></p>
+        
+        <p style="font-size: 15px">P.S. The president has also written you a personal note. Please <a href="http://hisaac.net/notes/president">click here</a> to read her note.</p>
+
+		<hr>
+        
+    </body>
+</html>

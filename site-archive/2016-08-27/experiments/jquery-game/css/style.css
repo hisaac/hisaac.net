@@ -1,0 +1,14 @@
+#main{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 72px;
+}
+
+h2 {
+	cursor: pointer;
+	font-size: 48px;
+}
