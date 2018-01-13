@@ -7,6 +7,8 @@ layout: page
 
 This is a list of (mostly) indie games that I am interested in
 
+`Links for these entries coming soon`
+
 * 0space
 * Amnesia: The Dark Descent* * Antichamber
 * BaraBariBall
@@ -56,5 +58,5 @@ This is a list of (mostly) indie games that I am interested in
 * Uplink
 * Where is My Heart?
 
-*games I have played
+\*games I have played
 ^games I have completed

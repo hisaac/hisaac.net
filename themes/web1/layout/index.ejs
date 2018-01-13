@@ -1,54 +1,37 @@
 <%
-	function buildIndexTable(posts) {
-		const uniqueYears = getUniqueYears(posts);
-		var indexTablesArray = [];
-		var indexTablesString = "";
+	var currentPostYear = 0;
+	var previousPostYear = 0;
 
-		uniqueYears.forEach(function(year) {
-			indexTablesArray.push(buildTable(posts, year));
-		});
+	function maybeReturnTable(post) {
+		currentPostYear = date(post.date, 'YYYY')
 
-		indexTablesArray.forEach(function(table) {
-			indexTablesString += table;
-		});
-
-		return indexTablesString;
+		if (currentPostYear != previousTableYear) {
+			// Create a new table with the year as a header
+		}
 	}
 
-	function getUniqueYears(posts) {
-		var allYears = [];
-
+	function buildTable(posts) {
+		// Fill in table with posts
+		var thing = "";
 		posts.each(function(post) {
-			allYears.push(date(post.date, 'YYYY'));
+			thing +=
+				'<tr>' +
+					'<td class="post-list-date">' +
+						'<time datetime=' + post.date + '>' + date(post.date, "MMM D, YYYY") + '</time>' +
+					'</td>' +
+					'<td>-</td>' +
+					'<td>' +
+						'<a href="' + url_for(post.path) + '">' + post.title + '</a>' +
+					'</td>' +
+				'</tr>'
 		});
 
-		return Array.from(new Set(allYears));
-	}
-
-	function buildTable(posts, year) {
-		var table = "<tr>" + year + "</tr>";
-
-		posts.each(function(post) {
-			if (date(post.date, 'YYYY') == year) {
-				table +=
-					'<tr>' +
-						'<td class="post-list-date">' +
-							'<time datetime=' + post.date + '>' + date(post.date, "MMM D, YYYY") + '</time>' +
-						'</td>' +
-						'<td>-</td>' +
-						'<td>' +
-							'<a href="' + url_for(post.path) + '">' + post.title + '</a>' +
-						'</td>' +
-					'</tr>';
-			}
-		});
-
-		return table;
+		return thing;
 	}
 %>
 
 <div class="post-list">
 	<table>
-		<%- buildIndexTable(page.posts) %>
+		<%- buildTable(page.posts) %>
 	</table>
 </div>
