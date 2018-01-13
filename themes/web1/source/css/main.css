@@ -612,6 +612,17 @@ article figure.image.half-width {
   margin-right: auto;
 }
 
+article figure.image.three-quarter-width {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article figure.image.shadow {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 article figure.image figcaption {
   color: #6a737d;
   margin-bottom: 1em;

@@ -5,13 +5,11 @@ date: 2014-01-12
 tags: music, best of
 ---
 
-# The Best Music of 2013
-
 Welcome all to my Good and Great Albums of 2013 list! Please peruse the list and drop me a line [on Twitter](http://twitter.com/hisaac) if you found anything that piqued your interest. And please share your lists as well if you’ve got them. I love finding and hearing new music.
 
-<aside>Note: I like to do these lists in alphabetical order by artist. All of these albums are great, and it’s hard to pick favorites.)</aside>
+<aside>Note: I like to do these lists in alphabetical order by artist. All of these albums are great, and it’s hard to pick favorites.</aside>
 
-# Good Albums
+## Good Albums
 
 ![Amber London - Tru 2 tha Phonk album art](./optimized/Amber%20London%20-%20Tru%202%20tha%20Phonk.jpg)
 ￼
