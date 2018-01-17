@@ -209,6 +209,7 @@ a:hover {
 }
 
 img {
+  max-height: 75vh;
   max-width: 100%;
 }
 
@@ -599,11 +600,15 @@ article img {
   background-color: 100%;
 }
 
+article figure {
+  margin: 1em;
+}
+
 article figure.image {
   text-align: center;
   /**
-			Ignore automatically generated `br` elements
-		*/
+				Ignore automatically generated `br` elements
+			*/
 }
 
 article figure.image.half-width {
@@ -618,14 +623,8 @@ article figure.image.three-quarter-width {
   margin-right: auto;
 }
 
-article figure.image.shadow {
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 article figure.image figcaption {
   color: #6a737d;
-  margin-bottom: 1em;
 }
 
 article figure.image a:-webkit-any-link {
@@ -642,6 +641,15 @@ article figure.image a:any-link {
 
 article figure.image br {
   display: none;
+}
+
+article figure.border * img {
+  border: 1px solid #dfe3e5;
+}
+
+article figure.shadow * img {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 article .contact {
