@@ -57,10 +57,10 @@ Random acid. Mad acidic bro. (Also, watch the [amazing music video for Probey's 
     [![Album art for Because the Internet by Childish Gambino](./Childish Gambino - Because the Internet.jpg)](./full/Childish Gambino - Because the Internet.jpg)
 </figure>
 
+Most of the songs are good, but a few of them are *great*. Can't wait to see what Gambino does next.
+
 - Listen: [Songlink][9]
 - Highlight: [<cite>II. Worldstar</cite>][10]
-
-Most of the songs are good, but a few of them are *great*. Can't wait to see what Gambino does next.
 
 ---
 
@@ -70,10 +70,10 @@ Most of the songs are good, but a few of them are *great*. Can't wait to see wha
     [![Album art for Random Access Memories by Daft Punk](./Daft Punk - Random Access Memories.jpg)](./full/Daft Punk - Random Access Memories.jpg)
 </figure>
 
+You know you love it.
+
 - Listen: [Songlink][11]
 - Highlight: [<cite>Give Life Back to Music</cite>][12]
-
-You know you love it.
 
 ---
 
@@ -83,11 +83,11 @@ You know you love it.
     [![Album art for Government Plates by Death Grips](./Death Grips - Government Plates.jpg)](./full/Death Grips - Government Plates.jpg)
 </figure>
 
+Makes Yeezus look like adult contemporary R&B. Yeezy wishes he was this good.
+
 - Listen: [Songlink][13]
 - Highlight: [<cite>Two Heavens</cite>][14]
 - Free download: [Death Grips][15]
-
-Makes Yeezus look like adult contemporary R&B. Yeezy wishes he was this good.
 
 ---
 
@@ -97,10 +97,10 @@ Makes Yeezus look like adult contemporary R&B. Yeezy wishes he was this good.
     [![Album art for Broken SD140 Part II by DMX Krew](./DMX Krew - Broken SD140 Part II.jpg)](./full/DMX Krew - Broken SD140 Part II.jpg)
 </figure>
 
+Melodic acid.
+
 - Listen: [Songlink][16]
 - Highlight: [<cite>Dramatic Exit</cite>][17]
-
-Melodic acid.
 
 ---
 
@@ -110,10 +110,10 @@ Melodic acid.
     [![Album art for Cities in Flight by DMX Krew](./DMX Krew - Cities in Flight.jpg)](./full/DMX Krew - Cities in Flight.jpg)
 </figure>
 
+Computer acid.
+
 - Listen: [Songlink][18]
 - Highlight: [<cite>Cities in Flight</cite>][19]
-
-Computer acid.
 
 ---
 
@@ -123,10 +123,10 @@ Computer acid.
     [![Album art for Reith Trax by DMX Krew](./DMX Krew - Reith Trax.jpg)](./full/DMX Krew - Reith Trax.jpg)
 </figure>
 
+Atmospheric acid (acidspheric?)
+
 - Listen: [Songlink][20]
 - Highlight: [<cite>Hammock Yard</cite>][21]
-
-Atmospheric acid (acidspheric?)
 
 ---
 
@@ -136,10 +136,10 @@ Atmospheric acid (acidspheric?)
     [![Album art for Recur by Emptyset](./Emptyset - Recur.jpg)](./full/Emptyset - Recur.jpg)
 </figure>
 
+I think the most surprising thing about this record is that I like it. More “sound” than actual music, but still rhythmic. Pulsing. Gyrating even. The sound is alive.
+
 - Listen: [Songlink][22]
 - Highlight: [<cite>Fragment</cite>][23]
-
-I think the most surprising thing about this record is that I like it. More “sound” than actual music, but still rhythmic. Pulsing. Gyrating even. The sound is alive.
 
 ---
 
@@ -149,11 +149,11 @@ I think the most surprising thing about this record is that I like it. More “s
     [![Album art for Shaking the Habitual by The Knife](./The Knife - Shaking the Habitual.jpg)](./full/The Knife - Shaking the Habitual.jpg)
 </figure>
 
-- Listen: [Songlink][24]
-- Highlight: [<cite>Networking</cite>][25]
-
 Good: Completely not subtle production.
 Bad: Too many “noise” tracks, not enough music.
+
+- Listen: [Songlink][24]
+- Highlight: [<cite>Networking</cite>][25]
 
 ---
 
@@ -163,10 +163,10 @@ Bad: Too many “noise” tracks, not enough music.
     [![Album art for MCII by Mikal Cronin](./Mikal Cronin - MCII.jpg)](./full/Mikal Cronin - MCII.jpg)
 </figure>
 
+Good, simple, pleasing, rock 'n' roll.
+
 - Listen: [Songlink][26]
 - Highlight: [<cite>Shout it Out</cite>][27]
-
-Good, simple, pleasing, rock ’n roll.
 
 ---
 
@@ -176,10 +176,10 @@ Good, simple, pleasing, rock ’n roll.
     [![Album art for Fragmented by Paul Keeley](./Paul Keeley - Fragmented.png)](./full/Paul Keeley - Fragmented.png)
 </figure>
 
+The soundtrack to that deep and dark 80s science fiction crime drama that you never saw and was never made.
+
 - Listen: [Songlink][28]
 - Highlight: [<cite>Nephar</cite>][29]
-
-The soundtrack to that deep and dark 80s science fiction crime drama that you never saw and was never made.
 
 ---
 
@@ -189,10 +189,10 @@ The soundtrack to that deep and dark 80s science fiction crime drama that you ne
     [![Album art for Hinterland by Recondite](./Recondite - Hinterland.jpg)](./full/Recondite - Hinterland.jpg)
 </figure>
 
+The frozen North in a record. Gobs of atmosphere.
+
 - Listen: [Songlink][30]
 - Highlight: [<cite>Clouded</cite>][31]
-
-The frozen North in a record. Gobs of atmosphere.
 
 ---
 
@@ -202,10 +202,10 @@ The frozen North in a record. Gobs of atmosphere.
     [![Album art for No Better Time than Now by Shigeto](./Shigeto - No Better Time than Now.jpg)](./full/Shigeto - No Better Time than Now.jpg)
 </figure>
 
+Organic jazzy grooves and keys, layered over semi-post-dubstep (sort of) rhythms / electronic bleeps and bloops. The antithesis of the previously mentioned Emptyset record. Also choice for “Best Album Cover of 2013”.
+
 - Listen: [Songlink][32]
 - Highlight: [<cite>Miss U</cite>][33]
-
-Organic jazzy grooves and keys, layered over semi-post-dubstep (sort of) rhythms / electronic bleeps and bloops. The antithesis of the previously mentioned Emptyset record. Also choice for “Best Album Cover of 2013”.
 
 ---
 
@@ -215,10 +215,10 @@ Organic jazzy grooves and keys, layered over semi-post-dubstep (sort of) rhythms
     [![Album art for Circumambulation by True Widow](./True Widow - Circumambulation.jpg)](./full/True Widow - Circumambulation.jpg)
 </figure>
 
+Gloomy, doomy, boomy, and slow.
+
 - Listen: [Songlink][34]
 - Highlight: [<cite>Creeper</cite>][35]
-
-Gloomy, doomy, boomy, and slow.
 
 ---
 
@@ -228,10 +228,10 @@ Gloomy, doomy, boomy, and slow.
     [![Album art for Sleeper by Ty Segall](./Ty Segall - Sleeper.jpg)](./full/Ty Segall - Sleeper)
 </figure>
 
+Not your average Ty Segall. Quiet, reserved. Also quite good at times. Each song sounds like the intro section to one of the more "standard" Ty Segall jams.
+
 - Listen: [Songlink][36]
 - Highlight: [<cite>Sleeper</cite>][37] (This really sets the tone for the whole album.)
-
-Not your average Ty Segall. Quiet, reserved. Also quite good at times. Each song sounds like the intro section to one of the more "standard" Ty Segall jams.
 
 ---
 
@@ -241,10 +241,10 @@ Not your average Ty Segall. Quiet, reserved. Also quite good at times. Each song
     [![Album art for II by Unknown Mortal Orchestra](./Unknown Mortal Orchestra - II.jpg)](./full/Unknown Mortal Orchestra - II.jpg)
 </figure>
 
+Music made for AM radios. The 1970s are alive. They even artificially removed all the highs from the mix (about the only thing I *don't* like about the record to be honest).
+
 - Listen: [Songlink][38]
 - Highlight: [<cite>Swim and Sleep (Like a Shark)</cite>][39]
-
-Music made for AM radios. The 1970s are alive. They even artificially removed all the highs from the mix (about the only thing I *don't* like about the record to be honest).
 
 
 ## Great Albums
@@ -255,10 +255,10 @@ Music made for AM radios. The 1970s are alive. They even artificially removed al
     [![Album art for Trap Lord by A$AP Ferg](./A$AP Ferg - Trap Lord.jpg)](./full/A$AP Ferg - Trap Lord.jpg)
 </figure>
 
+I can never decide while listening to this record if Ferg is an idiot backed by smart people, or a smart guy playing to a dumb crowd. Either way, this is psychedelia disguised as rap disguised as culture. And those beats tho!
+
 - Listen: [Songlink][40]
 - Highlight: [<cite>Shabba</cite>][41]
-
-I can never decide while listening to this record if Ferg is an idiot backed by smart people, or a smart guy playing to a dumb crowd. Either way, this is psychedelia disguised as rap disguised as culture. And those beats tho!
 
 ---
 
@@ -268,10 +268,10 @@ I can never decide while listening to this record if Ferg is an idiot backed by 
     [![Album art for Long.Live.A$AP by A$AP Rocky](./A$AP Rocky - Long.Live.A$AP.jpg)](./full/A$AP Rocky - Long.Live.A$AP.jpg)
 </figure>
 
+You can hate him all you want, but you can't deny Rocky's got *style*. His flow is unique, the beats are exceptional, and the whole record just oozes A$AP.
+
 - Listen: [Songlink][42]
 - Highlight: [<cite>Long Live A$AP</cite>][43] (too many highlights to pick just one, so I just went with the title track)
-
-You can hate him all you want, but you can't deny Rocky's got *style*. His flow is unique, the beats are exceptional, and the whole record just oozes A$AP.
 
 ---
 
@@ -281,10 +281,10 @@ You can hate him all you want, but you can't deny Rocky's got *style*. His flow 
     [![Album art for Hang on to Life / No Real Friend by Ariel Pink feat. Jorge Elbrecht](./Ariel Pink feat. Jorge Elbrecht - Hang on to Life - No Real Friend.jpg)](./full/Ariel Pink feat. Jorge Elbrecht - Hang on to Life - No Real Friend.jpg)
 </figure>
 
+I listened to these tracks while lonely and alone in another town in another state. Exceptionally sad and beautiful. Sometimes brings tears to my eyes.
+
 - Buy: [Mexican Summer][44]
 - Highlight: [<cite>Hang on to Life</cite>][45]
-
-I listened to these tracks while lonely and alone in another town in another state. Exceptionally sad and beautiful. Sometimes brings tears to my eyes.
 
 ---
 
@@ -294,10 +294,10 @@ I listened to these tracks while lonely and alone in another town in another sta
     [![Album art for Cro Magnox by Ceephax](./Ceephax - Cro Magnox.jpg)](./full/Ceephax - Cro Magnox.jpg)
 </figure>
 
+This could be a soundtrack to a science fiction movie based off a video game for the Nintendo Entertainment System set on another planet where there is no sunlight. It could be, but it’s not. What it is is otherworldly and frequently brilliant.
+
 - Listen: [Bandcamp][46]
 - Highlight: [<cite>Natural Spectrum</cite>][47]
-
-This could be a soundtrack to a science fiction movie based off a video game for the Nintendo Entertainment System set on another planet where there is no sunlight. It could be, but it’s not. What it is is otherworldly and frequently brilliant.
 
 ---
 
@@ -307,10 +307,10 @@ This could be a soundtrack to a science fiction movie based off a video game for
     [![Album art for Chelsea Light Moving by Chelsea Light Moving](./Chelsea Light Moving - Chelsea Light Moving.jpg)](./full/Chelsea Light Moving - Chelsea Light Moving.jpg)
 </figure>
 
+Thurston Moore realizes the dream that we thought we’d lost when Sonic Youth broke up.
+
 - Listen: [Songlink][48]
 - Highlight: [<cite>Alighted</cite>][49]
-
-Thurston Moore realizes the dream that we thought we’d lost when Sonic Youth broke up.
 
 ---
 
@@ -320,10 +320,10 @@ Thurston Moore realizes the dream that we thought we’d lost when Sonic Youth b
     [![Album art for Stories Don't End by Dawes](./Dawes - Stories Don't End.jpg)](./full/Dawes - Stories Don't End.jpg)
 </figure>
 
+I really can’t say enough about this record. Beautiful and true songwriting. Pure. Harmonic. Dawes is consistently wonderful.
+
 - Listen: [Songlink][50]
 - Highlight: [<cite>Bear Witness</cite>][51]
-
-I really can’t say enough about this record. Beautiful and true songwriting. Pure. Harmonic. Dawes is consistently wonderful.
 
 ---
 
@@ -333,10 +333,10 @@ I really can’t say enough about this record. Beautiful and true songwriting. P
     [![Album art for Tough Guy by Frankie Teardrop](./Frankie Teardrop - Tough Guy.jpg)](./full/Frankie Teardrop - Tough Guy.jpg)
 </figure>
 
+Frankie Teardrop is a friend of mine. He is a friend to us all. Tough Guy is an ode to young midwestern frustration. I can’t wait to see what Frankie does in 2014.
+
 - Listen: [Bandcamp][52]
 - Highlight: [<cite>Lines</cite>][53]
-
-Frankie Teardrop is a friend of mine. He is a friend to us all. Tough Guy is an ode to young midwestern frustration. I can’t wait to see what Frankie does in 2014.
 
 ---
 
@@ -346,10 +346,10 @@ Frankie Teardrop is a friend of mine. He is a friend to us all. Tough Guy is an 
     [![Album art for Fuzz by Fuzz](./Fuzz - Fuzz.jpg)](./full/Fuzz - Fuzz.jpg)
 </figure>
 
+This is what rock means in 2013. It's as if Black Sabbath tripped into a time machine, emerged in 2013, hung out with a bunch of 20-somethings for a few months, and then made this record. (Don’t believe me? Listen to <cite>[Raise][56]</cite>.)
+
 - Listen: [Songlink][54]
 - Highlight: [<cite>What’s In My Head?</cite>][55]
-
-This is what rock means in 2013. It's as if Black Sabbath tripped into a time machine, emerged in 2013, hung out with a bunch of 20-somethings for a few months, and then made this record. (Don’t believe me? Listen to \<cite\>[Raise][56]\</cite\>.)
 
 ---
 
@@ -359,10 +359,10 @@ This is what rock means in 2013. It's as if Black Sabbath tripped into a time ma
     [![Album art for Wakin on a Pretty Daze by Kurt Vile](./Kurt Vile - Wakin on a Pretty Daze.jpg)](./full/Kurt Vile - Wakin on a Pretty Daze.jpg)
 </figure>
 
+Calling this country would not be fair at all. Rock doesn’t work either. Indie: no. It is all of those, and yet none at the same time. I see this as a perfect counterpart to Fuzz’s record actually, what 2013 sounds like with guitars. Two sides of the same coin. If I had to choose one record on this list to listen to forever, it would probably be this one. There is a remarkable amount of depth here.
+
 - Listen: [Songlink][57]
 - Highlight: [<cite>Wakin on a Pretty Day</cite>][58]
-
-Calling this country would not be fair at all. Rock doesn’t work either. Indie: no. It is all of those, and yet none at the same time. I see this as a perfect counterpart to Fuzz’s record actually, what 2013 sounds like with guitars. Two sides of the same coin. If I had to choose one record on this list to listen to forever, it would probably be this one. There is a remarkable amount of depth here.
 
 [1]:	http://twitter.com/hisaac
 [2]:	https://archive.org/details/Amber_London_-_Tru_2_Tha_Phonk
