@@ -55,7 +55,10 @@ Here is a list of other blogs that I like to keep up on. Some of them haven't be
 
 Want to see what my website looked like throughout history? Click the dates below to take a trip through time.
 
-`Site archives coming soon`
+- [2013-03-10][34]
+- [2015-08-04][35]
+- [2016-08-27][36]
+- [2017-12-20][37]
 
 [1]:	./living-documents/adventure-games-id-like-to-play.html
 [2]:	./living-documents/games-to-keep-an-eye-on.html
@@ -90,3 +93,7 @@ Want to see what my website looked like throughout history? Click the dates belo
 [31]:	http://worrydream.com
 [32]:	https://xkcd.com
 [33]:	https://xliis.com
+[34]:	/site-archive/2013-03-10/
+[35]:	/site-archive/2015-08-04/
+[36]:	/site-archive/2016-08-27/
+[37]:	/site-archive/2017-12-20/
