@@ -1,2 +1,0 @@
-<?php
-define('ACTIVATION_KEY', '6W081963D96694408');
