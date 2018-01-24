@@ -3,7 +3,14 @@ title: "More"
 layout: page
 ---
 
-## Living Documents
+## Table of Contents
+
+- [Living Documents](#living-documents)
+- [Experiments](#experiments)
+- [Site Archive](#site-archive)
+- [Blogroll](#blogroll)
+
+## <a name="living-documents">Living Documents</a>
 
 These documents are "living", meaning they are things that I intend to update regularly. They're more for my own use than anything else, but may prove interesting for you to look through as well:
 
@@ -15,7 +22,20 @@ These documents are "living", meaning they are things that I intend to update re
 - [My Gear][5]
 - [Vehicles That I Like][6]
 
-## Blogroll
+## <a name="experiments">Experiments</a>
+
+`Experiments coming soon`
+
+## <a name="site-archive">Site Archive</a>
+
+Want to see what my website looked like throughout history? Click the dates below to take a trip through time.
+
+- [2013-03-10][34]
+- [2015-08-04][35]
+- [2016-08-27][36]
+- [2017-12-20][37]
+
+## <a name="blogroll">Blogroll</a>
 
 Here is a list of other blogs that I like to keep up on. Some of them haven't been updated in a while, but they're still worth looking at.
 
@@ -46,19 +66,6 @@ Here is a list of other blogs that I like to keep up on. Some of them haven't be
 - [Worrydream][31] - "Bret Victor, purveyor of impossible dreams"
 - [xkcd][32] by Randall Munroe - "A webcomic of romance, sarcasm, math, and language"
 - [xliis][33] by vmdTM
-
-## Experiments
-
-`Experiments coming soon`
-
-## Site Archive
-
-Want to see what my website looked like throughout history? Click the dates below to take a trip through time.
-
-- [2013-03-10][34]
-- [2015-08-04][35]
-- [2016-08-27][36]
-- [2017-12-20][37]
 
 [1]:	./living-documents/adventure-games-id-like-to-play.html
 [2]:	./living-documents/games-to-keep-an-eye-on.html
