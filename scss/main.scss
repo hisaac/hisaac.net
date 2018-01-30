@@ -55,6 +55,7 @@ a {
 }
 
 img {
+	max-height: 75vh;
 	max-width: 100%;
 }
 
@@ -428,29 +429,53 @@ article {
 		background-color: 100%;
 	}
 
-	figure.image {
-		text-align: center;
+	figure {
 
-		&.half-width {
-			width: 50%;
-			margin-left: auto;
-			margin-right: auto;
+		margin: 1em;
+
+		&.image {
+			text-align: center;
+
+			&.half-width {
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			&.three-quarter-width {
+				width: 75%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			figcaption {
+				color: $body-color-dimmed;
+			}
+
+			a:any-link {
+				border: none;
+			}
+
+			/**
+				Ignore automatically generated `br` elements
+			*/
+			br {
+				display: none;
+			}
 		}
 
-		figcaption {
-			color: $body-color-dimmed;
-			margin-bottom: 1em;
+		&.border {
+			* img {
+				border: 1px solid #dfe3e5;
+			}
 		}
 
-		a:any-link {
-			border: none;
-		}
-
-		/**
-			Ignore automatically generated `br` elements
-		*/
-		br {
-			display: none;
+		&.shadow {
+			* img {
+				box-shadow:
+					0 4px 8px 0 rgba(0, 0, 0, 0.2),
+					0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			}
 		}
 	}
 
