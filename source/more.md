@@ -17,10 +17,12 @@ These documents are "living", meaning they are things that I intend to update re
 - [Adventure Games I'd Like to Play][1]
 - [Games to Keep an Eye On][2]
 - [Great Softwares][3]
-<!-- - [hisaac’s Rules for Social Etiquette][4] -->
+- [My Guide to the Twin Cities](./living-documents/my-guide-to-the-twin-cities.html)
 - [Music I Want to Like but I Don’t][4]
 - [My Gear][5]
 - [Vehicles That I Like][6]
+
+<!-- - [hisaac’s Rules for Social Etiquette][4] -->
 
 ## <a name="experiments">Experiments</a>
 
