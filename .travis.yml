@@ -32,3 +32,4 @@ after_deploy:
 notifications:
   email:
     recipients: hello@hisaac.net
+      on_success: always
