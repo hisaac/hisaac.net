@@ -4,7 +4,7 @@ layout: page
 ---
 
 <figure class="image about-page-headshot">
-	[![A Picture of Isaac's Face](./about/headshot.jpg)](./about/headshot.jpg)
+    [![A Picture of Isaac's Face](./about/headshot.jpg)](./about/headshot.jpg)
 </figure>
 
 <h1 class="about-page-salutation"><span class="line">Hi there,</span> <span class="line">I'm Isaac Halvorson</span> <span class="line">👋</span></h1>
@@ -39,14 +39,15 @@ Here are all the places you can find me elsewhere:
 - [GitHub][13]
 - [Stack Exchange][14]
 - [Bandcamp][15]
-- [last.fm][16]
-- [Letterboxd][17]
-- [Trakt.tv][18]
-- [Goodreads][19]
-- [Grouvee][20]
-- [BoardGameGeek][21]
-- [Keybase][22]
-- [Linkedin][23]
+- [Conquer Earth][16]
+- [last.fm][17]
+- [Letterboxd][18]
+- [Trakt.tv][19]
+- [Goodreads][20]
+- [Grouvee][21]
+- [BoardGameGeek][22]
+- [Keybase][23]
+- [Linkedin][24]
 
 ## About This Blog
 
@@ -56,11 +57,11 @@ I've started and stopped blogs many times, but the times I was most consistent w
 
 ### Technical Details
 
-I've been blogging since middle school on various platforms including Microsoft's "MyPages", Xanga, Wordpress, tumblr, and a self-hosted Jekyll blog. This time around, I'm trying out [Hexo][24]. It's similar to Jekyll in that it processes [Markdown][25] files for the blog posts, but it's heavily steeped in [JavaScript][26], which is the programming language I'm most familiar with. It runs on [Node.js][27] and its templating engine is [EJS][28].
+I've been blogging since middle school on various platforms including Microsoft's "MyPages", Xanga, Wordpress, tumblr, and a self-hosted Jekyll blog. This time around, I'm trying out [Hexo][25]. It's similar to Jekyll in that it processes [Markdown][26] files for the blog posts, but it's heavily steeped in [JavaScript][27], which is the programming language I'm most familiar with. It runs on [Node.js][28] and its templating engine is [EJS][29].
 
 ### Design
 
-For the design of this blog, I took inspiration from multiple sites. Philosophically, I was inspired by [Dan Loewenherz' blog][29] goal of making the site as light as possible. From his [about page][30]:
+For the design of this blog, I took inspiration from multiple sites. Philosophically, I was inspired by [Dan Loewenherz' blog][30] goal of making the site as light as possible. From his [about page][31]:
 
 > The site uses the latest semantic markup as recommended by the W3C and is built with a 56k modem philosophy in mind (for those who grew up after dial-up, that's a codeword for using as little bandwidth as possible).
 
@@ -81,18 +82,19 @@ I don't think my site is quite as light as Dan's, but that's the goal I had in m
 [13]:	http://github.com/hisaac
 [14]:	http://stackexchange.com/users/5023139/hisaac
 [15]:	https://bandcamp.com/hisaac
-[16]:	http://www.last.fm/user/hisaaac
-[17]:	https://letterboxd.com/hisaac/
-[18]:	https://trakt.tv/users/hisaac
-[19]:	https://www.goodreads.com/user/show/32098770-isaac
-[20]:	https://www.grouvee.com/user/hisaac/
-[21]:	https://boardgamegeek.com/user/hisaac
-[22]:	https://keybase.io/hisaac
-[23]:	https://www.linkedin.com/in/isaachalvorson
-[24]:	https://hexo.io
-[25]:	https://daringfireball.net/projects/markdown/
-[26]:	https://en.wikipedia.org/wiki/JavaScript
-[27]:	https://nodejs.org/en/
-[28]:	http://www.embeddedjs.com
-[29]:	https://dlo.me/
-[30]:	https://dlo.me/about/
+[16]:	https://conquer.earth/hisaac
+[17]:	http://www.last.fm/user/hisaaac
+[18]:	https://letterboxd.com/hisaac/
+[19]:	https://trakt.tv/users/hisaac
+[20]:	https://www.goodreads.com/user/show/32098770-isaac
+[21]:	https://www.grouvee.com/user/hisaac/
+[22]:	https://boardgamegeek.com/user/hisaac
+[23]:	https://keybase.io/hisaac
+[24]:	https://www.linkedin.com/in/isaachalvorson
+[25]:	https://hexo.io
+[26]:	https://daringfireball.net/projects/markdown/
+[27]:	https://en.wikipedia.org/wiki/JavaScript
+[28]:	https://nodejs.org/en/
+[29]:	http://www.embeddedjs.com
+[30]:	https://dlo.me/
+[31]:	https://dlo.me/about/

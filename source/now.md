@@ -9,13 +9,15 @@ type: page
 
 ## What I'm Doing Now
 
-- Prepping for a trip to India!
 - Developing my first iOS app, a quotebook called <cite>Adage</cite>
-- [Constantly tinkering][2] with this site's design and structure
-- Working as an iOS developer at [C.H. Robinson][3]
-- [Writing open source code][4]
+- Working on my first Wikipedia page, for [Prime Digital Academy][2]. ([I could use your help!][3])
+- [Constantly tinkering][4] with this site's design and structure
+- Working as an iOS developer at [C.H. Robinson][5]
+- [Writing open source code][6]
 
 [1]:	http://nownownow.com/about
-[2]:	https://github.com/hisaac/hisaac.net/commits/master
-[3]:	http://chrobinson.com
-[4]:	https://github.com/hisaac
+[2]:	http://primeacademy.io
+[3]:	https://github.com/hisaac/prime-academy-wikipedia
+[4]:	https://github.com/hisaac/hisaac.net/commits/master
+[5]:	http://chrobinson.com
+[6]:	https://github.com/hisaac
