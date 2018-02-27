@@ -1,7 +1,7 @@
 code,
 pre,
 tt {
-  font-family: "SF Mono", "SFMono-Regular", Consolas, "Droid Sans Mono", "Source Code Pro", "Liberation Mono", "Fira Mono", "Monaco", "Inconsolata", "Menlo", Courier, monospace;
+  font-family: "Fira Code", "SF Mono", "SFMono-Regular", Consolas, "Droid Sans Mono", "Source Code Pro", "Liberation Mono", "Fira Mono", "Monaco", "Inconsolata", "Menlo", Courier, monospace;
   overflow-x: scroll;
 }
 
@@ -290,7 +290,7 @@ footer > * {
 }
 
 header h1 {
-  font-family: serif;
+  font-family: "Georgia", "Times New Roman", Times, serif;
   font-size: 3em;
   padding-top: .25em;
   padding-bottom: .25em;
@@ -481,6 +481,7 @@ article h3,
 article h4,
 article h5,
 article h6 {
+  font-family: "Georgia", "Times New Roman", Times, serif;
   margin-top: 24px;
   margin-bottom: 16px;
 }
