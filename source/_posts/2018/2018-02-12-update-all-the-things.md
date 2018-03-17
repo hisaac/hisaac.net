@@ -9,11 +9,17 @@ The other day, I was wishing for an easy way to update all of the [CLI](https://
 
 Here’s what I’ve come up with. I call it `update-all-the-things`:
 
-```bash
 alias update-all-the-things='
 	echo "🍺 Updating Homebrew" ; brew upgrade ;
-	echo "🚀 Updating Global Node Modules" ; npm update -g ;
-	echo "💎 Updating RubyGems" ; gem update'
-```
+	echo "\n🛢 Updating Casks" ; brew cask upgrade ;
+	echo "\n🚀 Updating Global Node Modules" ; npm update -g ;
+	echo "\n💎 Updating RubyGems" ; gem update ;
+	echo "\n🐍 Updating pip" ;
+		pip install --upgrade pip setuptools wheel ;
+		pip freeze --local | grep -v "^-e" | cut -d = -f 1 | xargs pip install -U
+	echo "\n🐉 Updating pip3" ;
+		pip3 install --upgrade pip setuptools wheel ;
+		pip3 freeze --local | grep -v "^-e" | cut -d = -f 1 | xargs pip3 install -U
+'
 
 I think it would be fun to make this into an actual package itself someday. A super simple little [Homebrew](https://brew.sh) or [NPM](https://www.npmjs.com) package would be fun to make. Have any ideas on how to implement it as its own package? Any package managers I'm missing? Let me know!
