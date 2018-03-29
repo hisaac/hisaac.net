@@ -1,16 +1,16 @@
 //------------------------------------------- Variables -------------------------------------------//
 
 $sans-serif:
+	system-ui,
 	-apple-system,           // iOS Safari, macOS Safari, macOS Firefox
 	BlinkMacSystemFont,      // macOS Chrome
 	"Segoe UI",              // Windows
 	Roboto,                  // Android, Chrome OS
-	"Droid Sans",            // Older versions of Android
-	"Fira Sans",             // Firefox OS
 	"Oxygen",                // KDE Linux
-	"Oxygen-Sans",           // KDE Linux
 	"Ubuntu",                // Ubuntu Linux
 	"Cantarell",             // GNOME Linux
+	"Fira Sans",             // Firefox OS
+	"Droid Sans",            // Older versions of Android
 	"Helvetica Neue",        // macOS 10.11+
 	Helvetica,               // macOS 10.0–10.10
 	Arial,                   // All
