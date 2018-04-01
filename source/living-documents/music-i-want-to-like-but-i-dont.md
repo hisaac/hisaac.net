@@ -7,6 +7,7 @@ layout: page
 
 - [Brian Eno][1]
 - [Interpol][2]
+- [Lil Wayne](https://en.wikipedia.org/wiki/Lil_Wayne)
 - [Low][3]
 - [Wilco][4]
 
