@@ -6,7 +6,7 @@
     "start": "gulp scss && hexo generate && gulp beautify"
   },
   "hexo": {
-    "version": "3.6.0"
+    "version": "3.7.1"
   },
   "dependencies": {},
   "devDependencies": {
@@ -15,7 +15,7 @@
     "gulp-htmlmin": "^3.0.0",
     "gulp-jsbeautifier": "^2.1.2",
     "gulp-sass": "^3.2.1",
-    "hexo": "^3.6.0",
+    "hexo": "^3.7.1",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-s3": "^0.2.333",
     "hexo-footnotes": "^1.0.2",
