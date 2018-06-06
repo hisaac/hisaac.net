@@ -4,7 +4,7 @@ type: page
 ---
 
 > Something viewed as a product of human conception or agency rather than an inherent element.
->
+> 
 > ***Wiktionary*** — <cite>[en.wiktionary.org/wiki/artifact][1]</cite>
 
 These are my "artifacts". My body of work. Past projects that I'm proud of.
@@ -20,6 +20,12 @@ These are my "artifacts". My body of work. Past projects that I'm proud of.
 
 - [Gotta Write a Song][9] - My final project before graduating from the [Institute of Production and Recording][10]
 
+## Podcast Appearances
+
+- 2017-02-09: Question of the Day - [How did that painting end up in my living room?][11]
+- 2018-05-29: Learn Swift - [Isaac Halvorson - iOS Developer @ CH Robinson][12]
+- 2018-06-02: Question of the Day - [Make, model, year of your first car?][13]
+
 [1]:	https://en.wiktionary.org/wiki/artifact
 [2]:	https://standardebooks.org/ebooks/christopher-morley/parnassus-on-wheels "Parnassus on Wheels, by Christopher Morley | Standard Ebooks"
 [3]:	https://en.wikipedia.org/wiki/Parnassus_on_Wheels "Parnassus on Wheels - Wikipedia"
@@ -30,3 +36,6 @@ These are my "artifacts". My body of work. Past projects that I'm proud of.
 [8]:	http://sticky-construction.com
 [9]:	https://soundcloud.com/hisaac/gotta-write-a-song-mastered
 [10]:	https://www.ipr.edu
+[11]:	http://questionpodcast.com/painting/ "How did that painting end up in my living room?"
+[12]:	https://learnswift.fireside.fm/26
+[13]:	http://questionpodcast.com/make-model-year-first-car/
