@@ -6,16 +6,16 @@
     "start": "gulp scss && hexo generate && gulp beautify"
   },
   "hexo": {
-    "version": "3.7.1"
+    "version": "3.8.0"
   },
   "dependencies": {},
   "devDependencies": {
-    "gulp": ">=3.9.1",
-    "gulp-autoprefixer": "^6.0.0",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-jsbeautifier": ">=2.1.2",
-    "gulp-sass": "^4.0.1",
-    "hexo": ">=3.7.1",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": ">=6.0.0",
+    "gulp-htmlmin": ">=5.0.1",
+    "gulp-jsbeautifier": "^3.0.0",
+    "gulp-sass": "^4.0.2",
+    "hexo": "^3.8.0",
     "hexo-browsersync": ">=0.3.0",
     "hexo-deployer-s3": ">=0.2.333",
     "hexo-footnotes": ">=1.0.2",
@@ -28,6 +28,6 @@
     "hexo-renderer-ejs": ">=0.3.0",
     "hexo-renderer-marked": ">=0.3.2",
     "hexo-renderer-stylus": ">=0.3.1",
-    "hexo-server": "^0.3.3"
+    "hexo-server": ">=0.3.3"
   }
 }
