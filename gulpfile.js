@@ -24,9 +24,7 @@ function clean() {
 		.pipe(dest("./public"));
 }
 
-watch("scss/**/*", { events: "all" }, function() {
-	scss();
-})
+watch("scss/**/*", scss);
 
 exports.scss = scss;
 exports.clean = clean;
