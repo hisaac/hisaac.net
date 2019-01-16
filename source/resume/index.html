@@ -9,48 +9,323 @@ layout: false
 	<meta charset="utf-8" />
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<title>The Halvorson Family Website</title>
+	<title>Isaac Halvorson - Technical Résumé</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+	<link rel="stylesheet" type="text/css" media="screen, print" href="main.css" />
 </head>
 
 <body>
 
+	<header>
+		<h1><a href="https://hisaac.net">Isaac Halvorson</a></h1>
+		<p>
+			<a href="tel://701-740-5969">701-740-5969</a> |
+			<a href="mailto:hello@hisaac.net">hello@hisaac.net</a> |
+			<a href="https://github.com/hisaac">github.com/hisaac</a>
+		</p>
+		<hr />
+	</header>
+
 	<main>
-		<h1><a href="./index.html">Isaac Halvorson</a></h1>
 
 		<p>
-			Hello! We're the Halvorsons, <strong>Jenifer</strong> and <strong>Isaac</strong>. We currently live in Minneapolis, MN. Thanks for visiting our site!
+			Software developer in Minneapolis, MN, specializing in iOS development, with experience and interest in macOS and full stack web development as well. A quick and avid learner with a great interest in making things that are both useful, and a joy to use.
 		</p>
-		<p>
-			<strong>Jenifer</strong> is a high school science teacher, currently teaching at <a href="https://www.spps.org/agape" title="AGAPE High School Homepage">AGAPE High School</a> in Saint Paul, MN.
-		</p>
-		<p>
-			<strong>Isaac</strong> is the site's <dfn title="The person who maintains a particular website.">webmaster</dfn>. He's a software developer, currently doing iOS development for <a href="http://q3contracting.com" title="Q3 Contracting Home page">Q3 Contracting</a>, a construction company in Little Canada, MN. You can visit <a href="https://hisaac.net" title="hisaac.net">Isaac's homepage</a> for information about him.
-		</p>
+
+		<hr />
 
 		<section>
-			<h2>Recipes</h2>
+			<h2>Highlights</h2>
+
 			<ul>
-				<li><a href="./cookbook/cookie-comets.html" alt="Cookie Comets">Cookie Comets</a></li>
-				<li><a href="./cookbook/cookie-comets.html" alt="German Potato Tabbouleh">German Potato Tabbouleh</a></li>
-				<li><a href="./cookbook/cookie-comets.html" alt="Salted Popcorn">Salted Popcorn</a></li>
-				<li><a href="./cookbook/cookie-comets.html" alt="Dill Pickle Popcorn">Dill Pickle Popcorn</a></li>
-				<li><a href="./cookbook/cookie-comets.html" alt="Harvest Rice and Pork">Harvest Rice and Pork</a></li>
-				<li><a href="./cookbook/cookie-comets.html" als="Joyful Salsa">Joyful Salsa</a></li>
+				<li>
+					<strong>Languages:</strong> Swift, Objective-C, JavaScript, TypeScript, HTML5, CSS3, and a little C#/.NET
+				</li>
+				<li>
+					<strong>iOS Technologies:</strong> Location services, background processing, localization, unit testing, Core Data, Realm, network requests, MVC, Coordinator architecture
+				</li>
+				<li>
+					<strong>Dev Tools:</strong> Xcode, AppCode, Fastlane, Crashlytics, Fabric Beta, Firebase (Authentication &amp; Crashlytics), Travis CI, Jenkins, Git, GitHub, Bitbucket, shell scripting, ImageMagick
+				</li>
+				<li>
+					<strong>Other Technologies:</strong> Node.js/Express, SQL (PostgreSQL, MS SQL Server), MongoDB, Firebase, Sass, Gulp, Rest APIs, Markdown, Amazon Web Services, hosted virtual private servers, Heroku, Bash/ZSH/Fish, Jamf Pro/Casper Suite (Mac management), AirWatch (iOS device management), Jekyll
+				</li>
+				<li>
+					<strong>Work Process:</strong> Agile development workflow and tools (Jira, Trello), developer interviewing
+				</li>
 			</ul>
 		</section>
+
+		<hr />
+
+		<section>
+			<h2>Open Source Projects</h2>
+
+			<h3>Tiime</h3>
+
+			<p>
+				In 2018, I set a goal for myself: To release an iOS app in Apple&#8217;s App Store. Tiime is the realization of that goal. I wanted to learn more about iOS development by creating an app from scratch, and to experiment with different iOS technologies and methodologies during the process.
+			</p>
+
+			<ul>
+				<li>
+					Used the <a href="http://khanlou.com/2015/10/coordinators-redux/">Coordinator pattern</a> for the app&#8217;s architecture
+				</li>
+				<li>
+					Created without using any third party dependencies
+				</li>
+				<li>
+					Gained a deeper understanding of the view controller life cycle, <code>UIKit</code>, and building UIs in code
+				</li>
+				<li>
+					Built a somewhat non-standard API using primarily table views, navigation controllers, and a master split view controller
+				</li>
+				<li>
+					Added theme customization using <code>UIAppearance</code> and other <code>UIKit</code> methods
+				</li>
+				<li>
+					Had some fun implementing timers and date math to calculate the different clocks
+				</li>
+			</ul>
+
+			<p>
+				Check out <a href="https://github.com/hisaac/Tiime">Tiime on GitHub</a> for more information and to look at the code, or <a href="https://itunes.apple.com/us/app/tiime-alternative-time-clock/id1396505395?ls=1&amp;mt=8">download the app from the App Store</a> to see it for yourself.
+			</p>
+
+			<h3>Plain Pasta</h3>
+
+			<p>
+				Plain Pasta is a small macOS menu bar utility for keeping your clipboard clean. My goal with this project was to learn the basics of Swift development on macOS, and to help fill a need in my own workflow.
+			</p>
+
+			<p>
+				The app&#8217;s purpose is to strip any formatting from text on the clipboard, essentially making &#8220;Paste and Match Style&#8221; the default behavior on the macOS. It was a great experience learning about developing for macOS, and learning how to utilize some of the different APIs and methodologies it has to offer.
+			</p>
+
+			<p>
+				Check out <a href="https://github.com/hisaac/PlainPasta">Plain Pasta on GitHub</a> for more information and to look at the code, or <a href="https://github.com/hisaac/PlainPasta/releases">download the app</a> to see it for yourself. Who knows, maybe it will find a place within your workflow as well.
+			</p>
+		</section>
+
+		<hr />
+
+		<section>
+			<h2>Experience</h2>
+
+			<h3>Q3 Contracting</h3>
+
+			<h4>iOS Developer (July 2018 &#8211; Present)</h4>
+
+			<p>
+				As Q3&#8217;s sole iOS developer, I maintain Q3’s multiple existing iOS apps and libraries, write new apps based on the business&#8217;s needs, research new development strategies and technologies, and — based on feedback from users and my own development goals — help decide the direction of mobile development for the company.
+			</p>
+
+			<p>
+				My first task upon joining the team was to create a brand new iOS app that would act as a contacts database for employees in the company.
+			</p>
+
+			<ul>
+				<li>
+					Updated our existing codebases and project structures to follow
+					more modern practices, including:
+
+					<ul>
+						<li>
+							Migrated some code from Objective-C to Swift
+						</li>
+						<li>
+							Migrated our analytics, crash reporting, and beta deployment from three distinct services (Mixpanel, Fabric/Crashlytics, and DeployGate) to one service that does it all (Firebase)
+						</li>
+						<li>
+							Added support for Carthage to our existing iOS libraries, while still supporting CocoaPods
+						</li>
+						<li>
+							Removed pesky third party libraries that were no longer being maintained in favor of newer libraries, or built in <code>UIKit</code>/<code>Foundation</code> APIs
+						</li>
+						<li>
+							Improved the build processes for apps that rely on multiple environments (dev, test prod, etc.)
+						</li>
+					</ul>
+				</li>
+				<li>
+					Volunteered to manage our Jenkins server, and have begun updating and improving our build processes for both our web and mobile applications
+				</li>
+				<li>
+					Begun building a brand new microservice API using Node.js/Express and TypeScript
+				</li>
+				<li>
+					Been part of technical interviews and onboarding for new developers joining the team
+				</li>
+			</ul>
+
+			<h3>C.H. Robinson</h3>
+
+			<h4>iOS Developer (July 2017 &#8211; July 2018)</h4>
+
+			<p>
+				After a three month stint as a web developer for C.H. Robinson, I moved onto the mobile team, and took over all development of the company’s two iOS apps. Having not done any iOS development prior to this, I needed to learn quickly to keep the app functioning, and deliver new features.
+			</p>
+
+			<ul>
+				<li>
+					Learned Swift and iOS development, and was pushing code to production in less than a month
+				</li>
+				<li>
+					Implemented a complex system for monitoring and reporting a device’s location while the app ran in the background
+				</li>
+				<li>
+					Internationalized one of our apps for use in Europe, implementing 7 new language translations, updating the UI to be more adaptive, and made required significant updates to the app’s networking logic
+				</li>
+			</ul>
+
+			<h4>Full Stack Web Developer (April 2017 &#8211; July 2017)</h4>
+
+			<p>
+				I was hired for C.H. Robinson’s <em>HatCHRy</em> program — a three month intensive on-boarding program for new developers — where I learned all about the company’s business and technology. It was here that I learned C#/.NET, and used it to develop an internal backend service that sent email notifications upon successful upload of accounting documents.
+			</p>
+
+			<h3>Pixelsmith</h3>
+
+			<h4>Contract Front End Web Developer (February 2017 &#8211; April 2017)</h4>
+
+			<p>
+				Pixelsmith is a small, local development shop specializing in web app and Wordpress design. Based on my experience with Angular, Angular Material, and Sass, I was contracted to help build and design a banking rewards web app.
+			</p>
+
+			<h3>BBDO Minneapolis</h3>
+
+			<h4>IT Support Technician (August 2014 &#8211; April 2016)</h4>
+
+			<p>
+				I managed the IT department and handled all the tech support for BBDO’s Minneapolis office, winning an award for my efforts helping the company. Upon starting at BBDO, I streamlined processes and systems to make life easier for everyone.
+			</p>
+
+			<ul>
+				<li>
+					<strong>Support:</strong> macOS, Windows, iOS, A/V gear
+				</li>
+				<li>
+					<strong>Manage:</strong> projects, inventory, servers, Active Directory
+				</li>
+				<li>
+					<strong>Execute:</strong> Sarbanes-Oxley compliance testing, documentation, budget planning
+				</li>
+				<li>
+					<strong>Technologies Used:</strong> macOS, macOS Server, Windows 7/10, Windows Server, iOS, Active Directory, VMWare, Parallels, FileMaker Pro, Unix Shell, Casper Device Management
+				</li>
+			</ul>
+
+			<h3>Apple Inc.</h3>
+
+			<ul>
+				<li>
+					Genius and Family Room Specialist at Apple Store Southdale in Edina, MN
+				</li>
+				<li>
+					Quality Assurance Engineer at Apple Corporate in Cupertino, CA
+				</li>
+			</ul>
+
+			<h4>Genius (November 2013 – August 2014)</h4>
+
+			<p>
+				My Genius team won Apple’s Ovation award two quarters in a row, demonstrating our excellence in customer satisfaction and repair efficiency. As a Genius, I performed Mac computer hardware and software support, troubleshooting, and training.
+			</p>
+
+			<h4>Quality Assurance Engineer (August 2013 &#8211; November 2013)</h4>
+
+			<p>
+				Only a few Apple employees are chosen for this special program, and I was selected to spend three months in Cupertino to learn what it takes to secure web applications. I worked directly with the web development team, giving UX and workflow feedback, testing apps using web automation tools, and testing security using tools like OWASP ZAP.
+			</p>
+
+			<h4>Family Room Specialist (August 2012 &#8211; August 2013)</h4>
+
+			<p>
+				As a Family Room Specialist, I handled iOS tech support, troubleshooting, and training, as well as honed my sales and customer support skills.
+			</p>
+
+			<h3>Hospice Media</h3>
+
+			<h4>Co-Founder and Co-Owner (April 2010 &#8211; September 2011)</h4>
+
+			<p>
+				Hospice was a record label I co-founded and co-ran. I managed artists and music production, booked shows, created merchandise, handled advertising and promotion, and designed and built the company web page. It was a first-rate learning experience in management and digital product creation.
+			</p>
+		</section>
+
+		<hr />
+
+		<section>
+			<h2>Education</h2>
+
+			<h3>Prime Digital Academy</h3>
+
+			<h4>Full Stack Software Engineering Certificate (September 2016 &#8211; January 2017)</h4>
+
+			<p>
+				Prime is an intensive, 18-week web development school, focused on both technical skills and soft skills. Here, I learned HTML, CSS, and front-end and back-end JavaScript development technologies, and also honed my public speaking, project management, and group work skills.
+			</p>
+
+			<p>
+				While there, I developed a small mobile web app called Crow, for drafting tweets and posting them to Twitter. I also worked with three other students to develop a prototype social networking web app called STEMentor for connecting students with professionals in STEM careers.
+			</p>
+
+			<h3>Institute of Production and Recording</h3>
+
+			<h4>AAS Degree in Audio Production and Engineering (2008&#8211;2010)</h4>
+
+			<ul>
+				<li>Graduated valedictorian</li>
+				<li>On the Dean’s list throughout my attendance</li>
+				<li>Elected to student advisory board</li>
+			</ul>
+
+			<h3>University of North Dakota</h3>
+
+			<h4>Fulfilled General Education Requirements (2005&#8211;2008)</h4>
+
+			<ul>
+				<li>Accepted into the Honors program</li>
+				<li>Elected Honors Program Student Senator</li>
+			</ul>
+		</section>
+
+		<hr />
+
+		<section>
+			<h2>References</h2>
+
+			<p>
+				<strong>Damon Allison</strong><br />
+				Enterprise Architect - <a href="https://www.chrobinson.com">C.H. Robinson</a>
+			</p>
+
+			<p>
+				<strong>Justin Mueller</strong><br />
+				Tech Lead - <a href="https://bbdompls.com">BBDO Minneapolis</a>
+			</p>
+
+			<p>
+				<strong>Nick Holmes</strong><br />
+				Manager - <a href="https://www.apple.com/retail/southdale/">Southdale Apple Store</a>
+			</p>
+
+			<aside>
+				For the privacy of my references, I don't put their contact information on the website. Please email me at <a href="mailto:hello@hisaac.net">hello@hisaac.net</a> and I can give you their contact information.
+			</aside>
+		</section>
+
 	</main>
 
 	<hr />
 
 	<footer>
 		<p>
-			This site and its code are hosted <a href="https://github.com/hisaac/halvorson.family">on GitHub</a>
+			This site and its code are hosted <a href="https://github.com/hisaac/hisaac.net">on GitHub</a>
 		</p>
 		<p>
-			&copy; <span id="yearRange"></span><a href="https://halvorson.family">Jenifer & Isaac Halvorson</a>
+			&copy; <span id="yearRange"></span><a href="https://halvorson.family">Isaac Halvorson</a>
 		</p>
 	</footer>
 

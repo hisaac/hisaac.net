@@ -62,16 +62,19 @@ h4,
 h5,
 h6 {
 	font-family: "Vollkorn", serif;
-	color: #28a422;
-}
-
-strong {
-	color: #cc2044;
 }
 
 h1 {
 	font-size: 3em;
 	text-decoration: underline;
+}
+
+h2 {
+	color: #28a422;
+}
+
+h3 {
+	color: #f76e00;
 }
 
 p {
@@ -110,6 +113,48 @@ img {
 
 .footnotes {
 	font-size: small;
+}
+
+/* Print Specific Styling */
+
+.show-on-print {
+	display: none;
+}
+
+@media print {
+	.hide-on-print {
+		display: none;
+	}
+
+	.show-on-print {
+		display: initial;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		page-break-after: avoid;
+		page-break-inside: avoid;
+	}
+
+	ul,
+	ol,
+	dl {
+		page-break-before: avoid;
+	}
+
+	body {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+@page {
+	margin: 20cm;
 }
 
 /**
