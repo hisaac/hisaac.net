@@ -1,32 +1,33 @@
-const gulp = require("gulp");
+const { src, dest, watch, series } = require("gulp");
 const sass = require("gulp-sass");
-const autoprefixer = require("gulp-autoprefixer");
+const autoPrefixer = require("gulp-autoprefixer");
 const htmlmin = require("gulp-htmlmin");
 const prettify = require("gulp-jsbeautifier");
+const prettier = require("gulp-prettier");
 
-/// Compile Sass files to CSS
-gulp.task("scss", function() {
-	gulp.src("scss/main.scss")
+/// Transpile Sass files to CSS
+function scss() {
+	return src("scss/main.scss")
 		.pipe(sass({ outputStyle: "expanded" }))
-		.pipe(autoprefixer({ browsers: ["last 20 versions"] }))
-		.pipe(gulp.dest("themes/web1/source/css"));
-});
+		.pipe(autoPrefixer({ browsers: ["last 20 versions"] }))
+		.pipe(dest("themes/web1/source/css"));
+}
 
-/// Beautify HTML
-gulp.task("beautify", function() {
-	gulp.src(["./public/**/*.html"])
+/// Prettify HTML
+function clean() {
+	return src(["./public**/*.html"])
 		.pipe(htmlmin({
 			collapseWhitespace: true,
 			customAttrCollapse: /content/
 		}))
 		.pipe(prettify())
-		.pipe(gulp.dest("./public"));
-});
+		.pipe(dest("./public"));
+}
 
-/// Watch the `src` folder for changes
-gulp.task("watch", ["scss"], function() {
-	gulp.watch("scss/**/*", ["scss"]);
-});
+watch("scss/**/*", { events: "all" }, function() {
+	scss();
+})
 
-// Set `watch` as the default task
-gulp.task("default", ["watch"]);
+exports.scss = scss;
+exports.clean = clean;
+exports.default = watch;
