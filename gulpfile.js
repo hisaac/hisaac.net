@@ -28,5 +28,5 @@ gulp.task("watch", ["scss"], function() {
 	gulp.watch("scss/**/*", ["scss"]);
 });
 
-// Set `watch` as the default task
+/// Set `watch` as the default task
 gulp.task("default", ["watch"]);
