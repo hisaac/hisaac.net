@@ -12,9 +12,9 @@ install:
   - pip3 install awscli
 
 script:
-  - gulp scss
+  - gulp sass
   - hexo generate
-  - gulp beautify
+  - gulp prettify
 
 deploy:
   provider: s3
