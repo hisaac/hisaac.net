@@ -55,6 +55,11 @@ hr {
 	margin: 1em auto;
 }
 
+a:any-link {
+	color: #216dbe;
+	text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -74,7 +79,11 @@ h2 {
 }
 
 h3 {
-	color: #f76e00;
+	color: #ed5b3e;
+}
+
+h4 {
+	color: #854fbb;
 }
 
 p {
@@ -82,27 +91,22 @@ p {
 	margin-bottom: 10px;
 }
 
-blockquote {
-	margin: 0;
-}
-
 small {
 	font-size: 90%;
 }
 
-a:any-link {
-	color: #216dbe;
-	text-decoration: none;
+aside {
+	background-color: #f0f0f0;
+	padding: 5px 8px;
+	border-radius: 5px;
+	margin: 20px;
 }
 
-figcaption {
-	margin-top: .5em;
-	font-size: small;
-}
-
-img {
-	max-height: 75vh;
-	max-width: 100%;
+code {
+	background-color: #eee;
+	border-radius: 1px;
+	font-family: monospace;
+	padding: 1px 3px;
 }
 
 /* Utilities */
@@ -151,10 +155,6 @@ img {
 		margin: 0;
 		padding: 0;
 	}
-}
-
-@page {
-	margin: 20cm;
 }
 
 /**
