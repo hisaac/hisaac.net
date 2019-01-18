@@ -36,7 +36,7 @@ layout: false
 		<hr />
 
 		<section>
-			<h2>Highlights</h2>
+			<h2>Skills</h2>
 
 			<ul>
 				<li>
@@ -62,7 +62,7 @@ layout: false
 		<section>
 			<h2>Open Source Projects</h2>
 
-			<h3>Tiime</h3>
+			<h3>Tiime | <a href="https://github.com/hisaac/Tiime">github.com/hisaac/Tiime</a></h3>
 
 			<p>
 				An iOS app that displays time in non-standard ways. After working on multiple existing iOS codebases, this was the first app I built on my own.
@@ -89,11 +89,7 @@ layout: false
 				</li>
 			</ul>
 
-			<p>
-				Check out <a href="https://github.com/hisaac/Tiime">Tiime on GitHub</a> for more information and to look at the code, or <a href="https://itunes.apple.com/us/app/tiime-alternative-time-clock/id1396505395?ls=1&amp;mt=8">download the app from the App Store</a> to see it for yourself.
-			</p>
-
-			<h3>Plain Pasta</h3>
+			<h3>Plain Pasta | <a href="https://github.com/hisaac/PlainPasta">github.com/hisaac/PlainPasta</a></h3>
 
 			<p>
 				My first macOS app. A menu bar utility that strips any styling from text on the clipboard, keeping your clipboard clean and tidy.
@@ -110,10 +106,6 @@ layout: false
 					No third party dependencies
 				</li>
 			</ul>
-
-			<p>
-				Check out <a href="https://github.com/hisaac/PlainPasta">Plain Pasta on GitHub</a> for more information and to look at the code, or <a href="https://github.com/hisaac/PlainPasta/releases">download the app</a> to see it for yourself.
-			</p>
 		</section>
 
 		<hr />
@@ -126,33 +118,28 @@ layout: false
 			<h4>iOS Developer (July 2018 – Present)</h4>
 
 			<p>
-				As Q3&#8217;s sole iOS developer, I maintain Q3’s multiple existing iOS apps and libraries, write new apps based on the business&#8217;s needs, research new development strategies and technologies, and — based on feedback from users and my own development goals — help decide the direction of mobile development for the company.
-			</p>
-
-			<p>
-				My first task upon joining the team was to create a brand new iOS app that would act as a contacts database for employees in the company.
+				As Q3’s sole iOS developer, I maintain Q3’s multiple existing iOS apps and libraries, write new apps based on the business’s needs, research new development strategies and technologies, and help decide the direction of mobile development for the company.
 			</p>
 
 			<ul>
 				<li>
-					Updated our existing codebases and project structures to follow
-					more modern practices, including:
+					Created a brand new iOS app that displays contact information for all employees in the company
+				</li>
+				<li>
+					Updated or retired the company's many existing apps that had been languishing
 
 					<ul>
 						<li>
-							Migrated some code from Objective-C to Swift
+							Migrated analytics, crash reporting, and beta deployment from Mixpanel, Fabric/Crashlytics, and DeployGate respectively, to Firebase
 						</li>
 						<li>
-							Migrated our analytics, crash reporting, and beta deployment from three distinct services (Mixpanel, Fabric/Crashlytics, and DeployGate) to one service that does it all (Firebase)
+							Added Carthage support to the company's iOS libraries
 						</li>
 						<li>
-							Added support for Carthage to our existing iOS libraries, while still supporting CocoaPods
+							Removed unnecessary external dependencies, and replaced them using native <code>UIKit</code> / <code>Foundation</code> APIs where possible
 						</li>
 						<li>
-							Removed pesky third party libraries that were no longer being maintained in favor of newer libraries, or built in <code>UIKit</code>/<code>Foundation</code> APIs
-						</li>
-						<li>
-							Improved the build processes for apps that rely on multiple environments (dev, test prod, etc.)
+							Improved the build and deploy process for apps that rely on multiple environments (dev, test, prod, etc.)
 						</li>
 					</ul>
 				</li>
@@ -160,7 +147,7 @@ layout: false
 					Volunteered to manage our Jenkins server, and have begun updating and improving our build processes for both our web and mobile applications
 				</li>
 				<li>
-					Begun building a brand new microservice API using Node.js/Express and TypeScript
+					Begun building a brand new microservice API using Node.js and TypeScript
 				</li>
 				<li>
 					Been part of technical interviews and onboarding for new developers joining the team
@@ -326,18 +313,12 @@ layout: false
 			This site and its code are hosted <a href="https://github.com/hisaac/hisaac.net">on GitHub</a>
 		</p>
 		<p>
-			&copy; <span id="yearRange"></span><a href="https://halvorson.family">Isaac Halvorson</a>
+			&copy; <span id="year"></span> <a href="https://isaachalvorson.com">Isaac Halvorson</a>
 		</p>
 	</footer>
 
-	<script type="text/javascript">
-		// Inserts the correct year into the copyright's year range
-		const year = new Date().getFullYear();
-		const startYear = "2018";
-
-		let yearRange = year == startYear ? startYear : startYear + "–" + year;
-
-		document.getElementById("yearRange").innerHTML = yearRange + " ";
+	<script>
+		document.getElementById("year").innerHTML = new Date().getFullYear();
 	</script>
 </body>
 </html>

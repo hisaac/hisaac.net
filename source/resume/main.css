@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Vollkorn:400,400i,700,700i&subset=latin-ext");
 
 html {
+	background-color: white;
 	color: #333;
 	font-size: 1em;
 	-ms-text-size-adjust: 100%;
@@ -67,6 +68,11 @@ h4,
 h5,
 h6 {
 	font-family: "Vollkorn", serif;
+}
+
+h3 > a,
+h4 > a {
+	font-weight: normal;
 }
 
 h1 {
