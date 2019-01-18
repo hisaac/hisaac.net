@@ -150,17 +150,38 @@ code {
 		page-break-inside: avoid;
 	}
 
-	ul,
-	ol,
-	dl {
+	ul {
 		page-break-before: avoid;
+		margin: 0;
 	}
 
-	body {
+	p,
+	h2,
+	h3,
+	h4 {
+		margin-bottom: 5px;
+	}
+
+	html {
+		font-size: 90%;
+	}
+
+	hr {
+		max-width: unset;
+	}
+
+	main,
+	article {
+		max-width: unset;
+		width: 100%;
+		margin: auto;
+	}
+
+	/* body {
 		width: 100%;
 		margin: 0;
-		padding: 0;
-	}
+		padding: 20px;
+	} */
 }
 
 /**
