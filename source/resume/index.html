@@ -43,16 +43,13 @@ layout: false
 					<strong>Languages:</strong> Swift, Objective-C, JavaScript, TypeScript, HTML5, CSS3, C#
 				</li>
 				<li>
-					<strong>iOS Technologies:</strong> Location services, background processing, localization, unit testing, Core Data, Realm, network requests, MVC, Coordinator architecture
+					<strong>iOS Technologies:</strong> Location services, background processing, localization, XCTest, Core Data, Realm, HTTP requests, MVC, Coordinator architecture
 				</li>
 				<li>
 					<strong>Dev Tools:</strong> Xcode, AppCode, Fastlane, Crashlytics, Fabric Beta, Firebase (Authentication &amp; Crashlytics), Travis CI, Jenkins, Git, GitHub, Bitbucket, shell scripting, ImageMagick
 				</li>
 				<li>
 					<strong>Other Technologies:</strong> Node.js/Express, SQL (PostgreSQL, MS SQL Server), MongoDB, Firebase, Sass, Gulp, Rest APIs, Markdown, Amazon Web Services, hosted virtual private servers, Heroku, Bash/ZSH/Fish, Jamf Pro/Casper Suite (Mac management), AirWatch (iOS device management), Jekyll
-				</li>
-				<li>
-					<strong>Work Process:</strong> Agile development workflow and tools (Jira, Trello), developer interviewing
 				</li>
 			</ul>
 		</section>
@@ -62,50 +59,55 @@ layout: false
 		<section>
 			<h2>Open Source Projects</h2>
 
-			<h3>Tiime | <a href="https://github.com/hisaac/Tiime">github.com/hisaac/Tiime</a></h3>
+			<article>
+				<h3>Tiime | <a href="https://github.com/hisaac/Tiime">github.com/hisaac/Tiime</a></h3>
 
-			<p>
-				An iOS app that displays time in non-standard ways. After working on multiple existing iOS codebases, this was the first app I built on my own.
-			</p>
+				<p>
+					My first iOS app from scratch, Tiime is a clock that displays time in non-standard ways, and allows for user customization of the app’s icon, colors, and fonts.
+				</p>
 
-			<ul>
-				<li>
-					No third party dependencies
-				</li>
-				<li>
-					Used the <a href="http://khanlou.com/2015/10/coordinators-redux/">Coordinator pattern</a> for the app&#8217;s architecture
-				</li>
-				<li>
-					Gained a deeper understanding of <code>UIKit</code>, the view controller life cycle, and building UIs in code
-				</li>
-				<li>
-					Added theme customization using <code>UIAppearance</code> and other <code>UIKit</code> methods
-				</li>
-				<li>
-					Implemented timers and date math to calculate the different clocks
-				</li>
-				<li>
-					Beta tested through TestFlight, and released to the iOS App Store
-				</li>
-			</ul>
+				<details>
+					<ul>
+						<li>
+							No third party dependencies
+						</li>
+						<li>
+							Used the <a href="http://khanlou.com/2015/10/coordinators-redux/">Coordinator pattern</a> for the app’s architecture
+						</li>
+						<li>
+							Added theme customization using <code>UIAppearance</code> and other <code>UIKit</code> methods
+						</li>
+						<li>
+							Implemented timers and date math to calculate the different clocks
+						</li>
+						<li>
+							Beta tested through TestFlight, and released to the iOS App Store
+						</li>
+					</ul>
+				</details>
+			</article>
 
-			<h3>Plain Pasta | <a href="https://github.com/hisaac/PlainPasta">github.com/hisaac/PlainPasta</a></h3>
+			<article>
+				<h3>Plain Pasta | <a href="https://github.com/hisaac/PlainPasta">github.com/hisaac/PlainPasta</a></h3>
 
-			<p>
-				My first macOS app. A menu bar utility that strips any styling from text on the clipboard, keeping your clipboard clean and tidy.
-			</p>
+				<p>
+					My first macOS app, Plain Pasta is menu bar utility that strips any styling from text on the clipboard, keeping your clipboard clean and tidy.
+				</p>
 
-			<ul>
-				<li>
-					Learned the basics of developing on the macOS platform
-				</li>
-				<li>
-					Notarized the app using <a href="https://developer.apple.com/developer-id/">Apple's new signing system</a>
-				</li>
-				<li>
-					No third party dependencies
-				</li>
-			</ul>
+				<details>
+					<ul>
+						<li>
+							Learned the basics of developing for macOS
+						</li>
+						<li>
+							No third party dependencies
+						</li>
+						<li>
+							Notarized the app using <a href="https://developer.apple.com/developer-id/">Apple's new signing system</a>
+						</li>
+					</ul>
+				</details>
+			</article>
 		</section>
 
 		<hr />
@@ -113,132 +115,152 @@ layout: false
 		<section>
 			<h2>Work Experience</h2>
 
-			<h3>Q3 Contracting</h3>
+			<article>
+				<h3>Q3 Contracting</h3>
 
-			<h4>iOS Developer (July 2018 – Present)</h4>
+				<h4>iOS Developer (July 2018 – Present)</h4>
 
-			<p>
-				As Q3’s sole iOS developer, I maintain Q3’s multiple existing iOS apps and libraries, write new apps based on the business’s needs, research new development strategies and technologies, and help decide the direction of mobile development for the company.
-			</p>
+				<p>
+					As Q3’s sole iOS developer, I maintain Q3’s multiple existing iOS apps and libraries, write new apps based on the business’s needs, research new development strategies and technologies, and help decide the direction of mobile development for the company.
+				</p>
 
-			<ul>
-				<li>
-					Created a brand new iOS app that displays contact information for all employees in the company
-				</li>
-				<li>
-					Updated or retired the company's many existing apps that had been languishing
-
+				<details>
 					<ul>
 						<li>
-							Migrated analytics, crash reporting, and beta deployment from Mixpanel, Fabric/Crashlytics, and DeployGate respectively, to Firebase
+							Created a brand new iOS app that displays contact information for all employees in the company
 						</li>
 						<li>
-							Added Carthage support to the company's iOS libraries
+							Updated or retired the company's many existing apps that had been languishing
+
+							<ul>
+								<li>
+									Migrated analytics, crash reporting, and beta deployment from Mixpanel, Fabric/Crashlytics, and DeployGate respectively, to Firebase
+								</li>
+								<li>
+									Added Carthage support to the company's iOS libraries
+								</li>
+								<li>
+									Removed unnecessary external dependencies, and replaced them using native <code>UIKit</code> / <code>Foundation</code> APIs where possible
+								</li>
+								<li>
+									Improved the build and deploy process for apps that rely on multiple environments (dev, test, prod, etc.)
+								</li>
+							</ul>
 						</li>
 						<li>
-							Removed unnecessary external dependencies, and replaced them using native <code>UIKit</code> / <code>Foundation</code> APIs where possible
+							Volunteered to manage our Jenkins server, and have begun updating and improving our build processes for both our web and mobile applications
 						</li>
 						<li>
-							Improved the build and deploy process for apps that rely on multiple environments (dev, test, prod, etc.)
+							Begun building a brand new microservice API using Node.js and TypeScript
+						</li>
+						<li>
+							Been part of technical interviews and onboarding for new developers joining the team
 						</li>
 					</ul>
-				</li>
-				<li>
-					Volunteered to manage our Jenkins server, and have begun updating and improving our build processes for both our web and mobile applications
-				</li>
-				<li>
-					Begun building a brand new microservice API using Node.js and TypeScript
-				</li>
-				<li>
-					Been part of technical interviews and onboarding for new developers joining the team
-				</li>
-			</ul>
+				</details>
+			</article>
 
-			<h3>C.H. Robinson</h3>
+			<article>
+				<h3>C.H. Robinson</h3>
 
-			<h4>iOS Developer (July 2017 – July 2018)</h4>
+				<h4>iOS Developer (July 2017 – July 2018)</h4>
 
-			<p>
-				After a three month stint as a web developer for C.H. Robinson, I moved onto the mobile team, and took over all development of the company’s two iOS apps. Having not done any iOS development prior to this, I needed to learn quickly to keep the app functioning, and deliver new features.
-			</p>
+				<p>
+					After a three month stint as a web developer for C.H. Robinson, I moved onto the mobile team, and took over all development of the company’s two iOS apps. Having not done any iOS development prior to this, I needed to learn quickly to keep the app functioning, and deliver new features.
+				</p>
 
-			<ul>
-				<li>
-					Learned Swift and iOS development, and was pushing code to production in less than a month
-				</li>
-				<li>
-					Implemented a complex system for monitoring and reporting a device’s location while the app ran in the background
-				</li>
-				<li>
-					Internationalized one of our apps for use in Europe, implementing 7 new language translations, updating the UI to be more adaptive, and made required significant updates to the app’s networking logic
-				</li>
-			</ul>
+				<details>
+					<ul>
+						<li>
+							Learned Swift and iOS development, and was pushing code to production in less than a month
+						</li>
+						<li>
+							Implemented a complex system for monitoring and reporting a device’s location while the app ran in the background
+						</li>
+						<li>
+							Internationalized one of our apps for use in Europe, implementing 7 new language translations, updating the UI to be more adaptive, and made required significant updates to the app’s networking logic
+						</li>
+					</ul>
+				</details>
+			</article>
 
-			<h4>Full Stack Web Developer (April 2017 – July 2017)</h4>
+			<article>
+				<h4>Full Stack Web Developer (April 2017 – July 2017)</h4>
 
-			<p>
-				I was hired for C.H. Robinson’s <em>HatCHRy</em> program — a three month intensive on-boarding program for new developers — where I learned all about the company’s business and technology. It was here that I learned C#/.NET, and used it to develop an internal backend service that sent email notifications upon successful upload of accounting documents.
-			</p>
+				<p>
+					I was hired for C.H. Robinson’s <em>HatCHRy</em> program — a three month intensive on-boarding program for new developers — where I learned all about the company’s business and technology. It was here that I learned C#/.NET, and used it to develop an internal backend service that sent email notifications upon successful upload of accounting documents.
+				</p>
+			</article>
 
-			<h3>Pixelsmith</h3>
+			<article>
+				<h3>Pixelsmith</h3>
+				<h4>Contract Front End Web Developer (February 2017 – April 2017)</h4>
 
-			<h4>Contract Front End Web Developer (February 2017 – April 2017)</h4>
+				<p>
+					Pixelsmith is a small, local development shop specializing in web app and Wordpress design. Based on my experience with Angular, Angular Material, and Sass, I was contracted to help build and design a banking rewards web app.
+				</p>
+			</article>
 
-			<p>
-				Pixelsmith is a small, local development shop specializing in web app and Wordpress design. Based on my experience with Angular, Angular Material, and Sass, I was contracted to help build and design a banking rewards web app.
-			</p>
+			<article>
+				<h3>BBDO Minneapolis</h3>
+				<h4>IT Support Technician (August 2014 – April 2016)</h4>
 
-			<h3>BBDO Minneapolis</h3>
+				<p>
+					I managed the IT department and handled all the tech support for BBDO’s Minneapolis office, winning an award for my efforts helping the company. Upon starting at BBDO, I streamlined processes and systems to make life easier for everyone.
+				</p>
 
-			<h4>IT Support Technician (August 2014 – April 2016)</h4>
+				<details>
+					<ul>
+						<li>
+							<strong>Support:</strong> macOS, Windows, iOS, A/V gear
+						</li>
+						<li>
+							<strong>Manage:</strong> projects, inventory, servers, Active Directory
+						</li>
+						<li>
+							<strong>Execute:</strong> Sarbanes-Oxley compliance testing, documentation, budget planning
+						</li>
+						<li>
+							<strong>Technologies Used:</strong> macOS, macOS Server, Windows 7/10, Windows Server, iOS, Active Directory, VMWare, Parallels, FileMaker Pro, Unix Shell, Casper Device Management
+						</li>
+					</ul>
+				</details>
+			</article>
 
-			<p>
-				I managed the IT department and handled all the tech support for BBDO’s Minneapolis office, winning an award for my efforts helping the company. Upon starting at BBDO, I streamlined processes and systems to make life easier for everyone.
-			</p>
+			<article>
+				<h3>Apple Inc.</h3>
 
-			<ul>
-				<li>
-					<strong>Support:</strong> macOS, Windows, iOS, A/V gear
-				</li>
-				<li>
-					<strong>Manage:</strong> projects, inventory, servers, Active Directory
-				</li>
-				<li>
-					<strong>Execute:</strong> Sarbanes-Oxley compliance testing, documentation, budget planning
-				</li>
-				<li>
-					<strong>Technologies Used:</strong> macOS, macOS Server, Windows 7/10, Windows Server, iOS, Active Directory, VMWare, Parallels, FileMaker Pro, Unix Shell, Casper Device Management
-				</li>
-			</ul>
+				<h4>
+					Genius (November 2013 – August 2014)<br />
+					<small>Apple Store Southdale - Edina, MN</small>
+				</h4>
 
-			<h3>Apple Inc.</h3>
+				<p>
+					My Genius team won Apple’s Ovation award two quarters in a row, demonstrating our excellence in customer satisfaction and repair efficiency. As a Genius, I performed Mac computer hardware and software support, troubleshooting, and training.
+				</p>
+			</article>
 
-			<h4>
-				Genius (November 2013 – August 2014)<br />
-				<small>Apple Store Southdale - Edina, MN</small>
-			</h4>
+			<article>
+				<h4>
+					Quality Assurance Engineer (August 2013 – November 2013)<br />
+					<small>Apple Corporate - Cupertino, CA</small>
+				</h4>
 
-			<p>
-				My Genius team won Apple’s Ovation award two quarters in a row, demonstrating our excellence in customer satisfaction and repair efficiency. As a Genius, I performed Mac computer hardware and software support, troubleshooting, and training.
-			</p>
+				<p>
+					Only a few Apple employees are chosen for this special program, and I was selected to spend three months in Cupertino to learn what it takes to secure web applications. I worked directly with the web development team, giving UX and workflow feedback, testing apps using web automation tools, and testing security using tools like OWASP ZAP.
+				</p>
+			</article>
 
-			<h4>
-				Quality Assurance Engineer (August 2013 – November 2013)<br />
-				<small>Apple Corporate - Cupertino, CA</small>
-			</h4>
+			<article>
+				<h4>
+					Family Room Specialist (August 2012 – August 2013)<br />
+					<small>Apple Store Southdale - Edina, MN</small>
+				</h4>
 
-			<p>
-				Only a few Apple employees are chosen for this special program, and I was selected to spend three months in Cupertino to learn what it takes to secure web applications. I worked directly with the web development team, giving UX and workflow feedback, testing apps using web automation tools, and testing security using tools like OWASP ZAP.
-			</p>
-
-			<h4>
-				Family Room Specialist (August 2012 – August 2013)<br />
-				<small>Apple Store Southdale - Edina, MN</small>
-			</h4>
-
-			<p>
-				As a Family Room Specialist, I handled iOS tech support, troubleshooting, and training, as well as honed my sales and customer support skills.
-			</p>
+				<p>
+					As a Family Room Specialist, I handled iOS tech support, troubleshooting, and training, as well as honed my sales and customer support skills.
+				</p>
+			</article>
 
 		</section>
 
@@ -247,36 +269,36 @@ layout: false
 		<section>
 			<h2>Education</h2>
 
-			<h3>Prime Digital Academy</h3>
+			<article>
+				<h3>Prime Digital Academy</h3>
+				<h4>Full Stack Software Engineering Certificate (September 2016 – January 2017)</h4>
 
-			<h4>Full Stack Software Engineering Certificate (September 2016 – January 2017)</h4>
+				<p>
+					Prime is an intensive, 18-week web development school, focused on both technical skills and soft skills. Here, I learned HTML, CSS, and full-stack JavaScript development technologies, and also honed my public speaking, project management, and group work skills.
+				</p>
+			</article>
 
-			<p>
-				Prime is an intensive, 18-week web development school, focused on both technical skills and soft skills. Here, I learned HTML, CSS, and front-end and back-end JavaScript development technologies, and also honed my public speaking, project management, and group work skills.
-			</p>
+			<article>
+				<h3>Institute of Production and Recording</h3>
+				<h4>AAS Degree in Audio Production and Engineering (2008–2010)</h4>
 
-			<p>
-				While there, I developed a small mobile web app called Crow, for drafting tweets and posting them to Twitter. I also worked with three other students to develop a prototype social networking web app called STEMentor for connecting students with professionals in STEM careers.
-			</p>
+				<ul>
+					<li>Graduated valedictorian</li>
+					<li>On the Dean’s list throughout my attendance</li>
+					<li>Elected to student advisory board</li>
+				</ul>
+			</article>
 
-			<h3>Institute of Production and Recording</h3>
+			<article>
+				<h3>University of North Dakota</h3>
+				<h4>Fulfilled General Education Requirements (2005–2008)</h4>
 
-			<h4>AAS Degree in Audio Production and Engineering (2008–2010)</h4>
+				<ul>
+					<li>Accepted into the Honors program</li>
+					<li>Elected Honors Program Student Senator</li>
+				</ul>
+			</article>
 
-			<ul>
-				<li>Graduated valedictorian</li>
-				<li>On the Dean’s list throughout my attendance</li>
-				<li>Elected to student advisory board</li>
-			</ul>
-
-			<h3>University of North Dakota</h3>
-
-			<h4>Fulfilled General Education Requirements (2005–2008)</h4>
-
-			<ul>
-				<li>Accepted into the Honors program</li>
-				<li>Elected Honors Program Student Senator</li>
-			</ul>
 		</section>
 
 		<hr />
@@ -284,41 +306,25 @@ layout: false
 		<section>
 			<h2>References</h2>
 
-			<p>
-				<strong>Damon Allison</strong><br />
-				Enterprise Architect - <a href="https://www.chrobinson.com">C.H. Robinson</a>
-			</p>
-
-			<p>
-				<strong>Justin Mueller</strong><br />
-				Tech Lead - <a href="https://bbdompls.com">BBDO Minneapolis</a>
-			</p>
-
-			<p>
-				<strong>Nick Holmes</strong><br />
-				Manager - <a href="https://www.apple.com/retail/southdale/">Southdale Apple Store</a>
-			</p>
-
 			<aside>
-				For the privacy of my references, I don't include their contact information on the website. Please email me at <a href="mailto:hello@hisaac.net">hello@hisaac.net</a> and I can give you their contact information.
+				For the privacy of my references, I don't include their contact information here on the website. Please email me at <a href="mailto:hello@hisaac.net">hello@hisaac.net</a> and I can give you their contact information.
 			</aside>
 		</section>
 
 	</main>
 
-	<hr class="hide-on-print"/>
+	<hr />
 
-	<footer class="hide-on-print">
+	<footer>
 		<p>
-			This site and its code are hosted <a href="https://github.com/hisaac/hisaac.net">on GitHub</a>
+			<a href="tel://701-740-5969">701-740-5969</a> |
+			<a href="mailto:hello@hisaac.net">hello@hisaac.net</a> |
+			<a href="https://github.com/hisaac">github.com/hisaac</a>
 		</p>
 		<p>
-			&copy; <span id="year"></span> <a href="https://isaachalvorson.com">Isaac Halvorson</a>
+			<strong>Isaac Halvorson</strong>
 		</p>
 	</footer>
 
-	<script>
-		document.getElementById("year").innerHTML = new Date().getFullYear();
-	</script>
 </body>
 </html>
