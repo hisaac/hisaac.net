@@ -43,6 +43,10 @@ footer {
 	margin: auto;
 }
 
+footer {
+	padding-bottom: 20px
+}
+
 footer p {
 	font-size: 90%;
 }
@@ -115,17 +119,22 @@ code {
 	padding: 1px 3px;
 }
 
-@media only screen and (max-width: 375px) {
-	h1 {
-		font-size: 32px;
-	}
 
+/* iPhone XS Max and smaller */
+@media only screen and (max-width: 414px) {
 	body {
 		padding: 0 10px;
 	}
 
 	main {
 		width: 98%;
+	}
+}
+
+/* iPhone 8 and smaller */
+@media only screen and (max-width: 375px) {
+	h1 {
+		font-size: 32px;
 	}
 }
 
