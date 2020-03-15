@@ -1,0 +1,27 @@
+# Site variables
+title: hisaac.blog
+author: Isaac Halvorson
+email: hello@hisaac.net
+description: Isaac Halvorson's personal weblog
+baseurl: ''
+url: 'https://hisaac.blog'
+twitter_username: hisaac
+github_username: hisaac
+
+# Build settings
+livereload: true
+markdown: kramdown
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# YAML defaults
+  -
+    scope:
+      path: '_posts'
+      type: 'posts'
+      values:
+        layout: 'post'
+        author: Isaac Halvorson

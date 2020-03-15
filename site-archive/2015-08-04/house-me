@@ -1,0 +1,72 @@
+<!--
+Copyright 2013 Isaac Halvorson
+contact me at: hello@hisaac.net
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>hisaac.net - House Me!</title>
+		<meta name="viewport" content="initial-scale=1">
+        <meta name="copyright" content="$copy; 2013 Isaac Halvorson">
+        <link rel="stylesheet" href="/main.css">
+        
+        <script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-12758886-11']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+        
+    </head>
+    <body>
+                
+		<div style="text-align: center;">
+			<a href="http://youtu.be/blpe_sGnnP4"><img src="smug.jpg" alt="smug" width="250" height="250"/></a>
+			<h1><a style="color: #3b3b3b;" href="http://youtu.be/eaIvk1cSyG8">House me!</a></h1>
+		</div>
+
+		<hr>
+        
+        <h2>So you wanna be my roommate…</h2>
+
+		<p>My name is Isaac Halvorson, and I'm looking for a place to live in San Francisco. I am a quiet person and tend to keep to myself. When I’m at home, you'll usually find me working on my computer (currently teaching myself some computer programming and web design), listening to music (lately <a href="http://youtu.be/5GutRR9FYTw">Ty Segall</a>, <a href="http://youtu.be/Xw5AiRVqfqk">Aphex Twin</a>, and <a href="http://youtu.be/OU3mFVmGCb4">A$AP Rocky</a>), reading (I love technology articles, science fiction, and Eastern philosophy), or doing yoga.</p>
+		
+		<p>I also love riding my bike. Having the ability to do that year round is one of the thing that excites me most about California. Growing up in North Dakota and Minnesota did not afford the luxury of decent weather year 'round.</p>
+		
+		<p>And I don't like to party, so you won't have to worry about me causing a loud ruckus. If anything, I may have friends over to play board games, but that's about as rowdy as I will get.</p>
+		
+		<h3>Living History</h3>
+		
+		<p>I grew up in small town North Dakota, and spent my first 18 years there. In 2005, I moved to Grand Forks, ND (a slightly less small town) to attend college. In 2009, I moved to Minneapolis, MN to study Audio Production and Engineering, and lived there until this year. I recently moved to San Jose to start my job with Apple, and now want to move up to the city.</p>
+		
+		<h3>Work</h3>
+		
+		<p>I currently work for Apple Inc. doing software quality assurance testing and I love it.</p>
+		
+		<h3>Thank You</h3>
+		
+		<p>Thank you for considering me as a potential roommate. I'm looking forward to living in a great city, and to do it with cool people. Please feel free to contact me via email, text, or phone if you have any questions.</p>
+		
+		<p>Isaac Halvorson
+		<br /><a href="mailto:hello@hisaac.net">hello@hisaac.net</a>
+		<br />701-740-5969</p>
+		
+		<h3>References</h3>
+		
+		<p>These are some past roommates who have generously agreed to be references. Feel free to contact them via email if you have any questions.</p>
+		
+		<p>Seth Young - <a href="sethandrewyoung@gmail.com">sethandrewyoung@gmail.com</a></p>
+		
+		<p>Ryan Terrell - <a href="ryan@bwn-music.com">ryan@bwn-music.com</a></p>
+
+		<hr>
+		<div style="font-size: 0.6em;">&copy; Isaac Halvorson 2013</div>
+        
+    </body>
+</html>

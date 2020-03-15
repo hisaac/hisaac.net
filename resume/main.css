@@ -1,0 +1,234 @@
+/* Created by Isaac Halvorson on 2018-07-28 */
+
+@import url("https://fonts.googleapis.com/css?family=Vollkorn:400,400i,700,700i&subset=latin-ext");
+
+html {
+	background-color: white;
+	color: #333;
+	font-size: 1em;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	line-height: 1.4;
+	font-family: system-ui, sans-serif;
+	height: 100%;
+}
+
+/* To be used once Mojave dark mode options appear */
+@media (prefers-dark-interface) {}
+
+body {
+	margin: auto;
+	padding: 0 10px 20px;
+}
+
+/* For iPhone X Safe Area Insets */
+@supports(padding: max(0px)) {
+	body {
+		padding-top: max(0, env(safe-area-inset-top));
+		padding-right: max(20px, env(safe-area-inset-right));
+		padding-bottom: max(20px, env(safe-area-inset-bottom));
+		padding-left: max(20px, env(safe-area-inset-left));
+	}
+}
+
+main {
+	max-width: 80ch;
+	width: 90%;
+	margin: auto;
+}
+
+header,
+footer {
+	text-align: center;
+	margin: auto;
+}
+
+footer {
+	padding-bottom: 20px
+}
+
+footer p {
+	font-size: 90%;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #ccc;
+	max-width: 85ch;
+	margin: 1em auto;
+}
+
+a:any-link {
+	color: #216dbe;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Vollkorn", serif;
+}
+
+h3 > a,
+h4 > a {
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 3em;
+	text-decoration: underline;
+}
+
+h2 {
+	color: #28a422;
+}
+
+h3 {
+	color: #ed5b3e;
+	margin-bottom: 10px;
+}
+
+h4 {
+	color: #854fbb;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+small {
+	font-size: 90%;
+}
+
+aside {
+	background-color: #f0f0f0;
+	padding: 5px 8px;
+	border-radius: 5px;
+	margin: 20px;
+}
+
+code {
+	background-color: #eee;
+	border-radius: 1px;
+	font-family: monospace;
+	padding: 1px 3px;
+}
+
+
+/* iPhone XS Max and smaller */
+@media only screen and (max-width: 414px) {
+	body {
+		padding: 0 10px;
+	}
+
+	main {
+		width: 98%;
+	}
+}
+
+/* iPhone 8 and smaller */
+@media only screen and (max-width: 375px) {
+	h1 {
+		font-size: 32px;
+	}
+}
+
+/* Utilities */
+
+.center {
+	text-align: center;
+}
+
+.footnotes {
+	font-size: small;
+}
+
+/* Print Specific Styling */
+
+.show-on-print {
+	display: none;
+}
+
+@media print {
+	.hide-on-print {
+		display: none;
+	}
+
+	.show-on-print {
+		display: initial;
+	}
+
+	details {
+		display: none;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4 {
+		page-break-before: avoid;
+		page-break-after: avoid;
+		page-break-inside: avoid;
+	}
+
+	ul {
+		page-break-before: avoid;
+		margin: 0;
+	}
+
+	article {
+		page-break-inside: avoid;
+	}
+
+	p,
+	h2,
+	h3,
+	h4 {
+		margin-bottom: 5px;
+	}
+
+	html {
+		font-size: 85%;
+		color: black;
+	}
+
+	hr {
+		max-width: unset;
+	}
+
+	main {
+		max-width: unset;
+		width: 100%;
+		margin: auto;
+	}
+}
+
+/**
+	Color Theme
+
+	Taken from Neven Mrgan's beautiful and simple menu for the restaurant "Hà VL"
+	http://mrgan.com/havl/
+*/
+
+.cWhite			{ color: #f1f5f3 }		.bgWhite		{ background-color: #f1f5f3 }
+.cLightGray		{ color: #d2d8d5 }		.bgLightGray	{ background-color: #d2d8d5 }
+.cMidGray		{ color: #9aa39e }		.bgMidGray		{ background-color: #9aa39e }
+.cDarkGray		{ color: #6b706d }		.bgDarkGray		{ background-color: #6b706d }
+.cRed			{ color: #ed5b3e }		.bgRed			{ background-color: #ed5b3e }
+.cOrange		{ color: #f76e00 }		.bgOrange		{ background-color: #f08026 }
+.cGold			{ color: #ff9c00 }		.bgGold			{ background-color: #f5b929 }
+.cYellow		{ color: #e3bf14 }		.bgYellow		{ background-color: #f9f4c2 }
+.cLime			{ color: #8db115 }		.bgLime			{ background-color: #95bb1a }
+.cGreen			{ color: #28a422 }		.bgGreen		{ background-color: #50b833 }
+.cTeal			{ color: #00c0c2 }		.bgTeal			{ background-color: #00c0c2 }
+.cBlue			{ color: #216dbe }		.bgBlue			{ background-color: #64a5eb }
+.cPurple		{ color: #854fbb }		.bgPurple		{ background-color: #b997db }
+.cPink			{ color: #e56bbe }		.bgPink			{ background-color: #f79ad9 }
+.cDarkPurple	{ color: #cc2044 }		.bgDarkPurple	{ background-color: #db3d5e }
+.cBrown			{ color: #cc6520 }		.bgBrown		{ background-color: #d1783d }
+.cMaroon		{ color: #cd4632 }		.bgMaroon		{ background-color: #cd4632 }

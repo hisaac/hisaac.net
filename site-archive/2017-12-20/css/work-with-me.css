@@ -1,0 +1,55 @@
+/*
+  v1.5 - published 2017-01-21
+  Copyright 2017 Isaac Halvorson
+  Contact me at: hello@hisaac.net
+*/
+
+/*----------------------------- GENERAL STYLING ------------------------------*/
+/*------------- Some styling based on Skeleton (getskeleton.com) -------------*/
+
+html { font-size: 62.5%; }
+
+body {
+  font-size: 1.5em;
+  line-height: 1.2;
+  font-weight: 400;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  padding: 20px;
+  max-width: 45em;
+  margin: 0 auto;
+}
+
+header, main, footer {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+  max-width: 50%;
+  height: auto;
+  border-radius: 7.5px;
+}
+
+footer p {
+  font-size: .8em;
+  margin: 5px;
+}
+
+a { color: #1EAEDB; }
+a:hover { color: #0FA0CE; }
+
+hr {
+  border-width: 0;
+  border-top: 1px solid #e1e1e1;
+  margin-top: 20px;
+}
+
+h2 {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.center { text-align: center; }
+#hiddenTitle { display: none; }
