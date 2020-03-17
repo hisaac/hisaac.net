@@ -1,6 +1,6 @@
 ---
 title: "Now"
-type: page
+layout: page
 permalink: /now/
 ---
 

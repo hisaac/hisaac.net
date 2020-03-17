@@ -5,6 +5,10 @@ url: "https://hisaac.net"
 twitter_username: hisaac
 github_username: hisaac
 
+exclude:
+  - old
+  - site-archive
+
 # Build settings
 theme: minima
 plugins:
