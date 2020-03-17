@@ -1,6 +1,6 @@
 ---
 title: "Artifacts"
-type: page
+layout: page
 permalink: /artifacts/
 ---
 
