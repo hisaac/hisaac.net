@@ -19,7 +19,14 @@ exclude:
   - README*
   - site-archive
 
-# Build settings
+defaults:
+  - scope:
+      path: '_posts'
+      type: 'posts'
+    values:
+      layout: 'post'
+      author: Isaac Halvorson
+
 theme: minima
 plugins:
   - jekyll-feed
