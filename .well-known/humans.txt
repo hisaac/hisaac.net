@@ -1,4 +1,6 @@
-# humans.txt
+---
+permalink: /humans.txt
+---
 
 ## Team
 
@@ -7,6 +9,13 @@ webmaster: Isaac Halvorson
   twitter: hisaac
    github: hisaac
  location: Minneapolis, MN, United States
+
+## Site
+
+Last update: {{ site.time | date: "%Y-%m-%d" }}
+   Language: English
+   Software: Jekyll
+        IDE: Visual Studio Code
 
 ## Thanks
 

@@ -1,8 +1,9 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll", "~> 4"
-gem "minima", "~> 2.5"
+gem 'jekyll', git: 'https://github.com/jekyll/jekyll.git'
+gem 'minima'
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem 'jekyll-feed'
+  gem 'jekyll-tidy'
 end

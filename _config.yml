@@ -5,11 +5,27 @@ url: "https://hisaac.net"
 twitter_username: hisaac
 github_username: hisaac
 
+author:
+  name: Isaac Halvorson
+  email: hello@hisaac.net
+
+include: [".well-known"]
+
 exclude:
+  - CHANGELOG*
+  - Gemfile*
+  - LICENSE*
   - old
+  - README*
   - site-archive
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-tidy
+
+jekyll_tidy:
+  exclude:
+    - .well-known/humans.txt
+    - .well-known/robots.txt

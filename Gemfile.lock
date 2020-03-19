@@ -1,3 +1,23 @@
+GIT
+  remote: https://github.com/jekyll/jekyll.git
+  revision: c193677dc52166f551a72ab4c1ec05890c46577f
+  specs:
+    jekyll (4.0.0)
+      addressable (~> 2.4)
+      colorator (~> 1.0)
+      em-websocket (~> 0.5)
+      i18n (~> 1.0)
+      jekyll-sass-converter (~> 2.0)
+      jekyll-watch (~> 2.0)
+      kramdown (~> 2.1)
+      kramdown-parser-gfm (~> 1.0)
+      liquid (~> 4.0)
+      mercenary (~> 0.4.0)
+      pathutil (~> 0.9)
+      rouge (~> 3.0)
+      safe_yaml (~> 1.0)
+      terminal-table (~> 1.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -11,30 +31,21 @@ GEM
     eventmachine (1.2.7)
     ffi (1.12.2)
     forwardable-extended (2.6.0)
+    htmlbeautifier (1.3.1)
+    htmlcompressor (0.4.0)
     http_parser.rb (0.6.0)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
-    jekyll (4.0.0)
-      addressable (~> 2.4)
-      colorator (~> 1.0)
-      em-websocket (~> 0.5)
-      i18n (>= 0.9.5, < 2)
-      jekyll-sass-converter (~> 2.0)
-      jekyll-watch (~> 2.0)
-      kramdown (~> 2.1)
-      kramdown-parser-gfm (~> 1.0)
-      liquid (~> 4.0)
-      mercenary (~> 0.3.3)
-      pathutil (~> 0.9)
-      rouge (~> 3.0)
-      safe_yaml (~> 1.0)
-      terminal-table (~> 1.8)
     jekyll-feed (0.13.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-seo-tag (2.6.1)
       jekyll (>= 3.3, < 5.0)
+    jekyll-tidy (0.2.2)
+      htmlbeautifier
+      htmlcompressor
+      jekyll
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.1.0)
@@ -44,7 +55,7 @@ GEM
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    mercenary (0.3.6)
+    mercenary (0.4.0)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
@@ -55,21 +66,22 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rouge (3.16.0)
+    rouge (3.17.0)
     safe_yaml (1.0.5)
     sassc (2.2.1)
       ffi (~> 1.9)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-    unicode-display_width (1.6.1)
+    unicode-display_width (1.7.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 4)
-  jekyll-feed (~> 0.12)
-  minima (~> 2.5)
+  jekyll!
+  jekyll-feed
+  jekyll-tidy
+  minima
 
 BUNDLED WITH
    2.1.4
