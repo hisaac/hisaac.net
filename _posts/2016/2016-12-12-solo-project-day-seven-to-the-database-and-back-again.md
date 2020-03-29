@@ -61,7 +61,6 @@ router.post('/draft/saveDraft/:tweetText', function(req, res){
     }
   });
 });
-
 ```
 
 - Lastly, I queried the database to display the current user's drafts on the Drafts page in a list.
