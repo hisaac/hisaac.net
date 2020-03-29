@@ -4,7 +4,7 @@ layout: page
 permalink: /about/
 ---
 
-[![A Picture of Isaac's Face](/assets/img/about-page-headshot.jpg)](/assets/img/about-page-headshot.jpg)
+![A Picture of Isaac's Face](/assets/images/headshot.jpg)
 
 <h1 class="about-page-salutation"><span class="line">Hi there,</span> <span class="line">I'm Isaac Halvorson</span> <span class="line">👋</span></h1>
 

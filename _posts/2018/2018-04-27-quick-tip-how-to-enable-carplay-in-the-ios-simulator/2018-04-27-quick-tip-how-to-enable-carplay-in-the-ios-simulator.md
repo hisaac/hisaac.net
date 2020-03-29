@@ -16,7 +16,7 @@ defaults write com.apple.iphonesimulator CarPlay -bool YES
 
 Restart the simulator if it was currently running, and then in the menu bar, go to `Hardware > External Displays > CarPlay`.
 
-![How to turn on CarPlay once you've enabled it in the simulator](/assets/img/carplay-simulator-demo.gif)
+![How to turn on CarPlay once you've enabled it in the simulator](carplay-simulator-demo.gif)
 *How to turn on CarPlay once you've enabled it in the simulator*
 
 Easy peasy.

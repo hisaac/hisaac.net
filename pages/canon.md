@@ -133,7 +133,7 @@ This is my personal canon. Things created by others that are important to me. Th
 [52]:	https://en.wikipedia.org/wiki/Sonic_Youth
 [53]:	https://song.link/album/us/i/49250529
 [54]:	https://en.wikipedia.org/wiki/Black_Eyes_(band)
-[55]:	/assets/img/canon-isaac-and-hugh.jpg
+[55]:	/assets/images/isaac-and-hugh.jpg
 [56]:	https://www.wired.com/1995/06/xanadu/ "The Curse of Xanadu | Wired"
 [57]:	https://en.wikipedia.org/wiki/Ted_Nelson "Ted Nelson | Wikipedia"
 [58]:	https://en.wikipedia.org/wiki/Project_Xanadu "Project Xanadu | Wikipedia"

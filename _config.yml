@@ -5,6 +5,8 @@ url: "https://hisaac.net"
 twitter_username: hisaac
 github_username: hisaac
 
+permalink: /:year/:month/:day/:title.html
+
 author:
   name: Isaac Halvorson
   email: hello@hisaac.net
@@ -26,11 +28,6 @@ defaults:
     values:
       layout: 'post'
       author: Isaac Halvorson
-
-plugins:
-  - jekyll-feed
-  - jekyll-tidy
-  - jekyll-sass-converter
 
 jekyll_tidy:
   exclude:
