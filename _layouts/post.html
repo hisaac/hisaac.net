@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+
+{% include header.html %}
+{% include nav.html %}
+
+<article>
+	{{ content }}
+</article>
+
+<p>
+	Notice a typo, or have a comment or question? Feel free to <a href="mailto:hello@hisaac.net?subject=Re: {{ page.title }}&body=%0A%0Ahttps://hisaac.net/{{ page.url | remove_first: '/' }}">Send me an email</a>, or <a href="https://github.com/hisaac/hisaac.net/blob/master/{{ page.path }}">edit this entry on GitHub</a>.
+</p>
+
+{% include footer.html %}
+
+</body>
+</html>

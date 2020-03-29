@@ -27,10 +27,10 @@ defaults:
       layout: 'post'
       author: Isaac Halvorson
 
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-tidy
+  - jekyll-sass-converter
 
 jekyll_tidy:
   exclude:

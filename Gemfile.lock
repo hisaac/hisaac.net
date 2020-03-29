@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: c193677dc52166f551a72ab4c1ec05890c46577f
+  revision: 7860d1bac0dcf313371a4b25ae7edf5b5a928777
   specs:
     jekyll (4.0.0)
       addressable (~> 2.4)
@@ -40,8 +40,6 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
-    jekyll-seo-tag (2.6.1)
-      jekyll (>= 3.3, < 5.0)
     jekyll-tidy (0.2.2)
       htmlbeautifier
       htmlcompressor
@@ -56,10 +54,6 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    minima (2.5.1)
-      jekyll (>= 3.5, < 5.0)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.3)
@@ -80,8 +74,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll!
   jekyll-feed
+  jekyll-sass-converter
   jekyll-tidy
-  minima
 
 BUNDLED WITH
    2.1.4
