@@ -9,7 +9,7 @@
 
 $sans-serif: ui-sans-serif, sans-serif;
 $monospace: ui-monospace, monospace;
-$serif: ui-serif, serif;
+$serif: ui-serif, Georgia, serif;
 
 // Colors
 
@@ -42,24 +42,20 @@ img + em {
 html {
 	background-color: #fff;
 	color: $body-text-color;
-	font-family: $sans-serif;
+	font-family: $serif;
 	font-size: 1em;
 	height: 100%;
 	line-height: 1.61803399rem; // The "Golden Ratio"
 }
 
+body {
+	margin: 0;
+	padding: 1em 3em;
+}
+
 code,
 pre {
 	font-family: $monospace;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: $serif;
 }
 
 /* Links */
