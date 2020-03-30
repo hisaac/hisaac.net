@@ -25,3 +25,4 @@ All other directories and files are [MIT Licensed](./LICENSE). Feel free to use 
 - [Paul Frazee's blog](https://pfrazee.hashbase.io)
 - [Ben Balter’s blog](https://ben.balter.com/)
 - [Ole Begemann's blog](https://oleb.net)
+- [Jeff Johnson's website](https://lapcatsoftware.com/)
