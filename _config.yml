@@ -5,13 +5,14 @@ url: "https://hisaac.net"
 twitter_username: hisaac
 github_username: hisaac
 
-permalink: /:year/:month/:day/:title.html
-
 author:
   name: Isaac Halvorson
   email: hello@hisaac.net
 
-include: [".well-known"]
+permalink: /:year/:month/:day/:title.html
+
+include:
+  - .well-known
 
 exclude:
   - CHANGELOG*

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: 8d3c2f6a96d4324fb7d61218a225a3bc35ed6113
+  revision: f7bff1c5c4c3f9300c6e434b7ad6919dcd5a0372
   specs:
     jekyll (4.0.0)
       addressable (~> 2.4)
@@ -42,6 +42,8 @@ GEM
       jekyll (>= 3.8.6, < 5)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-tidy (0.2.2)
       htmlbeautifier
       htmlcompressor
@@ -78,6 +80,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-postfiles
   jekyll-sass-converter
+  jekyll-sitemap
   jekyll-tidy
 
 BUNDLED WITH
