@@ -10,7 +10,7 @@ This little tip was surprisingly hard to find — only mentioned a couple times 
 
 To enable CarPlay in Xcode's iOS simulator, execute the following terminal command:
 
-```bash
+```shell
 defaults write com.apple.iphonesimulator CarPlay -bool YES
 ```
 

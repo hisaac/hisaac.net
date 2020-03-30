@@ -9,7 +9,7 @@ The other day, I was wishing for an easy way to update all of the [CLI](https://
 
 Here’s what I’ve come up with. I call it `update-all-the-things`:
 
-```bash
+```shell
 alias update-all-the-things='
 	echo "🍺 Updating Homebrew" ; brew upgrade ;
 	echo "\n🛢 Updating Casks" ; brew cask upgrade ;
