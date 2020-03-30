@@ -1,13 +1,11 @@
 title: hisaac.net
+name: hisaac.net
+author: Isaac Halvorson
 email: hello@hisaac.net
 description: Isaac Halvorson's home on the web
 url: "https://hisaac.net"
 twitter_username: hisaac
 github_username: hisaac
-
-author:
-  name: Isaac Halvorson
-  email: hello@hisaac.net
 
 permalink: /:year/:month/:day/:title.html
 
