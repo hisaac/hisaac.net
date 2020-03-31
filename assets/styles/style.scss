@@ -20,7 +20,34 @@ $body-text-color: #222;
 $safe-area: env(safe-area-inset-top), env(safe-area-inset-right),
 	env(safe-area-inset-bottom), env(safe-area-inset-left);
 
-/* Images */
+html {
+	background-color: #fff;
+	color: $body-text-color;
+	font-family: $serif;
+	line-height: 1.4rem;
+}
+
+body {
+	margin: 0;
+	padding: 1em 3em;
+	max-width: 100ch;
+}
+
+code,
+pre {
+	font-family: $monospace;
+}
+
+a {
+	&:any-link {
+		color: $link-color;
+		text-decoration: none;
+	}
+
+	&:hover {
+		border-bottom: 1px solid $link-color;
+	}
+}
 
 // Center iframes and images within posts
 iframe,
@@ -35,38 +62,4 @@ img {
 img + em {
 	display: block;
 	text-align: center;
-}
-
-/* Base Styling */
-
-html {
-	background-color: #fff;
-	color: $body-text-color;
-	font-family: $serif;
-	font-size: 1em;
-	height: 100%;
-	line-height: 1.61803399rem; // The "Golden Ratio"
-}
-
-body {
-	margin: 0;
-	padding: 1em 3em;
-}
-
-code,
-pre {
-	font-family: $monospace;
-}
-
-/* Links */
-
-a {
-	&:any-link {
-		color: $link-color;
-		text-decoration: none;
-	}
-
-	&:hover {
-		border-bottom: 1px solid $link-color;
-	}
 }
