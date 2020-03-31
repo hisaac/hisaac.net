@@ -8,6 +8,9 @@ twitter_username: hisaac
 github_username: hisaac
 
 permalink: /:year/:month/:day/:title.html
+timezone: America/North_Dakota/Center
+strict_front_matter: true
+livereload: true
 
 include:
   - .well-known
@@ -20,7 +23,8 @@ exclude:
   - README*
 
 defaults:
-  - scope:
+  -
+    scope:
       path: '_posts'
       type: 'posts'
     values:
