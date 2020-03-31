@@ -1,4 +1,0 @@
----
-title: Corpus
-layout: page
----
