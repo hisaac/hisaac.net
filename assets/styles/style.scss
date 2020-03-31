@@ -105,8 +105,9 @@ aside {
 }
 
 blockquote {
-	margin: auto 1em;
-	font-style: italic;
+	border-left: 5px solid $line-color;
+	margin: 0;
+	padding-left: 1em;
 }
 
 kbd {
