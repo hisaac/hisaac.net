@@ -22,6 +22,9 @@ exclude:
   - old
   - README*
 
+keep-files:
+  - resume
+
 defaults:
   -
     scope:

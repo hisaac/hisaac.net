@@ -9,7 +9,7 @@ I’ve had [dandruff](https://en.wikipedia.org/wiki/Dandruff) for most of my adu
 
 I’ve used Selsun Blue in the past, and it didn’t help me. I was skeptical, but the fact that this was prescription strength made me interested. Lo and behold, it worked! After only one use, my dandruff has quite literally disappeared. It’s incredible.
 
-<aside>There used to be a [Vine video here][3] of me running my fingers through my hair to prove there was no dandruff, but it got disappeared when Vine got shuttered. 😢 I guess you'll just have to trust me.</aside>
+<aside>There used to be a Vine video here of me running my fingers through my hair to prove there was no dandruff, but it got disappeared when Vine got shuttered. 😢 I guess you'll just have to trust me.</aside>
 
 Dandruff is excess dead skin flaking off of the scalp. It can have [many causes](https://en.wikipedia.org/wiki/Dandruff#Causes), so it can sometimes be difficult to treat. Selenium sulfide is an anti-fungal agent, so at least in my case, the dandruff seems to have been caused by a problem with the microorganisms on my scalp. Most likely metabolic by-products of Malassezia yeasts (according to the Wikipedia article).
 

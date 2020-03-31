@@ -11,34 +11,34 @@ I've selected just the shortcuts I find most useful, and reposted them below. If
 
 *Note: I've used glyphs for the shortcut keys so as to better fit them in the table. If you're unfamiliar with any of the symbols, I've provided a key at the bottom of the post.*
 
-| Shortcut           | Description                                                              |
-| :----------------- | :----------------------------------------------------------------------- |
-| `⌘ + ↑` or `↓`     | Move cursor to beginning or end of document.                             |
-| `⌘ + ←` or `→`     | Move cursor to beginning or end of current line.                         |
-| `⌥ + ←` or `→`     | Move cursor to beginning or end of previous word.                        |
-| `⌥ + ↑` or `↓`     | Move cursor to beginning or end of current paragraph.[^1]                |
-| `⇧ + ↑` or `↓`     | Extend selection to line above or below.                                 |
-| `⇧ + ←` or `→`     | Extend selection one character to left or right.                         |
-| `⇧ + ⌘ + ↑` or `↓` | Extend selection from cursor to beginning or end of document.            |
-| `⇧ + ⌘ + ←` or `→` | Extend selection from cursor to beginning or end of current line.        |
-| `⇧ + ⌥ + ↑` or `↓` | Extend selection to beginning or end of current paragraph.               |
-| `⇧ + ⌥ + ←` or `→` | Extend selection to beginning or end of current word.                    |
-| `⌥ + ⌫`            | Delete the word to the left of the cursor.                               |
-| `Fn + ⌫`           | Forward Delete on keyboards that don't have a Forward Delete (⌦) key.    |
-| `⌃ + K`            | Delete the text between the cursor and the end of the line or paragraph. |
-| `Fn + ↑` or `↓`    | Scroll up or down one page.                                              |
-| `Fn + ←` or `→`    | Scroll to the beginning or end of a document.                            |
+| Shortcut                                     | Description                                                              |
+| :------------------------------------------- | :----------------------------------------------------------------------- |
+| <kbd>⌘</kbd> + <kbd>↑/↓</kbd>                | Move cursor to beginning or end of document.                             |
+| <kbd>⌘</kbd> + <kbd>←/→</kbd>                | Move cursor to beginning or end of current line.                         |
+| <kbd>⌥</kbd> + <kbd>←/→</kbd>                | Move cursor to beginning or end of previous word.                        |
+| <kbd>⌥</kbd> + <kbd>↑/↓</kbd>                | Move cursor to beginning or end of current paragraph.[^1]                |
+| <kbd>⇧</kbd> + <kbd>↑/↓</kbd>                | Extend selection to line above or below.                                 |
+| <kbd>⇧</kbd> + <kbd>←/→</kbd>                | Extend selection one character to left or right.                         |
+| <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>↑/↓</kbd> | Extend selection from cursor to beginning or end of document.            |
+| <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>←/→</kbd> | Extend selection from cursor to beginning or end of current line.        |
+| <kbd>⇧</kbd> + <kbd>⌥</kbd> + <kbd>↑/↓</kbd> | Extend selection to beginning or end of current paragraph.               |
+| <kbd>⇧</kbd> + <kbd>⌥</kbd> + <kbd>←/→</kbd> | Extend selection to beginning or end of current word.                    |
+| <kbd>⌥</kbd> + <kbd>⌫</kbd>                  | Delete the word to the left of the cursor.                               |
+| <kbd>Fn</kbd> + <kbd>⌫</kbd>                 | Forward Delete on keyboards that don't have a Forward Delete (⌦) key.    |
+| <kbd>⌃</kbd> + <kbd>K</kbd>                  | Delete the text between the cursor and the end of the line or paragraph. |
+| <kbd>Fn</kbd> + <kbd>↑/↓</kbd>               | Scroll up or down one page.                                              |
+| <kbd>Fn</kbd> + <kbd>←/→</kbd>               | Scroll to the beginning or end of a document.                            |
 
 ## Key
 
-| Symbol    | Key                |
-| :-------- | :----------------- |
-| `⌘`       | Command / cmd      |
-| `⌥`       | Option / opt       |
-| `⌃`       | Control / ctrl     |
-| `⇧`       | Shift              |
-| `fn`      | Function / Fn      |
-| `⌫`       | Delete / Backspace |
-| `← ↑ ↓ →` | Arrow Keys         |
+| Symbol                                              | Key                |
+| :-------------------------------------------------- | :----------------- |
+| <kbd>⌘</kbd>                                        | Command / cmd      |
+| <kbd>⌥</kbd>                                        | Option / opt       |
+| <kbd>⌃</kbd>                                        | Control / ctrl     |
+| <kbd>⇧</kbd>                                        | Shift              |
+| <kbd>fn</kbd>                                       | Function / Fn      |
+| <kbd>⌫</kbd>                                        | Delete / Backspace |
+| <kbd>←</kbd> <kbd>↑</kbd> <kbd>↓</kbd> <kbd>→</kbd> | Arrow Keys         |
 
 [^1]:	Note: This does not work in all applications.
