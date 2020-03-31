@@ -5,14 +5,14 @@ permalink: /artifacts/
 ---
 
 > Something viewed as a product of human conception or agency rather than an inherent element.
-> 
+>
 > ***Wiktionary*** — <cite>[en.wiktionary.org/wiki/artifact](https://en.wiktionary.org/wiki/artifact)</cite>
 
 These are my "artifacts". My body of work. Past projects that I'm proud of.
 
 ## Web
 
-- [Parnassus on Wheels](https://standardebooks.org/ebooks/christopher-morley/parnassus-on-wheels "Parnassus on Wheels, by Christopher Morley | Standard Ebooks") - I edited this [1917 novel](https://en.wikipedia.org/wiki/Parnassus_on_Wheels "Parnassus on Wheels - Wikipedia") by [Christopher Morley](https://en.wikipedia.org/wiki/Christopher_Morley "Christopher Morley - Wikipedia") for the [Standard Ebooks](https://standardebooks.org "Standard Ebooks") project
+- [Parnassus on Wheels](https://standardebooks.org/ebooks/christopher-morley/parnassus-on-wheels "Parnassus on Wheels, by Christopher Morley - Standard Ebooks") - I edited this [1917 novel](https://en.wikipedia.org/wiki/Parnassus_on_Wheels "Parnassus on Wheels - Wikipedia") by [Christopher Morley](https://en.wikipedia.org/wiki/Christopher_Morley "Christopher Morley - Wikipedia") for the [Standard Ebooks](https://standardebooks.org "Standard Ebooks") project
 - [The Do Date Manifesto](https://hisaac.github.io/do-date-manifesto/) - A philosophy and meetup template for getting stuff done, with friends
 - [level.software](https://level.software) - The homepage for my software company, Levelsoft
 - [sticky-construction.com](http://sticky-construction.com) - A simple homepage I built for my father's construction company, Sticky Construction, Inc.

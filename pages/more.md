@@ -15,13 +15,13 @@ permalink: /more/
 
 These documents are "living", meaning they are things that I intend to update regularly. They're more for my own use than anything else, but may prove interesting for you to look through as well:
 
-- [Adventure Games I'd Like to Play](./living-documents/adventure-games-id-like-to-play.html)
-- [Games to Keep an Eye On](./living-documents/games-to-keep-an-eye-on.html)
-- [Great Softwares](./living-documents/great-softwares.html)
-- [My Guide to the Twin Cities](./living-documents/my-guide-to-the-twin-cities.html)
-- [Music I Want to Like but I Don’t](./living-documents/music-i-want-to-like-but-i-dont.html)
-- [My Gear](./living-documents/my-gear.html)
-- [Vehicles That I Like](./living-documents/vehicles-that-i-like.html)
+- [Adventure Games I'd Like to Play](/living-documents/adventure-games-id-like-to-play.html)
+- [Games to Keep an Eye On](/living-documents/games-to-keep-an-eye-on.html)
+- [Great Softwares](/living-documents/great-softwares.html)
+- [My Guide to the Twin Cities](/living-documents/my-guide-to-the-twin-cities.html)
+- [Music I Want to Like but I Don’t](/living-documents/music-i-want-to-like-but-i-dont.html)
+- [My Gear](/living-documents/my-gear.html)
+- [Vehicles That I Like](/living-documents/vehicles-that-i-like.html)
 - [Continued Learning](https://www.evernote.com/shard/s3/sh/9ef6d64b-4363-4d21-9d40-7c2d1a15439c/b19f5ac0c6334fac04305f4ffb4501e4)
 
 <!-- - [hisaac’s Rules for Social Etiquette][4] -->
