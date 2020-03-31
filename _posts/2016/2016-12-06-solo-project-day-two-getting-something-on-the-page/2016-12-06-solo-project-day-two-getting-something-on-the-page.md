@@ -48,12 +48,12 @@ Lastly, we had a brief lecture on JavaScript debuggers. I haven't looked into it
 
 ### Today's Research
 
-- [Angular $routeProvider][1] - specifically the `resolve` parameter. I need to be able to route the user to different pages based on if the user is logged into Twitter or not.
-- [Firebase Web API reference documentation][2]
-	- Specifically the [TwitterAuthProvider documentation][3]
-- [Skeleton][4] - The main CSS framework I'm using during the development phase.
-- [Bootstrap's buttons][5]
-- [node-inspector][6] - The debugger that was shown during lecture today.
+- [Angular $routeProvider](https://docs.angularjs.org/api/ngRoute/provider/$routeProvider) - specifically the `resolve` parameter. I need to be able to route the user to different pages based on if the user is logged into Twitter or not.
+- [Firebase Web API reference documentation](https://firebase.google.com/docs/reference/js/)
+	- Specifically the [TwitterAuthProvider documentation](https://firebase.google.com/docs/reference/js/firebase.auth.TwitterAuthProvider)
+- [Skeleton](http://getskeleton.com) - The main CSS framework I'm using during the development phase.
+- [Bootstrap's buttons](http://getbootstrap.com/css/#buttons)
+- [node-inspector](https://github.com/node-inspector/node-inspector) - The debugger that was shown during lecture today.
 
 ### Screenshots
 
@@ -65,10 +65,3 @@ Lastly, we had a brief lecture on JavaScript debuggers. I haven't looked into it
 
 ![Tweet Page](./tweet-page.png)
 *Tweet Page*
-
-[1]:	https://docs.angularjs.org/api/ngRoute/provider/$routeProvider
-[2]:	https://firebase.google.com/docs/reference/js/
-[3]:	https://firebase.google.com/docs/reference/js/firebase.auth.TwitterAuthProvider
-[4]:	http://getskeleton.com
-[5]:	http://getbootstrap.com/css/#buttons
-[6]:	https://github.com/node-inspector/node-inspector

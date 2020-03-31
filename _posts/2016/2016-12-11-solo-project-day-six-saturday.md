@@ -9,8 +9,5 @@ I didn't do too much today, as it's a weekend, but I did get a little work done.
 
 ### Today's Research
 
-- [HTTP Status Codes][1]
-- [GET account/verify\_credentials (Twitter API Docs)][2] - I was frustrated that I didn't get a user's email address back from Firebase or Twitter when doing API calls, but I found out why. Twitter does allow for it, but I must provide links to my privacy policy and terms of service. I don't actually have a privacy policy or terms of service yet, but if I plan to make this into a real app (which I do), I'll need to write those at some point.
-
-[1]:	http://www.restapitutorial.com/httpstatuscodes.html
-[2]:	https://dev.twitter.com/rest/reference/get/account/verify_credentials
+- [HTTP Status Codes](http://www.restapitutorial.com/httpstatuscodes.html)
+- [GET account/verify\_credentials (Twitter API Docs)](https://dev.twitter.com/rest/reference/get/account/verify_credentials) - I was frustrated that I didn't get a user's email address back from Firebase or Twitter when doing API calls, but I found out why. Twitter does allow for it, but I must provide links to my privacy policy and terms of service. I don't actually have a privacy policy or terms of service yet, but if I plan to make this into a real app (which I do), I'll need to write those at some point.

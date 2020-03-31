@@ -69,8 +69,5 @@ Tomorrow's task will be mainly styling. I want the app to look nice for my mento
 
 ### Today's Research
 
-- [getting the id of the newly pushed embedded object - Stack Overflow][1] - I needed to get this data when I created a new blank draft. Turns out, it's just basic JavaScript (`array.length - 1`). I shoulda known.
-- [Factory not keeping data when used in controller - Stack Overflow][2] - This was frustrating. I initially was trying to assign objects directly to my factories, but I found that I had to assign specific values to them instead (see the first client side code example above). I still don't know *why* I need to do it this way, but I know that it does work.
-
-[1]:	http://stackoverflow.com/questions/13195283/mongodb-getting-the-id-of-the-newly-pushed-embedded-object
-[2]:	http://stackoverflow.com/questions/21006222/factory-not-keeping-data-when-used-in-controller
+- [getting the id of the newly pushed embedded object - Stack Overflow](http://stackoverflow.com/questions/13195283/mongodb-getting-the-id-of-the-newly-pushed-embedded-object) - I needed to get this data when I created a new blank draft. Turns out, it's just basic JavaScript (`array.length - 1`). I shoulda known.
+- [Factory not keeping data when used in controller - Stack Overflow](http://stackoverflow.com/questions/21006222/factory-not-keeping-data-when-used-in-controller) - This was frustrating. I initially was trying to assign objects directly to my factories, but I found that I had to assign specific values to them instead (see the first client side code example above). I still don't know *why* I need to do it this way, but I know that it does work.

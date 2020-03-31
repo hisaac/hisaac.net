@@ -5,22 +5,22 @@ layout: post
 tags: technology, ios, music
 ---
 
-I love [Bandcamp][1]. They are truly the premiere independent music platform. They treat their users and artists well, and still manage to stay afloat.
+I love [Bandcamp](http://bandcamp.com). They are truly the premiere independent music platform. They treat their users and artists well, and still manage to stay afloat.
 
 I also like their iOS app. It works well for previewing new music, or listening to music I've already purchased on the platform.
 
 I do have one complaint about their app though: There's no way to open the app when viewing an album or artist's page in the web browser. Many apps have this functionality. To name a few:
 
-- [Twitter][2]
-- [Wikipedia][3]
-- [Medium][4]
-- [YouTube][5]
+- [Twitter](http://twitter.com/hisaac)
+- [Wikipedia](https://en.wikipedia.org/wiki/Bandcamp)
+- [Medium](https://medium.com/@fireland/my-dead-girlfriends-bot-9dc6a2f55ce3#.xysv1y5b9)
+- [YouTube](https://youtu.be/blpe_sGnnP4)
 
 (All of those links should open in their respective iOS apps if you have them installed)
 
 So why not Bandcamp? I don’t know *why* they’ve avoided deep linking, but for a while now, I’ve just accepted it as a fact. Until recently.
 
-The other day, I bought an album on Bandcamp — Vaporlane’s [*Hieretic Teen*][6].
+The other day, I bought an album on Bandcamp — Vaporlane’s [*Hieretic Teen*](https://usonian.bandcamp.com/album/hieratic-teen).
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=531538254/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://usonian.bandcamp.com/album/hieratic-teen">Hieratic Teen by Vapor Lanes</a></iframe>
 
@@ -36,7 +36,7 @@ http://bandcamp.com/redirect_to_app?fallback_url=http%3A%2F%2Fbandcamp.com%2Fdow
 
 The URL is constructed in a way that it first tries to open the Bandcamp iOS app, but then falls back to the web page if it’s not successful.
 
-So what are all those `%` symbols? This URL uses [Percent Encoding][7] to encode information not normally allowed in URLs/URIs. Here’s a list of the codes used, and their translations:
+So what are all those `%` symbols? This URL uses [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding) to encode information not normally allowed in URLs/URIs. Here’s a list of the codes used, and their translations:
 
 | Percent code | Translation |
 | ------------ | ----------- |
@@ -58,7 +58,7 @@ The last bit of that URL is the key. Here it is isolated:
 bandcamp://show_tralbum?tralbum_type=a&tralbum_id=531538254&play
 ```
 
-iOS’s deep linking syntax uses URIs to open applications rather than web pages. This description from the [deep linking Wikipedia page][9] is good:
+iOS’s deep linking syntax uses URIs to open applications rather than web pages. This description from the [deep linking Wikipedia page](https://en.wikipedia.org/wiki/Mobile_deep_linking) is good:
 
 > Unlike the Web, where the underlying technology of HTTP and URLs allow for deep linking by default, enabling deep linking on mobile apps requires these apps be configured to properly handle a uniform resource identifier (URI). Just like a URL is an address for a website, a URI is the address for an app on a mobile device.
 
@@ -75,10 +75,10 @@ Looking at the URI, there is an `album_id=` field. I was hoping an album's ID wa
 
 There it is! Buried at the bottom of the page is this album's ID. Each album's page has an album ID commented out at the very bottom of the page.
 
-Next, I built a couple workflows using the excellent [Workflow][10] iOS app to test this out. Here they are:
+Next, I built a couple workflows using the excellent [Workflow](https://geo.itunes.apple.com/us/app/workflow-powerful-automation/id915249334?mt=8&uo=4&at=1001laDe) iOS app to test this out. Here they are:
 
-- [Open current Bandcamp web page in Bandcamp iOS app][11]
-- [Open current Bandcamp web page in Bandcamp iOS app, and start playing the album (using the `&play` modifier from the original URI)][12]
+- [Open current Bandcamp web page in Bandcamp iOS app](https://workflow.is/workflows/bd3284f7333e406b87a4500230016ba5)
+- [Open current Bandcamp web page in Bandcamp iOS app, and start playing the album (using the `&play` modifier from the original URI)](https://workflow.is/workflows/162f55c816e84cd59624c68e3e95409a)
 
 Here's where we hit a problem that I can't fix on my own. These workflows work beautifully and without error (in my testing), *but only* on albums that the user logged into the Bandcamp app already owns. If used on albums not already in the user's library, the Bandcamp app throws up an error saying:
 
@@ -86,17 +86,4 @@ Here's where we hit a problem that I can't fix on my own. These workflows work b
 
 So this is where my journey ends. It seems that Bandcamp and its developers want to keep the deep linking to themselves, and use it only for opening the app from purchase receipts. I'm definitely curious to know why, and I'd like to request that the app's behavior be changed. Preferably, I'd like it to act like the Twitter and YouTube apps: When any link to a Bandcamp web page is opened, open the Bandcamp app instead. The app's audio player is *much* preferable to the web player.
 
-[^1]:	I used [ascii.cl’s URL Decoding page][8] to convert this. It’s a handy resource.
-
-[1]:	http://bandcamp.com
-[2]:	http://twitter.com/hisaac
-[3]:	https://en.wikipedia.org/wiki/Bandcamp
-[4]:	https://medium.com/@fireland/my-dead-girlfriends-bot-9dc6a2f55ce3#.xysv1y5b9
-[5]:	https://youtu.be/blpe_sGnnP4
-[6]:	https://usonian.bandcamp.com/album/hieratic-teen
-[7]:	https://en.wikipedia.org/wiki/Percent-encoding
-[8]:	http://ascii.cl/url-decoding.htm
-[9]:	https://en.wikipedia.org/wiki/Mobile_deep_linking
-[10]:	https://geo.itunes.apple.com/us/app/workflow-powerful-automation/id915249334?mt=8&uo=4&at=1001laDe
-[11]:	https://workflow.is/workflows/bd3284f7333e406b87a4500230016ba5
-[12]:	https://workflow.is/workflows/162f55c816e84cd59624c68e3e95409a
+[^1]:	I used [ascii.cl’s URL Decoding page](http://ascii.cl/url-decoding.htm) to convert this. It’s a handy resource.

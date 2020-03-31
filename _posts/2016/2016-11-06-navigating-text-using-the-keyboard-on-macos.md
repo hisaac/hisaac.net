@@ -5,7 +5,7 @@ layout: post
 tags: mac, tech, programming, writing, tips
 ---
 
-A few months ago, Merlin Mann [tweeted a link][1] to the [Apple Support document on Mac keyboard shortcuts][2]. There's a ton of great tricks in there, but what I want to focus on are the ones related to editing text documents.
+A few months ago, Merlin Mann [tweeted a link](https://twitter.com/hotdogsladies/status/760580445213831168) to the [Apple Support document on Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236). There's a ton of great tricks in there, but what I want to focus on are the ones related to editing text documents.
 
 I've selected just the shortcuts I find most useful, and reposted them below. If you work with text at all on a Mac — code, prose, spreadsheets, whatever — these will *seriously* step up your game.
 
@@ -42,6 +42,3 @@ I've selected just the shortcuts I find most useful, and reposted them below. If
 | `← ↑ ↓ →` | Arrow Keys         |
 
 [^1]:	Note: This does not work in all applications.
-
-[1]:	https://twitter.com/hotdogsladies/status/760580445213831168
-[2]:	https://support.apple.com/en-us/HT201236

@@ -6,7 +6,7 @@ tags: health
 categories: personal
 ---
 
-When I first learned about [Soylent][1], I was very intrigued. Soylent is a new "liquid food” that is meant to be a complete source of nutrition for the body in powder form. It is a mixture of all the essential vitamins and minerals we normally consume through eating food. The powder is simply mixed with water and drunk around meal time and can be used to completely remove solid foods from the diet if the person so chooses.
+When I first learned about [Soylent](https://www.soylent.com), I was very intrigued. Soylent is a new "liquid food” that is meant to be a complete source of nutrition for the body in powder form. It is a mixture of all the essential vitamins and minerals we normally consume through eating food. The powder is simply mixed with water and drunk around meal time and can be used to completely remove solid foods from the diet if the person so chooses.
 
 This to me is very attractive for many reasons, so I ordered myself a two week supply. After ordering, many people have asked me why I would want to try something like this. There are a few reasons:
 
@@ -20,5 +20,3 @@ I don’t plan on eliminating food from my life completely, as I think it can se
 Now, I’ve heard about as many arguments against Soylent as I have for it, so I’ve decided that the only way I’m going to actually find out if it works is to try it for myself. If it works as advertised, I see it as a way to save myself time and money, and also potentially improve my general health.
 
 I plan on writing here about my experiences drinking Soylent when it finally ships to my door in late September. If nothing else, it will be an interesting experiment.
-
-[1]:	https://www.soylent.com

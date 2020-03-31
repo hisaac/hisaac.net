@@ -11,7 +11,4 @@ I suffer from dysthymia and major depressive disorder. It sucks, and I dealt wit
 
 So to anyone dealing with mental illness on their own, and afraid of seeking help: I get it. It is *so* scary to be vulnerable. I still have terrible fear and anxiety being vulnerable, even with the people closest to me. I urge you to please consider at least seeing a therapist. There is no shame in seeking help. You are not weak if you can't handle it on your own. On the contrary, there is more strength in being vulnerable and taking action toward you having a better life than hiding those feelings away inside yourself.
 
-**If you need someone to talk to, don't hesitate to reach out. [Shoot me an email][1], or [DM me on Twitter][2]. I'd be happy to talk with you and help you find resources.**
-
-[1]:	mailto:hello@hisaac.net?subject=Re:%20World%20Mental%20Health%20Day
-[2]:	http://twitter.com/hisaac
+**If you need someone to talk to, don't hesitate to reach out. [Shoot me an email](mailto:hello@hisaac.net?subject=Re:%20World%20Mental%20Health%20Day), or [DM me on Twitter](http://twitter.com/hisaac). I'd be happy to talk with you and help you find resources.**

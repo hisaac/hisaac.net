@@ -9,6 +9,4 @@ I may have fell off the bandwagon with updating this blog with my solo project s
 
 While the app didn't end up quite as great as I'd imagined (I doubt it ever would've), I'm proud of what I built. I also learned a lot about OAuth, MongoDB, REST APIs, and CSS.
 
-You can check out the code for the project at [Crow's GitHub Page][1].
-
-[1]: https://github.com/hisaac/Crow
+You can check out the code for the project at [Crow's GitHub Page](https://github.com/hisaac/Crow).
