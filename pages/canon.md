@@ -5,7 +5,7 @@ permalink: /canon/
 ---
 
 > …the body of books, music, and art that scholars generally accept as the most important and influential…
-> 
+>
 > ***Wikipedia*** — <cite>[en.wikipedia.org/wiki/Western\_canon](https://en.wikipedia.org/wiki/Western_canon)</cite>
 
 This is my personal canon. Things created by others that are important to me. Things that have shaped the way I look at the world. Things that I don't just like, but that I love. Things that have fundamentally changed me or my personal philosophy.
@@ -58,12 +58,12 @@ This is my personal canon. Things created by others that are important to me. Th
 
 ## Online
 
-- <cite>[The Curse of Xanadu](https://www.wired.com/1995/06/xanadu/ "The Curse of Xanadu | Wired")</cite> by Gary Wolf
-	- This is my favorite piece of internet writing, and was very inspiring to me when I first read it years ago. It’s the story of [Ted Nelson](https://en.wikipedia.org/wiki/Ted_Nelson "Ted Nelson | Wikipedia") and [Project Xanadu](https://en.wikipedia.org/wiki/Project_Xanadu "Project Xanadu | Wikipedia"). While it may cast them both in a less than positive light, rest assured that [the Xanadu dream is still alive](http://www.xanadu.net), and Ted Nelson [continues to be thinking crazy / genius thoughts](https://www.youtube.com/user/TheTedNelson "TheTedNelson on YouTube").
+- <cite>[The Curse of Xanadu](https://www.wired.com/1995/06/xanadu/ "The Curse of Xanadu \| Wired")</cite> by Gary Wolf
+	- This is my favorite piece of internet writing, and was very inspiring to me when I first read it years ago. It’s the story of [Ted Nelson](https://en.wikipedia.org/wiki/Ted_Nelson "Ted Nelson \| Wikipedia") and [Project Xanadu](https://en.wikipedia.org/wiki/Project_Xanadu "Project Xanadu \| Wikipedia"). While it may cast them both in a less than positive light, rest assured that [the Xanadu dream is still alive](http://www.xanadu.net), and Ted Nelson [continues to be thinking crazy / genius thoughts](https://www.youtube.com/user/TheTedNelson "TheTedNelson on YouTube").
 - <cite>[Is Facebook Making Us Lonely?](https://www.theatlantic.com/magazine/archive/2012/05/is-facebook-making-us-lonely/308930/ "Is Facebook Making Us Lonely? | The Atlantic")</cite> by Stephen Marche
 	- The short answer is: Yes, Facebook is making us lonely. But is it Facebook's fault, or our own human nature? This article planted and nurtured the seed of doubt that eventually brought me to deactivate my Facebook account, and pull back on my other social activities.
-- <cite>[The Most Dangerous Gamer](https://www.theatlantic.com/magazine/archive/2012/05/the-most-dangerous-gamer/308928/?single_page=true "The Most Dangerous Gamer | The Atlantic")</cite> by Taylor Clark
-	- A profile of [Jonathan Blow](https://en.m.wikipedia.org/wiki/Jonathan_Blow "Jonathan Blow | Wikipedia"), one of the few people to be pushing the boundaries of video games into the realm of art. Blow has some choice words to say about the current state of the video game industry, and manages to come off as very inspiring.
+- <cite>[The Most Dangerous Gamer](https://www.theatlantic.com/magazine/archive/2012/05/the-most-dangerous-gamer/308928/?single_page=true "The Most Dangerous Gamer \| The Atlantic")</cite> by Taylor Clark
+	- A profile of [Jonathan Blow](https://en.m.wikipedia.org/wiki/Jonathan_Blow "Jonathan Blow \| Wikipedia"), one of the few people to be pushing the boundaries of video games into the realm of art. Blow has some choice words to say about the current state of the video game industry, and manages to come off as very inspiring.
 
 ## Video Games
 
