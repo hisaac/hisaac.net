@@ -7,8 +7,8 @@
 
 // Fonts
 
-$sans-serif: ui-sans-serif, sans-serif;
-$monospace: ui-monospace, monospace;
+$sans-serif: ui-sans-serif, Helvetica, sans-serif;
+$monospace: ui-monospace, Courier, monospace;
 $serif: ui-serif, Georgia, serif;
 
 // Colors
@@ -20,17 +20,48 @@ $body-text-color: #222;
 $safe-area: env(safe-area-inset-top), env(safe-area-inset-right),
 	env(safe-area-inset-bottom), env(safe-area-inset-left);
 
+body,
 html {
-	background-color: #fff;
-	color: $body-text-color;
-	font-family: $serif;
-	line-height: 1.4rem;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-	margin: 0;
+	height: 100%;
 	padding: 1em 3em;
+	font-family: $serif;
+	line-height: 1.4rem;
+	color: $body-text-color;
 	max-width: 100ch;
+}
+
+hr {
+	height: 1px;
+	background-color: #aaa;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+nav > ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	li {
+		display: inline;
+		padding: 0;
+		margin: 0;
+
+		&:before {
+			content: "| ";
+		}
+
+		&:first-child:before {
+			margin: -1.5px;
+			content: "";
+		}
+	}
 }
 
 code,
