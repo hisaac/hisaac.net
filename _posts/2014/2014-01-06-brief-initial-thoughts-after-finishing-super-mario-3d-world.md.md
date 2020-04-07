@@ -15,5 +15,4 @@ From a level design standpoint, they relied far too heavily on the new cat power
 All that said, Super Mario 3D World was an engaging and wonderful experience - as is to be expected from any Mario game. While Nintendo may lack marketing prowess or a clear understanding of online gaming (what this generation’s gamers expect from a console), one thing they still retain is their unmistakable style. No one can make a game like Nintendo can[^2], and I don’t expect that to change for a long time.
 
 [^1]: Yes, I am intentionally not including Super Mario Sunshine in this list as it was a terrible excuse for a 3D Mario game.
-
 [^2]: Except maybe Rare during it’s Nintendo-only days, but let’s not reopen old wounds here. It’s far too painful.
