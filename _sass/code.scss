@@ -28,6 +28,15 @@ tt {
 	tab-size: 4;
 }
 
+// Inline code
+p > code {
+	background-color: #f9f2f4;
+	border-radius: 4px;
+	color: #c7254e;
+	font-size: .9em;
+	padding: .2em .45em;
+}
+
 del code {
 	text-decoration: inherit;
 }
