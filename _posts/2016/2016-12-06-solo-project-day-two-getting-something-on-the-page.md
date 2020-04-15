@@ -57,11 +57,11 @@ Lastly, we had a brief lecture on JavaScript debuggers. I haven't looked into it
 
 ### Screenshots
 
-![Login Page](./login-page.png)
+![Login Page]({% asset_path login-page.png %})
 *Login Page*
 
-![Settings Page](./settings-page.png)]
+![Settings Page]({% asset_path ./settings-page.png %})]
 *Settings Page*
 
-![Tweet Page](./tweet-page.png)
+![Tweet Page]({% asset_path ./tweet-page.png %})
 *Tweet Page*

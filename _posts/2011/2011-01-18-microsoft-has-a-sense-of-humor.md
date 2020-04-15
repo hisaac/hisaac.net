@@ -4,7 +4,7 @@ date: 2011-01-18
 layout: post
 ---
 
-![I was the first to jailbreak Windows Phone 7, and all I got was this lousy t-shirt](windows-7-t-shirt.jpg)
+![I was the first to jailbreak Windows Phone 7, and all I got was this lousy t-shirt]({% asset_path windows-7-t-shirt.jpg %})
 *I was the first to jailbreak Windows Phone 7, and all I got was this lousy t-shirt*
 
 I’m truly impressed with how well Microsoft is handling its PR lately. After stating that they intentionally made their new Xbox peripheral — the Kinect — hackable and encouraging users to bend it to their will, they’re now taking a similar approach to their new mobile operating system, Windows Phone 7.
