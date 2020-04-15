@@ -17,9 +17,8 @@ jobs:
           jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
 
       - name: Deploy the site to Amazon s3
-        uses:
-          - actions/checkout@v2
-          - jakejarvis/s3-sync-action@master
+      - uses: actions/checkout@v2
+      - uses: jakejarvis/s3-sync-action@master
         with:
           args: --acl public-read --follow-symlinks --delete
         env:
