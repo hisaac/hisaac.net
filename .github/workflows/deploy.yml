@@ -9,9 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses:
-        - actions/checkout@v2
-        - jakejarvis/s3-sync-action@master
+      - uses: actions/checkout@v2
+      - uses: jakejarvis/s3-sync-action@master
 
       - name: Build the site in the jekyll/builder container
         run: |
