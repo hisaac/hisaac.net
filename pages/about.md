@@ -6,23 +6,23 @@ permalink: /about/
 
 ![A Picture of Isaac's Face](/assets/images/headshot.jpg)
 
-<h1 class="about-page-salutation"><span class="line">Hi there,</span> <span class="line">I'm Isaac Halvorson</span> <span class="line">👋</span></h1>
+# Hi there, I'm Isaac Halvorson 👋
 
-<p class="center">Thanks for checking out my website. It's good to have you here.</p>
+Thanks for checking out my website. It's good to have you here.
 
 ## About Me
 
-I'm an iOS and full stack web developer living in [Saint Paul, MN](https://en.wikipedia.org/wiki/Saint_Paul,_Minnesota). In my free time, I blog here, listen to as much music as possible, and I'm currently developing my very first iOS app, a quotebook called *Adage*. You can see more of what I'm doing here at my [/now](/now.html) page.
+I'm an iOS and full stack web developer living in [Lauderdale, MN](https://en.wikipedia.org/wiki/Lauderdale%2C_Minnesota), a tiny suburb of [Minneapolis](https://en.wikipedia.org/wiki/Minneapolis). In my free time, I blog here, [listen to as much music as possible](https://www.last.fm/user/hisaac), tinker with code, and spend time with my wife and son. You can see more of what I'm doing here at my [/now](/now.html) page.
 
 My interests include science-fiction, music, technology, and open source software. Ask me my thoughts on [Benjamin Sisko](http://memory-alpha.wikia.com/wiki/Benjamin_Sisko), [Londo Mollari](http://babylon5.wikia.com/wiki/Londo_Mollari), [Aphex Twin](https://song.link/album/s/6oRuinkJdTge4hpTuClEF8), or [Neil Young](https://song.link/album/s/3w5Hok05AFjCLy269xXM7e) sometime. I've got many thoughts to share.
 
 ### Work
 
-I currently work at [C.H. Robinson](https://www.chrobinson.com), developing their iOS apps: [Navisphere Carrier](https://itunes.apple.com/us/app/navisphere-carrier/id1089613477?mt=8) and [Navisphere Driver](https://itunes.apple.com/us/app/navisphere-driver/id1247478172?mt=8).
+I currently work as a macOS developer for [Jamf](https://www.jamf.com), a software company based out of Minneapolis.
 
-I've spent most of my professional life working with technology. I'm an experienced IT support technician and manager, and I've also done software quality assurance, and audio production & engineering.
+I've spent most of my professional life working with technology. Before software development, I was an IT support technician and manager, software quality assurance technician, audio producer, and audio engineer.
 
-<!-- If you'd like to know more, you can check out my résumé. -->
+If you'd like to know more, you can check out my [résumé](/resume).
 
 ### Education
 
@@ -38,13 +38,12 @@ Here are all the places you can find me elsewhere:
 - [GitHub](http://github.com/hisaac)
 - [Stack Exchange](http://stackexchange.com/users/5023139/hisaac)
 - [Bandcamp](https://bandcamp.com/hisaac)
-- [Conquer Earth](https://conquer.earth/hisaac)
-- [last.fm](http://www.last.fm/user/hisaaac)
+- [last.fm](http://www.last.fm/user/hisaac)
+- [Apple Music](https://music.apple.com/profile/hisaac)
 - [Letterboxd](https://letterboxd.com/hisaac/)
 - [Trakt.tv](https://trakt.tv/users/hisaac)
 - [Goodreads](https://www.goodreads.com/user/show/32098770-isaac)
 - [Grouvee](https://www.grouvee.com/user/hisaac/)
-- [BoardGameGeek](https://boardgamegeek.com/user/hisaac)
 - [Keybase](https://keybase.io/hisaac)
 - [Linkedin](https://www.linkedin.com/in/isaachalvorson)
 
@@ -56,7 +55,11 @@ I've started and stopped blogs many times, but the times I was most consistent w
 
 ### Technical Details
 
-I've been blogging since middle school on various platforms including Microsoft's "MyPages", Xanga, Wordpress, tumblr, and a self-hosted Jekyll blog. This time around, I'm trying out [Hexo](https://hexo.io). It's similar to Jekyll in that it processes [Markdown](https://daringfireball.net/projects/markdown/) files for the blog posts, but it's heavily steeped in [JavaScript](https://en.wikipedia.org/wiki/JavaScript), which is the programming language I'm most familiar with. It runs on [Node.js](https://nodejs.org/en/) and its templating engine is [EJS](http://www.embeddedjs.com).
+I've been blogging since middle school on various platforms including Microsoft's "MyPages", Xanga, Wordpress, tumblr, [Jekyll](https://jekyllrb.com), and [Hexo](https://hexo.io). This time around, I'm back with Jekyll. Jekyll was my first foray into static site generators, and coming back to it from Hexo just feels like coming home.
+
+The site is [built and deployed using GitHub Actions](https://github.com/hisaac/hisaac.net/actions).
+
+The site is hosted using [Amazon S3](https://aws.amazon.com/s3/), DNS is managed use [Amazon Route 53](https://aws.amazon.com/route53/), and content is delivered using [Amazon CloudFront](https://aws.amazon.com/cloudfront/).
 
 ### Design
 
@@ -64,4 +67,14 @@ For the design of this blog, I took inspiration from multiple sites. Philosophic
 
 > The site uses the latest semantic markup as recommended by the W3C and is built with a 56k modem philosophy in mind (for those who grew up after dial-up, that's a codeword for using as little bandwidth as possible).
 
-I don't think my site is quite as light as Dan's, but that's the goal I had in mind.
+My site is not nearly as light as Dan's, but that's the goal I had in mind.
+
+Design inspiration comes from a number of places, including:
+
+- [The "lite" version of CNN's website](http://lite.cnn.io/en)
+- [Dan Loewenherz's blog](https://dlo.me)
+- [Paul Frazee's blog](https://pfrazee.hashbase.io)
+- [Ben Balter’s blog](https://ben.balter.com/)
+- [Ole Begemann's blog](https://oleb.net)
+- [Jeff Johnson's website](https://lapcatsoftware.com/)
+- [Maciej Cegłowski's blog](https://idlewords.com/)

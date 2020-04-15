@@ -7,6 +7,15 @@
 {% include nav.html %}
 
 <main>
+
+	<p>
+		<strong>👋 Hi there, I'm Isaac Halvorson. Welcome to my website.</strong><br />
+		Below, you'll find things that I've written.<br/>
+		If you'd like to learn more about me or this site, please visit my <a href="/about">About page</a>.
+	</p>
+
+	<hr />
+
 	{% for post in site.posts %}
 		{% capture this_date %}{{ post.date | date: "%B %Y" }}{% endcapture %}
 		{% capture next_date %}{{ post.previous.date | date: "%B %Y" }}{% endcapture %}

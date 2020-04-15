@@ -7,7 +7,7 @@ url: "https://hisaac.net"
 twitter_username: hisaac
 github_username: hisaac
 
-permalink: /:year/:month/:day/:title.html
+permalink: /:title.html
 timezone: America/North_Dakota/Center
 strict_front_matter: true
 livereload: true
@@ -26,12 +26,11 @@ keep-files:
   - resume
 
 defaults:
-  -
-    scope:
-      path: '_posts'
-      type: 'posts'
+  - scope:
+      path: "_posts"
+      type: "posts"
     values:
-      layout: 'post'
+      layout: "post"
       author: Isaac Halvorson
 
 jekyll_tidy:

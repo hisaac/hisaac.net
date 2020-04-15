@@ -11,6 +11,6 @@ permalink: /now/
 ## What I'm Doing Now
 
 - [Constantly tinkering](https://github.com/hisaac/hisaac.net/commits/master) with this site's design and structure
-- Working as a macOS & iOS developer at [Jamf](https://jamf.com)
+- Working as a macOS developer at [Jamf](https://jamf.com)
 - [Writing open source code](https://github.com/hisaac)
 - Learning how to be a father to my son Henry
