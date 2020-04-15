@@ -7,7 +7,7 @@ url: "https://hisaac.net"
 twitter_username: hisaac
 github_username: hisaac
 
-permalink: /:title.html
+permalink: /posts/:title/
 timezone: America/North_Dakota/Center
 strict_front_matter: true
 livereload: true
