@@ -8,6 +8,10 @@ $sans-serif: ui-sans-serif, Helvetica, sans-serif;
 $monospace: ui-monospace, Courier, monospace;
 $serif: ui-serif, Georgia, serif;
 
+// Breakpoints
+
+$breakpoint-tablet: 768px;
+
 // Colors
 
 $link-color: #2334ff;
@@ -29,8 +33,13 @@ body {
 	font-family: $serif;
 	height: 100%;
 	line-height: 1.4rem;
+	margin: auto;
 	max-width: 100ch;
-	padding: 1em 3em;
+	padding: .5em 1.5em;
+
+	@media (min-width: $breakpoint-tablet) {
+		padding: 1em 3em;
+	}
 }
 
 hr {
