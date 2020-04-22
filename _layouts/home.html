@@ -22,7 +22,7 @@
 		{% capture next_date %}{{ post.previous.date | date: "%B %Y" }}{% endcapture %}
 
 		{% if forloop.first %}
-			<h2>{{ this_date }}</h2>
+			<h3>{{ this_date }}</h3>
 			<ul>
 		{% endif %}
 				<li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -31,7 +31,7 @@
 		{% else %}
 			{% if this_date != next_date %}
 				</ul>
-				<h2>{{ next_date }}</h2>
+				<h3>{{ next_date }}</h3>
 				<ul>
 			{% endif %}
 		{% endif %}
