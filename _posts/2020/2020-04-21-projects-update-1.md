@@ -58,7 +58,7 @@ There are also some cons to Notion:
 
 Overall, the pros outweigh the cons, so the migration has started. And the more I use the app and service, the more I like it. I'd say I'm about 60% of the way through. I'm also using the time to clean through a lot of the cruft that has built up in my Evernote database. Once this is completed, I'll have a fresh clean notes database to use for hopefully a very long time.
 
-I just looked, and I've got an Evernote premium subscription until July 16^th of this year. That day will come fast!
+I just looked, and I've got an Evernote premium subscription until July 16<sup>th</sup> of this year. That day will come fast!
 
 ## Upcoming
 
