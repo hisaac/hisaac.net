@@ -1,6 +1,6 @@
 ---
 title: "My Favorite Music of 2019"
-date: 2020-06-29
+date: 2020-06-30
 layout: post
 tags: music
 ---
@@ -25,6 +25,13 @@ tags: music
 
 	.music-link-list > li:first-child:before {
 		padding-left: 0
+	}
+
+	h2 {
+		margin-top: 1em;
+		font-size: xx-large;
+		padding-bottom: unset;
+		border-bottom: unset;
 	}
 </style>
 
@@ -56,6 +63,8 @@ American Football somehow manages to continue releasing breathtaking music.
 	<li><a href="https://www.youtube.com/playlist?list=PLCEek3JM0q8YQ9USipLJOghm-w6pYwssz">YouTube</a></li>
 	<li><a href="https://album.link/us/i/1486934069">Others</a></li>
 </ul>
+
+A return to form for Andy Stott, channeling some of what I loved about his earlier works, while still sounding fresh.
 
 ## Caribou - <cite>Home</cite>
 
@@ -97,7 +106,7 @@ I'd never heard of Caroline Polachek before this album was released. It's an exc
 	<li><a href="https://song.link/us/i/1480620092">Others</a></li>
 </ul>
 
-Full disclosure: Carpet City is the project of a friend of mine, but also full disclosure: Everything they do is excellent. This is the first single as Carpet City. I hope there is more to come!
+Full disclosure: Carpet City is the project of a friend of mine, but also full disclosure: Everything they do is excellent. This is their first single as Carpet City, and I desperately hope there is more to come!
 
 (Definitely also check out their other single, <a href="https://song.link/us/i/1496617161"><cite>I Don't Wanna Know</cite></a>.)
 
@@ -113,7 +122,7 @@ Full disclosure: Carpet City is the project of a friend of mine, but also full d
 	<li><a href="https://album.link/i/1458032141">Others</a></li>
 </ul>
 
-Chris Staples can do no wrong in my eyes, and this album is in support of that. Another fun and deceptively simple release. One of my favorite songwriters ever.
+Chris Staples can do no wrong in my eyes, and this album is in support of that. Another fun and deceptively virtuosic release. One of my favorite songwriters ever.
 
 ## Denzel Curry - <cite>ZUU</cite>
 
@@ -126,7 +135,7 @@ Chris Staples can do no wrong in my eyes, and this album is in support of that. 
 	<li><a href="https://album.link/i/1465384996">Others</a></li>
 </ul>
 
-I am consistently blown away by everything Denzel Curry does. <cite>ZUU</cite> is so unique. Nothing else sounding like it.
+I am consistently blown away by everything Denzel Curry does. <cite>ZUU</cite> is so unique. Nothing else like it.
 
 ## Duster - <cite>Duster</cite>
 
@@ -168,7 +177,7 @@ Faye Webster was a new find for me this year, and has quickly become one of my f
 	<li><a href="https://album.link/i/1475361065">Others</a></li>
 </ul>
 
-This album came out of nowhere. Never heard of Floating Points before. The depth and interest in his electronic bleeps is exciting.
+This album came out of nowhere. I'd never heard of Floating Points before. The depth and interest in his electronic bleeps is exciting.
 
 ## Gabriel Gundacker - <cite>Wii Jogging</cite>
 
@@ -191,6 +200,8 @@ Gabriel Gundacker has been releasing Wii Sports songs since 2017 in his [<cite>U
 	<li><a href="https://album.link/i/1482971910">Others</a></li>
 </ul>
 
+A legend has returned in full form.
+
 ## Griselda - <cite>WWCD</cite>
 
 ![Album Art for "WWCD" by Griselda]({% asset_path griselda-wwcd.jpg %})
@@ -201,6 +212,8 @@ Gabriel Gundacker has been releasing Wii Sports songs since 2017 in his [<cite>U
 	<li><a href="https://www.youtube.com/playlist?list=OLAK5uy_nilbtEoCq-5MOBPSET70Slea3IUPGEv1U">YouTube</a></li>
 	<li><a href="https://album.link/i/1488564337">Others</a></li>
 </ul>
+
+The Griselda crew has been around for a while, but this album was the first I'd heard by them. A killer release with some of the best beats in a long time. While the lyrics are a little more hardcore than I prefer, the must more than makes up for it.
 
 ## Hatchie - <cite>Keepsake</cite>
 
@@ -258,6 +271,8 @@ This album was a staple in my listening about 10 years ago, but until now, all I
 
 ## Ithaca - <cite>The Language of Injury</cite>
 
+![Album Art for "The Language of Injury" by Ithaca]({% asset_path ithaca-the-language-of-injury.jpg %})
+
 <ul class="music-link-list">
 	<li><a href="https://ithacauk.bandcamp.com/album/the-language-of-injury">Bandcamp</a></li>
 	<li><a href="https://music.apple.com/us/album/the-language-of-injury/1416228417">Apple Music</a></li>
@@ -270,6 +285,8 @@ Some great hardcore I randomly stumbled across.
 
 ## Jai Paul - <cite>Leak 04-13 (Bait Ones)</cite>
 
+![Album Art for "Leak 04-13 (Bait Ones)" by Jai Paul]({% asset_path jai-paul-leak-04-13-bait-ones.jpg %})
+
 <ul class="music-link-list">
 	<li><a href="https://music.apple.com/us/album/leak-04-13-bait-ones/1465710066">Apple Music</a></li>
 	<li><a href="https://open.spotify.com/album/6Wsai43KQmmKlN29AWlXFr">Spotify</a></li>
@@ -280,6 +297,8 @@ Some great hardcore I randomly stumbled across.
 I won't retell [the tale](https://en.wikipedia.org/wiki/Leak_04-13_(Bait_Ones)) here, but this is an _infamous_ lost release. Now, we finally get a true official release — or as close to one as we'll ever see.
 
 ## James Blake - <cite>Assume Form</cite>
+
+![Album Art for "Assume Form" by James Blake]({% asset_path james-blake-assume-form.jpg %})
 
 <ul class="music-link-list">
 	<li><a href="https://music.apple.com/us/album/assume-form/1447513857">Apple Music</a></li>
@@ -292,6 +311,8 @@ Another beautiful release from the man with the golden voice and the golden synt
 
 ## John Raymond - <cite>Where We Grew Up</cite>
 
+![Album Art for "Where We Grew Up" by John Raymond]({% asset_path john-raymond-where-we-grew-up.jpg %})
+
 <ul class="music-link-list">
 	<li><a href="https://music.apple.com/us/album/where-we-grew-up/1479422928">Apple Music</a></li>
 	<li><a href="https://open.spotify.com/album/6rUBVmFcPofqtw6f1jZbDf">Spotify</a></li>
@@ -303,6 +324,8 @@ I learned of John Raymond this year, after my wife offhandedly remarked that she
 
 ## Joseph - <cite>Good Luck, Kid</cite>
 
+![Album Art for "Good Luck, Kit" by Joseph]({% asset_path joseph-good-luck-kid.jpg %})
+
 <ul class="music-link-list">
 	<li><a href="https://music.apple.com/us/album/good-luck-kid/1471027058">Apple Music</a></li>
 	<li><a href="https://open.spotify.com/album/4Nz2TKH4snc8EZMhsMDjgi">Spotify</a></li>
@@ -313,6 +336,8 @@ I learned of John Raymond this year, after my wife offhandedly remarked that she
 Some great alternative pop music with female vocals. Not their finest release, but still a favorite of mine.
 
 ## Julia Shapiro - <cite>Perfect Version</cite>
+
+![Album Art for "Perfect Version" by Julia Shapiro]({% asset_path julia-shapiro-perfect-version.jpg %})
 
 <ul class="music-link-list">
 	<li><a href="https://juliashapiro.bandcamp.com/album/perfect-version">Bandcamp</a></li>
@@ -326,6 +351,8 @@ Julia Shapiro is the singer for the indie rock band [Chastity Belt](https://en.w
 
 ## La Dispute - <cite>Panorama</cite>
 
+![Album Art for "Panorama" by La Dispute]({% asset_path la-dispute-panorama.jpg %})
+
 <ul class="music-link-list">
 	<li><a href="https://ladispute.bandcamp.com/album/panorama">Bandcamp</a></li>
 	<li><a href="https://music.apple.com/us/album/panorama/1485073953">Apple Music</a></li>
@@ -337,6 +364,8 @@ Julia Shapiro is the singer for the indie rock band [Chastity Belt](https://en.w
 How should I describe La Dispute… Emo for dads maybe? Whatever it is, it's emo with a depth of sadness that I haven't heard elsewhere. (Full disclosure, I haven't listened to a lot of emo, so please [let me know](mailto:hello@hisaac.net) of other great ones that I should know about!)
 
 ## Mac DeMarco - <cite>Here Comes the Cowboy</cite>
+
+![Album Art for "Here Comes the Cowboy" by Mac DeMarco]({% asset_path mac-demarco-here-comes-the-cowboy.jpg %})
 
 <ul class="music-link-list">
 	<li><a href="https://macdemarco.bandcamp.com/album/here-comes-the-cowboy">Bandcamp</a></li>
@@ -350,6 +379,8 @@ How can you not love Mac DeMarco? The chillest indie rock music there is. Not hi
 
 ## Noname - <cite>Song 31</cite>
 
+![Album Art for "Song 31" by Noname]({% asset_path noname-song-31.jpg %})
+
 <ul class="music-link-list">
 	<li><a href="https://music.apple.com/us/album/song-31-feat-phoelix/1448279189">Apple Music</a></li>
 	<li><a href="https://open.spotify.com/album/7scUVtp3DvSf9gHfE7cfUB">Spotify</a></li>
@@ -361,6 +392,8 @@ This (and Song 32 below it) were both surprise releases. Noname's delivery is li
 
 ## Noname - <cite>Song 32</cite>
 
+![Album Art for "Song 32" by Noname]({% asset_path noname-song-32.jpg %})
+
 <ul class="music-link-list">
 	<li><a href="https://music.apple.com/us/album/song-32/1458433570">Apple Music</a></li>
 	<li><a href="https://open.spotify.com/album/7eVx4XXwY3KrIPGRrW66UI">Spotify</a></li>
@@ -371,6 +404,8 @@ This (and Song 32 below it) were both surprise releases. Noname's delivery is li
 (See above)
 
 ## Pedro the Lion - <cite>Phoenix</cite>
+
+![Album Art for "Phoenix" by Pedro the Lion]({% asset_path pedro-the-lion-phoenix.jpg %})
 
 <ul class="music-link-list">
 	<li><a href="https://pedrothelion.bandcamp.com/album/phoenix">Bandcamp</a></li>
@@ -386,6 +421,8 @@ The album tells the story of David Bazan's time growing up in Phoenix, AZ. I lov
 
 ## Phobophilic - <cite>Undimensioned Identities</cite>
 
+![Album Art for "Undimensioned Identities" by Phobophilic]({% asset_path phobophilic-undimensioned-identities.png %})
+
 <ul class="music-link-list">
 	<li><a href="https://phobophilic.bandcamp.com/album/undimensioned-identities">Bandcamp</a></li>
 	<li><a href="https://music.apple.com/us/album/undimensioned-identities-ep/1480170840">Apple Music</a></li>
@@ -397,6 +434,8 @@ The album tells the story of David Bazan's time growing up in Phoenix, AZ. I lov
 I started to expand my appreciation of metal this year to other sub-genres. This is the first death metal record I've ever loved, and the band is from Fargo, ND of all places (near my hometown). Brutal, deep, chunky.
 
 ## Pijn & Conjurer - <cite>Curse These Metal Hands</cite>
+
+![Album Art for "Curse These Metal Hands" by Pijn & Conjurer]({% asset_path pijn-conjurer-curse-these-metal-hands.jpg %})
 
 <ul class="music-link-list">
 	<li><a href="https://conjureruk.bandcamp.com/album/curse-these-metal-hands">Bandcamp</a></li>
@@ -410,6 +449,8 @@ An ode to early Baroness, this sounds exactly like a lost EP from before [the ac
 
 ## Shigeto - <cite>Versions</cite>
 
+![Album Art for "Versions" by Shigeto]({% asset_path shigeto-versions.jpg %})
+
 <ul class="music-link-list">
 	<li><a href="https://shigeto.bandcamp.com/album/versions">Bandcamp</a></li>
 	<li><a href="https://music.apple.com/us/album/versions-ep/1473513395">Apple Music</a></li>
@@ -421,6 +462,8 @@ An ode to early Baroness, this sounds exactly like a lost EP from before [the ac
 This might be my favorite jazz release ever (full disclosure, I don't listen to nearly as much jazz as I should). I'd love to find more jazz like this, but I don't have the knowledge or vocabulary to know how to find it. If you know of anything that sounds like this, please please [let me know](mailto:hello@hisaac.net)!
 
 ## Soulkeeper - <cite>Gorgeous</cite>
+
+![Album Art for "Gorgeous" by Soulkeeper]({% asset_path soulkeeper-gorgeous.jpg %})
 
 <ul class="music-link-list">
 	<li><a href="https://soulkeepercult.bandcamp.com/track/gorgeous">Bandcamp</a></li>
@@ -434,6 +477,8 @@ Soulkeeper is my favorite local metal band. I discovered them a couple years bac
 
 ## Spirit Trap - <cite>Demo</cite>
 
+![Album Art for "Demo" by Spirit Trap]({% asset_path spirit-trap-demo.jpg %})
+
 <ul class="music-link-list">
 	<li><a href="https://spirittrap.bandcamp.com/album/demo">Bandcamp</a></li>
 </ul>
@@ -443,6 +488,8 @@ Spirit Trap is a punk band, fronted by musician and comic artist [Anya Davidson]
 The music is abrasive, angular, and noisy (duh).
 
 ## The Staves - <cite>Nothing's Gonna Happen (Demo)</cite>
+
+![Album Art for "Nothing's Gonna Happen (Demo)" by The Staves]({% asset_path the-staves-nothings-gonna-happen-demo.jpg %})
 
 <ul class="music-link-list">
 	<li><a href="https://music.apple.com/us/album/nothings-gonna-happen-demo/1489210248">Apple Music</a></li>
@@ -457,6 +504,8 @@ The Staves have a special place in my heart, and I am terribly excited for their
 
 ## The Tallest Man on Earth - <cite>I Love You. It's a Fever Dream.</cite>
 
+![Album Art for "I Love You. It's a Fever Dream." by The Tallest Man on Earth]({% asset_path the-tallest-man-on-earth-i-love-you-its-a-fever-dream.jpg %})
+
 <ul class="music-link-list">
 	<li><a href="https://music.apple.com/us/album/i-love-you-its-a-fever-dream/1456111196">Apple Music</a></li>
 	<li><a href="https://open.spotify.com/album/21iUYmZgiaPv5xvfTYKqRs">Spotify</a></li>
@@ -468,6 +517,8 @@ The Tallest Man on Earth is Kristian Matsson, a Swede who sounds straight out of
 
 ## Taylor Swift - <cite>Lover</cite>
 
+![Album Art for "Lover" by Taylor Swift]({% asset_path taylor-swift-lover.jpg %})
+
 <ul class="music-link-list">
 	<li><a href="https://music.apple.com/us/album/lover/1468058165">Apple Music</a></li>
 	<li><a href="https://open.spotify.com/album/1NAmidJlEaVgA3MpcPFYGq">Spotify</a></li>
@@ -478,6 +529,8 @@ The Tallest Man on Earth is Kristian Matsson, a Swede who sounds straight out of
 I've been a Taylor Swift fan since [<cite>1989</cite>](https://album.link/i/1440935467) (the album, not the year, of course). Nothing Swift has made has yet matched <cite>1989</cite>'s pop genius, but it's all been good, and <cite>Lover</cite> is no exception.
 
 ## Telefon Tel Aviv - <cite>Dreams Are Not Enough</cite>
+
+![Album Art for "Dreams Are Not Enough" by Telefon Tel Aviv]({% asset_path telefon-tel-aviv-dreams-are-not-enough.jpg %})
 
 <ul class="music-link-list">
 	<li><a href="https://telefon-tel-aviv.bandcamp.com/album/dreams-are-not-enough">Bandcamp</a></li>
@@ -491,6 +544,8 @@ This album sounds nothing like their first release (and my favorite of theirs), 
 
 ## Ty Segall - <cite>First Taste</cite>
 
+![Album Art for "First Taste" by Ty Segall]({% asset_path ty-segall-first-taste.jpg %})
+
 <ul class="music-link-list">
 	<li><a href="https://tysegall.bandcamp.com/album/first-taste">Bandcamp</a></li>
 	<li><a href="https://music.apple.com/us/album/first-taste/1463125270">Apple Music</a></li>
@@ -501,19 +556,9 @@ This album sounds nothing like their first release (and my favorite of theirs), 
 
 More fun and fuzzy garage rock from the greatest garage rocker in the game.
 
-## user18081971 (a.k.a. Aphex Twin) - <cite>Sc</cite>
-
-![The SoundCloud Avatar of user18081971 (a.k.a. Aphex Twin)]({% asset_path user18081971-soundcloud-avatar.jpg %})
-
-Aphex Twin continues the slow trickle of song releases through his "secret" SoundCloud profile. These are the three released in 2019.
-
-<ul>
-	<li><a href="https://soundcloud.com/user18081971/circlont12a-syroacewav">CIRCLONT12A Syro[ace].WAV</a></li>
-	<li><a href="https://soundcloud.com/user18081971/barbican1-rehearsal-seq1">Barbican1 Rehearsal Seq1 [remote control orchestra]</a></li>
-	<li><a href="https://soundcloud.com/user18081971/138-0204-blue-carpet">138 - 0204 - blue carpet</a></li>
-</ul>
-
 ## Vetiver - <cite>Up on High</cite>
+
+![Album Art for "Up on High" by Vetiver]({% asset_path vetiver-up-on-high.jpg %})
 
 <ul class="music-link-list">
 	<li><a href="https://mamabird.bandcamp.com/album/up-on-high">Bandcamp</a></li>
@@ -527,6 +572,8 @@ I was turned onto this album by [an internet friend of mine](https://jonmitchell
 
 ## Vince Staples - <cite>Hell Bound (Ad 01)</cite>
 
+![Album Art for "Hell Bound (Ad 01)" by Vince Staples]({% asset_path vince-staples-hell-bound-ad-01.jpg %})
+
 <ul class="music-link-list">
 	<li><a href="https://music.apple.com/us/album/hell-bound-ad-01/1490648807">Apple Music</a></li>
 	<li><a href="https://open.spotify.com/album/1bSClsUZiaNRzifTz0YMu9">Spotify</a></li>
@@ -538,6 +585,8 @@ A short and sweet single from one of the more singular hip-hop artists right now
 
 ## Whirr - <cite>Feels Like You</cite>
 
+![Album Art for "Feels Like You" by Whirr]({% asset_path whirr-feels-like-you.jpg %})
+
 <ul class="music-link-list">
 	<li><a href="https://whirrband.bandcamp.com/album/feels-like-you">Bandcamp</a></li>
 	<li><a href="https://www.youtube.com/watch?v=6_SckpuUPs4&list=PLMZ2GvZ8XUcDlKk53d5mj97jMW5LqjAfV">YouTube</a></li>
@@ -548,6 +597,8 @@ This is the best shoegaze record I've heard in a long while. It has it all.
 Apparently this album was only supposed to be released on vinyl (blergh), but it leaked online so they decided to make an official digital release as well (yay)! It's not streaming anywhere officially, but you can buy the record on Bandcamp, and stream it unofficially on YouTube.
 
 ## Whitney - <cite>Forever Turned Around</cite>
+
+![Album Art for "Forever Turned Around" by Whitney]({% asset_path whitney-forever-turned-around.jpg %})
 
 <ul class="music-link-list">
 	<li><a href="https://whitneychicago.bandcamp.com/album/forever-turned-around">Bandcamp</a></li>
