@@ -5,35 +5,6 @@ layout: post
 tags: music
 ---
 
-<style>
-	.music-link-list {
-		list-style: none;
-		margin: auto;
-		padding: 0;
-		text-align: center;
-	}
-
-	.music-link-list > li {
-		display: inline;
-		margin: 0;
-		padding: 0;
-	}
-
-	.music-link-list > li:before {
-		content: "| ";
-	}
-
-	.music-link-list > li:first-child:before {
-		content: "";
-		margin: -1.5px;
-	}
-
-	h2 {
-		border-bottom: unset;
-		margin-bottom: -10px;
-	}
-</style>
-
 These are my favorite music releases from 2019 (listed in alphabetical order by artist name).
 
 If any of these links are broken, please [let me know](mailto:hello@hisaac.net) so that I can fix them.
@@ -694,3 +665,32 @@ Apparently this album was only supposed to be released on vinyl (blergh), but it
 This is sunny Summer music if I ever heard it. Light, airy, melodic, crisp, soft.
 
 ***
+
+<style>
+	.music-link-list {
+		list-style: none;
+		margin: auto;
+		padding: 0;
+		text-align: center;
+	}
+
+	.music-link-list > li {
+		display: inline;
+		margin: 0;
+		padding: 0;
+	}
+
+	.music-link-list > li:before {
+		content: "| ";
+	}
+
+	.music-link-list > li:first-child:before {
+		content: "";
+		margin: -1.5px;
+	}
+
+	h2 {
+		border-bottom: unset;
+		margin-bottom: -10px;
+	}
+</style>
