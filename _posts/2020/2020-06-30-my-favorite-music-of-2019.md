@@ -8,36 +8,37 @@ tags: music
 <style>
 	.music-link-list {
 		list-style: none;
+		margin: auto;
 		padding: 0;
 		text-align: center;
-		margin: auto;
 	}
 
 	.music-link-list > li {
 		display: inline;
+		margin: 0;
+		padding: 0;
 	}
 
-	.music-link-list > li:before,
-	.music-link-list > li:last-child:after {
-		content: "|";
-		padding: .5em;
+	.music-link-list > li:before {
+		content: "| ";
 	}
 
 	.music-link-list > li:first-child:before {
-		padding-left: 0
+		content: "";
+		margin: -1.5px;
 	}
 
 	h2 {
-		margin-top: 1em;
-		font-size: xx-large;
-		padding-bottom: unset;
 		border-bottom: unset;
+		margin-bottom: -10px;
 	}
 </style>
 
 These are my favorite music releases from 2019 (listed in alphabetical order by artist name).
 
 If any of these links are broken, please [let me know](mailto:hello@hisaac.net) so that I can fix them.
+
+***
 
 ## American Football - <cite>American Football (LP3)</cite>
 
@@ -53,6 +54,8 @@ If any of these links are broken, please [let me know](mailto:hello@hisaac.net) 
 
 American Football somehow manages to continue releasing breathtaking music.
 
+***
+
 ## Andy Stott - <cite>It Should Be Us</cite>
 
 ![Album Art for It Should Be Us by Andy Stott]({% asset_path andy-stott-it-should-be-us.png %})
@@ -65,6 +68,8 @@ American Football somehow manages to continue releasing breathtaking music.
 </ul>
 
 A return to form for Andy Stott, channeling some of what I loved about his earlier works, while still sounding fresh.
+
+***
 
 ## Caribou - <cite>Home</cite>
 
@@ -80,6 +85,8 @@ A return to form for Andy Stott, channeling some of what I loved about his earli
 
 This was the first single off of Caribou's 2020 album [<cite>Suddenly</cite>](https://caribouband.bandcamp.com/album/suddenly). The song came out around the time my first son Henry started to be able to perceive the world. I played this song for him often, and I used it to help teach him how to dance.
 
+***
+
 ## Caroline Polachek - <cite>Pang</cite>
 
 ![Album Art for "Pang" by Caroline Polachek]({% asset_path caroline-polachek-pang.jpg %})
@@ -93,6 +100,8 @@ This was the first single off of Caribou's 2020 album [<cite>Suddenly</cite>](ht
 </ul>
 
 I'd never heard of Caroline Polachek before this album was released. It's an exciting and unique version of pop.
+
+***
 
 ## Carpet City - <cite>Little Longer</cite>
 
@@ -110,6 +119,8 @@ Full disclosure: Carpet City is the project of a friend of mine, but also full d
 
 (Definitely also check out their other single, <a href="https://song.link/us/i/1496617161"><cite>I Don't Wanna Know</cite></a>.)
 
+***
+
 ## Chris Staples - <cite>Holy Moly</cite>
 
 ![Album Art for "Holy Moly" by Chris Staples]({% asset_path chris-staples-holy-moly.jpg %})
@@ -124,6 +135,8 @@ Full disclosure: Carpet City is the project of a friend of mine, but also full d
 
 Chris Staples can do no wrong in my eyes, and this album is in support of that. Another fun and deceptively virtuosic release. One of my favorite songwriters ever.
 
+***
+
 ## Denzel Curry - <cite>ZUU</cite>
 
 ![Album Art for "ZUU" by Denzel Curry]({% asset_path denzel-curry-zuu.jpg %})
@@ -136,6 +149,8 @@ Chris Staples can do no wrong in my eyes, and this album is in support of that. 
 </ul>
 
 I am consistently blown away by everything Denzel Curry does. <cite>ZUU</cite> is so unique. Nothing else like it.
+
+***
 
 ## Duster - <cite>Duster</cite>
 
@@ -151,6 +166,8 @@ I am consistently blown away by everything Denzel Curry does. <cite>ZUU</cite> i
 
 After 19 years, the slowcore legend is baaaaaack.
 
+***
+
 ## Faye Webster - <cite>Atlanta Millionaires Club</cite>
 
 ![Album Art for "Atlanta Millionaires Club" by Faye Webster]({% asset_path faye-webster-atlanta-millionaires-club.png %})
@@ -164,6 +181,8 @@ After 19 years, the slowcore legend is baaaaaack.
 </ul>
 
 Faye Webster was a new find for me this year, and has quickly become one of my favorite artists right now. I've been listening to a lot of alt-country. I’m eagerly awaiting her next release.
+
+***
 
 ## Floating Points - <cite>Crush</cite>
 
@@ -179,6 +198,8 @@ Faye Webster was a new find for me this year, and has quickly become one of my f
 
 This album came out of nowhere. I'd never heard of Floating Points before. The depth and interest in his electronic bleeps is exciting.
 
+***
+
 ## Gabriel Gundacker - <cite>Wii Jogging</cite>
 
 ![Album Art for "Wii Jogging" by Gabriel Gundacker]({% asset_path gabriel-gundacker-wii-jogging.jpg %})
@@ -188,6 +209,8 @@ This album came out of nowhere. I'd never heard of Floating Points before. The d
 </ul>
 
 Gabriel Gundacker has been releasing Wii Sports songs since 2017 in his [<cite>Unofficial Wii Sports Soundtrack</cite>](https://gabrielgundacker.bandcamp.com/album/unofficial-wii-sports-soundtrack). This year, he released Wii Jogging, and like the others, it sounds like it came direct from Nintendo.
+
+***
 
 ## Gang Starr - <cite>One of the Best Yet</cite>
 
@@ -202,6 +225,8 @@ Gabriel Gundacker has been releasing Wii Sports songs since 2017 in his [<cite>U
 
 A legend has returned in full form.
 
+***
+
 ## Griselda - <cite>WWCD</cite>
 
 ![Album Art for "WWCD" by Griselda]({% asset_path griselda-wwcd.jpg %})
@@ -214,6 +239,8 @@ A legend has returned in full form.
 </ul>
 
 The Griselda crew has been around for a while, but this album was the first I'd heard by them. A killer release with some of the best beats in a long time. While the lyrics are a little more hardcore than I prefer, the must more than makes up for it.
+
+***
 
 ## Hatchie - <cite>Keepsake</cite>
 
@@ -229,6 +256,8 @@ The Griselda crew has been around for a while, but this album was the first I'd 
 
 Hatchie's 2018 EP [<cite>Sugar & Spice</cite>](https://hatchie.bandcamp.com/album/sugar-spice) was a surprise delight, so I was eagerly awaiting <cite>Keepsake</cite>. While not as good as <cite>Sugar & Spice</cite>, <cite>Keepsake</cite> is still a wonderful piece of shoegazey dreampop.
 
+***
+
 ## The Highwomen - <cite>The Highwomen</cite>
 
 ![Album Art for "The Highwomen" by The Highwomen]({% asset_path the-highwomen-the-highwomen.jpg %})
@@ -241,6 +270,8 @@ Hatchie's 2018 EP [<cite>Sugar & Spice</cite>](https://hatchie.bandcamp.com/albu
 </ul>
 
 Despite my best efforts, I've really like this album. It's an homage to pop country of the 90s (think Reba McEntire) — which is not something I generally enjoy — but after overhearing the album multiple times as my wife listened to it, I eventually grew to love it.
+
+***
 
 ## Horse Jumper of Love - <cite>So Divine</cite>
 
@@ -256,6 +287,8 @@ Despite my best efforts, I've really like this album. It's an homage to pop coun
 
 There's been a resurgence of slowcore recently, with new, young bands stepping in to reinterpret the sound. I discovered Horse Jumper of Love while on a semi-regular internet sojourn in search of new slowcore to listen to. This is my favorite slowcore album that has been released in the past few years.
 
+***
+
 ## Indian Summer - <cite>Giving Birth To Thunder</cite>
 
 ![Album Art for "Giving Birth to Thunder" by Indian Summer]({% asset_path indian-summer-giving-birth-to-thunder.jpg %})
@@ -268,6 +301,8 @@ There's been a resurgence of slowcore recently, with new, young bands stepping i
 </ul>
 
 This album was a staple in my listening about 10 years ago, but until now, all I ever had were 128 kbps mp3 files from a shitty vinyl rip uploaded to some Russian punk blog. Finally some truly good quality!
+
+***
 
 ## Ithaca - <cite>The Language of Injury</cite>
 
@@ -283,6 +318,8 @@ This album was a staple in my listening about 10 years ago, but until now, all I
 
 Some great hardcore I randomly stumbled across.
 
+***
+
 ## Jai Paul - <cite>Leak 04-13 (Bait Ones)</cite>
 
 ![Album Art for "Leak 04-13 (Bait Ones)" by Jai Paul]({% asset_path jai-paul-leak-04-13-bait-ones.jpg %})
@@ -295,6 +332,8 @@ Some great hardcore I randomly stumbled across.
 </ul>
 
 I won't retell [the tale](https://en.wikipedia.org/wiki/Leak_04-13_(Bait_Ones)) here, but this is an _infamous_ lost release. Now, we finally get a true official release — or as close to one as we'll ever see.
+
+***
 
 ## James Blake - <cite>Assume Form</cite>
 
@@ -309,6 +348,8 @@ I won't retell [the tale](https://en.wikipedia.org/wiki/Leak_04-13_(Bait_Ones)) 
 
 Another beautiful release from the man with the golden voice and the golden synths.
 
+***
+
 ## John Raymond - <cite>Where We Grew Up</cite>
 
 ![Album Art for "Where We Grew Up" by John Raymond]({% asset_path john-raymond-where-we-grew-up.jpg %})
@@ -322,6 +363,8 @@ Another beautiful release from the man with the golden voice and the golden synt
 
 I learned of John Raymond this year, after my wife offhandedly remarked that she went to high school with a really great trumpet player. We looked him up online, and I was blown away by this track — his most recent release at the time. It's jazz with some beautiful trumpet playing by Raymond. My favorite bit though is the inclusion of what sounds like a pedal steel guitar. Pedal steel guitar makes me weep.
 
+***
+
 ## Joseph - <cite>Good Luck, Kid</cite>
 
 ![Album Art for "Good Luck, Kit" by Joseph]({% asset_path joseph-good-luck-kid.jpg %})
@@ -334,6 +377,8 @@ I learned of John Raymond this year, after my wife offhandedly remarked that she
 </ul>
 
 Some great alternative pop music with female vocals. Not their finest release, but still a favorite of mine.
+
+***
 
 ## Julia Shapiro - <cite>Perfect Version</cite>
 
@@ -349,6 +394,8 @@ Some great alternative pop music with female vocals. Not their finest release, b
 
 Julia Shapiro is the singer for the indie rock band [Chastity Belt](https://en.wikipedia.org/wiki/Chastity_Belt_(band)). This is her first solo endeavor, and it's very different from the band's music. Simple yet engaging, the songs capture something about the experience of depression and boredom that I keenly identify with.
 
+***
+
 ## La Dispute - <cite>Panorama</cite>
 
 ![Album Art for "Panorama" by La Dispute]({% asset_path la-dispute-panorama.jpg %})
@@ -362,6 +409,8 @@ Julia Shapiro is the singer for the indie rock band [Chastity Belt](https://en.w
 </ul>
 
 How should I describe La Dispute… Emo for dads maybe? Whatever it is, it's emo with a depth of sadness that I haven't heard elsewhere. (Full disclosure, I haven't listened to a lot of emo, so please [let me know](mailto:hello@hisaac.net) of other great ones that I should know about!)
+
+***
 
 ## Mac DeMarco - <cite>Here Comes the Cowboy</cite>
 
@@ -377,6 +426,8 @@ How should I describe La Dispute… Emo for dads maybe? Whatever it is, it's emo
 
 How can you not love Mac DeMarco? The chillest indie rock music there is. Not his best release by a long shot (that honor goes to [<cite>Salad Days</cite>](https://macdemarco.bandcamp.com/album/salad-days) obvi), still a solid release with some great tunes. Lots more delightful synths on this one too.
 
+***
+
 ## Noname - <cite>Song 31</cite>
 
 ![Album Art for "Song 31" by Noname]({% asset_path noname-song-31.jpg %})
@@ -390,6 +441,8 @@ How can you not love Mac DeMarco? The chillest indie rock music there is. Not hi
 
 This (and Song 32 below it) were both surprise releases. Noname's delivery is like no other. It's more like talking than rapping. Mellow and soothing and damn she's smart.
 
+***
+
 ## Noname - <cite>Song 32</cite>
 
 ![Album Art for "Song 32" by Noname]({% asset_path noname-song-32.jpg %})
@@ -402,6 +455,8 @@ This (and Song 32 below it) were both surprise releases. Noname's delivery is li
 </ul>
 
 (See above)
+
+***
 
 ## Pedro the Lion - <cite>Phoenix</cite>
 
@@ -419,6 +474,8 @@ This album right here blew me away. It might be my most-listened to release of 2
 
 The album tells the story of David Bazan's time growing up in Phoenix, AZ. I love the ways he describes childhood.
 
+***
+
 ## Phobophilic - <cite>Undimensioned Identities</cite>
 
 ![Album Art for "Undimensioned Identities" by Phobophilic]({% asset_path phobophilic-undimensioned-identities.png %})
@@ -432,6 +489,8 @@ The album tells the story of David Bazan's time growing up in Phoenix, AZ. I lov
 </ul>
 
 I started to expand my appreciation of metal this year to other sub-genres. This is the first death metal record I've ever loved, and the band is from Fargo, ND of all places (near my hometown). Brutal, deep, chunky.
+
+***
 
 ## Pijn & Conjurer - <cite>Curse These Metal Hands</cite>
 
@@ -447,6 +506,8 @@ I started to expand my appreciation of metal this year to other sub-genres. This
 
 An ode to early Baroness, this sounds exactly like a lost EP from before [the accident](https://www.spin.com/2012/10/baroness-letter-bus-crash-gory-detail-update-photos/) (think [<cite>First / Second</cite>](https://album.link/i/1473360676), and [<cite>Red Album</cite>](https://baroness.bandcamp.com/album/red-album)). If you've ever loved those albums you _will_ love this.
 
+***
+
 ## Shigeto - <cite>Versions</cite>
 
 ![Album Art for "Versions" by Shigeto]({% asset_path shigeto-versions.jpg %})
@@ -460,6 +521,8 @@ An ode to early Baroness, this sounds exactly like a lost EP from before [the ac
 </ul>
 
 This might be my favorite jazz release ever (full disclosure, I don't listen to nearly as much jazz as I should). I'd love to find more jazz like this, but I don't have the knowledge or vocabulary to know how to find it. If you know of anything that sounds like this, please please [let me know](mailto:hello@hisaac.net)!
+
+***
 
 ## Soulkeeper - <cite>Gorgeous</cite>
 
@@ -475,6 +538,8 @@ This might be my favorite jazz release ever (full disclosure, I don't listen to 
 
 Soulkeeper is my favorite local metal band. I discovered them a couple years back when they played at a show I attended to see a different band. They stole the show, bigly.
 
+***
+
 ## Spirit Trap - <cite>Demo</cite>
 
 ![Album Art for "Demo" by Spirit Trap]({% asset_path spirit-trap-demo.jpg %})
@@ -486,6 +551,8 @@ Soulkeeper is my favorite local metal band. I discovered them a couple years bac
 Spirit Trap is a punk band, fronted by musician and comic artist [Anya Davidson](https://www.anyadavidson.com). Davidson was also in [Lilac](https://lilacchicago.bandcamp.com), and two of my all time favorite noise rock bands, [Coughs](https://rateyourmusic.com/artist/coughs) and [Cacaw](https://rateyourmusic.com/artist/cacaw).
 
 The music is abrasive, angular, and noisy (duh).
+
+***
 
 ## The Staves - <cite>Nothing's Gonna Happen (Demo)</cite>
 
@@ -502,6 +569,8 @@ How The Staves are not more popular is beyond me. Arresting and emotional songwr
 
 The Staves have a special place in my heart, and I am terribly excited for their next full length release.
 
+***
+
 ## The Tallest Man on Earth - <cite>I Love You. It's a Fever Dream.</cite>
 
 ![Album Art for "I Love You. It's a Fever Dream." by The Tallest Man on Earth]({% asset_path the-tallest-man-on-earth-i-love-you-its-a-fever-dream.jpg %})
@@ -515,6 +584,8 @@ The Staves have a special place in my heart, and I am terribly excited for their
 
 The Tallest Man on Earth is Kristian Matsson, a Swede who sounds straight out of the Appalachia. This album continues his slight departure from his earlier, more folk-rooted music, but the roots are still there underneath. Beautiful. What a voice.
 
+***
+
 ## Taylor Swift - <cite>Lover</cite>
 
 ![Album Art for "Lover" by Taylor Swift]({% asset_path taylor-swift-lover.jpg %})
@@ -527,6 +598,8 @@ The Tallest Man on Earth is Kristian Matsson, a Swede who sounds straight out of
 </ul>
 
 I've been a Taylor Swift fan since [<cite>1989</cite>](https://album.link/i/1440935467) (the album, not the year, of course). Nothing Swift has made has yet matched <cite>1989</cite>'s pop genius, but it's all been good, and <cite>Lover</cite> is no exception.
+
+***
 
 ## Telefon Tel Aviv - <cite>Dreams Are Not Enough</cite>
 
@@ -542,6 +615,8 @@ I've been a Taylor Swift fan since [<cite>1989</cite>](https://album.link/i/1440
 
 This album sounds nothing like their first release (and my favorite of theirs), [<cite>Fahrenheit Fair Enough</cite>](https://telefon-tel-aviv.bandcamp.com/album/fahrenheit-fair-enough). <cite>Fahrenheit Fair Enough</cite> is pure and melodic, where <cite>Dreams Are Not Enough</cite> veers more toward arrhythmic electronic music, akin to [Emptyset](https://emptyset1.bandcamp.com). Luckily, I like arrhythmic electronic music, akin to Emptyset.
 
+***
+
 ## Ty Segall - <cite>First Taste</cite>
 
 ![Album Art for "First Taste" by Ty Segall]({% asset_path ty-segall-first-taste.jpg %})
@@ -555,6 +630,8 @@ This album sounds nothing like their first release (and my favorite of theirs), 
 </ul>
 
 More fun and fuzzy garage rock from the greatest garage rocker in the game.
+
+***
 
 ## Vetiver - <cite>Up on High</cite>
 
@@ -570,6 +647,8 @@ More fun and fuzzy garage rock from the greatest garage rocker in the game.
 
 I was turned onto this album by [an internet friend of mine](https://jonmitchell.net). It's folky indie rock, which is a pretty banal description, but do give it a listen. It's far far better than it should be. I haven't liked any of Vetiver's previous releases, so here's hoping this is a new leaf being turned over.
 
+***
+
 ## Vince Staples - <cite>Hell Bound (Ad 01)</cite>
 
 ![Album Art for "Hell Bound (Ad 01)" by Vince Staples]({% asset_path vince-staples-hell-bound-ad-01.jpg %})
@@ -582,6 +661,8 @@ I was turned onto this album by [an internet friend of mine](https://jonmitchell
 </ul>
 
 A short and sweet single from one of the more singular hip-hop artists right now. Not groundbreaking, but very good!
+
+***
 
 ## Whirr - <cite>Feels Like You</cite>
 
@@ -596,6 +677,8 @@ This is the best shoegaze record I've heard in a long while. It has it all.
 
 Apparently this album was only supposed to be released on vinyl (blergh), but it leaked online so they decided to make an official digital release as well (yay)! It's not streaming anywhere officially, but you can buy the record on Bandcamp, and stream it unofficially on YouTube.
 
+***
+
 ## Whitney - <cite>Forever Turned Around</cite>
 
 ![Album Art for "Forever Turned Around" by Whitney]({% asset_path whitney-forever-turned-around.jpg %})
@@ -609,3 +692,5 @@ Apparently this album was only supposed to be released on vinyl (blergh), but it
 </ul>
 
 This is sunny Summer music if I ever heard it. Light, airy, melodic, crisp, soft.
+
+***

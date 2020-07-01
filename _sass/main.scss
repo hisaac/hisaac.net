@@ -34,7 +34,7 @@ body {
 	height: 100%;
 	line-height: 1.4rem;
 	margin: auto;
-	max-width: 100ch;
+	max-width: 700px;
 	padding: .5em 1.5em;
 
 	@media (min-width: $breakpoint-tablet) {
@@ -49,6 +49,11 @@ h1 {
 h2 {
 	padding-bottom: 0.3em;
 	border-bottom: 1px solid #e1e4e8;
+}
+
+h1,
+h2 {
+	line-height: 2rem;
 }
 
 hr {
