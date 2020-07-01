@@ -85,6 +85,13 @@ nav > ul {
 	}
 }
 
+.feed-icon {
+	display: inline-block;
+	height: 1em;
+	vertical-align: -3px;
+	width: 1em;
+}
+
 code,
 pre {
 	font-family: $monospace;
@@ -94,10 +101,6 @@ a {
 	&:any-link {
 		color: $link-color;
 		text-decoration: none;
-	}
-
-	&:hover {
-		border-bottom: 1px solid $link-color;
 	}
 }
 
