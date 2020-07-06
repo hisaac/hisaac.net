@@ -3,7 +3,7 @@ title: "Writing for Half-Life | Marc Laidlaw"
 layout: post
 date: 2016-10-12T11:35:00-05:00
 tags: video games, writing
-link: http://www.marclaidlaw.com/writing-half-life/
+source: http://www.marclaidlaw.com/writing-half-life/
 ---
 
 Marc Laidlaw worked for [Valve Software](https://en.wikipedia.org/wiki/Valve_Corporation) from 1997–2016 as a video game writer — one of the first ever to hold that title. Mark worked on several games, including Half-Life, Half-Life 2, and both Half-Life 2 Episodes.

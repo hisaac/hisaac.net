@@ -3,7 +3,7 @@ layout: post
 title: "Quick Tip: How to Enable CarPlay in the iOS Simulator"
 date: 2018-04-27
 tags: software, ios, how-to, tip
-link: https://stackoverflow.com/questions/32723237/switch-between-carplay-and-regular-window-in-ios-simulator
+source: https://stackoverflow.com/questions/32723237/switch-between-carplay-and-regular-window-in-ios-simulator
 ---
 
 This little tip was surprisingly hard to find — only mentioned a couple times online — so I figured I'd do my part to spread the word.

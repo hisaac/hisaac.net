@@ -3,7 +3,7 @@ layout: post
 title: Finder Keyboard Shortcut to Show Invisible Files
 tags: tech, macos
 date: 2016-12-11T19:14:18-06:00
-link: https://twitter.com/thequinntaylor/status/806542646449553408
+source: https://twitter.com/thequinntaylor/status/806542646449553408
 via: http://mjtsai.com/blog/2016/12/07/finder-keyboard-shortcut-to-show-invisible-files/
 ---
 

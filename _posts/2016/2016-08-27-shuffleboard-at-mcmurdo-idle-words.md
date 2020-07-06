@@ -3,7 +3,7 @@ layout: post
 title: "Shuffleboard at McMurdo | Idle Words"
 tags: writing, travel
 date: 2016-08-27 12:45:00-05:00
-link: http://idlewords.com/2016/05/shuffleboard\_at\_mcmurdo.htm
+source: http://idlewords.com/2016/05/shuffleboard_at_mcmurdo.htm
 categories: linkpost
 ---
 

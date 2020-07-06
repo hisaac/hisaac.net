@@ -3,7 +3,7 @@ layout: post
 title: "My Dead Girlfriend's Bot | Joshua Allen"
 tags: comedy, writing, social networks
 date: 2016-08-29 14:29:00-05:00
-link: https://web.archive.org/web/20170919210013/https://medium.com/@fireland/my-dead-girlfriends-bot-9dc6a2f55ce3
+source: https://web.archive.org/web/20170919210013/https://medium.com/@fireland/my-dead-girlfriends-bot-9dc6a2f55ce3
 via: https://twitter.com/fireland/status/770321824915783680
 ---
 

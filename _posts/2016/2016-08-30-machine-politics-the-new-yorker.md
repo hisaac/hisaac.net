@@ -3,7 +3,7 @@ layout: post
 title: "Machine Politics | The New Yorker"
 tags: tech, internet, hacking, apple, sony
 date: 2016-08-30 00:04:00-05:00
-link: http://www.newyorker.com/magazine/2012/05/07/machine-politics
+source: http://www.newyorker.com/magazine/2012/05/07/machine-politics
 ---
 
 George Hotz — known as "geohot" online — is a sort of hacker legend. At the age of 17, he hacked the first model of Apple's iPhone — the first person ever to do so. Not long after, he set his sites on Sony's then new console, the PlayStation 3. Thought to be "impenetrable", it was an enticing target for the young hacker.

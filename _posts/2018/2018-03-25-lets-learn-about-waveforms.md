@@ -3,7 +3,7 @@ title: "Let's Learn about Waveforms | The Pudding"
 date: 2018-03-25
 layout: post
 tags: sound, technology, development, javascript, math
-link: https://pudding.cool/2018/02/waveforms/
+source: https://pudding.cool/2018/02/waveforms/
 via: https://changelog.com/nightly
 ---
 

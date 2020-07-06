@@ -3,7 +3,7 @@ title: "Fake News and Instagram | Manton Reece"
 date: 2016-11-22T11:46:32-06:00
 layout: post
 tags: social networks, twitter, facebook, instagram, internet, technology
-link: http://www.manton.org/2016/11/fake-news-and-instagram.html
+source: http://www.manton.org/2016/11/fake-news-and-instagram.html
 ---
 
 [Manton Reece](http://www.manton.org/2016/11/fake-news-and-instagram.html):
