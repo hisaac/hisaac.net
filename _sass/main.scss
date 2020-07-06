@@ -85,6 +85,20 @@ nav > ul {
 	}
 }
 
+article {
+	> h1 {
+		margin-bottom: 0;
+	}
+
+	.post-meta {
+		margin-bottom: 1em;
+
+		td:first-child {
+			padding-right: .5em;
+		}
+	}
+}
+
 .feed-icon {
 	display: inline-block;
 	height: 1em;
@@ -152,7 +166,7 @@ kbd {
 	padding: .2em .45em;
 }
 
-table {
+table:not(.post-meta) {
 	border-collapse: collapse;
 	border-spacing: 0;
 	display: block;

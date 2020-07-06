@@ -9,6 +9,26 @@
 <article>
 	<h1>{{ page.title }}</h1>
 	{{ content }}
+
+	<table class="post-meta">
+		<tr>
+			<td><strong><em>date</em></strong></td>
+			<td>{{ page.date | date_to_string: "ordinal", "US"}}</td>
+		</tr>
+		{% if page.source %}
+		<tr>
+			<td><strong><em>source</em></strong></td>
+			<td><a href="{{ page.source }}" target="_blank">{{ page.source | extract_hostname }}…</td>
+		</tr>
+		{% endif %}
+		{% if page.via %}
+		<tr>
+			<td><strong><em>via</em></strong></td>
+			<td><a href="{{ page.via }}" target="_blank">{{ page.via | extract_hostname }}…</a></td>
+		</tr>
+		{% endif %}
+	</table>
+
 </article>
 
 {% include footer.html %}
