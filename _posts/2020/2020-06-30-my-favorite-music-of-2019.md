@@ -664,8 +664,6 @@ Apparently this album was only supposed to be released on vinyl (blergh), but it
 
 This is sunny Summer music if I ever heard it. Light, airy, melodic, crisp, soft.
 
-***
-
 <style>
 	.music-link-list {
 		list-style: none;
