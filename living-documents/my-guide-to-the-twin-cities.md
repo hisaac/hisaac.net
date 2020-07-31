@@ -1,4 +1,7 @@
-# My Guide to the Twin Cities
+---
+title: "My Guide to the Twin Cities"
+layout: page
+---
 
 I've lived in the Twin Cities since 2009, and have become pretty familiar with the city and its activities. If you're visiting, these are all things that I've either personally visited or done, or someone close to me has told me is worth visiting or doing. This is something I plan to continue adding to as I find new things around town. Please <a href="mailto:mello@hisaac.net">let me know</a> if I'm missing anything!
 
