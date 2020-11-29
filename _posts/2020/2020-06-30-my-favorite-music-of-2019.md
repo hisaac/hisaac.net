@@ -667,15 +667,11 @@ This is sunny Summer music if I ever heard it. Light, airy, melodic, crisp, soft
 <style>
 	.music-link-list {
 		list-style: none;
-		margin: auto;
-		padding: 0;
-		text-align: center;
+		padding-left: 0 !important;
 	}
 
 	.music-link-list > li {
 		display: inline;
-		margin: 0;
-		padding: 0;
 	}
 
 	.music-link-list > li:before {
@@ -684,11 +680,5 @@ This is sunny Summer music if I ever heard it. Light, airy, melodic, crisp, soft
 
 	.music-link-list > li:first-child:before {
 		content: "";
-		margin: -1.5px;
-	}
-
-	h2 {
-		border-bottom: unset;
-		margin-bottom: -10px;
 	}
 </style>
