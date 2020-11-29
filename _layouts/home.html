@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
 {% include head.html %}
-<body>
+<body class="container-lg px-3 my-5 markdown-body">
 
 {% include header.html %}
-{% include nav.html %}
 
 <main>
-	<p>
-		<strong>👋 Hi there, I'm Isaac Halvorson. Welcome to my website.</strong><br />
-	</p>
-
-	<p>
-		Below, you'll find things that I've written. If you'd like to learn more about me or this site, please visit my <a href="/about">About page</a>.
-	</p>
-
-	<hr />
+	<section class="my-3">
+		<p>
+			<strong>👋 Hi there, I'm Isaac Halvorson. Welcome to my website.</strong><br />
+		</p>
+	
+		<p>
+			Below, you'll find things that I've written. If you'd like to learn more about me or this site, please visit my <a href="/about">About page</a>.
+		</p>
+	</section>
 
 	{% for post in site.posts %}
 		{% capture this_date %}{{ post.date | date: "%B %Y" }}{% endcapture %}
