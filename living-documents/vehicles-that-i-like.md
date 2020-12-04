@@ -3,8 +3,6 @@ title: "Vehicles That I Like"
 layout: page
 ---
 
-# Vehicles That I Like
-
 `Links for these entries coming soon`
 
 - Audi Allroad

@@ -3,8 +3,6 @@ title: "Games to Keep an Eye On"
 layout: page
 ---
 
-# Games to Keep an Eye One
-
 This is a list of (mostly) indie games that I am interested in
 
 `Links for these entries coming soon`

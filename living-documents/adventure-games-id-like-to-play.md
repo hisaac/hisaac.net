@@ -3,8 +3,6 @@ title: "Adventure Games I'd Like to Play"
 layout: page
 ---
 
-# Adventure Games I’d Like to Play
-
 `Links for these entries coming soon`
 
 - Amnesia

@@ -3,8 +3,6 @@ title: "Music I Want to Like but I Don't"
 layout: page
 ---
 
-# Music I Want to Like but I Don't
-
 - [Brian Eno][1]
 - [Interpol][2]
 - [Lil Wayne](https://en.wikipedia.org/wiki/Lil_Wayne)

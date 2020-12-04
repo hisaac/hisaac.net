@@ -3,8 +3,6 @@ title: "Great Softwares"
 layout: page
 ---
 
-# Great Softwares
-
 This is an alphabetical list of all of my favorite softwares:
 
 `This list is out of date and will be updated soon`

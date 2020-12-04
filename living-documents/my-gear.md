@@ -3,8 +3,6 @@ title: "My Gear"
 layout: page
 ---
 
-# My Gear
-
 This is a list of the gear I own and think is of a high quality.
 
 - Wallet: [Money Band][1]
