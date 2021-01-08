@@ -3,13 +3,10 @@ title: "Music I Want to Like but I Don't"
 layout: page
 ---
 
-- [Brian Eno][1]
-- [Interpol][2]
-- [Lil Wayne](https://en.wikipedia.org/wiki/Lil_Wayne)
-- [Low][3]
-- [Wilco][4]
-
-[1]:	https://en.wikipedia.org/wiki/Brian_Eno
-[2]:	https://en.wikipedia.org/wiki/Interpol_(band)
-[3]:	https://en.wikipedia.org/wiki/Low_(band)
-[4]:	https://en.wikipedia.org/wiki/Wilco
+- [Brian Eno](https://rateyourmusic.com/artist/brian-eno)
+- [clipping.](https://rateyourmusic.com/artist/clipping_)
+- [Haim](https://rateyourmusic.com/artist/haim-1)
+- [Interpol](https://rateyourmusic.com/artist/interpol)
+- [Lil Wayne](https://rateyourmusic.com/artist/lil-wayne)
+- [Low](https://rateyourmusic.com/artist/low)
+- [Wilco](https://rateyourmusic.com/artist/wilco)
