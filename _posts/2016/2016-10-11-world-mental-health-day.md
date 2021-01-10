@@ -2,7 +2,7 @@
 title: "World Mental Health Day"
 date: 2016-10-11T10:13:47-05:00
 layout: post
-tags: mental-health
+tags: [mental health]
 ---
 
 I guess I missed World Mental Health Day (it was yesterday), but I would like to share anyway.

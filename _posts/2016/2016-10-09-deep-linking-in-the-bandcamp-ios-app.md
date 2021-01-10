@@ -2,7 +2,7 @@
 title: "Deep Linking in the Bandcamp iOS app"
 date: 2016-10-09T15:31:40-05:00
 layout: post
-tags: technology, ios, music
+tags: [technology, ios, music]
 ---
 
 I love [Bandcamp](http://bandcamp.com). They are truly the premiere independent music platform. They treat their users and artists well, and still manage to stay afloat.

@@ -2,7 +2,7 @@
 title: "Tim Berners-Lee's Proposed Social Network"
 layout: post
 date: 2016-08-12
-tags: internet, social networks, tech
+tags: [internet, social networks, tech]
 via: http://www.manton.org/2016/08/tim-berners-lees-solid.html
 ---
 

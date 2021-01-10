@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Quiver: The Programmer's Notebook"
-tags: software, programming
+tags: [software, programming]
 date: 2016-08-28 22:05:00-05:00
 source: http://happenapps.com/#quiver
 ---

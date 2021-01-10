@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Moved to Digital Ocean + Let's Encrypt"
-tags: internet, tech, webdev
+tags: [internet, tech, webdev]
 date: 2016-12-11T01:24:57-06:00
 ---
 

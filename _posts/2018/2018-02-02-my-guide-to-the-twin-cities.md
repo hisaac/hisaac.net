@@ -2,7 +2,7 @@
 title: "My Guide to the Twin Cities"
 layout: post
 date: 2018-02-02
-tags: personal, minnesota, minneapolis, twin-cities, saint-paul
+tags: [personal, minnesota, minneapolis, twin cities, saint paul]
 source: https://hisaac.net/living-documents/my-guide-to-the-twin-cities.html
 ---
 

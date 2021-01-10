@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Solo Project Day One: It Begins"
-tags: twitter, projects, crow, webdev
+tags: [twitter, projects, crow, webdev]
 date: 2016-12-05T17:07:20-06:00
 ---
 

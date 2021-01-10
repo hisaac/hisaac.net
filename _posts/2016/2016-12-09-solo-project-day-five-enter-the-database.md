@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Solo Project Day Five: Enter the Database"
-tags: twitter, projects, crow, webdev
+tags: [twitter, projects, crow, webdev]
 date: 2016-12-09T23:13:30-06:00
 ---
 

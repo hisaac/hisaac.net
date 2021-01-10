@@ -1,8 +1,8 @@
 ---
 title: "Brief Initial Thoughts After Finishing Super Mario 3D World"
 layout: post
-tags: video games, nintendo, mario
-categories: tech
+tags: [video games, nintendo, mario]
+categories: [tech]
 ---
 
 I finished Super Mario 3D World the other day, and while it was quite fun, it wasn’t quite what I was hoping for.

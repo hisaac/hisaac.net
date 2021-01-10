@@ -2,7 +2,7 @@
 title: "My Music Recs Newsletter"
 layout: post
 date: 2016-08-13
-tags: music, tech, newsletter
+tags: [music, tech, newsletter]
 ---
 
 I've decided to try out the email newsletter format as a way to send out music recommendations. I love the discovery of new music almost as much as I love the music itself, so I thought it would be a fun way to help others discover great stuff.

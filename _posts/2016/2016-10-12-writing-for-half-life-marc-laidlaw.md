@@ -2,7 +2,7 @@
 title: "Writing for Half-Life | Marc Laidlaw"
 layout: post
 date: 2016-10-12T11:35:00-05:00
-tags: video games, writing
+tags: [video games, writing]
 source: http://www.marclaidlaw.com/writing-half-life/
 ---
 

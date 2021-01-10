@@ -2,8 +2,8 @@
 layout: post
 title: "Conversion via Twitter | The New Yorker"
 date: 2016-08-27 12:28:37-05:00
-tags: internet, social media
-categories: linkpost
+tags: [internet, social media]
+categories: [linkpost]
 source: http://www.newyorker.com/magazine/2015/11/23/conversion-via-twitter-westboro-baptist-church-megan-phelps-roper
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Machine Politics | The New Yorker"
-tags: tech, internet, hacking, apple, sony
+tags: [tech, internet, hacking, apple, sony]
 date: 2016-08-30 00:04:00-05:00
 source: http://www.newyorker.com/magazine/2012/05/07/machine-politics
 ---

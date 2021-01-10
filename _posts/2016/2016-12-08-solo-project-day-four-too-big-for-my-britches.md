@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Solo Project Day Four: Too Big for my Britches"
-tags: twitter, projects, crow, webdev
+tags: [twitter, projects, crow, webdev]
 date: 2016-12-08T18:52:41-06:00
 ---
 

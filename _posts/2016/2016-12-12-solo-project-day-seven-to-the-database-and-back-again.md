@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Solo Project Day Seven: To The Database and Back Again"
-tags: twitter, projects, crow, webdev
+tags: [twitter, projects, crow, webdev]
 date: 2016-12-12T21:10:56-06:00
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Elon Musk Will Save Us All"
-tags: technology, environment
+tags: [technology, environment]
 date: 2016-05-06 09:08:11-05:00
 ---
 

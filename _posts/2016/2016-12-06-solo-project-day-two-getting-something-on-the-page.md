@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Solo Project Day Two: Getting Something on the Page"
-tags: twitter, projects, crow, webdev
+tags: [twitter, projects, crow, webdev]
 date: 2016-12-06T17:15:35-06:00
 ---
 

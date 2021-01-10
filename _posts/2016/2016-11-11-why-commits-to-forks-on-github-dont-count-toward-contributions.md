@@ -2,7 +2,7 @@
 title: "Why Commits to Forks on GitHub Don't Apply to Contributions"
 date: 2016-11-11T13:35:56-06:00
 layout: post
-tags: technology, software, github
+tags: [technology, software, github]
 ---
 
 Recently, I noticed that contributions I made to forks on GitHub were not being counted toward the contribution tracker on my profile's page. I was curious to know why, as I felt like those contributions were just as good as any other.

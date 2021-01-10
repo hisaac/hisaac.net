@@ -2,7 +2,7 @@
 title: "I Was On a Couple Podcasts"
 date: 2018-06-06
 layout: post
-tags: podcast, technology, software, programming, ios, swift, cars, history
+tags: [podcast, technology, software, programming, ios, swift, cars, history]
 ---
 
 This past week, two podcast episodes came out that I was involved in. These aren't the first podcasts I've been in, so I also added a "Podcast Appearances" section to my [artifacts page](/artifacts.html).

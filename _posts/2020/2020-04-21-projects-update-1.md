@@ -2,7 +2,7 @@
 title: "Projects Update #1"
 date: 2020-04-21
 layout: post
-tags: "projects update"
+categories: [projects]
 ---
 
 A semi-regular and overly verbose update on my personal projects.

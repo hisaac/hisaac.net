@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The GitHub Challenge"
-tags: technology, programming, web design, prime academy
+tags: [technology, programming, web design, prime academy]
 date: 2016-09-29T14:32:26-05:00
 ---
 

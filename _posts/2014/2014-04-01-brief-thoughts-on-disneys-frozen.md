@@ -2,7 +2,7 @@
 title: "Brief Thoughts on Disney's Frozen"
 layout: post
 date: 2014-04-01
-tags: review, movies
+tags: [review, movies]
 ---
 
 - The plot felt very rushed

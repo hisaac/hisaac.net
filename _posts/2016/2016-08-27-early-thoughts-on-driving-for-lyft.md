@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Early Thoughts on Driving for Lyft"
-tags: ridesharing, technology, internet
+tags: [ridesharing, technology, internet]
 date: 2016-07-27 13:03:22-05:00
 ---
 

@@ -2,7 +2,7 @@
 title: "Good and Great Albums of 2013"
 layout: post
 date: 2014-01-12
-tags: music, best of
+tags: [music, best of]
 ---
 
 Welcome to my Good and Great Albums of 2013 list! Please peruse the list and drop me a line [on Twitter](http://twitter.com/hisaac) if you found anything that piqued your interest. And please share your lists as well if you’ve got them. I love finding and hearing new music.

@@ -2,7 +2,7 @@
 title: "My Favorite Music of 2019"
 date: 2020-06-30
 layout: post
-tags: music
+tags: [music]
 ---
 
 These are my favorite music releases from 2019 (listed in alphabetical order by artist name).

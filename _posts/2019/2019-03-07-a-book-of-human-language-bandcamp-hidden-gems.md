@@ -2,8 +2,8 @@
 title: "A Book of Human Language | Bandcamp Hidden Gems"
 date: 2019-03-07
 layout: post
-tags: music, hip-hop, bandcamp
-link: "https://daily.bandcamp.com/2019/03/07/hidden-gems-aceyalone-book-of-human-language/"
+tags: [music, hip-hop, bandcamp]
+source: https://daily.bandcamp.com/2019/03/07/hidden-gems-aceyalone-book-of-human-language/
 ---
 
 <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2573998004/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless>

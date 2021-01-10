@@ -2,8 +2,8 @@
 title: "Why I'm Trying Soylent"
 layout: post
 date: 2013-07-24
-tags: health
-categories: personal
+tags: [health]
+categories: [personal]
 ---
 
 When I first learned about [Soylent](https://www.soylent.com), I was very intrigued. Soylent is a new "liquid food” that is meant to be a complete source of nutrition for the body in powder form. It is a mixture of all the essential vitamins and minerals we normally consume through eating food. The powder is simply mixed with water and drunk around meal time and can be used to completely remove solid foods from the diet if the person so chooses.

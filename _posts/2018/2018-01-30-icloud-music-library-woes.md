@@ -2,8 +2,8 @@
 title: "iCloud Music Library Woes"
 layout: post
 date: 2018-01-30
-tags: music, technology, apple, itunes, plex
-categories: music
+tags: [music, technology, apple, itunes, plex]
+categories: [music]
 ---
 
 After ordering an Apple HomePod, and learning that it supports iCloud Music Library for streaming music, I decided to give it another shot. I tried iTunes Match when it first launched, and had *lots* of frustrations, quickly giving up on the service. When iCloud Music Library first launched, I gave that a try too, with similar results. And now, my already rocky relationship with iCloud Music Library is once again on the rocks. Its been chugging reliably through my 22,000 song library — its matched about 10,000 tracks and is now uploading the rest — but this morning, I tried to change some metadata for some music, and although iTunes seemed to comply, the metadata didn’t actually change. That's a **major** offense in my book. My library is *my* library, and I won’t tolerate anyone but me editing it and its data.
