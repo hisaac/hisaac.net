@@ -26,7 +26,12 @@
 	<main>
 
 		<aside>
-			Software developer in Minneapolis, MN, specializing in macOS and iOS development, with experience and interest in DevOps, automated testing, and full-stack web development. A quick and avid learner with an interest in making things that are both useful, a joy to use.
+			<p>
+				Software developer in Minneapolis, MN, specializing in the development of macOS and iOS applications, and the tools and infrastructure around building and testing those applications.
+			</p>
+			<p>
+				A quick and avid learner with an interest in making things that are both useful, and a joy to use and develop.
+			</p>
 		</aside>
 
 		<a href="./isaac-halvorson-technical-resume.pdf" class="hide-on-print">
@@ -42,14 +47,13 @@
 
 			<ul>
 				<li>
-					<strong>Languages:</strong> Swift, Objective-C, Ruby, Java, Groovy, JavaScript, TypeScript, HTML, CSS, C#
+					<strong>Languages:</strong> Swift, Objective-C, Ruby, Python, Java, Groovy, JavaScript, TypeScript, HTML, CSS, C#
 				</li>
 				<li>
-					<strong>Apple Technologies:</strong> Location services, iOS background processing, localization, Unit and UI tests using XCTest, Core Data, Realm, HTTP requests, MVC, Coordinator architecture, Objective-C and Swift command line applications, launchd
-
+					<strong>Apple Technologies:</strong> Location services, iOS background processing, localization, Unit and UI tests using XCTest and Quick/Nimble, Core Data, Realm, HTTP requests, MVC, Coordinator architecture, Objective-C and Swift command line applications, launchd
 				</li>
 				<li>
-					<strong>Development Tools:</strong> Xcode, JetBrains IDEs, Fastlane, Crashlytics, Fabric, Firebase, Travis CI, Jenkins, Anka, Git, GitHub, Bitbucket, shell scripting, ImageMagick
+					<strong>Development Tools:</strong> Xcode, JetBrains IDEs, Fastlane, Jenkins, Anka, Crashlytics, Fabric, Firebase, Travis CI, Git, GitHub, Bitbucket, shell scripting
 				</li>
 				<li>
 					<strong>Other Technologies:</strong> Node.js/Express, PostgreSQL, MSSQL, MongoDB, Sass, Gulp, usage and design of Rest APIs, Markdown, AWS (S3, Route 53, API Gateway, Lambda), hosted virtual private servers, Heroku, Bash/ZSH/Fish, Jamf Pro/Casper Suite, AirWatch, Jekyll
@@ -60,7 +64,33 @@
 		<hr />
 
 		<section>
-			<h2>Open Source Projects</h2>
+			<h2>Open Source Projects | <a href="https://github.com/hisaac/">github.com/hisaac</a></h2>
+			
+			<div>
+				<h3>Plain Pasta<br />
+				<a href="https://github.com/hisaac/PlainPasta">GitHub</a> | <a href="https://apps.apple.com/us/app/plain-pasta/id1467796430">Mac App Store</a></h3>
+
+				<p>
+					Plain Pasta is a macOS app that automatically strips any styling from text on your Mac's clipboard
+				</p>
+
+				<details>
+					<ul>
+						<li>
+							Developed <a href="https://github.com/hisaac/PlainPasta/blob/main/PlainPasta/NSPasteboard%2BPlainPasta.swift#L14">a more accurate text-filtering engine</a> than any other app with similar functionality, looking for <a href="https://github.com/hisaac/PlainPasta/blob/main/PlainPasta/PasteboardMonitor.swift#L18">specific <code>NSPasteboard</code> types</a>, rather than completely clobbering any text on the pasteboard.
+						</li>
+						<li>
+							Created a custom Combine publisher for monitoring changes to a given <code>NSPasteboard</code>, made available as an open source Swift Package: <a href="https://github.com/hisaac/PasteboardPublisher">github.com/hisaac/PasteboardPublisher</a>.
+						</li>
+						<li>
+							Released to the Mac App Store
+						</li>
+						<li>
+							Currently using SwiftUI in development builds
+						</li>
+					</ul>
+				</details>
+			</div>
 
 			<div>
 				<h3>Tiime<br />
@@ -90,29 +120,6 @@
 					</ul>
 				</details>
 			</div>
-
-			<div>
-				<h3>Plain Pasta<br />
-				<a href="https://github.com/hisaac/PlainPasta">GitHub</a> | <a href="https://apps.apple.com/us/app/plain-pasta/id1467796430">Mac App Store</a></h3>
-
-				<p>
-					Plain Pasta is a menu bar app that “plaintextifies” your clipboard (strips styling from text on the clipboard)
-				</p>
-
-				<details>
-					<ul>
-						<li>
-							No third party dependencies
-						</li>
-						<li>
-							Developed <a href="https://github.com/hisaac/PlainPasta/blob/master/PlainPasta/NSPasteboard%2BExtensions.swift#L14">a more accurate text-filtering engine</a> than any other app with similar functionality, looking for <a href="https://apps.apple.com/us/app/tiime-alternative-time-clock/id1396505395">specific `NSPasteboard` types</a>, rather than completely clobbering any text on the pasteboard
-						</li>
-						<li>
-							Released to the Mac App Store
-						</li>
-					</ul>
-				</details>
-			</div>
 		</section>
 
 		<hr />
@@ -131,8 +138,8 @@
 
 				<details>
 					<ul>
-						<li>Greatly improved the VoiceOver compatibility of Self Service, Jamf’s primary user-facing macOS app</li>
-						<li>Helped maintain and improve my team’s multiple testing suites and CI/CD workflows</li>
+						<li>Greatly improved the VoiceOver compatibility of <em>Self Service</em>, Jamf’s primary user-facing macOS app</li>
+						<li>Helped maintain and improve my team’s multiple testing suites and CI/CD workflows, using Jenkins and Anka infrastructure</li>
 						<li>Took ownership of an internal server-side Swift project</li>
 						<li>Investigated, advocated for, and implemented multiple large and small features and improvements to the codebase</li>
 						<li>Worked across countries and time zones with coworkers on my team, and outside my team</li>
