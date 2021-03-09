@@ -22,7 +22,6 @@ jobs:
         uses: helaili/jekyll-action@v2
         with:
           build_only: true
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy the site to Amazon s3
         uses: jakejarvis/s3-sync-action@master
@@ -32,7 +31,7 @@ jobs:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          SOURCE_DIR: "_site"
+          SOURCE_DIR: '${{ github.workspace }}/build'
 
       - name: Invalidate CloudFront cache
         uses: chetan/invalidate-cloudfront-action@master
