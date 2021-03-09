@@ -19,7 +19,7 @@ jobs:
             ${{ runner.os }}-gems-
 
       - name: Build the site in the jekyll/builder container
-      - uses: helaili/jekyll-actions@v2
+        uses: helaili/jekyll-actions@v2
         with:
           build_only: true
           token: ${{ secrets.GITHUB_TOKEN }}
