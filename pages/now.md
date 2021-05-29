@@ -10,7 +10,8 @@ permalink: /now/
 
 ## What I'm Doing Now
 
-- [Constantly tinkering](https://github.com/hisaac/hisaac.net/commits/master) with this site's design and structure
-- Working as a macOS developer at [Jamf](https://jamf.com)
-- [Writing open source code](https://github.com/hisaac)
-- Learning how to be a father to my son Henry
+- Learning how to be a good father to my son Henry while also being a good husband to my wife Jenifer
+- [Tinkering with code](https://github.com/hisaac)
+- Working as an iOS Platform Engineer at [Target](https://www.target.com)
+- Reading science fiction books
+- Learning how to take care of a house

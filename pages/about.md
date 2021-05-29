@@ -12,13 +12,13 @@ Thanks for checking out my website. It's good to have you here.
 
 ## About Me
 
-I'm an iOS and full stack web developer living in [Lauderdale, MN](https://en.wikipedia.org/wiki/Lauderdale%2C_Minnesota), a tiny suburb of [Minneapolis](https://en.wikipedia.org/wiki/Minneapolis). In my free time, I blog here, [listen to as much music as possible](https://www.last.fm/user/hisaac), tinker with code, and spend time with my wife and son. You can see more of what I'm doing here at my [/now](/now.html) page.
+I grew up in a tiny town in North Dakota, and now reside in [Minneapolis, MN](https://en.wikipedia.org/wiki/Minneapolis), where I do software development for a living.
 
-My interests include science-fiction, music, technology, and open source software. Ask me my thoughts on [Benjamin Sisko](http://memory-alpha.wikia.com/wiki/Benjamin_Sisko), [Londo Mollari](http://babylon5.wikia.com/wiki/Londo_Mollari), [Aphex Twin](https://song.link/album/s/6oRuinkJdTge4hpTuClEF8), or [Neil Young](https://song.link/album/s/3w5Hok05AFjCLy269xXM7e) sometime. I've got many thoughts to share.
+In my free time, I [listen to as much music as possible](https://www.last.fm/user/hisaac), [tinker with code](https://github.com/hisaac), read science fiction books, and spend time with my wife and son. You can see more of what I'm doing here at my [/now](/now) page.
 
 ### Work
 
-I currently work as a macOS developer for [Jamf](https://www.jamf.com), a software company based out of Minneapolis.
+I currently work as an iOS Platform engineer for [Target](https://www.target.com), building and maintaining the various build and automation tooling for Target's iOS app, as well as the app itself.
 
 I've spent most of my professional life working with technology. Before software development, I was an IT support technician and manager, software quality assurance technician, audio producer, and audio engineer.
 
