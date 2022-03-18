@@ -6,38 +6,35 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.0.0
 
-      - uses: actions/cache@v2
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1.99.0
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
+          ruby-version: .tool-versions
+          bundler-cache: true
 
-      - name: Build the site in the jekyll/builder container
-        uses: helaili/jekyll-action@v2
-        with:
-          build_only: true
+      - name: Build the site
+        run: bundle exec jekyll build --destination ${{ github.workspace }}/_site
 
-      - name: Deploy the site to Amazon s3
-        uses: jakejarvis/s3-sync-action@master
+      - name: Deploy the site to Amazon S3
+        uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           args: --acl public-read --follow-symlinks --delete
         env:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          SOURCE_DIR: '${{ github.workspace }}/build'
+          SOURCE_DIR: ${{ github.workspace }}/_site
 
       - name: Invalidate CloudFront cache
-        uses: chetan/invalidate-cloudfront-action@master
+        uses: chetan/invalidate-cloudfront-action@v2
         env:
           DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
-          PATHS: '/*'
-          AWS_REGION: 'us-east-1'
+          PATHS: /*
+          AWS_REGION: us-east-1
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
