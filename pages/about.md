@@ -18,7 +18,7 @@ In my free time, I [listen to as much music as possible](https://www.last.fm/use
 
 ### Work
 
-I currently work as an iOS Platform engineer for [Target](https://www.target.com), building and maintaining the various build and automation tooling for Target's iOS app, as well as the app itself.
+I currently work as a mobile devops engineer for [Bitrise](https://bitrise.io).
 
 I've spent most of my professional life working with technology. Before software development, I was an IT support technician and manager, software quality assurance technician, audio producer, and audio engineer.
 
