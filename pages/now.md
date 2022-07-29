@@ -12,6 +12,6 @@ permalink: /now/
 
 - Learning how to be a good father to my son Henry while also being a good husband to my wife Jenifer
 - [Tinkering with code](https://github.com/hisaac)
-- Working as a Mobile DevOps Engineer for [Bitrise](https://bitrise.io).
+- Working as a Mobile DevOps Engineer for [Bitrise](https://bitrise.io)
 - Reading science fiction books
 - Learning how to take care of a house
