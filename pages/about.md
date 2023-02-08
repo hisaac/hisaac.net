@@ -34,7 +34,7 @@ In 2017, I graduated from [Prime Digital Academy](https://www.primeacademy.io), 
 
 Here are all the places you can find me elsewhere:
 
-- [Twitter](http://twitter.com/hisaac)
+- Mastodon: [@hisaac@allamaraine.io](https://allamaraine.io/@hisaac)
 - [GitHub](http://github.com/hisaac)
 - [Stack Exchange](http://stackexchange.com/users/5023139/hisaac)
 - [Bandcamp](https://bandcamp.com/hisaac)
@@ -43,9 +43,8 @@ Here are all the places you can find me elsewhere:
 - [Letterboxd](https://letterboxd.com/hisaac/)
 - [Trakt.tv](https://trakt.tv/users/hisaac)
 - [Goodreads](https://www.goodreads.com/user/show/32098770-isaac)
-- [Grouvee](https://www.grouvee.com/user/hisaac/)
-- [Keybase](https://keybase.io/hisaac)
 - [Linkedin](https://www.linkedin.com/in/isaachalvorson)
+- [Twitter](http://twitter.com/hisaac) (I don't really use this anymore, please see the Mastodon link above instead)
 
 ## About This Blog
 
