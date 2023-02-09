@@ -32,28 +32,24 @@ Want to see what my website looked like throughout history? Click the dates belo
 
 Here is a list of other blogs that I like to keep up on. Some of them haven't been updated in a while, but they're still worth looking at.
 
-- [And Now it's All This](http://leancrew.com/all-this/) by Dr. Drang - "I just said what I said and it was wrong. Or was taken wrong."
-- [Beautiful Pixels](https://beautifulpixels.com) - "An unhealthy lust for design"
+- [Oatmeal](https://eli.li) by Eli Mellen - "A digital pillow fort"
+- [512 Pixels](https://512pixels.net) by Stephen Hackett
 - [Brett Terpstra's blog](http://brettterpstra.com) - "Welcome to the lab"
-- [The Brooks Review](https://brooksreview.net) by Ben Brooks
-- [Daring Fireball](https://daringfireball.net) by John Gruber - "Daring Fireball is written and produced by John Gruber"
-- [The Digital Antiquarian](https://www.filfre.net) - "A history of computer entertainment by Jimmy Maher"
+- [Daring Fireball](https://daringfireball.net) by John Gruber -
 - [forksplit](http://forksplit.blogspot.com) - "You can't publish a fucked up family memoir when you still love the assholes"
-- [Ftrain.com](http://www.ftrain.com) by Paul Ford
+- [ftrain.com](http://www.ftrain.com) by Paul Ford
 - [Hypercritical](http://hypercritical.co) by John Siracusa
 - [Idle Words](http://idlewords.com) by Maciej Cegłowski - "Brevity is for the weak"
-- [Inessential](http://inessential.com) by Brent Simmons - "Made In Seattle. Go Hawks!"
 - [Jonathan Blow's Blog](http://number-none.com/blow/blog/)
 - [Kottke.org](https://kottke.org) by Jason Kottke - "Home of fine hypertext products"
-- [The Last Psychiatrist](https://thelastpsychiatrist.com) - "Wovon man nicht sprechen kann, darüber muß man schweigen"
 - [Marco.org](https://marco.org) by Marco Arment, "a programmer, writer, podcaster, geek, and coffee enthusiast"
-- [The Matter in the Miles](http://matterinthemiles.blogspot.com) - "Introspections, lessons, & conversations along the journey towards the finish line"
 - [Neven Mrgan's tumbl](http://mrgan.tumblr.com)
 - [Robin Sloan's blog](https://www.robinsloan.com/notes/)
-- [Sentimental Heart](https://krdugan.wordpress.com) - "There's Stars in My Eyes & There's Sun in My Hair"
-- [Shallow Rewards](https://medium.com/@shallowrewards) by Chriss Ott, "Town decrier"
+- [Shallow Rewards](https://medium.com/@shallowrewards) by Chris Ott, "Town decrier"
 - [Shaun Inman's blog](https://shauninman.com/blog)
 - [Tania Rascia's blog](https://www.taniarascia.com)
+- [The Digital Antiquarian](https://www.filfre.net) by Jimmy Maher - "A history of computer entertainment"
+- [The Last Psychiatrist](https://thelastpsychiatrist.com) - "Wovon man nicht sprechen kann, darüber muß man schweigen"
 - [Two People and a Cat](http://twopeopleandacat.com) - "A Quest for a Smaller Carbon Footprint"
 - [Vector Poem](http://vectorpoem.com/news/) by JP LeBreton - "Game design, expressive play, interactive art, and so on"
 - [Worrydream](http://worrydream.com) - "Bret Victor, purveyor of impossible dreams"

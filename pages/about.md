@@ -14,11 +14,11 @@ Thanks for checking out my website. It's good to have you here.
 
 I grew up in a tiny town in North Dakota, and now reside in [Minneapolis, MN](https://en.wikipedia.org/wiki/Minneapolis), where I do software development for a living.
 
-In my free time, I [listen to as much music as possible](https://www.last.fm/user/hisaac), [tinker with code](https://github.com/hisaac), read science fiction books, and spend time with my wife and son. You can see more of what I'm doing here at my [/now](/now) page.
+In my free time, I [listen to as much music as possible](https://www.last.fm/user/hisaac), [tinker with code](https://github.com/hisaac), read science fiction books, and spend time with my wife and son.
 
 ### Work
 
-I currently work as a mobile devops engineer for [Bitrise](https://bitrise.io).
+I currently work as a Senior Mobile Infrastructure Engineer at [Tandem Diabetes Care](https://www.tandemdiabetes.com), and insulin pump manufacturer.
 
 I've spent most of my professional life working with technology. Before software development, I was an IT support technician and manager, software quality assurance technician, audio producer, and audio engineer.
 
