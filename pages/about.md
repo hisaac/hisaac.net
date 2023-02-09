@@ -14,7 +14,7 @@ Thanks for checking out my website. It's good to have you here.
 
 I grew up in a tiny town in North Dakota, and now reside in [Minneapolis, MN](https://en.wikipedia.org/wiki/Minneapolis), where I do software development for a living.
 
-In my free time, I [listen to as much music as possible](https://www.last.fm/user/hisaac), [tinker with code](https://github.com/hisaac), read science fiction books, and spend time with my wife and son. You can see more of what I'm doing here at my [/now](/now) page.
+In my free time, I [listen to as much music as possible](https://www.last.fm/user/hisaac), [tinker with code](https://github.com/hisaac), read science fiction books, and spend time with my wife and son.
 
 ### Work
 
