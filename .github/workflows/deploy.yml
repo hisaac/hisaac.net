@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout
+    - uses: actions/checkout@v3.3.0
 
     - name: Setup Ruby
-      uses: ruby/setup-ruby
+      uses: ruby/setup-ruby@v1.138.0
       with:
         ruby-version: .tool-versions
         bundler-cache: true
@@ -32,7 +32,7 @@ jobs:
         SOURCE_DIR: ${{ github.workspace }}/_site
 
     - name: Invalidate CloudFront cache
-      uses: chetan/invalidate-cloudfront-action@v2
+      uses: chetan/invalidate-cloudfront-action@v2.4
       env:
         DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
         PATHS: /*
