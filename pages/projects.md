@@ -18,3 +18,4 @@ CenterMouse is open source, and 100% free to download and use!
 
 - Code: [github.com/hisaac/CenterMouse](https://github.com/hisaac/CenterMouse)
 - Download app: _coming soon_
+- [CenterMouse Privacy Policy](/projects/privacy-policies/CenterMouse/)
