@@ -1,12 +1,8 @@
 ---
-title: "Projects"
+title: "CenterMouse"
 layout: page
-permalink: /projects/
+permalink: /CenterMouse/
 ---
-
-A list of all my projects — mostly software.
-
-## <a name="centermouse">CenterMouse</a>
 
 ![CenterMouse's app icon](/assets/images/centermouse-app-icon.png)
 
@@ -18,4 +14,9 @@ CenterMouse is open source, and 100% free to download and use!
 
 - Code: [github.com/hisaac/CenterMouse](https://github.com/hisaac/CenterMouse)
 - Download app: _coming soon_
-- [CenterMouse Privacy Policy](/projects/privacy-policies/CenterMouse/)
+
+## <a name="privacy-policy">Privacy Policy</a>
+
+The CenterMouse app **does not** collect any personal data about you or your device.
+
+Thank you for reading CenterMouse's privacy policy. Privacy is important, and it's good that you value it as much as I do!
