@@ -1,7 +1,9 @@
-import frontmatter
 import os
 from datetime import datetime
 from textwrap import dedent, indent
+
+import frontmatter
+import yaml
 
 
 def recurse_posts(post_dir):
@@ -16,16 +18,26 @@ def process_file(file):
     with open(file) as f:
         post = frontmatter.load(f)
         post = convert_frontmatter_to_bear_format(post, file)
-        frontmatter.dumps(post, f)
+        frontmatter.dump(post, file, Dumper=yaml.Dumper)
 
 
 def convert_frontmatter_to_bear_format(post, file):
+    post = process_title(post)
     post = process_layout(post)
     post = process_date(post, file)
     post = set_alias(post, file)
     post = process_categories(post)
+    post = process_tags(post)
     post = process_permalink(post)
     post = process_source_and_via(post)
+    return post
+
+
+def process_title(post):
+    if 'title' in post.metadata:
+        title = post.metadata['title']
+        title = title.replace('"', '').replace("'", '')
+        post.metadata['title'] = title
     return post
 
 
@@ -44,7 +56,7 @@ def process_date(post, file):
 
     date_from_filename = get_date_from_filename(file)
     if date_from_filename:
-        post.metadata['published_date'] = date_from_filename
+        post.metadata['published_date'] = date_from_filename.date()
 
     return post
 
@@ -65,7 +77,7 @@ def get_date_from_filename(file):
 def set_alias(post, file):
     if 'published_date' in post.metadata:
         filename = os.path.basename(file)
-        post.metadata['alias'] = filename.replace('-', '/', 3).replace('.md', '')
+        post.metadata['alias'] = filename.replace('-', '/', 3).replace('.md', '.html')
 
     return post
 
@@ -78,6 +90,15 @@ def process_categories(post):
         post.metadata['tags'] += post.metadata['categories']
         del post.metadata['categories']
 
+    return post
+
+
+def process_tags(post):
+    if 'tags' in post.metadata:
+        tags = post.metadata['tags']
+        tags = [tag.lower() for tag in tags]
+        tags = ', '.join(tags)
+        post.metadata['tags'] = tags
     return post
 
 
@@ -128,3 +149,4 @@ def process_source_and_via(post):
 
 if __name__ == '__main__':
     recurse_posts('posts')
+    recurse_posts('pages')
