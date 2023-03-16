@@ -45,8 +45,7 @@ def process_post_text(post_text):
         if line.startswith('title: \'') or line.startswith('title: "'):
             post_lines[i] = line\
                 .replace('\'', '', 1)\
-                .replace('"', '', 1)\
-                [:-1]
+                .replace('"', '', 1)[:-1]
             break
 
     # Remove empty lines at the start of the post
