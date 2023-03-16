@@ -3,6 +3,7 @@
 import os
 from datetime import datetime
 from textwrap import dedent, indent
+import pathlib
 
 import frontmatter
 
@@ -177,5 +178,10 @@ def process_source_and_via(post):
 
 
 if __name__ == '__main__':
-    recurse_posts('../posts')
-    recurse_posts('../pages')
+    project_root = pathlib.Path(__file__).parent.parent.resolve()
+
+    posts_dir = os.path.join(project_root, 'posts')
+    recurse_posts(posts_dir)
+
+    pages_dir = os.path.join(project_root, 'pages')
+    recurse_posts(pages_dir)
