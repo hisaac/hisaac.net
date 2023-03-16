@@ -16,7 +16,7 @@ def recurse_posts(post_dir):
 def process_file(file):
     with open(file) as file_text:
         post = frontmatter.load(file_text)
-        post = convert_frontmatter_to_bear_format(post, file)
+        post = process_frontmatter(post, file)
         post_text = frontmatter.dumps(post)
         post_text = process_post_text(post_text)
 
@@ -24,7 +24,7 @@ def process_file(file):
         file_text.write(post_text)
 
 
-def convert_frontmatter_to_bear_format(post, file):
+def process_frontmatter(post, file):
     post = process_title(post)
     post = process_layout(post)
     post = process_date(post, file)
