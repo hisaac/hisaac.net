@@ -3,7 +3,6 @@ from datetime import datetime
 from textwrap import dedent, indent
 
 import frontmatter
-import yaml
 
 
 def recurse_posts(post_dir):
@@ -15,10 +14,14 @@ def recurse_posts(post_dir):
 
 
 def process_file(file):
-    with open(file) as f:
-        post = frontmatter.load(f)
+    with open(file) as file_text:
+        post = frontmatter.load(file_text)
         post = convert_frontmatter_to_bear_format(post, file)
-        frontmatter.dump(post, file, Dumper=yaml.Dumper)
+        post_text = frontmatter.dumps(post)
+        post_text = process_post_text(post_text)
+
+    with open(file, 'w') as file_text:
+        file_text.write(post_text)
 
 
 def convert_frontmatter_to_bear_format(post, file):
@@ -31,6 +34,31 @@ def convert_frontmatter_to_bear_format(post, file):
     post = process_permalink(post)
     post = process_source_and_via(post)
     return post
+
+
+def process_post_text(post_text):
+    post_text = post_text.replace('---', '', 1)
+    post_text = post_text.replace('---', '___', 1)
+
+    post_lines = post_text.splitlines()
+    for i, line in enumerate(post_lines):
+        if line.startswith('title: \'') or line.startswith('title: "'):
+            post_lines[i] = line\
+                .replace('\'', '', 1)\
+                .replace('"', '', 1)\
+                [:-1]
+            break
+
+    # Remove empty lines at the start of the post
+    if post_lines[0] == "":
+        post_lines.pop(0)
+
+    # Add a newline at the end of the post
+    if post_lines[-1] != "":
+        post_lines.append('\n')
+
+    post_text = '\n'.join(post_lines)
+    return post_text
 
 
 def process_title(post):
@@ -148,5 +176,5 @@ def process_source_and_via(post):
 
 
 if __name__ == '__main__':
-    recurse_posts('posts')
-    recurse_posts('pages')
+    recurse_posts('../posts')
+    recurse_posts('../pages')
