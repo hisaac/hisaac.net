@@ -1,7 +1,6 @@
 alias: 2018/03/25/lets-learn-about-waveforms.html
 published_date: 2018-03-25
-tags: s, o, u, n, d, ,,  , t, e, c, h, n, o, l, o, g, y, ,,  , d, e, v, e, l, o, p,
-  m, e, n, t, ,,  , j, a, v, a, s, c, r, i, p, t, ,,  , m, a, t, h
+tags: sound, technology, development, javascript, math
 title: Let's Learn about Waveforms | The Pudding
 ___
 

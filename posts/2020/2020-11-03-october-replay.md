@@ -87,11 +87,13 @@ Stream elsewhere: [album.link](https://album.link/i/1513020726)
 Here are playlists of all the albums if you'd like to stream all of these selections together:
 
 ### Slowgaze Only
+
 - [Bandcamp](https://buymusic.club/list/hisaac-october-replay-slowgaze)
 - [Apple Music](https://music.apple.com/us/playlist/october-replay-slowgaze/pl.u-8aAVrb1F9L3RG)
 - [Spotify](https://open.spotify.com/playlist/4QjVBkE30mAXCYAiBW0rDN?si=WEyTRD7pS8eGqo7uLRz9gw)
 
 ### Everything
+
 - [Bandcamp](https://buymusic.club/list/hisaac-october-replay)
 - [Apple Music](https://music.apple.com/us/playlist/october-replay/pl.u-NpXm64pTBgeMZ)
 - [Spotify](https://open.spotify.com/playlist/01jkFdO6Q05OlJa0ixfjYj?si=5gBVElb9RciyHIBGhK9DYg)
