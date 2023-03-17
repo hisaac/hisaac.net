@@ -1,9 +1,8 @@
----
-title: "Navigating Text Using the Keyboard on macOS"
-date: 2016-11-06T13:48:38-06:00
-layout: post
-tags: [mac, tech, programming, writing, tips]
----
+alias: 2016/11/06/navigating-text-using-the-keyboard-on-macos.html
+published_date: 2016-11-06
+tags: mac, tech, programming, writing, tips
+title: Navigating Text Using the Keyboard on macOS
+___
 
 A few months ago, Merlin Mann [tweeted a link](https://twitter.com/hotdogsladies/status/760580445213831168) to the [Apple Support document on Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236). There's a ton of great tricks in there, but what I want to focus on are the ones related to editing text documents.
 

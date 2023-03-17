@@ -1,9 +1,8 @@
----
-layout: post
-title: "Elon Musk Will Save Us All"
-tags: [technology, environment]
-date: 2016-05-06 09:08:11-05:00
----
+alias: 2016/05/06/elon-musk-will-save-us-all.html
+published_date: 2016-05-06
+tags: technology, environment
+title: Elon Musk Will Save Us All
+___
 
 > **Update 2022-05-02:**
 >

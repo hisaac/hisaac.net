@@ -1,9 +1,8 @@
----
-layout: post
-title: "Solo Project Day Three: The Day I Tweeted"
-tags: [twitter, projects, crow, webdev]
-date: 2016-12-07T16:59:01-06:00
----
+alias: 2016/12/07/solo-project-day-three-the-day-i-tweeted.html
+published_date: 2016-12-07
+tags: twitter, projects, crow, webdev
+title: Solo Project Day Three: The Day I Tweeted
+___
 
 I tweeted using my app (sort of) for the first time today! I say sort of, because I didn't actually do it from my app, but I did use my my app's credentials and my [test user](http://twitter.com/hisaac0)'s credentials. I used a wonderful API testing app called [Paw](https://paw.cloud) to do my testing today. It's a really nice tool, and I plan to continue using it for this project.
 

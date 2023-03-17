@@ -1,9 +1,8 @@
----
-title: "Brief Initial Thoughts After Finishing Super Mario 3D World"
-layout: post
-tags: [video games, nintendo, mario]
-categories: [tech]
----
+alias: 2014/01/06/brief-initial-thoughts-after-finishing-super-mario-3d-world.html
+published_date: 2014-01-06
+tags: video games, nintendo, mario, tech
+title: Brief Initial Thoughts After Finishing Super Mario 3D World
+___
 
 I finished Super Mario 3D World the other day, and while it was quite fun, it wasn’t quite what I was hoping for.
 The isometrically locked perspective seemed kind of gimmicky to me. I guess one could say that it is the truest expression of translating the original two dimensional Mario experience to the three dimensional video game experience we are now accustomed to, but I feel it lacks something compared to its truly 3D brethren (Super Mario 64, Super Mario Galaxy 1 & 2[^1]).

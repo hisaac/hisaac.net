@@ -1,10 +1,8 @@
----
-title: "Modern Hip Hop Production"
-layout: post
-date: 2013-06-18
-tags: [music, hip-hop, electronic music]
-categories: [music]
----
+alias: 2013/06/18/modern-hip-hop-production.html
+published_date: 2013-06-18
+tags: music, hip-hop, electronic music, music
+title: Modern Hip Hop Production
+___
 
 My love of synthesizers and electronic music has been maturing for the past 5 or so years. The synthesizer is a very exciting instrument because it literally has no bounds. If a person can dream up a sound, it can most likely be synthesized.
 

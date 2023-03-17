@@ -1,8 +1,6 @@
----
-title: "CenterMouse"
-layout: page
-permalink: /CenterMouse/
----
+is_page: true
+title: CenterMouse
+___
 
 ![CenterMouse's app icon](/assets/images/centermouse-app-icon.png)
 

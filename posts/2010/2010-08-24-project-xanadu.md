@@ -1,9 +1,8 @@
----
-title: "Project Xanadu"
-date: 2010-08-24T22:55:30-05:00
-layout: post
-tags: [internet, technology, programming]
----
+alias: 2010/08/24/project-xanadu.html
+published_date: 2010-08-24
+tags: internet, technology, programming
+title: Project Xanadu
+___
 
 Have you ever heard of hypertext? No? Well, you're life would be very much different without it. And without Ted Nelson, we wouldn't have hypertext.
 

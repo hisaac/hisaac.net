@@ -1,8 +1,7 @@
----
-title: "Microsoft Has a Sense of Humor?"
-date: 2011-01-18
-layout: post
----
+alias: 2011/01/18/microsoft-has-a-sense-of-humor.html
+published_date: 2011-01-18
+title: Microsoft Has a Sense of Humor?
+___
 
 ![I was the first to jailbreak Windows Phone 7, and all I got was this lousy t-shirt]({% asset_path windows-7-t-shirt.jpg %})
 *I was the first to jailbreak Windows Phone 7, and all I got was this lousy t-shirt*

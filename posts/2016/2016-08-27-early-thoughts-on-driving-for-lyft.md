@@ -1,9 +1,8 @@
----
-layout: post
-title: "Early Thoughts on Driving for Lyft"
-tags: [ridesharing, technology, internet]
-date: 2016-07-27 13:03:22-05:00
----
+alias: 2016/08/27/early-thoughts-on-driving-for-lyft.html
+published_date: 2016-08-27
+tags: ridesharing, technology, internet
+title: Early Thoughts on Driving for Lyft
+___
 
 As a means of making income while I learn a new trade, I decided to become a Lyft driver. Now, after a month of legwork, I’m finally driving. After a few days of driving, these are some early and brief impressions of what it’s like to be a driver.
 

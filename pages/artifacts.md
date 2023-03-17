@@ -1,8 +1,6 @@
----
-title: "Artifacts"
-layout: page
-permalink: /artifacts/
----
+is_page: true
+title: Artifacts
+___
 
 > Something viewed as a product of human conception or agency rather than an inherent element.
 >

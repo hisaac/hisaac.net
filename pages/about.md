@@ -1,8 +1,6 @@
----
-title: "About"
-layout: page
-permalink: /about/
----
+is_page: true
+title: About
+___
 
 ![A Picture of Isaac's Face](/assets/images/headshot.jpg)
 

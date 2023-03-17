@@ -1,9 +1,8 @@
----
-title: "Selenium Sulfide Shampoo for Dandruff Control"
-layout: post
-date: 2016-07-16
-tags: [health]
----
+alias: 2016/07/16/selenium-sulfide-shampoo-for-dandruff-control.html
+published_date: 2016-07-16
+tags: health
+title: Selenium Sulfide Shampoo for Dandruff Control
+___
 
 I’ve had [dandruff](https://en.wikipedia.org/wiki/Dandruff) for most of my adult life. I’ve more or less come to accept it, but during my recent trip to Seattle to see my doctor, I casually mentioned it to her. Her response was to prescribe me selenium sulfide shampoo. If you’ve ever used [Selsun Blue](https://en.wikipedia.org/wiki/Selsun_Blue), you’ve used selenium sulfide shampoo. Selsun Blue contains 1% selenium sulfide as an active ingredient. The prescription I was given has 2.25%.
 

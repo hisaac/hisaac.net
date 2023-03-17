@@ -1,10 +1,8 @@
----
-layout: post
-title: "Quick Tip: How to Enable CarPlay in the iOS Simulator"
-date: 2018-04-27
-tags: [software, ios, how-to, tip]
-source: https://stackoverflow.com/questions/32723237/switch-between-carplay-and-regular-window-in-ios-simulator
----
+alias: 2018/04/27/quick-tip-how-to-enable-carplay-in-the-ios-simulator.html
+published_date: 2018-04-27
+tags: software, ios, how-to, tip
+title: Quick Tip: How to Enable CarPlay in the iOS Simulator
+___
 
 This little tip was surprisingly hard to find — only mentioned a couple times online — so I figured I'd do my part to spread the word.
 
@@ -20,3 +18,10 @@ Restart the simulator if it was currently running, and then in the menu bar, go 
 *How to turn on CarPlay once you've enabled it in the simulator*
 
 Easy peasy.
+
+***
+
+<dl>
+	<dt>Source:</dt>
+	<dd><a href="https://stackoverflow.com/questions/32723237/switch-between-carplay-and-regular-window-in-ios-simulator">https://stackoverflow.com/questions/32723237/switch-between-carplay-and-regular-window-in-ios-simulator</a></dd>
+</dl>

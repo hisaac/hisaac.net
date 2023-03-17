@@ -1,9 +1,8 @@
----
-layout: post
-title: "Solo Project Day Seven: To The Database and Back Again"
-tags: [twitter, projects, crow, webdev]
-date: 2016-12-12T21:10:56-06:00
----
+alias: 2016/12/12/solo-project-day-seven-to-the-database-and-back-again.html
+published_date: 2016-12-12
+tags: twitter, projects, crow, webdev
+title: Solo Project Day Seven: To The Database and Back Again
+___
 
 This is technically the eighth day since I began my solo project, but I didn't do any work on the project on Sunday (although I did do [some other web work]({% post_url /2016/2016-12-11-moved-to-digital-ocean-lets-encrypt %})).
 

@@ -1,9 +1,8 @@
----
-title: "Thoughts on \"Are podcasts killing music or just wasting our time?\""
-date: 2019-04-24
-layout: post
-tags: [article, podcasts, music]
----
+alias: 2019/04/24/thoughts-on-are-podcasts-killing-music-or-just-wasting-our-time.html
+published_date: 2019-04-24
+tags: article, podcasts, music
+title: Thoughts on "Are podcasts killing music or just wasting our time?"
+___
 
 My friend Rebekah [sent me a link on Twitter](https://twitter.com/QuOTeDPodcast/status/1119029203377192966) to a post by Chris Richards titled <cite>[Are podcasts killing music or just wasting our time?](https://www.washingtonpost.com/lifestyle/style/are-podcasts-killing-music-or-just-wasting-our-time/2019/04/17/0aa08770-5acc-11e9-842d-7d3ed7eb3957_story.html?utm_term=.d3c4865fcb18)
 

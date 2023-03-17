@@ -1,9 +1,8 @@
----
-title: "October Replay"
-date: 2020-11-03
-layout: post
-tags: [music, slowcore, shoegaze, hip-hop]
----
+alias: 2020/11/03/october-replay.html
+published_date: 2020-11-03
+tags: music, slowcore, shoegaze, hip-hop
+title: October Replay
+___
 
 I discovered a lot of great music last month; some new releases, and some just new to me. I want to share the music with you as well!
 

@@ -1,9 +1,8 @@
----
-layout: post
-title: "Solo Project Day Two: Getting Something on the Page"
-tags: [twitter, projects, crow, webdev]
-date: 2016-12-06T17:15:35-06:00
----
+alias: 2016/12/06/solo-project-day-two-getting-something-on-the-page.html
+published_date: 2016-12-06
+tags: twitter, projects, crow, webdev
+title: Solo Project Day Two: Getting Something on the Page
+___
 
 My scope was approved at the end of yesterday, so today I got to begin actual coding. It feels really good to start wrapping my brain around the concept of this app, and to start visualizing the whole project.
 

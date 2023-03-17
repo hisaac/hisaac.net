@@ -1,8 +1,6 @@
----
-title: "More"
-layout: page
-permalink: /more/
----
+is_page: true
+title: More
+___
 
 ## Table of Contents
 

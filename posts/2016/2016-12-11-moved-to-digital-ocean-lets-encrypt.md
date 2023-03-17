@@ -1,9 +1,8 @@
----
-layout: post
-title: "Moved to Digital Ocean + Let's Encrypt"
-tags: [internet, tech, webdev]
-date: 2016-12-11T01:24:57-06:00
----
+alias: 2016/12/11/moved-to-digital-ocean-lets-encrypt.html
+published_date: 2016-12-11
+tags: internet, tech, webdev
+title: Moved to Digital Ocean + Let's Encrypt
+___
 
 A quick update: I just moved both [hisaac.net](http://hisaac.net) and [hisaac.blog](http://hisaac.blog) to an Ubuntu VPS at [Digital Ocean](http://digitalocean.com). I'd previously been hosting through GitHub pages, but I wanted a little more control. This way, I can host both sites in one place, and get to learn more about servers, Linux, and Apache. The only issue now is git commits. I need to find a way to commit to GitHub *and* the VPS at the same time. Currently, I'm commiting from my local machine to GitHub, and then pulling the changes from GitHub to the VPS. It's not a very efficient routine.
 

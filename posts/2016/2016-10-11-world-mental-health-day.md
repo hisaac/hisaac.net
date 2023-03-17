@@ -1,9 +1,8 @@
----
-title: "World Mental Health Day"
-date: 2016-10-11T10:13:47-05:00
-layout: post
-tags: [mental health]
----
+alias: 2016/10/11/world-mental-health-day.html
+published_date: 2016-10-11
+tags: mental health
+title: World Mental Health Day
+___
 
 I guess I missed World Mental Health Day (it was yesterday), but I would like to share anyway.
 

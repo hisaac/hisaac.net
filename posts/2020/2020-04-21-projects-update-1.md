@@ -1,9 +1,8 @@
----
-title: "Projects Update #1"
-date: 2020-04-21
-layout: post
-categories: [projects]
----
+alias: 2020/04/21/projects-update-1.html
+published_date: 2020-04-21
+tags: projects
+title: Projects Update #1
+___
 
 A semi-regular and overly verbose update on my personal projects.
 

@@ -1,9 +1,8 @@
----
-layout: post
-title: "Solo Project Day Four: Too Big for my Britches"
-tags: [twitter, projects, crow, webdev]
-date: 2016-12-08T18:52:41-06:00
----
+alias: 2016/12/08/solo-project-day-four-too-big-for-my-britches.html
+published_date: 2016-12-08
+tags: twitter, projects, crow, webdev
+title: Solo Project Day Four: Too Big for my Britches
+___
 
 Today was a tough day actually. I started to get hung up on some bigger issues than I need to worry about at this stage. Contemplating user security is new to me, and something that I began to worry a lot about. When a user logs into my app using Firebase, my app gets sent that user's key and their secret. These are essentially their username and password, but they are specific to my app, and requre my apps key and secret as well to be used in any way. This means that even if someone were to steal a user's key and secret, they wouldn't be able to do anything with them unless they had also stolen my app's key and secret.
 

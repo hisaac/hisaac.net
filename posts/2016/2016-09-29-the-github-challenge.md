@@ -1,9 +1,8 @@
----
-layout: post
-title: "The GitHub Challenge"
-tags: [technology, programming, web design, prime academy]
-date: 2016-09-29T14:32:26-05:00
----
+alias: 2016/09/29/the-github-challenge.html
+published_date: 2016-09-29
+tags: technology, programming, web design, prime academy
+title: The GitHub Challenge
+___
 
 I’ve just undertaken a “GitHub Challenge” with fellow students at [Prime Academy](http://primeacademy.io). Our goal for the challenge is to make at least one `git commit` for the next 30 days, starting today.
 

@@ -1,11 +1,8 @@
----
-layout: post
+alias: 2016/12/11/finder-keyboard-shortcut-to-show-invisible-files.html
+published_date: 2016-12-11
+tags: tech, macos
 title: Finder Keyboard Shortcut to Show Invisible Files
-tags: [tech, macos]
-date: 2016-12-11T19:14:18-06:00
-source: https://twitter.com/thequinntaylor/status/806542646449553408
-via: http://mjtsai.com/blog/2016/12/07/finder-keyboard-shortcut-to-show-invisible-files/
----
+___
 
 [Quinn Taylor](https://twitter.com/thequinntaylor/status/806542646449553408):
 
@@ -14,3 +11,12 @@ via: http://mjtsai.com/blog/2016/12/07/finder-keyboard-shortcut-to-show-invisibl
 I personally like seeing invisible files in Finder, and this is *way* easier than using Terminal to enable it.
 
 (via [Michael Tsai](http://mjtsai.com/blog/2016/12/07/finder-keyboard-shortcut-to-show-invisible-files/))
+
+***
+
+<dl>
+	<dt>Source:</dt>
+	<dd><a href="https://twitter.com/thequinntaylor/status/806542646449553408">https://twitter.com/thequinntaylor/status/806542646449553408</a></dd>
+	<dt>Found via:</dt>
+	<dd><a href="http://mjtsai.com/blog/2016/12/07/finder-keyboard-shortcut-to-show-invisible-files/">http://mjtsai.com/blog/2016/12/07/finder-keyboard-shortcut-to-show-invisible-files/</a></dd>
+</dl>

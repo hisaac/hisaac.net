@@ -1,9 +1,8 @@
----
-layout: post
-title: "Solo Project Day Five: Enter the Database"
-tags: [twitter, projects, crow, webdev]
-date: 2016-12-09T23:13:30-06:00
----
+alias: 2016/12/09/solo-project-day-five-enter-the-database.html
+published_date: 2016-12-09
+tags: twitter, projects, crow, webdev
+title: Solo Project Day Five: Enter the Database
+___
 
 Today's goal was simply to move the data I was receiving from Twitter via Firebase, into my database. While this seemed simple in concept, as someone new to programming, it was difficult in practice.
 

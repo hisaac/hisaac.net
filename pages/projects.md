@@ -1,8 +1,6 @@
----
-title: "Projects"
-layout: page
-permalink: /projects/
----
+is_page: true
+title: Projects
+___
 
 <dl>
 	<dt><a href="/CenterMouse/">CenterMouse</a></dt>

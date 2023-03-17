@@ -1,9 +1,8 @@
----
-title: "Update All the Things"
-date: 2018-02-12
-layout: post
-tags: [tech, bash, mac]
----
+alias: 2018/02/12/update-all-the-things.html
+published_date: 2018-02-12
+tags: tech, bash, mac
+title: Update All the Things
+___
 
 The other day, I was wishing for an easy way to update all of the [CLI](https://en.wikipedia.org/wiki/Command-line_interface) package managers on my computer at once, rather than having to type each command separately. Then I realized, this would be a great job for a bash/zsh alias!
 

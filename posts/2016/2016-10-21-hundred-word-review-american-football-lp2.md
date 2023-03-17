@@ -1,9 +1,8 @@
----
-title: "Hundred Word Review: American Football (LP2)"
-date: 2016-10-21T19:24:58-05:00
-layout: post
-tags: [music, review, emo]
----
+alias: 2016/10/21/hundred-word-review-american-football-lp2.html
+published_date: 2016-10-21
+tags: music, review, emo
+title: Hundred Word Review: American Football (LP2)
+___
 
 American Football's first album in 16 years opens with a song about two lovers who have become estranged after years of marriage, thus setting the tone for the rest of the album. Somber, reflective, and quiet, but also earnest. This has been a quality in American Football's songs since the beginning. Their songs are very true and pure.
 

@@ -1,8 +1,6 @@
----
-title: "Canon"
-layout: page
-permalink: /canon/
----
+is_page: true
+title: Canon
+___
 
 > …the body of books, music, and art that scholars generally accept as the most important and influential…
 >

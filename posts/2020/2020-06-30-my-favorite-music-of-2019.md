@@ -1,9 +1,8 @@
----
-title: "My Favorite Music of 2019"
-date: 2020-06-30
-layout: post
-tags: [music]
----
+alias: 2020/06/30/my-favorite-music-of-2019.html
+published_date: 2020-06-30
+tags: music
+title: My Favorite Music of 2019
+___
 
 These are my favorite music releases from 2019 (listed in alphabetical order by artist name).
 

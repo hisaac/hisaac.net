@@ -1,9 +1,8 @@
----
-layout: post
-title: "Solo Project Day Six: Saturday"
-tags: [twitter, projects, crow, webdev]
-date: 2016-12-11T00:08:50-06:00
----
+alias: 2016/12/11/solo-project-day-six-saturday.html
+published_date: 2016-12-11
+tags: twitter, projects, crow, webdev
+title: Solo Project Day Six: Saturday
+___
 
 I didn't do too much today, as it's a weekend, but I did get a little work done. Namely, I used Twitter's API to look up the logged in user's Twitter username using the `user_id` I receive back from Firebase on login. I also started building functionality for the draft of a tweet to be saved to the database for later editing.
 

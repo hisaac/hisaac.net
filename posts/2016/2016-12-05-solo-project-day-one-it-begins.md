@@ -1,9 +1,8 @@
----
-layout: post
-title: "Solo Project Day One: It Begins"
-tags: [twitter, projects, crow, webdev]
-date: 2016-12-05T17:07:20-06:00
----
+alias: 2016/12/05/solo-project-day-one-it-begins.html
+published_date: 2016-12-05
+tags: twitter, projects, crow, webdev
+title: Solo Project Day One: It Begins
+___
 
 Today, I started work on my solo project, a major component of the curriculum at [Prime Academy](http://primeacademy.io). For my project, I've decided to build a simple Twitter application. Heavily inspired by the late [Birdhouse](http://birdhouseapp.com) iOS app, it is a place to craft tweets, store them for later posting as drafts, and post them to Twitter once they are perfect.
 
