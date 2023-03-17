@@ -110,11 +110,12 @@ def process_post_content(post_content) -> str:
     if post_lines[0] == "":
         post_lines.pop(0)
 
-    # Add a newline at the end of the post
-    if post_lines[-1] != "":
-        post_lines.append('\n')
-
     post_content = '\n'.join(post_lines)
+
+    # Ensure the post ends with a newline
+    if post_content[-1] != '\n':
+        post_content += '\n'
+
     return post_content
 
 
