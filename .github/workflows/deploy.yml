@@ -19,7 +19,10 @@ jobs:
         bundler-cache: true
 
     - name: Build the Site
-      run: bundle exec jekyll build --destination ${{ github.workspace }}/_site
+      run: |
+        bundle exec jekyll build \
+          --source ./src/ \
+          --destination ${{ github.workspace }}/_site
 
     - name: Deploy the Site to Amazon S3
       uses: jakejarvis/s3-sync-action@v0.5.1
