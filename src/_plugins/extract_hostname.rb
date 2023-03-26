@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'uri'
+
 module Jekyll
   # Simple filter to extract the hostname from a given URL
   module ExtractHostname
