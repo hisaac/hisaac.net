@@ -13,18 +13,11 @@ strict_front_matter: true
 livereload: true
 
 include:
+  - _redirects
   - .well-known
-
-exclude:
-  - CHANGELOG*
-  - Gemfile*
-  - LICENSE*
-  - old
-  - README*
 
 keep-files:
   - resume
-  - _redirects
 
 defaults:
   - scope:
