@@ -10,7 +10,7 @@ exports.handler = function (event, context, callback) {
 	// https://www.dropbox.com/developers/reference/webhooks#tutorial
 	if (queryStringParameters.challenge) {
 		const msg =
-			"Success: verification request received and responded to appropriately.";
+			"Success: Verification request received and responded to appropriately.";
 		callback(null, {
 			statusCode: 200,
 			body: queryStringParameters.challenge,
@@ -25,35 +25,46 @@ exports.handler = function (event, context, callback) {
 
 	if (!headers["x-dropbox-signature"]) {
 		const msg =
-			"Failed: the request was not what was expected so nothing happened.";
+			"Failed: The request was not what was expected so nothing happened.";
 		callback(null, {
 			statusCode: 500,
 			body: msg,
 		});
 		console.log(msg, JSON.stringify(event));
-		return
+		return;
 	}
 
 	if (!process.env.NETLIFY_BUILD_HOOK_URL) {
 		const msg =
-			"Failed: the `NETLIFY_BUILD_HOOK_URL` environment variable is missing.";
+			"Failed: The `NETLIFY_BUILD_HOOK_URL` environment variable is missing.";
 		callback(null, {
 			statusCode: 500,
 			body: msg,
 		});
 		console.log(msg);
-		return
+		return;
 	}
 
-	const msg =
-		"Success: webhook received from Dropbox and forwarded to netlify!";
 	fetch(process.env.NETLIFY_BUILD_HOOK_URL, {
 		method: "POST",
-	}).then((res) => {
-		callback(null, {
-			statusCode: 200,
-			body: msg,
+		body: "",
+	})
+		.then((res) => {
+			const msg =
+				"Success: Webhook received from Dropbox and forwarded to Netlify!";
+			callback(null, {
+				statusCode: 200,
+				body: msg,
+			});
+			console.log(msg);
+		})
+		.catch((err) => {
+			const msg =
+				"Failed: Webhook received from Dropbox, but there was an error when forwarding to Netlify.";
+			callback(null, {
+				statusCode: 500,
+				body: err,
+			});
+			console.log(msg, err);
 		});
-		console.log(msg);
-	});
 };
