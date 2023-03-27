@@ -24,6 +24,7 @@ exclude:
 
 keep-files:
   - resume
+  - _redirects
 
 defaults:
   - scope:
