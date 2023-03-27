@@ -8,5 +8,5 @@ run:
 	bundle exec jekyll serve --source ./src/
 
 clean:
-	rm -rf _site
-	rm -rf .jekyll-cache
+	rm -rf ./_site
+	rm -rf ./src/.jekyll-cache
