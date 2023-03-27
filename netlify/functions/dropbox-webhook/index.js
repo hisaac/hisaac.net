@@ -1,9 +1,6 @@
 // Based on: https://github.com/jimniels/netlibox/blob/master/src/_netlify-functions/dropbox-webhook.js
 // via: https://www.netlify.com/blog/2018/10/15/combining-netlify-with-dropbox-for-a-one-click-publishing-process/
 
-require("dotenv").load();
-require("isomorphic-fetch");
-
 exports.handler = function (event, context, callback) {
 	const { headers, queryStringParameters } = event;
 
@@ -52,7 +49,6 @@ exports.handler = function (event, context, callback) {
 		"Success: webhook received from Dropbox and forwarded to netlify!";
 	fetch(process.env.NETLIFY_BUILD_HOOK_URL, {
 		method: "POST",
-		body: "",
 	}).then((res) => {
 		callback(null, {
 			statusCode: 200,
