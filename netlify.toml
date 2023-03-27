@@ -1,0 +1,9 @@
+[build]
+	publish = "_site"
+	command = "bundle exec jekyll build --source ./src/"
+
+[[redirects]]
+	# Redirects from old URL format with the full date in the path
+	# to the new URL format where the URL is just the post slug.
+	from = ":year/:month/:date/:slug.html"
+	to = "/:slug/"
