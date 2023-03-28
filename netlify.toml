@@ -1,3 +1,7 @@
 [build]
 	publish = "_site"
-	command = "bundle exec jekyll build --source ./src/"
+	command = "just ci"
+	HOMEBREW_BUNDLE_FILE = "Brewfile"
+
+[functions]
+	directory = "scripts/netlify"
