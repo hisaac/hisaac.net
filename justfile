@@ -7,6 +7,7 @@ up-ci:
 	pipenv install
 
 ci: up-ci download_content build
+dev: up download_content build
 
 build:
 	bundle exec jekyll build --source ./src/
