@@ -1,7 +1,6 @@
 [build]
 	publish = "_site"
 	command = "just ci"
-	HOMEBREW_BUNDLE_FILE = "Brewfile"
 
 [functions]
 	directory = "scripts/netlify"
