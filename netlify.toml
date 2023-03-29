@@ -1,3 +1,6 @@
 [build]
 	publish = "_site"
-	command = "bundle exec jekyll build --source ./src/"
+	command = "make ci"
+
+[functions]
+	directory = "scripts/netlify"

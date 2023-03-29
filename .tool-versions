@@ -1,4 +1,1 @@
-# Currently, 3.2.1 is the newest supported version via the ruby/setup-ruby action
-# https://github.com/ruby/setup-ruby
-
-ruby 3.2.1
+python 3.8.16

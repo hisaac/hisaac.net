@@ -1,5 +1,16 @@
 _site
 .DS_Store
+.env
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
+.idea
+
+# Ignore downloaded content files
+src/_drafts
+src/_posts
+src/pages
+
+# Lock files
+Gemfile.lock
+Pipfile.lock
