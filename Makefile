@@ -1,6 +1,7 @@
 up:
-	bundle install
+	pip install pipenv
 	pipenv install
+	bundle install
 
 build:
 	bundle exec jekyll build --source ./src/
