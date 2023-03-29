@@ -1,3 +1,8 @@
+.EXPORT_ALL_VARIABLES:
+
+BUNDLE_GEMFILE=./build/Gemfile
+PIPENV_PIPFILE=./build/Pipfile
+
 up:
 	pip install pipenv
 	pipenv install
@@ -9,12 +14,12 @@ build:
 run:
 	bundle exec jekyll serve --source ./src/
 serve: run
-dev: run
 
 download-content:
-	pipenv run python ./scripts/get_posts_from_dropbox.py
+	pipenv run python ./build/get_posts_from_dropbox.py
 
 ci: up download-content build
+dev: download-content run
 
 clean:
 	rm -rf ./_site
