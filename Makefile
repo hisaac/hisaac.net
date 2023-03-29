@@ -28,4 +28,6 @@ clean:
 	rm -rf ./src/_posts
 	rm -rf ./src/_drafts
 	rm -rf ./src/pages
+	rm -rf ./build/Gemfile.lock
+	rm -rf ./build/Pipfile.lock
 reset: clean
