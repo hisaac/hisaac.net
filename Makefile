@@ -10,6 +10,7 @@ up:
 
 build:
 	bundle exec jekyll build --source ./src/
+.PHONY: build
 
 run:
 	bundle exec jekyll serve --source ./src/
