@@ -3,4 +3,4 @@
 	command = "make ci"
 
 [functions]
-	directory = "scripts/netlify/functions"
+	directory = "build/netlify/functions"
