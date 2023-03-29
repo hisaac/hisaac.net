@@ -50,7 +50,6 @@ def download_and_extract(dir_name):
         f.write(result[1].content)
     with zipfile.ZipFile(download_path, "r") as zip_ref:
         print(f"Extracting  {dir_name} to {src_dir}/{dir_name}")
-
         zip_ref.extractall(src_dir)
 
 

@@ -13,4 +13,5 @@ end
 
 group :development do
   gem "solargraph"
+  gem "standard"
 end

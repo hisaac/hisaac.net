@@ -12,6 +12,5 @@ src/_posts
 src/pages
 
 # Lock files
-Brewfile.lock.json
 Gemfile.lock
 Pipfile.lock
