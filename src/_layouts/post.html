@@ -6,7 +6,6 @@
 {% include header.html %}
 
 <article>
-	<h1>{{ page.title }}</h1>
 	{{ content }}
 
 	<table class="post-metadata">
@@ -15,7 +14,7 @@
 				<th colspan="2">Post Metadata</th>
 			</tr>
 		</thead>
-		
+
 		<tbody>
 			<!-- date -->
 			{% if page.date %}
@@ -24,7 +23,7 @@
 				<td>{{ page.date | date_to_string: "ordinal", "US"}}</td>
 			</tr>
 			{% endif %}
-			
+
 			<!-- source link -->
 			{% if page.source %}
 			<tr>
@@ -32,7 +31,7 @@
 				<td><a href="{{ page.source }}" target="_blank">{{ page.source | extract_hostname }}…</td>
 			</tr>
 			{% endif %}
-			
+
 			<!-- via link -->
 			{% if page.via %}
 			<tr>
@@ -40,7 +39,7 @@
 				<td><a href="{{ page.via }}" target="_blank">{{ page.via | extract_hostname }}…</a></td>
 			</tr>
 			{% endif %}
-			
+
 			<!-- tags -->
 			{% if page.tags.size > 0 %}
 			<tr>
@@ -48,7 +47,7 @@
 				<td>{{ page.tags | sort | join: ", " }}</a></td>
 			</tr>
 			{% endif %}
-			
+
 			<!-- categories -->
 			{% if page.categories.size > 0 %}
 			<tr>
