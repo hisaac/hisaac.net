@@ -25,8 +25,8 @@
 
 	<!-- OpenGraph metadata -->
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="{{ "/assets/images/hisaac-logo-large.png" | absolute_url }}" />
-	<meta property="og:url" content="{{ page.url | absolute_url }}" />
+	<meta property="og:image" content="{{ "/assets/images/hisaac-logo-large.png" | relative_url }}" />
+	<meta property="og:url" content="{{ page.url | relative_url }}" />
 
 	{% if page.title %}
 		<meta property="og:title" content="{{ page.title }}" />
@@ -42,7 +42,7 @@
 		<meta property="og:description" content="{{ site.description }}" />
 	{% endif %}
 
-	<link rel="stylesheet" href="{{ "/assets/css/style.css" | absolute_url }}">
+	<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 
-	<link rel="alternate" title="{{ site.title }}" type="application/rss+xml" href="{{ "/feed.xml" | absolute_url }}" />
+	<link rel="alternate" title="{{ site.title }}" type="application/rss+xml" href="{{ "/feed.xml" | relative_url }}" />
 </head>
