@@ -5,6 +5,7 @@ _site
 .jekyll-metadata
 .sass-cache
 .idea
+node_modules
 
 # Ignore downloaded content files
 src/_drafts

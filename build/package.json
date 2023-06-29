@@ -1,0 +1,10 @@
+{
+  "name": "hisaac.net",
+  "description": "The personal website of Isaac Halvorson",
+  "author": "Isaac Halvorson <hello@hisaac.net>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@primer/css": "^21.0.7"
+  }
+}

@@ -7,6 +7,7 @@ up:
 	pip install pipenv
 	pipenv install
 	bundle install
+	npm --prefix ./build ci
 .PHONY: up
 
 build:
@@ -38,6 +39,7 @@ clean:
 	rm -rf ./src/pages
 	rm -rf ./build/Gemfile.lock
 	rm -rf ./build/Pipfile.lock
+	rm -rf ./build/node_modules
 .PHONY: clean
 
 reset: clean
