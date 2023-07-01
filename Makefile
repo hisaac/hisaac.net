@@ -17,7 +17,7 @@ run:
 serve: run
 .PHONY: serve
 
-ci: build
+ci: up build
 .PHONY: ci
 
 dev: run
