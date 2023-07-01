@@ -7,11 +7,5 @@ _site
 .idea
 node_modules
 
-# Ignore downloaded content files
-src/_drafts
-src/_posts
-src/pages
-
 # Lock files
 Gemfile.lock
-Pipfile.lock
