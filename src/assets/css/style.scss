@@ -1,4 +1,12 @@
 ---
+# Keep this YAML front matter block to trigger Jekyll processing
+# See https://jekyllrb.com/docs/frontmatter for more information
 ---
 
-@import "jekyll-theme-primer";
+// Import just modules we need, reduces overall processed CSS file size
+@import '@primer/css/core/index.scss';
+// This exports the `.markdown-body` class used on <body>
+@import '@primer/css/markdown/index.scss';
+@import '@primer/css/color-modes/index.scss';
+@import "rouge";
+@import "custom";

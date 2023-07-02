@@ -26,3 +26,10 @@ img + em {
 	display: block;
 	padding-top: .5em;
 }
+
+// https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-dark-mode-images
+@media (prefers-color-scheme: dark) {
+	img:not(:hover) {
+		filter: brightness(.8) contrast(1.2);
+	}
+}
