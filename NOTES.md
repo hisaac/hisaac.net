@@ -1,5 +1,11 @@
 # Notes
 
+## Dirs
+
+- src = build
+- content = content
+- static = static sites
+
 ## Links
 
 - [reStructuredText](https://docutils.sourceforge.io/rst.html)
