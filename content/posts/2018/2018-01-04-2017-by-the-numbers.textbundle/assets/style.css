@@ -1,0 +1,4 @@
+/* Remove the dots on the list items so that the emoji can be used instead */
+li {
+	list-style-type: none;
+}
