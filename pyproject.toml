@@ -26,10 +26,21 @@ content-type = "text/markdown"
 lint = [
 	"black",
 	"flake8",
-	# "mypy",
+	"pyright",
 ]
 dev = [
 	"hisaac.net[lint]"
 ]
 
-[tool.black]
+[tool.flake8]
+max-line-length = 88
+extend-ignore = "E203"
+
+[tool.pyright]
+include = ["src"]
+pythonVersion = "3.12"
+pythonPlatform = "Darwin"
+executionEnvironments = [
+	{ root = "src" }
+]
+typeCheckingMode = "strict"
