@@ -3,12 +3,13 @@ Main Class [hisaac.net generator]
 """
 
 import sys
+from pathlib import Path
 
-import generator
+ROOT_DIR = Path(__file__).parent.parent
+CONTENT_DIR = ROOT_DIR / "content"
 
 
 def main() -> int:
-	generator.greet("Isaac")
 	return 0
 
 

@@ -1,17 +1,17 @@
 [build-system]
-requires = ["setuptools", "build"]
+requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "hisaac.net"
-version = "0.1.0"
-authors = [{name = "Isaac Halvorson", email = "hello@hisaac.net"}]
-license = {text = "MIT"}
+version = "0.0.1"
+authors = [{ name = "Isaac Halvorson", email = "hello@hisaac.net" }]
+license = { text = "MIT" }
 description = "The personal website of Isaac Halvorson"
-requires-python = ">=3.12.0"
+requires-python = ">=3.11"
 dependencies = [
-	"beautifulsoup4>=4.12.2",
-	"requests>=2.31.0",
+    "beautifulsoup4>=4.12.2",
+    "requests>=2.31.0",
 ]
 
 [project.urls]
@@ -24,11 +24,21 @@ content-type = "text/markdown"
 
 [project.optional-dependencies]
 lint = [
-	"pylance",
-	"ruff",
+    "pylance",
+    "ruff",
 ]
 dev = [
-	"hisaac.net[lint]"
+    "hisaac.net[lint]"
+]
+
+[tool.ruff]
+select = [
+    "E", # pycodestyle
+    "W", # pycodestyle
+    "F", # pyflakes
+    "I", # isort
+    "C4", # flake8-comprehensions
+    "TID", # flake8-tidy-imports
 ]
 
 [tool.ruff.format]
