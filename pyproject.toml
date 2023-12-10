@@ -15,8 +15,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://hisaac.net"
-Repository = "https://github.com/hisaac/hisaac.net"
+homepage = "https://hisaac.net"
+repository = "https://github.com/hisaac/hisaac.net"
 
 [project.readme]
 file = "README.md"
@@ -24,23 +24,12 @@ content-type = "text/markdown"
 
 [project.optional-dependencies]
 lint = [
-	"black",
-	"flake8",
-	"pyright",
+	"pylance",
+	"ruff",
 ]
 dev = [
 	"hisaac.net[lint]"
 ]
 
-[tool.flake8]
-max-line-length = 88
-extend-ignore = "E203"
-
-[tool.pyright]
-include = ["src"]
-pythonVersion = "3.12"
-pythonPlatform = "Darwin"
-executionEnvironments = [
-	{ root = "src" }
-]
-typeCheckingMode = "strict"
+[tool.ruff.format]
+indent-style = "tab"
