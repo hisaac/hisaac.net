@@ -15,6 +15,11 @@
 
 Name of project? [Hamerkop](https://en.wikipedia.org/wiki/Hamerkop), a bird that builds nests (websites).
 
+### Style Inspiration
+
+https://www.crummy.com/software/BeautifulSoup/
+
+
 ### Linters/Formatters
 
 - [pycodestyle](https://github.com/PyCQA/pycodestyle)
