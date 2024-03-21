@@ -10,7 +10,7 @@ permalink: /projects/
 	<dt><a href="/CenterMouse/">CenterMouse</a></dt>
 	<dd>A macOS utility that moves your mouse pointer to the center of the screen on certain events.</dd>
 
-	<dt><a href="https://github.com/hisaac/Sensorium">Sensorium</a> (in development)</dt>
+	<dt>Sensorium (in development)</dt>
 	<dd>
 		A macOS utility that can perform actions based on events.<br/>
 		(Heavily inspired by <a href="https://github.com/dustinrue/ControlPlane">ControlPlane</a>.)
