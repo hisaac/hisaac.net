@@ -1,0 +1,5 @@
+{{ range .Site.Menus.main.ByWeight }}
+	<a href="{{ .URL }}">{{ .Name }}</a>
+	&nbsp;|&nbsp;
+{{ end }}
+<a href='{{ absURL "index.xml" }}'>RSS</a>

@@ -1,2 +1,18 @@
 [tools]
-hugo = "latest"
+hugo = "extended_0.127.0"
+
+[tasks.serve]
+description = "Start the Hugo server"
+run = "hugo server --buildDrafts --gc"
+
+[tasks.clean]
+description = "Clean the Hugo cache"
+run = [
+	"rm -rf public",
+	"rm -rf resources",
+	"rm .hugo_build.lock",
+]
+
+[tasks.reset]
+description = "Runs clean and serve"
+depends = ["clean", "serve"]
