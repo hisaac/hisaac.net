@@ -5,9 +5,9 @@ date: 2014-01-12
 tags: [music, best of]
 ---
 
-Welcome to my Good and Great Albums of 2013 list! Please peruse the list and drop me a line [on Twitter](http://twitter.com/hisaac) if you found anything that piqued your interest. And please share your lists as well if you’ve got them. I love finding and hearing new music.
+Welcome to my Good and Great Albums of 2013 list! Please peruse the list and drop me a line [on Twitter](http://twitter.com/hisaac) if you found anything that piqued your interest. And please share your lists as well if you've got them. I love finding and hearing new music.
 
-<aside>Note: I like to do these lists in alphabetical order by artist. All of these albums are great, and it’s hard to pick favorites.</aside>
+<aside>Note: I like to do these lists in alphabetical order by artist. All of these albums are great, and it's hard to pick favorites.</aside>
 
 ## Good Albums
 
@@ -115,7 +115,7 @@ Atmospheric acid (acidspheric?)
 
 ![Album art for Recur by Emptyset](assets/emptyset-recur.jpg)
 
-I think the most surprising thing about this record is that I like it. More “sound” than actual music, but still rhythmic. Pulsing. Gyrating even. The sound is alive.
+I think the most surprising thing about this record is that I like it. More "sound" than actual music, but still rhythmic. Pulsing. Gyrating even. The sound is alive.
 
 - Listen: [Songlink](https://song.link/album/us/i/733478463)
 - Highlight: [<cite>Fragment</cite>](https://song.link/us/i/733478480)
@@ -127,7 +127,7 @@ I think the most surprising thing about this record is that I like it. More “s
 ![Album art for Shaking the Habitual by The Knife](assets/the-knife-shaking-the-habitual.jpg)
 
 Good: Completely not subtle production.
-Bad: Too many “noise” tracks, not enough music.
+Bad: Too many "noise" tracks, not enough music.
 
 - Listen: [Songlink](https://song.link/album/us/i/828145438)
 - Highlight: [<cite>Networking</cite>](https://song.link/us/i/828145469)
@@ -171,7 +171,7 @@ The frozen North in a record. Gobs of atmosphere.
 
 ![Album art for No Better Time than Now by Shigeto](assets/shigeto-no-better-time-than-now.jpg)
 
-Organic jazzy grooves and keys, layered over semi-post-dubstep (sort of) rhythms / electronic bleeps and bloops. The antithesis of the previously mentioned Emptyset record. Also choice for “Best Album Cover of 2013”.
+Organic jazzy grooves and keys, layered over semi-post-dubstep (sort of) rhythms / electronic bleeps and bloops. The antithesis of the previously mentioned Emptyset record. Also choice for "Best Album Cover of 2013".
 
 - Listen: [Songlink](https://song.link/album/us/i/661873896)
 - Highlight: [<cite>Miss U</cite>](https://song.link/us/i/661874281)
@@ -250,7 +250,7 @@ I listened to these tracks while lonely and alone in another town in another sta
 
 ![Album art for Cro Magnox by Ceephax](assets/ceephax-cro-magnox.jpg)
 
-This could be a soundtrack to a science fiction movie based off a video game for the Nintendo Entertainment System set on another planet where there is no sunlight. It could be, but it’s not. What it is is otherworldly and frequently brilliant.
+This could be a soundtrack to a science fiction movie based off a video game for the Nintendo Entertainment System set on another planet where there is no sunlight. It could be, but it's not. What it is is otherworldly and frequently brilliant.
 
 - Listen: [Bandcamp](https://ceephax.bandcamp.com/album/cro-magnox)
 - Highlight: [<cite>Natural Spectrum</cite>](https://ceephax.bandcamp.com/track/natural-spectrum)
@@ -261,18 +261,18 @@ This could be a soundtrack to a science fiction movie based off a video game for
 
 ![Album art for Chelsea Light Moving by Chelsea Light Moving](assets/chelsea-light-moving-chelsea-light-moving.jpg)
 
-Thurston Moore realizes the dream that we thought we’d lost when Sonic Youth broke up.
+Thurston Moore realizes the dream that we thought we'd lost when Sonic Youth broke up.
 
 - Listen: [Songlink](https://song.link/album/us/i/615407050)
 - Highlight: [<cite>Alighted</cite>](https://song.link/us/i/615407201)
 
 - - -
 
-### Dawes - <cite>Stories Don’t End</cite>
+### Dawes - <cite>Stories Don't End</cite>
 
 ![Album art for Stories Don't End by Dawes](assets/dawes-stories-don't-end.jpg)
 
-I really can’t say enough about this record. Beautiful and true songwriting. Pure. Harmonic. Dawes is consistently wonderful.
+I really can't say enough about this record. Beautiful and true songwriting. Pure. Harmonic. Dawes is consistently wonderful.
 
 - Listen: [Songlink](https://song.link/album/us/i/1140268667)
 - Highlight: [<cite>Bear Witness</cite>](https://song.link/us/i/1140269441)
@@ -283,7 +283,7 @@ I really can’t say enough about this record. Beautiful and true songwriting. P
 
 ![Album art for Tough Guy by Frankie Teardrop](assets/frankie-teardrop-tough-guy.jpg)
 
-Frankie Teardrop is a friend of mine. He is a friend to us all. Tough Guy is an ode to young midwestern frustration. I can’t wait to see what Frankie does in 2014.
+Frankie Teardrop is a friend of mine. He is a friend to us all. Tough Guy is an ode to young midwestern frustration. I can't wait to see what Frankie does in 2014.
 
 - Listen: [Bandcamp](https://sodapopfrankie.bandcamp.com/album/tough-guy)
 - Highlight: [<cite>Lines</cite>](https://sodapopfrankie.bandcamp.com/track/lines)
@@ -294,10 +294,10 @@ Frankie Teardrop is a friend of mine. He is a friend to us all. Tough Guy is an 
 
 ![Album art for Fuzz by Fuzz](assets/fuzz-fuzz.jpg)
 
-This is what rock means in 2013. It's as if Black Sabbath tripped into a time machine, emerged in 2013, hung out with a bunch of 20-somethings for a few months, and then made this record. (Don’t believe me? Listen to <cite>[Raise](https://song.link/us/i/687569374)</cite>.)
+This is what rock means in 2013. It's as if Black Sabbath tripped into a time machine, emerged in 2013, hung out with a bunch of 20-somethings for a few months, and then made this record. (Don't believe me? Listen to <cite>[Raise](https://song.link/us/i/687569374)</cite>.)
 
 - Listen: [Songlink](https://song.link/album/us/i/687569151)
-- Highlight: [<cite>What’s In My Head?</cite>](https://song.link/us/i/687569370)
+- Highlight: [<cite>What's In My Head?</cite>](https://song.link/us/i/687569370)
 
 - - -
 
@@ -305,7 +305,7 @@ This is what rock means in 2013. It's as if Black Sabbath tripped into a time ma
 
 ![Album art for Wakin on a Pretty Daze by Kurt Vile](assets/kurt-vile-wakin-on-a-pretty-daze.jpg)
 
-Calling this country would not be fair at all. Rock doesn’t work either. Indie: no. It is all of those, and yet none at the same time. I see this as a perfect counterpart to Fuzz’s record actually, what 2013 sounds like with guitars. Two sides of the same coin. If I had to choose one record on this list to listen to forever, it would probably be this one. There is a remarkable amount of depth here.
+Calling this country would not be fair at all. Rock doesn't work either. Indie: no. It is all of those, and yet none at the same time. I see this as a perfect counterpart to Fuzz's record actually, what 2013 sounds like with guitars. Two sides of the same coin. If I had to choose one record on this list to listen to forever, it would probably be this one. There is a remarkable amount of depth here.
 
 - Listen: [Songlink](https://song.link/album/us/i/598989281)
 - Highlight: [<cite>Wakin on a Pretty Day</cite>](https://song.link/us/i/598989776)

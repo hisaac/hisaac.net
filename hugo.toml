@@ -35,7 +35,7 @@ enableRobotsTXT = true
 
 	# Dates are displayed following the format below. For more information about
 	# formatting, see https://gohugo.io/functions/format/
-	dateFormat = "2006-01-02"
+	dateFormat = "Jan 2, 2006"
 
 	# Author metadata. This is mostly used for the RSS feed of your site, but the
 	# email is also added to the footer of each post

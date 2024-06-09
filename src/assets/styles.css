@@ -18,6 +18,13 @@ figcaption {
 	text-align: center;
 }
 
+aside {
+	background-color: #f2f2f2;
+	padding: 1em;
+	margin-top: 1em;
+	border-radius: 4px;
+}
+
 body,
 h1,
 h2,
@@ -34,4 +41,46 @@ dt {
 
 footer {
 	text-align: center;
+}
+
+ul.blog-posts {
+	list-style-type: none;
+	padding: unset;
+}
+
+ul.blog-posts li {
+	display: flex;
+}
+
+ul.blog-posts li span {
+	flex: 0 0 130px;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #333;
+		color: #ddd;
+	}
+
+	a {
+		color: #8cc2dd;
+	}
+
+	aside {
+		background-color: #444;
+	}
+
+	code {
+		background-color: #777;
+	}
+
+	pre code {
+		color: #ddd;
+	}
+
+	textarea,
+	input {
+		background-color: #252525;
+		color: #ddd;
+	}
 }

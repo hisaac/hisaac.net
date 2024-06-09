@@ -15,4 +15,7 @@ run = [
 
 [tasks.reset]
 description = "Runs clean and serve"
-depends = ["clean", "serve"]
+depends = [
+	"clean",
+	"serve"
+]
