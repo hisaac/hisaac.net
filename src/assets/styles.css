@@ -42,6 +42,13 @@ dt {
 	font-weight: bold;
 }
 
+code {
+	background-color: #eee;
+	border-radius: 4px;
+	font-family: monospace;
+	padding: 0.2em;
+}
+
 footer {
 	text-align: center;
 }
