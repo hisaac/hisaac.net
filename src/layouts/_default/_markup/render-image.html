@@ -15,6 +15,7 @@
 {{ with .Page.Resources.GetMatch $src }}
 
 	{{- $imageResource := . -}}
+	{{- $imageIsGif := hasSuffix $imageResource.RelPermalink ".gif" -}}
 
 	{{- /* Resized image to use as a placeholder until the full size image loads */ -}}
 	{{- $placeholderImage := $imageResource.Resize "3x q15" -}}
@@ -26,8 +27,12 @@
 
 	<figure>
 		<picture>
-			<source type="image/webp" srcset="{{ $webpImage.RelPermalink }}" />
-			<source type="image/jpeg" srcset="{{ $jpegImage.RelPermalink }}" />
+			{{- if $imageIsGif -}}
+				<source type="image/gif" srcset="{{ $imageResource.RelPermalink }}" />
+			{{- else -}}
+				<source type="image/webp" srcset="{{ $webpImage.RelPermalink }}" />
+				<source type="image/jpeg" srcset="{{ $jpegImage.RelPermalink }}" />
+			{{- end -}}
 			<img
 				src="data:image/jpeg;base64,{{ $placeholderImageBase64 }}"
 				alt="{{ $alt }}"
