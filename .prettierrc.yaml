@@ -1,0 +1,12 @@
+---
+
+tabWidth: 4
+useTabs: true
+
+overrides:
+  - files:
+      - "*.yaml"
+      - "*.yml"
+    options:
+      tabWidth: 2
+      useTabs: false

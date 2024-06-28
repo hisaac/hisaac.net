@@ -7,5 +7,8 @@
 public/
 resources/
 
+# node
+node_modules/
+
 # legacy
 src~jekyll/
