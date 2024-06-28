@@ -1,5 +1,6 @@
 [tools]
 hugo = "extended_0.128.0"
+node = "22.3.0"
 
 [tasks.build]
 description = "Build the site"
@@ -8,7 +9,8 @@ run = "hugo --gc"
 [tasks.ci]
 description = "Run the CI build"
 depends = [
-	"build"
+	"build",
+	"format",
 ]
 
 [tasks.serve]
@@ -17,23 +19,24 @@ run = "hugo server --buildDrafts --gc"
 
 [tasks.lint]
 description = "Lint the site"
-run = "npx prettier --check ."
+run = "npx prettier --check . --ignore-path .prettierignore"
 
 [tasks.format]
 description = "Format the site"
-run = "npx prettier --write ."
+run = "npx prettier --write . --ignore-path .prettierignore"
 
 [tasks.clean]
 description = "Clean the Hugo cache"
 run = [
+	"rm -rf node_modules",
 	"rm -rf public",
 	"rm -rf resources",
-	"rm .hugo_build.lock",
+	"rm -f .hugo_build.lock",
 ]
 
 [tasks.reset]
 description = "Runs clean and serve"
 depends = [
 	"clean",
-	"serve"
+	"serve",
 ]

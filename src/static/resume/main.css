@@ -14,7 +14,8 @@ html {
 }
 
 /* To be used once Mojave dark mode options appear */
-@media (prefers-dark-interface) {}
+@media (prefers-dark-interface) {
+}
 
 body {
 	margin: auto;
@@ -22,7 +23,7 @@ body {
 }
 
 /* For iPhone X Safe Area Insets */
-@supports(padding: max(0px)) {
+@supports (padding: max(0px)) {
 	body {
 		padding-top: max(0, env(safe-area-inset-top));
 		padding-right: max(20px, env(safe-area-inset-right));
@@ -44,7 +45,7 @@ footer {
 }
 
 footer {
-	padding-bottom: 20px
+	padding-bottom: 20px;
 }
 
 footer p {
@@ -118,7 +119,6 @@ code {
 	font-family: monospace;
 	padding: 1px 3px;
 }
-
 
 /* iPhone XS Max and smaller */
 @media only screen and (max-width: 414px) {
@@ -215,20 +215,105 @@ code {
 	http://mrgan.com/havl/
 */
 
-.cWhite			{ color: #f1f5f3 }		.bgWhite		{ background-color: #f1f5f3 }
-.cLightGray		{ color: #d2d8d5 }		.bgLightGray	{ background-color: #d2d8d5 }
-.cMidGray		{ color: #9aa39e }		.bgMidGray		{ background-color: #9aa39e }
-.cDarkGray		{ color: #6b706d }		.bgDarkGray		{ background-color: #6b706d }
-.cRed			{ color: #ed5b3e }		.bgRed			{ background-color: #ed5b3e }
-.cOrange		{ color: #f76e00 }		.bgOrange		{ background-color: #f08026 }
-.cGold			{ color: #ff9c00 }		.bgGold			{ background-color: #f5b929 }
-.cYellow		{ color: #e3bf14 }		.bgYellow		{ background-color: #f9f4c2 }
-.cLime			{ color: #8db115 }		.bgLime			{ background-color: #95bb1a }
-.cGreen			{ color: #28a422 }		.bgGreen		{ background-color: #50b833 }
-.cTeal			{ color: #00c0c2 }		.bgTeal			{ background-color: #00c0c2 }
-.cBlue			{ color: #216dbe }		.bgBlue			{ background-color: #64a5eb }
-.cPurple		{ color: #854fbb }		.bgPurple		{ background-color: #b997db }
-.cPink			{ color: #e56bbe }		.bgPink			{ background-color: #f79ad9 }
-.cDarkPurple	{ color: #cc2044 }		.bgDarkPurple	{ background-color: #db3d5e }
-.cBrown			{ color: #cc6520 }		.bgBrown		{ background-color: #d1783d }
-.cMaroon		{ color: #cd4632 }		.bgMaroon		{ background-color: #cd4632 }
+.cWhite {
+	color: #f1f5f3;
+}
+.bgWhite {
+	background-color: #f1f5f3;
+}
+.cLightGray {
+	color: #d2d8d5;
+}
+.bgLightGray {
+	background-color: #d2d8d5;
+}
+.cMidGray {
+	color: #9aa39e;
+}
+.bgMidGray {
+	background-color: #9aa39e;
+}
+.cDarkGray {
+	color: #6b706d;
+}
+.bgDarkGray {
+	background-color: #6b706d;
+}
+.cRed {
+	color: #ed5b3e;
+}
+.bgRed {
+	background-color: #ed5b3e;
+}
+.cOrange {
+	color: #f76e00;
+}
+.bgOrange {
+	background-color: #f08026;
+}
+.cGold {
+	color: #ff9c00;
+}
+.bgGold {
+	background-color: #f5b929;
+}
+.cYellow {
+	color: #e3bf14;
+}
+.bgYellow {
+	background-color: #f9f4c2;
+}
+.cLime {
+	color: #8db115;
+}
+.bgLime {
+	background-color: #95bb1a;
+}
+.cGreen {
+	color: #28a422;
+}
+.bgGreen {
+	background-color: #50b833;
+}
+.cTeal {
+	color: #00c0c2;
+}
+.bgTeal {
+	background-color: #00c0c2;
+}
+.cBlue {
+	color: #216dbe;
+}
+.bgBlue {
+	background-color: #64a5eb;
+}
+.cPurple {
+	color: #854fbb;
+}
+.bgPurple {
+	background-color: #b997db;
+}
+.cPink {
+	color: #e56bbe;
+}
+.bgPink {
+	background-color: #f79ad9;
+}
+.cDarkPurple {
+	color: #cc2044;
+}
+.bgDarkPurple {
+	background-color: #db3d5e;
+}
+.cBrown {
+	color: #cc6520;
+}
+.bgBrown {
+	background-color: #d1783d;
+}
+.cMaroon {
+	color: #cd4632;
+}
+.bgMaroon {
+	background-color: #cd4632;
+}

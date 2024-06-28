@@ -1,0 +1,23 @@
+{
+	"subject": "acct:hisaac@allamaraine.io",
+	"aliases": [
+		"https://allamaraine.io/@hisaac",
+		"https://allamaraine.io/users/hisaac"
+	],
+	"links": [
+		{
+			"rel": "http://webfinger.net/rel/profile-page",
+			"type": "text/html",
+			"href": "https://allamaraine.io/@hisaac"
+		},
+		{
+			"rel": "self",
+			"type": "application/activity+json",
+			"href": "https://allamaraine.io/users/hisaac"
+		},
+		{
+			"rel": "http://ostatus.org/schema/1.0/subscribe",
+			"template": "https://allamaraine.io/authorize_interaction?uri={uri}"
+		}
+	]
+}

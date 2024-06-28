@@ -31,7 +31,7 @@ enableRobotsTXT = true
 	madeWith = "Made with [Hugo](https://gohugo.io)"
 
 	# The path to your favicon
-	favicon = "src/assets/favicon.png"
+	favicon = "favicon.ico"
 
 	# Dates are displayed following the format below. For more information about
 	# formatting, see https://gohugo.io/functions/format/

@@ -1,3 +1,4 @@
-!public/
-package-lock.json
-src/
+# Ignore everything except the public directory
+*
+!*/
+!public/**/*
