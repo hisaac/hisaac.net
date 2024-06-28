@@ -17,7 +17,7 @@ run = "hugo server --buildDrafts --gc"
 
 [tasks.lint]
 description = "Lint the site"
-run = "npx markdownlint-cli ."
+run = "npx prettier --check ."
 
 [tasks.format]
 description = "Format the site"
