@@ -10,8 +10,6 @@ I've selected just the shortcuts I find most useful, and reposted them below. If
 
 *Note: I've used glyphs for the shortcut keys so as to better fit them in the table. If you're unfamiliar with any of the symbols, I've provided a key at the bottom of the post.*
 
-<!-- TODO: Add styling for <kbd> element -->
-
 | Shortcut                                     | Description                                                              |
 | :------------------------------------------- | :----------------------------------------------------------------------- |
 | <kbd>⌘</kbd> + <kbd>↑/↓</kbd>                | Move cursor to beginning or end of document.                             |

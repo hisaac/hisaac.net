@@ -1,20 +1,20 @@
 /* Variables */
 
 :root {
-	--color-accented-background: #f2f2f2;
-	/* --color-background: unset; */
+	--color-accented-background: rgb(242, 242, 242);
+	--color-background: inherit;
 	--color-link: rgb(50, 50, 235);
 	--color-table-border: rgb(208, 215, 222);
-	/* --color-text: unset; */
+	--color-text: inherit;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color-accented-background: #2f2f2f;
-		--color-background: #222;
-		--color-link: #8cc2dd;
+		--color-accented-background: rgb(47, 47, 47);
+		--color-background: rgb(34, 34, 34);
+		--color-link: rgb(140, 194, 221);
 		--color-table-border: rgb(48, 54, 61);
-		--color-text: #ddd;
+		--color-text: rgb(221, 221, 221);
 	}
 
 	/* https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-dark-mode-images */
@@ -71,7 +71,11 @@ h2,
 h3,
 h4,
 h5 {
-	line-height: 1;
+	line-height: 1.1;
+}
+
+.title > h1 {
+	margin-bottom: .2em;
 }
 
 dt {
@@ -80,10 +84,8 @@ dt {
 }
 
 /* Inline code -------------- */
-dd > code,
-dt > code,
-li > code,
-p > code {
+:not(pre) > code,
+kbd {
 	background-color: var(--color-accented-background);
 	border-radius: 4px;
 	font-family: monospace;
@@ -129,10 +131,6 @@ td {
 
 td > :last-child {
 	margin-bottom: 0;
-}
-
-tr {
-	border-top: 1px solid #c6cbd1;
 }
 
 tr:nth-child(2n) {

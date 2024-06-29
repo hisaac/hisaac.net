@@ -37,8 +37,6 @@ The URL is constructed in a way that it first tries to open the Bandcamp iOS app
 
 So what are all those `%` symbols? This URL uses [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding) to encode information not normally allowed in URLs/URIs. Here's a list of the codes used, and their translations:
 
-<!-- TODO: Update table styling -->
-
 | Percent code | Translation |
 | ------------ | ----------- |
 | `%3A`        | `:`         |
