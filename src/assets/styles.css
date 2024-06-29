@@ -1,7 +1,8 @@
 body {
 	margin: auto;
-	padding: 1em;
 	max-width: 800px;
+	padding: 1em;
+	tab-size: 4;
 }
 
 a {
@@ -62,6 +63,18 @@ p > code {
 	padding: 1em;
 }
 
+/* Make footer hug the bottom */
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+footer {
+	margin-top: auto;
+}
+/* -------------------------- */
+
 footer {
 	text-align: center;
 }
@@ -105,5 +118,10 @@ ul.blog-posts li span {
 	input {
 		background-color: #252525;
 		color: #ddd;
+	}
+
+	/* https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-dark-mode-images */
+	img:not(:hover) {
+		filter: brightness(0.8) contrast(1.2);
 	}
 }
