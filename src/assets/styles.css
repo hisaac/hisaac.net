@@ -1,4 +1,31 @@
+/* Variables */
+
+:root {
+	--color-accented-background: #f2f2f2;
+	/* --color-background: unset; */
+	--color-link: rgb(50, 50, 235);
+	--color-table-border: rgb(208, 215, 222);
+	/* --color-text: unset; */
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-accented-background: #2f2f2f;
+		--color-background: #222;
+		--color-link: #8cc2dd;
+		--color-table-border: rgb(48, 54, 61);
+		--color-text: #ddd;
+	}
+
+	/* https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-dark-mode-images */
+	img:not(:hover) {
+		filter: brightness(0.8) contrast(1.2);
+	}
+}
+
 body {
+	background-color: var(--color-background);
+	color: var(--color-text);
 	margin: auto;
 	max-width: 800px;
 	padding: 1em;
@@ -6,7 +33,7 @@ body {
 }
 
 a {
-	color: rgb(50, 50, 235);
+	color: var(--color-link);
 }
 
 img {
@@ -20,7 +47,7 @@ figcaption {
 }
 
 aside {
-	background-color: #f2f2f2;
+	background-color: var(--color-accented-background);
 	padding: 1em;
 	border-radius: 4px;
 }
@@ -39,29 +66,39 @@ h5 {
 		Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+	line-height: 1;
+}
+
 dt {
 	font-weight: bold;
 	margin-top: 1em;
 }
 
-/* Inline code */
+/* Inline code -------------- */
 dd > code,
 dt > code,
 li > code,
 p > code {
-	background-color: #eee;
+	background-color: var(--color-accented-background);
 	border-radius: 4px;
 	font-family: monospace;
 	padding: 0.2em;
 }
+/* -------------------------- */
 
-/* Code blocks */
+/* Code blocks ---------------*/
 .highlight div,
 .highlight pre {
 	border-radius: 4px;
 	overflow-x: auto;
 	padding: 1em;
 }
+/* -------------------------- */
 
 /* Make footer hug the bottom */
 body {
@@ -72,6 +109,34 @@ body {
 }
 footer {
 	margin-top: auto;
+}
+/* -------------------------- */
+
+/* GitHub-esque table styling */
+table {
+	border-collapse: collapse;
+	display: block;
+	max-width: 100%;
+	overflow: auto;
+	width: max-content;
+}
+
+th,
+td {
+	border: 1px solid var(--color-table-border);
+	padding: 6px 13px;
+}
+
+td > :last-child {
+	margin-bottom: 0;
+}
+
+tr {
+	border-top: 1px solid #c6cbd1;
+}
+
+tr:nth-child(2n) {
+	background-color: var(--color-accented-background);
 }
 /* -------------------------- */
 
@@ -90,38 +155,4 @@ ul.blog-posts li {
 
 ul.blog-posts li span {
 	flex: 0 0 130px;
-}
-
-@media (prefers-color-scheme: dark) {
-	body {
-		background-color: #222;
-		color: #ddd;
-	}
-
-	a {
-		color: #8cc2dd;
-	}
-
-	aside {
-		background-color: #444;
-	}
-
-	dd > code,
-	dt > code,
-	li > code,
-	p > code {
-		background-color: #555;
-		color: white;
-	}
-
-	textarea,
-	input {
-		background-color: #252525;
-		color: #ddd;
-	}
-
-	/* https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-dark-mode-images */
-	img:not(:hover) {
-		filter: brightness(0.8) contrast(1.2);
-	}
 }
