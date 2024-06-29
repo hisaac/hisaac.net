@@ -29,8 +29,6 @@ Intrigued, I tapped the link. It first opened a web page in Safari, and then ope
 
 So first, let's look at the link in that email (personal/purchase information replaced with `@@@`):
 
-<!-- TODO: Add scrolling to code elements -->
-
 ```
 http://bandcamp.com/redirect_to_app?fallback_url=http%3A%2F%2Fbandcamp.com%2Fdownload%3Ffrom%3Dreceipt%26payment_id%3D@@@%26sig%3D@@@&url=x-bandcamp%3A%2F%2Fshow_tralbum%3Ftralbum_type%3Da%26tralbum_id%3D531538254%26play&sig=@@@
 ```

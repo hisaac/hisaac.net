@@ -20,10 +20,6 @@ enableRobotsTXT = true
 	[markup.goldmark.extensions.typographer]
 		disable = true
 
-	[markup.highlight]
-		lineNos = true
-		lineNumbersInTable = false
-
 [params]
 	# The description of your website
 	description = "Isaac Halvorson's personal weblog"

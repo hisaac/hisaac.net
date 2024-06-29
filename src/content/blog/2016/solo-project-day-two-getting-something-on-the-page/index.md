@@ -8,8 +8,6 @@ My scope was approved at the end of yesterday, so today I got to begin actual co
 
 I began the day by thinking through my database structure. I've decided to use MongoDB for the project, and have two schemas I'll be using. The main schema:
 
-<!-- TODO: Fix code blog styling -->
-
 ```javascript
 var userSchema = new Schema({
 	email: String,

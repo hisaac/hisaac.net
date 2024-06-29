@@ -43,11 +43,23 @@ dt {
 	margin-top: 1em;
 }
 
-code {
+/* Inline code */
+dd > code,
+dt > code,
+li > code,
+p > code {
 	background-color: #eee;
 	border-radius: 4px;
 	font-family: monospace;
 	padding: 0.2em;
+}
+
+/* Code blocks */
+.highlight div,
+.highlight pre {
+	border-radius: 4px;
+	overflow-x: auto;
+	padding: 1em;
 }
 
 footer {
@@ -69,7 +81,7 @@ ul.blog-posts li span {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		background-color: #333;
+		background-color: #222;
 		color: #ddd;
 	}
 
@@ -81,12 +93,12 @@ ul.blog-posts li span {
 		background-color: #444;
 	}
 
-	code {
-		background-color: #777;
-	}
-
-	pre code {
-		color: #ddd;
+	dd > code,
+	dt > code,
+	li > code,
+	p > code {
+		background-color: #555;
+		color: white;
 	}
 
 	textarea,
