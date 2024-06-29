@@ -6,6 +6,10 @@ node = "22.3.0"
 description = "Build the site"
 run = "hugo --gc"
 
+[tasks.generate_syntax_css]
+description = "Generate the syntax CSS"
+run = "hugo gen chromastyles --style xcode-dark > src/assets/syntax.css"
+
 [tasks.ci]
 description = "Run the CI build"
 depends = [

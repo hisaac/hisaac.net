@@ -1,6 +1,5 @@
 baseURL = "https://hisaac.net/"
 title = "hisaac.net"
-copyright = "2008–∞, Isaac Halvorson"
 
 archetypeDir = "src/archetypes"
 assetDir = "src/assets"
@@ -20,11 +19,12 @@ enableRobotsTXT = true
 	[markup.goldmark.extensions.typographer]
 		disable = true
 
+	[markup.highlight]
+		noClasses = false
+
 [params]
 	# The description of your website
 	description = "Isaac Halvorson's personal weblog"
-
-	madeWith = "Made with [Hugo](https://gohugo.io)"
 
 	# The path to your favicon
 	favicon = "favicon.ico"

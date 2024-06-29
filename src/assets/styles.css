@@ -11,8 +11,8 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		--color-accented-background: rgb(47, 47, 47);
-		--color-background: rgb(34, 34, 34);
-		--color-link: rgb(140, 194, 221);
+		--color-background: rgb(20, 20, 20);
+		--color-link: rgb(47, 129, 247);
 		--color-table-border: rgb(48, 54, 61);
 		--color-text: rgb(221, 221, 221);
 	}
@@ -27,7 +27,7 @@ body {
 	background-color: var(--color-background);
 	color: var(--color-text);
 	margin: auto;
-	max-width: 800px;
+	max-width: 1000px;
 	padding: 1em;
 	tab-size: 4;
 }
