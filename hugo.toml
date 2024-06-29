@@ -1,6 +1,6 @@
 baseURL = "https://hisaac.net/"
 title = "hisaac.net"
-copyright = "© 2008–∞, Isaac Halvorson"
+copyright = "2008–∞, Isaac Halvorson"
 
 archetypeDir = "src/archetypes"
 assetDir = "src/assets"
