@@ -13,7 +13,7 @@ CenterMouse is open source, and 100% free to download and use!
 - Code: [github.com/hisaac/CenterMouse](https://github.com/hisaac/CenterMouse)
 - [Download from the Mac App Store](https://apps.apple.com/app/centermouse/id6444685140)
 
-## <a name="privacy-policy">Privacy Policy</a>
+## Privacy Policy
 
 The CenterMouse app **does not** collect any personal data about you or your device.
 

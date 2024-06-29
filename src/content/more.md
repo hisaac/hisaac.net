@@ -12,15 +12,15 @@ menu: "main"
 <!-- - [Site Archive](#site-archive) -->
 - [Blogroll](#blogroll)
 
-## <a name="living-documents">Living Documents</a>
+## Living Documents
 
 Living documents have been migrated to my [digital garden](/wiki/), which I prune and maintain using [Craft](https://www.craft.do).
 
-<!-- ## <a name="experiments">Experiments</a>
+<!-- ## Experiments
 
 `Experiments coming soon` -->
 
-<!-- ## <a name="site-archive">Site Archive</a>
+<!-- ## Site Archive
 
 Want to see what my website looked like throughout history? Click the dates below to take a trip through time.
 
@@ -29,7 +29,7 @@ Want to see what my website looked like throughout history? Click the dates belo
 - [2016-08-27](/site-archive/2016-08-27/)
 - [2017-12-20](/site-archive/2017-12-20/) -->
 
-## <a name="blogroll">Blogroll</a>
+## Blogroll
 
 Here is a list of other blogs that I like to keep up on. Some of them haven't been updated in a while, but they're still worth looking at.
 

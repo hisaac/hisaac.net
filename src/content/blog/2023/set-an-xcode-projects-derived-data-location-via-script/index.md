@@ -27,8 +27,7 @@ This setting is a "per-user" setting though, which ideally should be included in
 
 Previously, I would go manually set this setting on the projects that I worked on, but why use a mouse when you could use a script instead!
 
-<!-- TODO: Fix display of headings with links -->
-## <a name="the-solution">The Solution</a>
+## The Solution
 
 Here's the Bash script I came up with to perform the modifications needed on whichever project or workspace you pass to it:
 
