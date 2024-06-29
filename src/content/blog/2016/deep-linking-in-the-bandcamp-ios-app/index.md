@@ -29,7 +29,7 @@ Intrigued, I tapped the link. It first opened a web page in Safari, and then ope
 
 So first, let's look at the link in that email (personal/purchase information replaced with `@@@`):
 
-```
+```txt
 http://bandcamp.com/redirect_to_app?fallback_url=http%3A%2F%2Fbandcamp.com%2Fdownload%3Ffrom%3Dreceipt%26payment_id%3D@@@%26sig%3D@@@&url=x-bandcamp%3A%2F%2Fshow_tralbum%3Ftralbum_type%3Da%26tralbum_id%3D531538254%26play&sig=@@@
 ```
 
@@ -49,13 +49,13 @@ So what are all those `%` symbols? This URL uses [Percent Encoding](https://en.w
 
 So, if we use this to fix the parts after the `fallback_url=` in the original URL[^1], we get:
 
-```
+```txt
 http://bandcamp.com/download?from=receipt&payment_id=@@@&sig=@@@&url=x-bandcamp://show_tralbum?tralbum_type=a&tralbum_id=531538254&play&sig=@@@
 ```
 
 The last bit of that URL is the key. Here it is isolated:
 
-```
+```txt
 bandcamp://show_tralbum?tralbum_type=a&tralbum_id=531538254&play
 ```
 
