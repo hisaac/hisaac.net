@@ -13,7 +13,6 @@ up:
 	"$(scripts_dir)/up.sh"
 
 build:
-	"$(scripts_dir)/generate-syntax.sh"
 	"$(scripts_dir)/build.sh"
 
 format:
@@ -25,6 +24,11 @@ lint:
 run:
 	"$(scripts_dir)/run.sh"
 
+# utility targets
+
+generate:
+	"$(scripts_dir)/generate-syntax.sh"
+
 clean:
 	"$(scripts_dir)/clean.sh"
 
@@ -35,4 +39,5 @@ nuke:
 
 serve: run
 ci: up build format
+rebuild: clean build
 reset: clean run
