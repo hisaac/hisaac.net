@@ -1,3 +1,304 @@
 [build]
 	publish = "public"
 	command = "make ci"
+
+[[redirects]]
+	from = "/2008/04/21/the-norns.html"
+	to = "/blog/the-norns/"
+[[redirects]]
+	from = "/the-norns/"
+	to = "/blog/the-norns/"
+[[redirects]]
+	from = "/2010/08/24/project-xanadu.html"
+	to = "/blog/project-xanadu/"
+[[redirects]]
+	from = "/project-xanadu/"
+	to = "/blog/project-xanadu/"
+[[redirects]]
+	from = "/2011/01/18/microsoft-has-a-sense-of-humor.html"
+	to = "/blog/microsoft-has-a-sense-of-humor/"
+[[redirects]]
+	from = "/microsoft-has-a-sense-of-humor/"
+	to = "/blog/microsoft-has-a-sense-of-humor/"
+[[redirects]]
+	from = "/2013/06/18/modern-hip-hop-production.html"
+	to = "/blog/modern-hip-hop-production/"
+[[redirects]]
+	from = "/modern-hip-hop-production/"
+	to = "/blog/modern-hip-hop-production/"
+[[redirects]]
+	from = "/2013/07/24/why-im-trying-soylent.html"
+	to = "/blog/why-im-trying-soylent/"
+[[redirects]]
+	from = "/why-im-trying-soylent/"
+	to = "/blog/why-im-trying-soylent/"
+[[redirects]]
+	from = "/2014/01/06/brief-initial-thoughts-after-finishing-super-mario-3d-world.html"
+	to = "/blog/brief-initial-thoughts-after-finishing-super-mario-3d-world/"
+[[redirects]]
+	from = "/brief-initial-thoughts-after-finishing-super-mario-3d-world/"
+	to = "/blog/brief-initial-thoughts-after-finishing-super-mario-3d-world/"
+[[redirects]]
+	from = "/2014/01/12/good-and-great-albums-of-2013.html"
+	to = "/blog/good-and-great-albums-of-2013/"
+[[redirects]]
+	from = "/good-and-great-albums-of-2013/"
+	to = "/blog/good-and-great-albums-of-2013/"
+[[redirects]]
+	from = "/2014/04/01/brief-thoughts-on-disneys-frozen.html"
+	to = "/blog/brief-thoughts-on-disneys-frozen/"
+[[redirects]]
+	from = "/brief-thoughts-on-disneys-frozen/"
+	to = "/blog/brief-thoughts-on-disneys-frozen/"
+[[redirects]]
+	from = "/2016/05/06/elon-musk-will-save-us-all.html"
+	to = "/blog/elon-musk-will-save-us-all/"
+[[redirects]]
+	from = "/elon-musk-will-save-us-all/"
+	to = "/blog/elon-musk-will-save-us-all/"
+[[redirects]]
+	from = "/2016/07/16/selenium-sulfide-shampoo-for-dandruff-control.html"
+	to = "/blog/selenium-sulfide-shampoo-for-dandruff-control/"
+[[redirects]]
+	from = "/selenium-sulfide-shampoo-for-dandruff-control/"
+	to = "/blog/selenium-sulfide-shampoo-for-dandruff-control/"
+[[redirects]]
+	from = "/2016/07/27/early-thoughts-on-driving-for-lyft.html"
+	to = "/blog/early-thoughts-on-driving-for-lyft/"
+[[redirects]]
+	from = "/early-thoughts-on-driving-for-lyft/"
+	to = "/blog/early-thoughts-on-driving-for-lyft/"
+[[redirects]]
+	from = "/2016/08/12/tim-berners-lees-proposed-social-network.html"
+	to = "/blog/tim-berners-lees-proposed-social-network/"
+[[redirects]]
+	from = "/tim-berners-lees-proposed-social-network/"
+	to = "/blog/tim-berners-lees-proposed-social-network/"
+[[redirects]]
+	from = "/2016/08/13/my-music-recs-newsletter.html"
+	to = "/blog/my-music-recs-newsletter/"
+[[redirects]]
+	from = "/my-music-recs-newsletter/"
+	to = "/blog/my-music-recs-newsletter/"
+[[redirects]]
+	from = "/2016/08/27/conversion-via-twitter-the-new-yorker.html"
+	to = "/blog/conversion-via-twitter-the-new-yorker/"
+[[redirects]]
+	from = "/conversion-via-twitter-the-new-yorker/"
+	to = "/blog/conversion-via-twitter-the-new-yorker/"
+[[redirects]]
+	from = "/2016/08/27/shuffleboard-at-mcmurdo-idle-words.html"
+	to = "/blog/shuffleboard-at-mcmurdo-idle-words/"
+[[redirects]]
+	from = "/shuffleboard-at-mcmurdo-idle-words/"
+	to = "/blog/shuffleboard-at-mcmurdo-idle-words/"
+[[redirects]]
+	from = "/2016/08/28/quiver-the-programmer's-notebook.html"
+	to = "/blog/quiver-the-programmer's-notebook/"
+[[redirects]]
+	from = "/quiver-the-programmer's-notebook/"
+	to = "/blog/quiver-the-programmer's-notebook/"
+[[redirects]]
+	from = "/2016/08/29/my-dead-girlfriend's-bot-joshua-allen.html"
+	to = "/blog/my-dead-girlfriend's-bot-joshua-allen/"
+[[redirects]]
+	from = "/my-dead-girlfriend's-bot-joshua-allen/"
+	to = "/blog/my-dead-girlfriend's-bot-joshua-allen/"
+[[redirects]]
+	from = "/2016/08/30/machine-politics-the-new-yorker.html"
+	to = "/blog/machine-politics-the-new-yorker/"
+[[redirects]]
+	from = "/machine-politics-the-new-yorker/"
+	to = "/blog/machine-politics-the-new-yorker/"
+[[redirects]]
+	from = "/2016/09/29/the-github-challenge.html"
+	to = "/blog/the-github-challenge/"
+[[redirects]]
+	from = "/the-github-challenge/"
+	to = "/blog/the-github-challenge/"
+[[redirects]]
+	from = "/2016/10/09/deep-linking-in-the-bandcamp-ios-app.html"
+	to = "/blog/deep-linking-in-the-bandcamp-ios-app/"
+[[redirects]]
+	from = "/deep-linking-in-the-bandcamp-ios-app/"
+	to = "/blog/deep-linking-in-the-bandcamp-ios-app/"
+[[redirects]]
+	from = "/2016/10/11/world-mental-health-day.html"
+	to = "/blog/world-mental-health-day/"
+[[redirects]]
+	from = "/world-mental-health-day/"
+	to = "/blog/world-mental-health-day/"
+[[redirects]]
+	from = "/2016/10/12/writing-for-half-life-marc-laidlaw.html"
+	to = "/blog/writing-for-half-life-marc-laidlaw/"
+[[redirects]]
+	from = "/writing-for-half-life-marc-laidlaw/"
+	to = "/blog/writing-for-half-life-marc-laidlaw/"
+[[redirects]]
+	from = "/2016/10/21/hundred-word-review-american-football-lp2.html"
+	to = "/blog/hundred-word-review-american-football-lp2/"
+[[redirects]]
+	from = "/hundred-word-review-american-football-lp2/"
+	to = "/blog/hundred-word-review-american-football-lp2/"
+[[redirects]]
+	from = "/2016/11/06/navigating-text-using-the-keyboard-on-macos.html"
+	to = "/blog/navigating-text-using-the-keyboard-on-macos/"
+[[redirects]]
+	from = "/navigating-text-using-the-keyboard-on-macos/"
+	to = "/blog/navigating-text-using-the-keyboard-on-macos/"
+[[redirects]]
+	from = "/2016/11/11/why-commits-to-forks-on-github-dont-count-toward-contributions.html"
+	to = "/blog/why-commits-to-forks-on-github-dont-count-toward-contributions/"
+[[redirects]]
+	from = "/why-commits-to-forks-on-github-dont-count-toward-contributions/"
+	to = "/blog/why-commits-to-forks-on-github-dont-count-toward-contributions/"
+[[redirects]]
+	from = "/2016/11/22/fake-news-and-instagram-manton-reece.html"
+	to = "/blog/fake-news-and-instagram-manton-reece/"
+[[redirects]]
+	from = "/fake-news-and-instagram-manton-reece/"
+	to = "/blog/fake-news-and-instagram-manton-reece/"
+[[redirects]]
+	from = "/2016/12/05/solo-project-day-one-it-begins.html"
+	to = "/blog/solo-project-day-one-it-begins/"
+[[redirects]]
+	from = "/solo-project-day-one-it-begins/"
+	to = "/blog/solo-project-day-one-it-begins/"
+[[redirects]]
+	from = "/2016/12/06/solo-project-day-two-getting-something-on-the-page.html"
+	to = "/blog/solo-project-day-two-getting-something-on-the-page/"
+[[redirects]]
+	from = "/solo-project-day-two-getting-something-on-the-page/"
+	to = "/blog/solo-project-day-two-getting-something-on-the-page/"
+[[redirects]]
+	from = "/2016/12/07/solo-project-day-three-the-day-i-tweeted.html"
+	to = "/blog/solo-project-day-three-the-day-i-tweeted/"
+[[redirects]]
+	from = "/solo-project-day-three-the-day-i-tweeted/"
+	to = "/blog/solo-project-day-three-the-day-i-tweeted/"
+[[redirects]]
+	from = "/2016/12/08/solo-project-day-four-too-big-for-my-britches.html"
+	to = "/blog/solo-project-day-four-too-big-for-my-britches/"
+[[redirects]]
+	from = "/solo-project-day-four-too-big-for-my-britches/"
+	to = "/blog/solo-project-day-four-too-big-for-my-britches/"
+[[redirects]]
+	from = "/2016/12/09/solo-project-day-five-enter-the-database.html"
+	to = "/blog/solo-project-day-five-enter-the-database/"
+[[redirects]]
+	from = "/solo-project-day-five-enter-the-database/"
+	to = "/blog/solo-project-day-five-enter-the-database/"
+[[redirects]]
+	from = "/2016/12/11/finder-keyboard-shortcut-to-show-invisible-files.html"
+	to = "/blog/finder-keyboard-shortcut-to-show-invisible-files/"
+[[redirects]]
+	from = "/finder-keyboard-shortcut-to-show-invisible-files/"
+	to = "/blog/finder-keyboard-shortcut-to-show-invisible-files/"
+[[redirects]]
+	from = "/2016/12/11/moved-to-digital-ocean-lets-encrypt.html"
+	to = "/blog/moved-to-digital-ocean-lets-encrypt/"
+[[redirects]]
+	from = "/moved-to-digital-ocean-lets-encrypt/"
+	to = "/blog/moved-to-digital-ocean-lets-encrypt/"
+[[redirects]]
+	from = "/2016/12/11/solo-project-day-six-saturday.html"
+	to = "/blog/solo-project-day-six-saturday/"
+[[redirects]]
+	from = "/solo-project-day-six-saturday/"
+	to = "/blog/solo-project-day-six-saturday/"
+[[redirects]]
+	from = "/2016/12/12/solo-project-day-seven-to-the-database-and-back-again.html"
+	to = "/blog/solo-project-day-seven-to-the-database-and-back-again/"
+[[redirects]]
+	from = "/solo-project-day-seven-to-the-database-and-back-again/"
+	to = "/blog/solo-project-day-seven-to-the-database-and-back-again/"
+[[redirects]]
+	from = "/2017/01/15/solo-project-finished.html"
+	to = "/blog/solo-project-finished/"
+[[redirects]]
+	from = "/solo-project-finished/"
+	to = "/blog/solo-project-finished/"
+[[redirects]]
+	from = "/2018/01/01/spicy-uno.html"
+	to = "/blog/spicy-uno/"
+[[redirects]]
+	from = "/spicy-uno/"
+	to = "/blog/spicy-uno/"
+[[redirects]]
+	from = "/2018/01/04/2017-by-the-numbers.html"
+	to = "/blog/2017-by-the-numbers/"
+[[redirects]]
+	from = "/2017-by-the-numbers/"
+	to = "/blog/2017-by-the-numbers/"
+[[redirects]]
+	from = "/2018/01/30/icloud-music-library-woes.html"
+	to = "/blog/icloud-music-library-woes/"
+[[redirects]]
+	from = "/icloud-music-library-woes/"
+	to = "/blog/icloud-music-library-woes/"
+[[redirects]]
+	from = "/2018/02/02/my-guide-to-the-twin-cities.html"
+	to = "/blog/my-guide-to-the-twin-cities/"
+[[redirects]]
+	from = "/my-guide-to-the-twin-cities/"
+	to = "/blog/my-guide-to-the-twin-cities/"
+[[redirects]]
+	from = "/2018/02/12/update-all-the-things.html"
+	to = "/blog/update-all-the-things/"
+[[redirects]]
+	from = "/update-all-the-things/"
+	to = "/blog/update-all-the-things/"
+[[redirects]]
+	from = "/2018/03/25/lets-learn-about-waveforms.html"
+	to = "/blog/lets-learn-about-waveforms/"
+[[redirects]]
+	from = "/lets-learn-about-waveforms/"
+	to = "/blog/lets-learn-about-waveforms/"
+[[redirects]]
+	from = "/2018/04/27/quick-tip-how-to-enable-carplay-in-the-ios-simulator.html"
+	to = "/blog/quick-tip-how-to-enable-carplay-in-the-ios-simulator/"
+[[redirects]]
+	from = "/quick-tip-how-to-enable-carplay-in-the-ios-simulator/"
+	to = "/blog/quick-tip-how-to-enable-carplay-in-the-ios-simulator/"
+[[redirects]]
+	from = "/2018/06/06/i-was-on-a-couple-podcasts.html"
+	to = "/blog/i-was-on-a-couple-podcasts/"
+[[redirects]]
+	from = "/i-was-on-a-couple-podcasts/"
+	to = "/blog/i-was-on-a-couple-podcasts/"
+[[redirects]]
+	from = "/2019/03/07/a-book-of-human-language-bandcamp-hidden-gems.html"
+	to = "/blog/a-book-of-human-language-bandcamp-hidden-gems/"
+[[redirects]]
+	from = "/a-book-of-human-language-bandcamp-hidden-gems/"
+	to = "/blog/a-book-of-human-language-bandcamp-hidden-gems/"
+[[redirects]]
+	from = "/2019/04/24/thoughts-on-are-podcasts-killing-music-or-just-wasting-our-time.html"
+	to = "/blog/thoughts-on-are-podcasts-killing-music-or-just-wasting-our-time/"
+[[redirects]]
+	from = "/thoughts-on-are-podcasts-killing-music-or-just-wasting-our-time/"
+	to = "/blog/thoughts-on-are-podcasts-killing-music-or-just-wasting-our-time/"
+[[redirects]]
+	from = "/2020/04/21/projects-update-1.html"
+	to = "/blog/projects-update-1/"
+[[redirects]]
+	from = "/projects-update-1/"
+	to = "/blog/projects-update-1/"
+[[redirects]]
+	from = "/2020/06/30/my-favorite-music-of-2019.html"
+	to = "/blog/my-favorite-music-of-2019/"
+[[redirects]]
+	from = "/my-favorite-music-of-2019/"
+	to = "/blog/my-favorite-music-of-2019/"
+[[redirects]]
+	from = "/2020/11/03/october-replay.html"
+	to = "/blog/october-replay/"
+[[redirects]]
+	from = "/october-replay/"
+	to = "/blog/october-replay/"
+[[redirects]]
+	from = "/wiki/"
+	to = "/bloghttps://www.craft.do/s/AmRFK5jI5SrrEg"
+[[redirects]]
+	from = "https://www.craft.do/s/AmRFK5jI5SrrEg"
+	to = "/bloghttps://www.craft.do/s/AmRFK5jI5SrrEg"

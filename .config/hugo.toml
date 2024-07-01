@@ -12,16 +12,6 @@ themesDir = "src/themes"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
-[markup]
-	[markup.goldmark.renderer]
-		unsafe = true
-
-	[markup.goldmark.extensions.typographer]
-		disable = true
-
-	[markup.highlight]
-		noClasses = false
-
 [params]
 	# The description of your website
 	description = "Isaac Halvorson's personal weblog"
@@ -38,3 +28,16 @@ enableRobotsTXT = true
 	[params.author]
 		name = "Isaac Halvorson" # Your name as shown in the RSS feed metadata
 		email = "hello@hisaac.net" # Added to the footer so readers can reply to posts
+
+[markup]
+	[markup.goldmark.renderer]
+		unsafe = true
+
+	[markup.goldmark.extensions.typographer]
+		disable = true
+
+	[markup.highlight]
+		noClasses = false
+
+[permalinks]
+	blog = "/blog/:title/"
