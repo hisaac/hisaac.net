@@ -28,5 +28,8 @@ run:
 clean:
 	"$(scripts_dir)/clean.sh"
 
+nuke:
+	"$(scripts_dir)/clean.sh" nuke
+
 ci: up build format
 reset: clean run
