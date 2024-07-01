@@ -54,11 +54,11 @@ I've started and stopped blogs many times, but the times I was most consistent w
 
 ### Technical Details
 
-I've been blogging since middle school on various platforms including Microsoft's "MyPages", Xanga, Wordpress, tumblr, [Jekyll](https://jekyllrb.com), and [Hexo](https://hexo.io). This time around, I'm back with Jekyll. Jekyll was my first foray into static site generators, and coming back to it from Hexo just feels like coming home.
+I've been blogging since middle school on various platforms including Microsoft's "MyPages", Xanga, Wordpress, tumblr, [Jekyll](https://jekyllrb.com), [Hexo](https://hexo.io), back to Jekyll again, and now [Hugo](https://hugo.io).
 
-The site is [built and deployed using GitHub Actions](https://github.com/hisaac/hisaac.net/actions).
+The [site's source code is hosted on GitHub](https://github.com/hisaac/hisaac.net) and is built and deployed using [Netlify](https://www.netlify.com).
 
-The site is hosted using [Amazon S3](https://aws.amazon.com/s3/), DNS is managed use [Amazon Route 53](https://aws.amazon.com/route53/), and content is delivered using [Amazon CloudFront](https://aws.amazon.com/cloudfront/).
+DNS and domain management is done using [porkbun](https://porkbun.com).
 
 ### Design
 
@@ -70,7 +70,7 @@ My site is not nearly as light as Dan's, but that's the goal I had in mind.
 
 Design inspiration comes from a number of places, including:
 
-- [The "lite" version of CNN's website](http://lite.cnn.io/en)
+- [The "lite" version of CNN's website](https://lite.cnn.com)
 - [Dan Loewenherz's blog](https://dlo.me)
 - [Paul Frazee's blog](https://pfrazee.hashbase.io)
 - [Ben Balter's blog](https://ben.balter.com/)
