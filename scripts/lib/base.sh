@@ -13,7 +13,7 @@ set -o pipefail # Exit on pipe failure
 
 source "$(dirname -- "$(readlink -f "${BASH_SOURCE[0]}")")/logging.sh"
 
-# "public" functions
+# "public" functions - run by consumers
 
 function mise_exec {
 	mise exec -- "$@"
@@ -29,18 +29,14 @@ function exit_handler {
 	fi
 }
 
-function main {
-	_export_vars
-	_load_mise
-}
-
-# "private" functions
+# "private" functions - run on script load
 
 function _export_vars {
 	declare -r project_root="$(dirname "$(dirname "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")")")"
 	export PROJECT_ROOT="${project_root}"
 	export CONFIG_DIR="${project_root}/.config"
 }
+_export_vars
 
 function _load_mise {
 	declare -r mise_path="${HOME}/.local/bin/mise"
@@ -51,5 +47,4 @@ function _load_mise {
 		warn "Please run 'make up' to install mise"
 	fi
 }
-
-main "$@"
+_load_mise

@@ -12,6 +12,11 @@ themesDir = "src/themes"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
+[outputFormats]
+	[outputFormats.rss]
+		mediatype = "application/rss"
+		baseName = "feed"
+
 [params]
 	# The description of your website
 	description = "Isaac Halvorson's personal weblog"
