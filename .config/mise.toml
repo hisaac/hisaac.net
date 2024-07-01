@@ -1,0 +1,3 @@
+[tools]
+hugo = "extended_0.128.0"
+node = "22.3.0"

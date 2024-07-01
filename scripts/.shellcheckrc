@@ -1,0 +1,4 @@
+# Disable https://www.shellcheck.net/wiki/SC1091 and enable `external-sources`
+# so we can source external files
+disable=SC1091
+external-sources=true

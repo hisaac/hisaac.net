@@ -1,0 +1,153 @@
+/* Variables */
+
+:root {
+	--color-accented-background: rgb(242, 242, 242);
+	--color-background: inherit;
+	--color-link: rgb(50, 50, 235);
+	--color-table-border: rgb(208, 215, 222);
+	--color-text: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-accented-background: rgb(47, 47, 47);
+		--color-background: rgb(20, 20, 20);
+		--color-link: rgb(47, 129, 247);
+		--color-table-border: rgb(48, 54, 61);
+		--color-text: rgb(221, 221, 221);
+	}
+
+	/* https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-dark-mode-images */
+	img:not(:hover) {
+		filter: brightness(0.8) contrast(1.2);
+	}
+}
+
+body {
+	background-color: var(--color-background);
+	color: var(--color-text);
+	margin: auto;
+	max-width: 1000px;
+	padding: 1em;
+	tab-size: 4;
+}
+
+a {
+	color: var(--color-link);
+}
+
+img {
+	height: auto;
+	margin: auto;
+}
+
+figcaption {
+	font-style: italic;
+	text-align: center;
+}
+
+aside {
+	background-color: var(--color-accented-background);
+	padding: 1em;
+	border-radius: 4px;
+}
+
+aside p {
+	margin-bottom: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+		Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	line-height: 1.1;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid var(--color-table-border);
+	margin: 1em 0;
+}
+
+.title > h1 {
+	margin-bottom: .2em;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+/* Inline code -------------- */
+:not(pre) > code,
+kbd {
+	background-color: var(--color-accented-background);
+	border-radius: 4px;
+	font-family: monospace;
+	padding: 0.2em;
+}
+/* -------------------------- */
+
+/* Code blocks ---------------*/
+.highlight div,
+.highlight pre {
+	border-radius: 4px;
+	overflow-x: auto;
+	padding: 1em;
+}
+/* -------------------------- */
+
+/* Make footer hug the bottom */
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+footer {
+	margin-top: auto;
+}
+/* -------------------------- */
+
+/* GitHub-esque table styling */
+table {
+	border-collapse: collapse;
+	display: block;
+	max-width: 100%;
+	overflow: auto;
+	width: max-content;
+}
+
+th,
+td {
+	border: 1px solid var(--color-table-border);
+	padding: 6px 13px;
+}
+
+td > :last-child {
+	margin-bottom: 0;
+}
+
+tr:nth-child(2n) {
+	background-color: var(--color-accented-background);
+}
+/* -------------------------- */
+
+footer {
+	text-align: center;
+}
+
+ul.blog-posts li {
+	padding: .2em 0;
+}

@@ -1,0 +1,47 @@
+{{- /*
+	This wraps normal Markdown images in a `figure` element and `picture` element,
+	with `source` elements for both WebP and JPEG formats, and a `data:image/jpeg;base64` placeholder image.
+	It also includes a `figcaption` element for the image's caption.
+
+	References used:
+	- https://www.brycewray.com/posts/2022/06/responsive-optimized-images-hugo/
+	- https://discourse.gohugo.io/t/blurhash-compact-representations-of-image-placeholders/41292/4
+*/ -}}
+
+{{- $src := .Destination -}}
+{{- $alt := .Text -}}
+{{- $caption := .Title -}}
+
+{{ with .Page.Resources.GetMatch $src }}
+
+	{{- $imageResource := . -}}
+	{{- $imageIsGif := hasSuffix $imageResource.RelPermalink ".gif" -}}
+
+	{{- /* Resized image to use as a placeholder until the full size image loads */ -}}
+	{{- $placeholderImage := $imageResource.Resize "3x q15" -}}
+	{{- $placeholderImageBase64 := $placeholderImage.Content | base64Encode -}}
+
+	{{- /* Converted images for WebP and JPEG formats */ -}}
+	{{- $webpImage := $imageResource.Process (print "resize " $imageResource.Width "x webp box") -}}
+	{{- $jpegImage := $imageResource.Process (print "resize " $imageResource.Width "x jpeg box") -}}
+
+	<figure>
+		<picture>
+			{{- if $imageIsGif -}}
+				<source type="image/gif" srcset="{{ $imageResource.RelPermalink }}" />
+			{{- else -}}
+				<source type="image/webp" srcset="{{ $webpImage.RelPermalink }}" />
+				<source type="image/jpeg" srcset="{{ $jpegImage.RelPermalink }}" />
+			{{- end -}}
+			<img
+				src="data:image/jpeg;base64,{{ $placeholderImageBase64 }}"
+				alt="{{ $alt }}"
+				title="{{ $caption }}"
+				loading="lazy"
+				width="{{ $imageResource.Width }}"
+				height="{{ $imageResource.Height }}"
+			/>
+		</picture>
+		{{- with $caption -}}<figcaption>{{ $caption | $.Page.RenderString }}</figcaption>{{- end -}}
+	</figure>
+{{- end -}}

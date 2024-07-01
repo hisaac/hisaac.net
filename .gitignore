@@ -1,11 +1,14 @@
-_site
+# standard
 .DS_Store
 .env
-.jekyll-cache
-.jekyll-metadata
-.sass-cache
-.idea
-node_modules
 
-# Lock files
-Gemfile.lock
+# hugo
+.hugo_build.lock
+public/
+resources/
+
+# node
+node_modules/
+
+# legacy
+src~jekyll/

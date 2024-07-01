@@ -1,35 +1,38 @@
-.EXPORT_ALL_VARIABLES:
+# config
+.PHONY: *    # all targets phony
+$(V).SILENT: # all targets silent
 
-BUNDLE_GEMFILE=./build/Gemfile
+# variables
+mkfile_path  := $(abspath $(lastword $(MAKEFILE_LIST)))
+project_root := $(realpath $(dir $(mkfile_path)))
+scripts_dir  := $(project_root)/scripts
+
+# targets
 
 up:
-	bundle install
-	npm --prefix ./build ci
-.PHONY: up
+	"$(scripts_dir)/up.sh"
 
 build:
-	bundle exec jekyll build --source ./src/
-.PHONY: build
+	"$(scripts_dir)/generate-syntax.sh"
+	"$(scripts_dir)/build.sh"
+
+format:
+	"$(scripts_dir)/format.sh"
+
+lint:
+	"$(scripts_dir)/lint.sh"
 
 run:
-	bundle exec jekyll serve --source ./src/
-.PHONY: run
-
-serve: run
-.PHONY: serve
-
-ci: up build
-.PHONY: ci
-
-dev: run
-.PHONY: dev
+	"$(scripts_dir)/run.sh"
 
 clean:
-	rm -rf ./_site
-	rm -rf ./src/.jekyll-cache
-	rm -rf ./build/Gemfile.lock
-	rm -rf ./build/node_modules
-.PHONY: clean
+	"$(scripts_dir)/clean.sh"
 
-reset: clean
-.PHONY: reset
+nuke:
+	"$(scripts_dir)/clean.sh" nuke
+
+# aliases
+
+serve: run
+ci: up build format
+reset: clean run
