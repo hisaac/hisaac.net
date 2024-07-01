@@ -1,30 +1,41 @@
 {{ define "main" }}
+{{ $blog_posts := where .Site.Pages "Type" "blog" }}
+
+{{ $years := slice }}
+{{ range $blog_posts }}
+	{{ $year := .Date.Year }}
+	{{ if not (in $years $year) }}
+		{{ $years = $years | append $year }}
+	{{ end }}
+{{ end }}
+
 <content>
 	{{ .Content }}
 
-	<ul class="blog-posts">
-		{{ range where .Site.Pages "Type" "blog" }}
-		<li>
-			<span>
-				<i>
-					<time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-						{{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
-					</time>
-				</i>
-			</span>
-			{{ if .Params.link }}
-				<a href="{{ .Params.link }}" target="_blank">{{ .Title }} ↪</a>
-			{{ else }}
-				<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+	{{ range $years }}
+		{{ $section_year := . }}
+
+		<h3>{{ $section_year }}</h3>
+
+		<ul class="blog-posts">
+			{{ range where $blog_posts "Date.Year" $section_year }}
+			<li>
+				{{ if .Params.link }}
+					<a href="{{ .Params.link }}" target="_blank">{{ .Title }} ↪</a>
+				{{ else }}
+					<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+				{{ end }}
+			</li>
 			{{ end }}
-		</li>
+		</ul>
+
+	{{ end }}
+
+	<h3>Tags</h3>
+	<div>
+		{{ range .Site.Taxonomies.tags }}
+			<a class="blog-tags" href="{{ .Page.RelPermalink }}">#{{ lower .Page.Title }}</a>
 		{{ end }}
-		<h3>Tags</h3>
-		<div>
-			{{ range .Site.Taxonomies.tags }}
-				<a class="blog-tags" href="{{ .Page.RelPermalink }}">#{{ lower .Page.Title }}</a>
-			{{ end }}
-		</div>
-	</ul>
+	</div>
 </content>
 {{ end }}

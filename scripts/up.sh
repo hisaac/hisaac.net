@@ -17,7 +17,7 @@ function main {
 function install_mise {
 	info "Installing mise"
 	curl https://mise.run | sh
-	eval "$("${mise_path}" activate -C "$SRCROOT" bash --shims)"
+	eval "$("${mise_path}" activate -C "$PROJECT_ROOT" bash --shims)"
 }
 
 function update_mise {

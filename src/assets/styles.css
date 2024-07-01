@@ -142,15 +142,6 @@ footer {
 	text-align: center;
 }
 
-ul.blog-posts {
-	list-style-type: none;
-	padding: unset;
-}
-
 ul.blog-posts li {
-	display: flex;
-}
-
-ul.blog-posts li span {
-	flex: 0 0 130px;
+	padding: .2em 0;
 }
