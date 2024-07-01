@@ -1,5 +1,6 @@
 ---
 title: "Projects Update #1"
+slug: "projects-update-1"
 date: 2020-04-21
 categories: [projects]
 ---

@@ -31,5 +31,8 @@ clean:
 nuke:
 	"$(scripts_dir)/clean.sh" nuke
 
+# aliases
+
+serve: run
 ci: up build format
 reset: clean run

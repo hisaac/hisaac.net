@@ -40,4 +40,4 @@ enableRobotsTXT = true
 		noClasses = false
 
 [permalinks]
-	blog = "/blog/:title/"
+	blog = "/blog/:slug/"
