@@ -1,3 +1,3 @@
 [tools]
-hugo = "extended_0.128.0"
-node = "22.3.0"
+hugo = "extended_0.133.1"
+node = "22.7.0"
