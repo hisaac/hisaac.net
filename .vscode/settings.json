@@ -4,6 +4,7 @@
 		"Cudi",
 		"Evernote",
 		"Kanye",
+		"lcov",
 		"letsencrypt",
 		"protip",
 		"Purrp",
@@ -13,6 +14,7 @@
 		"Thinkin",
 		"unirest",
 		"Wassup",
-		"webdev"
+		"webdev",
+		"xcresultparser"
 	]
 }

@@ -27,7 +27,7 @@ body {
 	background-color: var(--color-background);
 	color: var(--color-text);
 	margin: auto;
-	max-width: 1000px;
+	max-width: 75ch;
 	padding: 1em;
 	tab-size: 4;
 }
@@ -50,6 +50,7 @@ aside {
 	background-color: var(--color-accented-background);
 	padding: 1em;
 	border-radius: 4px;
+	margin-bottom: 1em;
 }
 
 aside p {
