@@ -9,7 +9,8 @@
 /* LineHighlight */ .chroma .hl { background-color:#353539 }
 /* LineNumbersTable */ .chroma .lnt { white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f }
 /* LineNumbers */ .chroma .ln { white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f }
-/* Line */ .chroma .line { display:flex; }
+/* commented out to fix a strange text sizing issue only ptesent on mobile */
+/* Line */ /* .chroma .line { display:flex; } */
 /* Keyword */ .chroma .k { color:#fc5fa3 }
 /* KeywordConstant */ .chroma .kc { color:#fc5fa3 }
 /* KeywordDeclaration */ .chroma .kd { color:#fc5fa3 }
