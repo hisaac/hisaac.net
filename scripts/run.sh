@@ -5,7 +5,7 @@ trap 'exit_handler "$?" "${0##*/}"' EXIT
 
 function main {
 	mise_exec hugo --config "${CONFIG_DIR}/hugo.toml" \
-		server --buildDrafts --buildFuture --gc
+		server --buildDrafts --buildFuture --gc --disableFastRender
 }
 
 main "$@"
