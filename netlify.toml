@@ -1,3 +1,9 @@
 [build]
 	publish = "public"
 	command = "make ci"
+
+[[redirects]]
+	from = "https://hisaac.net/wiki/*"
+	to = "https://publish.obsidian.md/serve?url=hisaac.net/wiki/:splat"
+	status = 200
+	force = true
