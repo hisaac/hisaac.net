@@ -16,7 +16,7 @@
 	<header>
 		<h1><a href="https://hisaac.net">Isaac Halvorson</a></h1>
 		<p>
-			<a href="mailto:isaac@isaachalvorson.com">isaac@isaachalvorson.com</a> |
+			<a href="mailto:hello@hisaac.net">hello@hisaac.net</a> |
 			<a href="https://github.com/hisaac">github.com/hisaac</a>
 		</p>
 	</header>
@@ -47,16 +47,16 @@
 
 			<ul>
 				<li>
-					<strong>Languages:</strong> Swift, Objective-C, Ruby, Python, Java, Groovy, JavaScript, TypeScript, HTML, CSS, C#
+					<strong>ProgrammingLanguages:</strong> Swift, Bash, Python, Go, HTML/CSS, Ruby, Objective-C, JavaScript, Java
 				</li>
 				<li>
-					<strong>Apple Technologies:</strong> Location services, iOS background processing, Swift Package Manager, localization, Unit and UI tests using XCTest and Quick/Nimble, Core Data, Realm, HTTP requests, MVC, Coordinator architecture, Objective-C and Swift command line applications, launchd
+					<strong>Experience in Building:</strong> CLI Tools (in Swift, Bash, Go, Python, Objective-C, Ruby), macOS and iOS apps, automated testing (using XCTest, Bash, Go, Ruby, Java)
 				</li>
 				<li>
-					<strong>Development Tools:</strong> Xcode, JetBrains IDEs, Bazel, Fastlane, Jenkins, Anka, Crashlytics, Fabric, Firebase, Travis CI, Git, GitHub, Bitbucket, shell scripting
+					<strong>Mobile Platform Tooling:</strong> xcodebuild, Xcode, Swift Package Manager, Tuist, Bazel, Fastlane, Gradle, Android Studio
 				</li>
 				<li>
-					<strong>Other Technologies:</strong> Node.js/Express, PostgreSQL, MSSQL, MongoDB, Sass, Gulp, usage and design of Rest APIs, Markdown, AWS (S3, Route 53, API Gateway, Lambda), hosted virtual private servers, Heroku, Bash/ZSH/Fish, Jamf Pro/Casper Suite, AirWatch, Jekyll
+					<strong>CI/CD Systems:</strong> GitHub Actions, Jenkins, Xcode Cloud, Tart + Tartelet, provisioning and management of physical and virtual machines
 				</li>
 			</ul>
 		</section>
@@ -64,239 +64,154 @@
 		<hr />
 
 		<section>
-			<h2>Open Source Projects | <a href="https://github.com/hisaac/">github.com/hisaac</a></h2>
+			<h2>Open Source | <a href="https://github.com/hisaac/">github.com/hisaac</a></h2>
 
 			<div>
-				<h3>Plain Pasta<br />
-				<a href="https://github.com/hisaac/PlainPasta">GitHub</a> | <a href="https://apps.apple.com/us/app/plain-pasta/id1467796430">Mac App Store</a></h3>
+				<h3><a href="https://hisaac.net/centermouse/">CenterMouse</a> | <a href="https://github.com/hisaac/CenterMouse">github.com/hisaac/CenterMouse</a></h3>
 
 				<p>
-					Plain Pasta is a macOS app that automatically strips any styling from text on your Mac's clipboard
+					A macOS utility that moves the mouse pointer to the center of your display when the computer wakes from sleep, exits the screensaver, or from a user-defined keyboard shortcut.
 				</p>
-
-				<details>
-					<ul>
-						<li>
-							Developed <a href="https://github.com/hisaac/PlainPasta/blob/main/PlainPasta/NSPasteboard%2BPlainPasta.swift#L14">a more accurate text-filtering engine</a> than any other app with similar functionality, looking for <a href="https://github.com/hisaac/PlainPasta/blob/main/PlainPasta/PasteboardMonitor.swift#L18">specific <code>NSPasteboard</code> types</a>, rather than completely clobbering any text on the pasteboard.
-						</li>
-						<li>
-							Created a custom Combine publisher for monitoring changes to a given <code>NSPasteboard</code>, made available as an open source Swift Package: <a href="https://github.com/hisaac/PasteboardPublisher">github.com/hisaac/PasteboardPublisher</a>.
-						</li>
-						<li>
-							Released to the Mac App Store
-						</li>
-						<li>
-							Currently using SwiftUI in development builds
-						</li>
-					</ul>
-				</details>
 			</div>
 
 			<div>
-				<h3>Tiime<br />
-				<a href="https://github.com/hisaac/Tiime">GitHub</a> | <a href="https://apps.apple.com/us/app/tiime-alternative-time-clock/id1396505395">iOS App Store</a></h3>
+				<h3><a href="https://tuist.io">Tuist</a> | <a href="https://github.com/tuist/tuist/pulls?q=is:pr+author:hisaac+">My Contributions</a></h3>
 
 				<p>
-					Time is a clock that displays time in non-standard ways, and allows for user customization of the app's icon, colors, and fonts.
+					Tuist is a tool for creating, maintaining, and interacting with Xcode projects at scale. While migrating Target's iOS project from Bazel to Tuist, I began fixing bugs and adding features to Tuist.
 				</p>
+			</div>
 
-				<details>
-					<ul>
-						<li>
-							No third party dependencies
-						</li>
-						<li>
-							Used the <a href="http://khanlou.com/2015/10/coordinators-redux/">Coordinator pattern</a> for the app's architecture
-						</li>
-						<li>
-							Added theme customization using <code>UIAppearance</code> and other <code>UIKit</code> methods
-						</li>
-						<li>
-							Implemented timers and date math to calculate the different clocks
-						</li>
-						<li>
-							Beta tested through TestFlight, and released to the iOS App Store
-						</li>
-					</ul>
-				</details>
+			<div>
+				<h3><a href="https://bitrise.io">Bitrise</a> | <a href="https://github.com/pulls?q=is:pr+author:hisaac+user:bitrise-io+user:bitrise-steplib">My Contributions</a></h3>
+
+				<p>
+					Bitrise is a CI/CD platform built for Mobile DevOps. Much of their tools and infrastructure are open source, and I got the chance to contribute many changes while working for the company.
+				</p>
 			</div>
 		</section>
 
 		<hr />
 
 		<section>
-			<h2>Work Experience</h2>
+			<h2>Writing / Appearances</h2>
 
 			<div>
-				<h3>Target</h3>
-
-				<h4>Senior iOS Platform Engineer (April 2021 – present)</h4>
-
+				<h3>
+					<a href="https://about.codecov.io/blog/pre-converting-xcresult-files-for-codecov-using-xcresultparser/">Pre-Converting <code>.xcresult</code> Files for Codecov Using <code>xcresultparser</code></a>
+				</h3>
 				<p>
-					While at Jamf, I developed an interest in development tooling and automation. Joining Target's iOS Platform team gave me an opportunity to learn more about "platform" development — the intersection of app development and devops. Target already had a mature and well-developed process, so joining their team meant I could learn existing best-practices and build from that foundation.
+					A blog post for Codecov's technical blog explaining my methods for speeding up code coverage conversion for iOS projects using Codecov.
 				</p>
-
-				<details>
-					<ul>
-						<li>Quickly learned how to use and modify Target's multiple in-house and third party build and development tools.</li>
-						<li>During my first month at Target, I delivered an important update to Target's complex and custom Bazel integration to support Xcode 12.5, keeping the developers on the most recent development tools available.</li>
-					</ul>
-				</details>
 			</div>
 
 			<div>
-				<h3>Jamf Software</h3>
+				<h3>
+					<a href="https://hisaac.net/blog/how-to-speed-up-codecov-analysis-for-xcode-projects-revisited/">How to Speed Up Codecov Analysis for Xcode Projects, Revisited</a>
+				</h3>
+				<p>
+					About a year after my first post about converting Xcode's code coverage, I found an even faster way of conversion that also relies solely on tools included in Xcode's command line tools.
+				</p>
+			</div>
+
+			<div>
+				<h3>
+					<a href="https://hisaac.net/blog/quick-tip-hook-into-github-actions-debug-mode/">Hook Into GitHub Actions' Debug Mode</a>
+				</h3>
+				<p>
+					A "quick tip" post outlining how I hook into GitHub Actions' built-in debug mode to enable debug logging within the scripts run in my CI workflows.
+				</p>
+			</div>
+
+			<div>
+				<h3>
+					<a href="https://www.macstadium.com/customers/tandem-diabetes">Good, Better, Best: How Tandem Diabetes achieved iOS CI stability and speed with MacStadium</a>
+				</h3>
+				<p>
+					A case study I was interviewed for outlining my work migrating Tandem's build infrastructure to MacStadium's cloud-hosted Mac minis.
+				</p>
+			</div>
+		</section>
+
+		<section>
+			<h2>Work</h2>
+
+			<div>
+				<h3><a href="https://www.tandemdiabetes.com">Tandem Diabetes Care</a></h3>
+				<h4>Senior Developer Experience Engineer (January 2023 – present)</h4>
+				<p>
+					I was the first hire for Tandem's nascent Mobile Infrastructure / Developer Experience team. Initially my focus was on the build system and CI/CD infrastructure for Tandem's iOS and Android apps. Since joining, my scope has broadened to include app architecture, helping to modernize the iOS and Android teams' development practices, and recently has grown to include CI and tooling for Tandem's embedded C codebase which runs on their insulin pumps.
+				</p>
+				<ul>
+					<li>Built a powerful and flexible build automation system consisting of a well-crafted set of Bash scripts and GitHub Actions workflows.</li>
+					<li>Migrated the mobile team's built infrastructure from a fragile set of Mac minis to cloud-hosted infrastructure on MacStadium running virtualized machines used for builds.</li>
+				</ul>
+			</div>
+
+			<div>
+				<h3><a href="https://bitrise.io">Bitrise</a></h3>
+				<h4>Mobile DevOps Engineer (April 2022 – January 2023)</h4>
+				<p>
+					My responsibility at Bitrise was to build and maintain tools and infrastructure that mobile developers around the world rely on to build, test, and deploy their apps.
+				</p>
+				<ul>
+					<li>Learned Go on the job and began contributing quickly.
+					<li>Championed improvements to Bitrise's internal tooling and infrastructure to improve developer experience and efficiency.</li>
+				</ul>
+			</div>
+
+			<div>
+				<h3><a href="https://www.target.com">Target</a></h3>
+
+				<h4>Senior iOS Platform Engineer (April 2021 – April 2022)</h4>
+
+				<p>
+					I joined Target's iOS Platform team eager to learn more about platform development — the intersection of app development and DevOps. I quickly found my niche as the team's build-ops specialist, managing our build infrastructure, tools, and automation.
+				</p>
+
+				<ul>
+					<li>Spearheaded and led a large migration of our iOS build system from Bazel to Tuist.</li>
+					<li>Took over management of the team's languishing build infrastructure to improve its speed and reliability.</li>
+					<li>Advocated for transparency and documentation by creating a team wiki, which became an invaluable resource.</li>
+				</ul>
+			</div>
+
+			<div>
+				<h3><a href="https://www.jamf.com">Jamf Software</a></h3>
 
 				<h4>iOS and macOS Developer (March 2019 – April 2021)</h4>
 
 				<p>
-					I joined Jamf because I wanted to develop iOS and macOS software that would impact people, and it did not disappoint. Jamf's software is running on millions of devices across the globe. I've worn a few hats at Jamf, first working on a user-facing iOS and macOS app, then moving to work on a low level macOS application with a command line interface — the backbone of Jamf's Mac management platform.
+					I wore a few hats at Jamf, first working on a user-facing iOS and macOS app, then working on a low level macOS application with a command line interface — the backbone of Jamf's Mac management platform, <em>Jamf Pro</em>.
 				</p>
 
-				<details>
-					<ul>
-						<li>Greatly improved the VoiceOver compatibility of <em>Self Service</em>, Jamf's primary user-facing macOS app</li>
-						<li>Helped maintain and improve my team's multiple testing suites and CI/CD workflows, using Jenkins and Anka infrastructure</li>
-						<li>Took ownership of an internal server-side Swift project</li>
-						<li>Investigated, advocated for, and implemented multiple large and small features and improvements to the codebase</li>
-						<li>Worked across countries and time zones with coworkers on my team, and outside my team</li>
-					</ul>
-				</details>
+				<ul>
+					<li>Greatly improved the VoiceOver compatibility of Self Service, Jamf's primary user-facing macOS and iOS app.</li>
+					<li>Helped maintain and improve multiple test systems used by my team and others within the company.</li>
+				</ul>
+			</div>
 
-				<h3>Q3 Contracting</h3>
-
+			<div>
+				<h3><a href="https://www.prim.com/about/business-units/q3-contracting">Q3 Contracting</a></h3>
 				<h4>iOS Developer (July 2018 – March 2019)</h4>
-
-				<p>
-					As Q3's sole iOS developer, I maintained multiple existing iOS apps and libraries written in both Swift and Objective-C, wrote new apps based on the business's needs, and help decide the direction of mobile development for the company.
-				</p>
-
-				<details>
-					<ul>
-						<li>
-							Created a brand new iOS app that displays contact information for all employees in the company
-						</li>
-						<li>
-							Updated multiple apps to more modern development practices, and retired apps no longer being used
-
-							<ul>
-								<li>
-									Migrated analytics, crash reporting, and beta deployment to Firebase (from Mixpanel, Fabric/Crashlytics, and DeployGate respectively)
-								</li>
-								<li>
-									Added Carthage support to the company's iOS libraries
-								</li>
-								<li>
-									Removed unnecessary external dependencies, and replaced them using native <code>UIKit</code> / <code>Foundation</code> APIs where possible
-								</li>
-								<li>
-									Improved the build and deploy process for apps that rely on multiple environments (dev, test, prod, etc.)
-								</li>
-							</ul>
-						</li>
-						<li>
-							Volunteered to manage the company's Jenkins server, and improved the build processes for both web and mobile applications
-						</li>
-						<li>
-							Worked with web developers to build a new Node.js microservice in TypeScript
-						</li>
-						<li>
-							Assisted in technical interviews and onboarding for new developers joining the team
-						</li>
-					</ul>
-				</details>
 			</div>
 
 			<div>
-				<h3>C.H. Robinson</h3>
-
-				<div>
-					<h4>iOS Developer (July 2017 – July 2018)</h4>
-
-					<p>
-						After a three month stint as a web developer, I moved onto the mobile team and took over all development of the company's two iOS apps. Having not done any iOS development prior to this, I needed to learn quickly to keep the apps functioning, and deliver new features.
-					</p>
-
-					<details>
-						<ul>
-							<li>
-								Learned Swift and iOS development quickly, and was pushing code to production in less than a month
-							</li>
-							<li>
-								Tested and implemented a complex system for monitoring and reporting a device's location while the app was in the background
-							</li>
-							<li>
-								Internationalized one of our apps for use in Europe, adding 7 new language translations, updating the UI to handle variable-length strings, and making significant updates to the app's networking logic to address latency issues
-							</li>
-						</ul>
-					</details>
-				</div>
-				<div>
-					<h4>Full-Stack Web Developer (April 2017 – July 2017)</h4>
-
-					<p>
-						I was hired for C.H. Robinson's <em>HatCHRy</em> program — a three month, intensive on-boarding program for new developers — where I learned all about the company's business and technology. It was here that I learned C#/.NET, and used it to develop an internal back end service that sent email notifications upon successful upload of accounting documents.
-					</p>
-				</div>
+				<h3><a href="https://www.chrobinson.com">C.H. Robinson</a></h3>
+				<h4>iOS Developer (July 2017 – July 2018)</h4>
 			</div>
 
 			<div>
-				<h3>Pixelsmith</h3>
-				<h4>Contract Front End Web Developer (February 2017 – April 2017)</h4>
-
-				<p>
-					Pixelsmith is a small development shop specializing in web app and Wordpress app design. While here, I helped build and design a banking rewards web app.
-				</p>
-			</div>
-
-			<div>
-				<h3>BBDO Minneapolis</h3>
+				<h3><a href="https://bbdompls.com">BBDO Minneapolis</a></h3>
 				<h4>IT Support Technician (August 2014 – April 2016)</h4>
-
-				<p>
-					I managed the IT department and handled all the tech support for BBDO's Minneapolis office, winning an award for my efforts helping the company. Upon starting at BBDO, I streamlined processes and systems to make life easier for everyone.
-				</p>
-
-				<details>
-					<ul>
-						<li>
-							<strong>Support:</strong> macOS, Windows, iOS, A/V gear
-						</li>
-						<li>
-							<strong>Manage:</strong> projects, inventory, servers, Active Directory
-						</li>
-						<li>
-							<strong>Execute:</strong> Sarbanes-Oxley compliance testing, documentation, budget planning
-						</li>
-						<li>
-							<strong>Technologies Used:</strong> macOS, macOS Server, Windows 7/10, Windows Server, iOS, Active Directory, VMWare, Parallels, FileMaker Pro, Shell scripting, Jamf's Casper Device Management
-						</li>
-					</ul>
-				</details>
 			</div>
 
 			<div>
-				<h3>Apple Inc.</h3>
-
-				<h4>
-					Genius (August 2012 – August 2014)<br />
-					<small>Apple Store Southdale - Edina, MN</small>
-				</h4>
-
-				<p>
-					My Genius team won Apple's Ovation award two quarters in a row, demonstrating our excellence in customer satisfaction and repair efficiency. As a Genius, I performed Mac and iOS hardware and software support, troubleshooting, and training.
-				</p>
-			</div>
-
-			<div>
+				<h3><a href="https://www.apple.com">Apple Inc.</a></h3>
 				<h4>
 					Quality Assurance Engineer (August 2013 – November 2013)<br />
-					<small>Apple Corporate - Cupertino, CA</small>
+					Genius, Apple Store Southdale (August 2012 – August 2014)
 				</h4>
-
-				<p>
-					Only a few Apple employees are chosen for this special program. I got to spend three months at Apple's headquarters in Cupertino, learning what it takes to secure web applications. I worked directly with the web development team, giving UX and workflow feedback, testing apps using web automated tools, and testing security using tools like OWASP ZAP.
-				</p>
 			</div>
 
 		</section>
@@ -307,33 +222,22 @@
 			<h2>Education</h2>
 
 			<div>
-				<h3>Prime Digital Academy</h3>
+				<h3><a href="https://www.primeacademy.io"></a>Prime Digital Academy</a></h3>
 				<h4>Full Stack Software Engineering Certificate (September 2016 – January 2017)</h4>
 
 				<p>
-					Prime is an intensive, 18-week web development school, focused on both technical skills and business skills. Here, I learned HTML, CSS, and full-stack JavaScript development, and also honed my public speaking, project management, and group work skills.
+					Prime is an intensive, 18-week web development boot camp, focused on both technical and business skills. Here I learned HTML, CSS, and full-stack JavaScript development, as well as honed my public speaking, project management, and group work skills.
 				</p>
 			</div>
 
 			<div>
-				<h3>Institute of Production and Recording</h3>
+				<h3><a href="https://web.archive.org/web/20190119204358/https://www.ipr.edu/">Institute of Production and Recording</a></h3>
 				<h4>AAS Degree in Audio Production and Engineering (2008–2010)</h4>
-
-				<ul>
-					<li>Graduated valedictorian</li>
-					<li>On the Dean's list throughout my attendance</li>
-					<li>Elected to student advisory board</li>
-				</ul>
 			</div>
 
 			<div>
-				<h3>University of North Dakota</h3>
-				<h4>Fulfilled General Education Requirements (2005–2008)</h4>
-
-				<ul>
-					<li>Accepted into the Honors program</li>
-					<li>Elected Honors Program Student Senator</li>
-				</ul>
+				<h3><a href="https://www.und.edu">University of North Dakota</a></h3>
+				<h4>General Education Requirements (2005–2008)</h4>
 			</div>
 
 		</section>
@@ -344,7 +248,7 @@
 			<h2>References</h2>
 
 			<p>
-				For the privacy of my references, I don't include their contact information here. Please email me at <a href="mailto:isaac@isaachalvorson.com">isaac@isaachalvorson.com</a> to request references.
+				For the privacy of my references, I don't include their contact information here. Please email me at <a href="mailto:hello@hisaac.net">hello@hisaac.net</a> to request references.
 			</p>
 		</section>
 
@@ -354,7 +258,7 @@
 
 	<footer>
 		<p>
-			<a href="mailto:isaac@isaachalvorson.com">isaac@isaachalvorson.com</a> |
+			<a href="mailto:hello@hisaac.net">hello@hisaac.net</a> |
 			<a href="https://github.com/hisaac">github.com/hisaac</a>
 		</p>
 		<p><a href="https://hisaac.net">Isaac Halvorson</a></p>

@@ -73,11 +73,6 @@ h6 {
 	font-family: "Vollkorn", serif;
 }
 
-h3 > a,
-h4 > a {
-	font-weight: normal;
-}
-
 h1 {
 	font-size: 3em;
 	text-decoration: underline;
@@ -94,6 +89,7 @@ h3 {
 
 h4 {
 	color: #854fbb;
+	margin-top: 0;
 	margin-bottom: 10px;
 }
 
