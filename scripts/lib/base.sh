@@ -34,7 +34,7 @@ function exit_handler {
 function _export_vars {
 	declare -r project_root="$(dirname "$(dirname "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")")")"
 	export PROJECT_ROOT="${project_root}"
-	export CONFIG_DIR="${project_root}/.config"
+	export PUBLIC_DIR="${project_root}/public"
 }
 _export_vars
 
