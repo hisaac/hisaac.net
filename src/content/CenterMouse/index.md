@@ -1,5 +1,6 @@
 ---
-title: "CenterMouse"
+title: CenterMouse
+aliases: /projects/centermouse
 ---
 
 ![CenterMouse's app icon](assets/centermouse-app-icon.png)

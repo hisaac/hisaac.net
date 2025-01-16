@@ -5,7 +5,7 @@ menu: main
 
 # Projects
 
-[CenterMouse](/projects/CenterMouse)
+[CenterMouse](/centermouse)
 :	A macOS utility that moves your mouse pointer to the center of the screen on certain events.
 
 [`xcb`](https://github.com/hisaac/xcb) (in early development)
