@@ -55,7 +55,7 @@ This is my personal canon. Things created by others that are important to me. Th
 - <cite>[On the Beach](https://song.link/album/us/i/1015732002 "On the Beach by Neil Young")</cite> (1974) by [Neil Young](https://en.wikipedia.org/wiki/Neil_Young)
 - <cite>[Sonic Nurse](https://song.link/album/us/i/1132249548 "Sonic Nurse by Sonic Youth")</cite> (2004) by [Sonic Youth](https://en.wikipedia.org/wiki/Sonic_Youth)
 - <cite>[Black Eyes](https://song.link/album/us/i/49250529)</cite> by [Black Eyes](https://en.wikipedia.org/wiki/Black_Eyes_(band))
-	- Black Eyes was a post-hardcore band that was active during the early 00s. Around the time I was in college and feeling rather aimless, this album inspired me to pack my bags and move to the "big city" of Minneapolis to pursue a career in audio production. I even got to [meet Hugh McElroy](/assets/images/isaac-and-hugh.jpg), one of the members of the band, during a 2017 trip to Washington D.C. Don't worry, the meeting wasn't nearly as awkward as that photo.
+	- Black Eyes was a post-hardcore band that was active during the early 00s. Around the time I was in college and feeling rather aimless, this album inspired me to pack my bags and move to the "big city" of Minneapolis to pursue a career in audio production. I even got to [meet Hugh McElroy](assets/isaac-and-hugh.jpg), one of the members of the band, during a 2017 trip to Washington D.C. Don't worry, the meeting wasn't nearly as awkward as that photo.
 
 ## Online
 
