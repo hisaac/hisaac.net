@@ -1,5 +1,5 @@
 ---
-title: "Dreaming of a More Personal Database"
+title: "A More Personal Database"
 date: 2025-01-27
 tags: [database, software, airtable, obsidian]
 ---
