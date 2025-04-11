@@ -1,0 +1,143 @@
+// Base colors for admonition types
+$admonition-colors: (
+  abstract:   #209fb5,
+  caution:    #e64553,
+  code:       #7287fd,
+  conclusion: #dd7878,
+  danger:     #fe640b,
+  error:      #d20f39,
+  example:    #dc8a78,
+  experiment: #51bb2a,
+  goal:       #e64553,
+  idea:       #df8e1d,
+  important:  #7D4DDA,
+  info:       #04a5e5,
+  memo:       #e64553,
+  note:       #096ae1,
+  notify:     #0d48bd,
+  question:   #179299,
+  quote:      #7287fd,
+  success:    #40a02b,
+  task:       #8839ef,
+  tip:        #179299,
+  warning:    #df8e1d
+);
+
+// Theme colors
+$light-bg: #ffffff;
+$dark-bg: #1D1E20;
+$light-text: #000000;
+$dark-text: #e6e6e6;
+$light-code-bg: #f5f5f5;
+$dark-code-bg: #313244;
+$light-code-text: #24292e;
+$dark-code-text: #cdd6f4;
+$light-blockquote-border: #e0e0e0;
+$dark-blockquote-border: #45475a;
+
+// Base admonition styles
+.admonition {
+  margin: 1rem 0;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+}
+
+.admonition-header {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  border-radius: 4px 4px 0 0;
+  
+  svg {
+    width: 1.1em;
+    height: 1.1em;
+    margin-right: 0.5rem;
+    fill: currentColor;
+  }
+}
+
+.admonition-content {
+  padding: 1rem;
+  background-color: $light-bg;
+  border-radius: 0 0 4px 4px;
+  color: $light-text;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  p {
+    margin: 0 0 0.5rem 0;
+    &:last-child { margin-bottom: 0; }
+  }
+
+  ul, ol {
+    margin: 0 0 0.5rem 0;
+    padding-left: 1.2rem;
+    &:last-child { margin-bottom: 0; }
+  }
+
+  blockquote {
+    margin: 0 0 0.5rem 0;
+    padding-left: 1rem;
+    border-left: 3px solid $light-blockquote-border;
+    &:last-child { margin-bottom: 0; }
+  }
+
+  code {
+    background-color: $light-code-bg;
+    color: $light-code-text;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+}
+
+// Dark mode styles
+@media (prefers-color-scheme: dark) {
+  .admonition-content {
+    background-color: $dark-bg;
+    color: $dark-text;
+
+    code {
+      background-color: $dark-code-bg;
+      color: $dark-code-text;
+    }
+
+    blockquote {
+      border-left-color: $dark-blockquote-border;
+      color: $dark-code-text;
+    }
+  }
+}
+
+body.dark {
+  .admonition-content {
+    background-color: $dark-bg;
+    color: $dark-text;
+
+    code {
+      background-color: $dark-code-bg;
+      color: $dark-code-text;
+    }
+
+    blockquote {
+      border-left-color: $dark-blockquote-border;
+      color: $dark-code-text;
+    }
+  }
+}
+
+// Generate admonition types
+@each $type, $color in $admonition-colors {
+  .admonition.#{$type} {
+    background: transparent;
+    border-left: 4px solid $color;
+    
+    .admonition-header {
+      background: rgba($color, 0.1);
+      color: $color;
+    }
+  }
+}

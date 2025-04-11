@@ -1,0 +1,21 @@
+admonitions:
+  abstract: 摘要
+  caution: 注意
+  code: 代码
+  conclusion: 结论
+  danger: 危险
+  error: 错误
+  example: 示例
+  experiment: 实验
+  goal: 目标
+  idea: 想法
+  important: 重要
+  memo: 备忘
+  note: 笔记
+  notify: 通知
+  question: 问题
+  quote: 引用
+  success: 成功
+  task: 任务
+  tip: 提示
+  warning: 警告
