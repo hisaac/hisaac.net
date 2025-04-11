@@ -11,7 +11,8 @@ function main {
 		update_mise
 	fi
 
-	install_plugins
+	install_mise_plugins
+	install_hugo_plugins
 }
 
 function install_mise {
@@ -25,9 +26,14 @@ function update_mise {
 	mise self-update --yes || true # Ignore errors if mise is already up-to-date
 }
 
-function install_plugins {
+function install_mise_plugins {
 	info "Installing mise plugins"
 	mise install --yes
+}
+
+function install_hugo_plugins {
+	info "Installing Hugo plugins"
+	hugo mod get -u ./...
 }
 
 main "$@"
