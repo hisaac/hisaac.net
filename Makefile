@@ -38,6 +38,6 @@ nuke:
 # aliases
 
 serve: run
-ci: up build
+ci: up build format
 rebuild: clean build
 reset: clean run
