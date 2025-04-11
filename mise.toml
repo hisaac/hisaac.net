@@ -1,3 +1,8 @@
+[settings]
+experimental = true
+not_found_auto_install = true
+plugin_autoupdate_last_check_duration = "1 week"
+
 [tools]
 hugo-extended = "latest"
 node = "latest"
