@@ -1,7 +1,7 @@
 ---
 title: "Migrating and Rewriting the History of a Git Repository"
 description: "Some handy notes and things I learned while scrubbing the history a large git repository with lots of history, and migrated it to a new URL."
-date: 2025-01-27
+date: 2025-04-11
 tags: [git, git-filter-repo, shell, bash]
 ---
 
