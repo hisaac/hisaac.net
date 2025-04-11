@@ -10,6 +10,11 @@ layoutDir: src/layouts
 staticDir: src/static
 themesDir: src/themes
 
+module:
+  imports:
+    - path: github.com/KKKZOZ/hugo-admonitions
+    - path: hisaac.net
+
 # Generate a nice robots.txt for SEO
 enableRobotsTXT: true
 
