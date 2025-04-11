@@ -29,11 +29,14 @@ function update_mise {
 function install_mise_plugins {
 	info "Installing mise plugins"
 	mise install --yes
+	mise upgrade --bump
+	mise reshim
 }
 
 function install_hugo_plugins {
 	info "Installing Hugo plugins"
-	hugo mod get -u ./...
+	mise_exec hugo version
+	mise_exec hugo mod get -u ./...
 }
 
 main "$@"
