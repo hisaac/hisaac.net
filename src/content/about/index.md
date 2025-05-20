@@ -18,7 +18,7 @@ In my free time, I [listen to as much music as possible](https://www.last.fm/use
 
 ### Work
 
-I currently work as a Senior Mobile Infrastructure Engineer at [Tandem Diabetes Care](https://www.tandemdiabetes.com), and insulin pump manufacturer.
+I currently work as a Staff Software Engineer at [Tandem Diabetes Care](https://www.tandemdiabetes.com), an insulin pump manufacturer. My professional work focuses primarily on developer experience and infrastructure automation, historically in the Apple platforms space, but recently broadening to include other realms.
 
 I've spent most of my professional life working with technology. Before software development, I was an IT support technician and manager, software quality assurance technician, audio producer, and audio engineer.
 
