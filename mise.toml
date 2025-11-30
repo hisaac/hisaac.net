@@ -1,8 +1,23 @@
 [settings]
+activate_aggressive = true
 experimental = true
-not_found_auto_install = true
-plugin_autoupdate_last_check_duration = "1 week"
 
 [tools]
 hugo-extended = "latest"
 node = "latest"
+usage = "latest"
+
+[env]
+PUBLIC_DIR = "public"
+
+[tasks.nuke]
+depends = ["clean nuke"]
+
+[tasks.ci]
+depends = ["bootstrap", "build", "format"]
+
+[tasks.rebuild]
+depends = ["clean", "build"]
+
+[tasks.reset]
+depends = ["clean", "run"]

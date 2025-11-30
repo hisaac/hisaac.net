@@ -1,24 +1,30 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-source "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")/lib/base.sh"
+source "$(dirname "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")")/lib/base.bash"
 trap 'exit_handler "$?" "${0##*/}"' EXIT
 
 function main {
-	declare -r mise_path="${HOME}/.local/bin/mise"
-	if [[ ! -f "${mise_path}" ]]; then
+	if command -v mise &>/dev/null; then
 		install_mise
-	else
-		update_mise
 	fi
 
 	install_mise_plugins
 	install_hugo_plugins
 }
 
+function brew_install_mise {
+	brew install mise
+	eval "$("${mise_path}" activate -C "$MISE_PROJECT_ROOT" bash --shims)"
+}
+
 function install_mise {
 	info "Installing mise"
-	curl https://mise.run | sh
-	eval "$("${mise_path}" activate -C "$PROJECT_ROOT" bash --shims)"
+	if command -v brew &>/dev/null; then
+		brew install mise
+	else
+		curl https://mise.run | sh
+	fi
+	eval "$("${mise_path}" activate -C "$MISE_PROJECT_ROOT" bash --shims)"
 }
 
 function update_mise {
