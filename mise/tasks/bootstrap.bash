@@ -10,9 +10,6 @@ function main {
 	else
 		update_mise
 	fi
-
-	install_mise_plugins
-	install_hugo_plugins
 }
 
 function install_mise {
@@ -34,19 +31,6 @@ function update_mise {
 	else
 		mise self-update --yes || true # Ignore errors if mise is already up-to-date
 	fi
-}
-
-function install_mise_plugins {
-	info "Installing mise plugins"
-	mise install --yes
-	mise upgrade --bump
-	mise reshim
-}
-
-function install_hugo_plugins {
-	info "Installing Hugo plugins"
-	hugo version
-	hugo mod get -u ./...
 }
 
 main "$@"

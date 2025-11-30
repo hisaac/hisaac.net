@@ -12,8 +12,21 @@ shellcheck = "latest"
 shfmt = "latest"
 yamllint = "latest"
 
+[hooks]
+postinstall = "mise run deps"
+
 [env]
 PUBLIC_DIR = "public"
+
+[tasks.deps-install]
+alias = "deps"
+run = "hugo mod tidy"
+
+[tasks.deps-upgrade]
+run = [
+	"mise upgrade --bump",
+	"hugo mod get -u ./...",
+]
 
 [tasks.nuke]
 depends = ["clean nuke"]
