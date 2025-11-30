@@ -5,7 +5,7 @@ source "$(dirname "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")")/lib/base.ba
 trap 'exit_handler "$?" "${0##*/}"' EXIT
 
 function main {
-	cd "${PUBLIC_DIR}" || exit
+	cd "${MISE_PROJECT_ROOT}/public" || exit
 	npx prettier --write . --config "${MISE_PROJECT_ROOT}/.prettierrc.yml" "!css/vendors/**"
 	mise fmt
 }
