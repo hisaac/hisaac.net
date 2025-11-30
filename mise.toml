@@ -10,7 +10,7 @@ usage = "latest"
 pkl = "latest"
 shellcheck = "latest"
 shfmt = "latest"
-yamllint = "latest"
+"pipx:yamllint" = "latest"
 
 [hooks]
 postinstall = "mise run deps"
