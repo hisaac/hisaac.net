@@ -6,12 +6,13 @@ experimental = true
 hk = "latest"
 hugo-extended = "latest"
 node = "latest"
-usage = "latest"
 pipx = "latest"
 pkl = "latest"
-"npm:prettier" = "latest"
+python = "latest"
 shellcheck = "latest"
 shfmt = "latest"
+usage = "latest"
+"npm:prettier" = "latest"
 "pipx:yamllint" = "latest"
 
 [hooks]
