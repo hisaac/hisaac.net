@@ -1,0 +1,37 @@
+amends "package://github.com/jdx/hk/releases/download/v1.25.0/hk@1.25.0#/Config.pkl"
+import "package://github.com/jdx/hk/releases/download/v1.25.0/hk@1.25.0#/Builtins.pkl"
+
+fail_fast = false
+env {
+	["HK_MISE"] = "true"
+}
+
+local linters = new Mapping<String, Step> {
+	// ["markdown-lint"] = Builtins.markdown_lint
+	["pkl"] = Builtins.pkl
+	// ["prettier"] = Builtins.prettier
+	["shellcheck"] = Builtins.shellcheck
+	["shfmt"] = Builtins.shfmt
+	["yamllint"] = Builtins.yamllint
+
+	["mise"] {
+		glob = "mise.toml"
+		check = "mise fmt --check"
+		fix = "mise fmt"
+	}
+}
+
+hooks {
+	["pre-commit"] {
+		fix = true
+		stash = "git"
+		steps = linters
+	}
+	["fix"] {
+		fix = true
+		steps = linters
+	}
+	["check"] {
+		steps = linters
+	}
+}

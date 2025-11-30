@@ -3,9 +3,14 @@ activate_aggressive = true
 experimental = true
 
 [tools]
+hk = "latest"
 hugo-extended = "latest"
 node = "latest"
 usage = "latest"
+pkl = "latest"
+shellcheck = "latest"
+shfmt = "latest"
+yamllint = "latest"
 
 [env]
 PUBLIC_DIR = "public"

@@ -32,10 +32,6 @@ function error() {
 	echo -e "${text_red:-}ERROR:${text_bold:-} ${1:-}" "${text_reset:-}" >&2
 }
 
-function mise_exec {
-	mise exec -- "$@"
-}
-
 function exit_handler {
 	declare -ri exit_code="$1"
 	declare -r script_name="$2"
