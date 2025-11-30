@@ -7,7 +7,6 @@ trap 'exit_handler "$?" "${0##*/}"' EXIT
 function main {
 	cd "${MISE_PROJECT_ROOT}/public" || exit
 	npx prettier --write . --config "${MISE_PROJECT_ROOT}/.prettierrc.yml" "!css/vendors/**"
-	mise fmt
 }
 
 main "$@"
