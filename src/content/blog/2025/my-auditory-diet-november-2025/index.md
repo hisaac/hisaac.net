@@ -27,7 +27,7 @@ Fun facts I learned while doing a little research on these albums:
 
 This month, I discovered the **fantastic** podcast [_Fela Kuti: Fear No Man_](https://pods.link/i/1835735529). It's hosted by Jad Abumrad (the creator of [_Radiolab_](https://pods.link/i/152249110)), and tells the story of Fela Kuti's life, music, and activism.
 
-So naturally, in between episodes, I spent a good amount of time grooving to Fela's music. I'm not nearly knowledgable enough in the music to recommend a specific album, but the pair of greatest hits albums produced in the 2000s ([_The Best of the Black President_](https://album.link/i/1783205871) & [_The Best of the Black President 2_](https://album.link/s/2f5WpyFlA1Xoz4wGNdwPYk)) are what I mostly listen to, and they present a fantastic overview of his career.
+So naturally, in between episodes, I spent a good amount of time grooving to Fela's music. I'm not nearly knowledgeable enough in the music to recommend a specific album, but the pair of greatest hits albums produced in the 2000s ([_The Best of the Black President_](https://album.link/i/1783205871) & [_The Best of the Black President 2_](https://album.link/s/2f5WpyFlA1Xoz4wGNdwPYk)) are what I mostly listen to, and they present a fantastic overview of his career.
 
 ## 3) Late 70s Self-Titled Pop Rock Masterpieces
 
