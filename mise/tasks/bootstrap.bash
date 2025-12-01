@@ -31,7 +31,7 @@ function install_mise {
 
 function update_mise {
 	info "Updating mise"
-	if command -v brew &>/dev/null; then
+	if [[ "$(uname -s)" == "Darwin" ]]; then
 		brew upgrade mise
 	else
 		mise self-update --yes || true # Ignore errors if mise is already up-to-date
