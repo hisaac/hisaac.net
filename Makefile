@@ -1,43 +1,17 @@
-# config
-.PHONY: *    # all targets phony
-$(V).SILENT: # all targets silent
+.PHONY: * # all targets phony
+.SILENT:  # all targets silent
 
-# variables
-mkfile_path  := $(abspath $(lastword $(MAKEFILE_LIST)))
-project_root := $(realpath $(dir $(mkfile_path)))
-scripts_dir  := $(project_root)/scripts
+project_root = $(realpath $(dir $(abspath $(lastword $(MAKEFILE_LIST)))))
 
-# targets
+all: bootstrap
 
-up:
-	"$(scripts_dir)/up.sh"
+up: bootstrap
+bootstrap:
+	$(project_root)/mise/tasks/bootstrap.bash $(project_root)
 
-build:
-	"$(scripts_dir)/build.sh"
+down: teardown
+teardown:
+	$(project_root)/mise/tasks/teardown.bash
 
-format:
-	"$(scripts_dir)/format.sh"
-
-lint:
-	"$(scripts_dir)/lint.sh"
-
-run:
-	"$(scripts_dir)/run.sh"
-
-# utility targets
-
-generate:
-	"$(scripts_dir)/generate-syntax.sh"
-
-clean:
-	"$(scripts_dir)/clean.sh"
-
-nuke:
-	"$(scripts_dir)/clean.sh" nuke
-
-# aliases
-
-serve: run
-ci: up build format
-rebuild: clean build
-reset: clean run
+ci: bootstrap
+	mise run build

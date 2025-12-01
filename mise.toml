@@ -1,8 +1,40 @@
 [settings]
+activate_aggressive = true
 experimental = true
-not_found_auto_install = true
-plugin_autoupdate_last_check_duration = "1 week"
 
 [tools]
+hk = "latest"
 hugo-extended = "latest"
+pkl = "latest"
+python = "latest"
+shellcheck = "latest"
+shfmt = "latest"
+usage = "latest"
+
 node = "latest"
+"npm:prettier" = "latest"
+
+pipx = "latest"
+"pipx:yamllint" = "latest"
+
+[hooks]
+postinstall = "mise run deps"
+
+[tasks.deps-install]
+alias = "deps"
+run = "hugo mod tidy"
+
+[tasks.deps-upgrade]
+run = ["mise upgrade --bump", "hugo mod get -u ./..."]
+
+[tasks.nuke]
+depends = ["clean nuke"]
+
+[tasks.ci]
+depends = ["build", "format"]
+
+[tasks.rebuild]
+depends = ["clean", "build"]
+
+[tasks.reset]
+depends = ["clean", "run"]
