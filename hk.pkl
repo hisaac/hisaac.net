@@ -7,9 +7,7 @@ env {
 }
 
 local linters = new Mapping<String, Step> {
-	// ["markdown-lint"] = Builtins.markdown_lint
 	["pkl"] = Builtins.pkl
-	// ["prettier"] = Builtins.prettier
 	["shellcheck"] = Builtins.shellcheck
 	["shfmt"] = Builtins.shfmt
 	["yamllint"] = Builtins.yamllint

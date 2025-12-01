@@ -3,18 +3,19 @@ activate_aggressive = true
 experimental = true
 
 [tools]
-"npm:netlify-cli" = "latest"
-"npm:prettier" = "latest"
-"pipx:yamllint" = "latest"
 hk = "latest"
 hugo-extended = "latest"
-node = "latest"
-pipx = "latest"
 pkl = "latest"
 python = "latest"
 shellcheck = "latest"
 shfmt = "latest"
 usage = "latest"
+
+node = "latest"
+"npm:prettier" = "latest"
+
+pipx = "latest"
+"pipx:yamllint" = "latest"
 
 [hooks]
 postinstall = "mise run deps"
