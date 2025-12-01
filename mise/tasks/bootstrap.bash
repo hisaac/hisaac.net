@@ -16,7 +16,7 @@ function main {
 
 function install_mise {
 	info "Installing mise"
-	if command -v brew &>/dev/null; then
+	if [[ "$(uname -s)" == "Darwin" ]]; then
 		brew install mise
 		local -r mise_path="$(brew --prefix mise)"
 	else

@@ -12,3 +12,6 @@ bootstrap:
 down: teardown
 teardown:
 	$(project_root)/mise/tasks/teardown.bash
+
+ci: bootstrap
+	mise run build
