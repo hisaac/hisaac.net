@@ -5,8 +5,11 @@ experimental = true
 [tools]
 hk = "latest"
 hugo-extended = "latest"
+node = "latest"
+"npm:netlify-cli" = "latest"
 pkl = "latest"
 prettier = "latest"
+python = "latest"
 shellcheck = "latest"
 shfmt = "latest"
 usage = "latest"
