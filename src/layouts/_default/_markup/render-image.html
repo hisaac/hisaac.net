@@ -26,22 +26,24 @@
 	{{- $jpegImage := $imageResource.Process (print "resize " $imageResource.Width "x jpeg box") -}}
 
 	<figure>
-		<picture>
-			{{- if $imageIsGif -}}
-				<source type="image/gif" srcset="{{ $imageResource.RelPermalink }}" />
-			{{- else -}}
-				<source type="image/webp" srcset="{{ $webpImage.RelPermalink }}" />
-				<source type="image/jpeg" srcset="{{ $jpegImage.RelPermalink }}" />
-			{{- end -}}
-			<img
-				src="data:image/jpeg;base64,{{ $placeholderImageBase64 }}"
-				alt="{{ $alt }}"
-				title="{{ $caption }}"
-				loading="lazy"
-				width="{{ $imageResource.Width }}"
-				height="{{ $imageResource.Height }}"
-			/>
-		</picture>
+		<a href="{{ $imageResource.RelPermalink }}" target="_blank" rel="noopener noreferrer">
+			<picture>
+				{{- if $imageIsGif -}}
+					<source type="image/gif" srcset="{{ $imageResource.RelPermalink }}" />
+				{{- else -}}
+					<source type="image/webp" srcset="{{ $webpImage.RelPermalink }}" />
+					<source type="image/jpeg" srcset="{{ $jpegImage.RelPermalink }}" />
+				{{- end -}}
+				<img
+					src="data:image/jpeg;base64,{{ $placeholderImageBase64 }}"
+					alt="{{ $alt }}"
+					title="{{ $caption }}"
+					loading="lazy"
+					width="{{ $imageResource.Width }}"
+					height="{{ $imageResource.Height }}"
+				/>
+			</picture>
+		</a>
 		{{- with $caption -}}<figcaption>{{ $caption | $.Page.RenderString }}</figcaption>{{- end -}}
 	</figure>
 {{- end -}}
