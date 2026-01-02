@@ -3,8 +3,10 @@ activate_aggressive = true
 experimental = true
 
 [tools]
+go = "latest"
 hk = "latest"
-hugo-extended = "latest"
+node = "latest"
+pipx = "latest"
 pkl = "latest"
 prettier = "latest"
 python = "latest"
@@ -13,14 +15,21 @@ shfmt = "latest"
 usage = "latest"
 yamlfmt = "latest"
 yamllint = "latest"
-pipx = "latest"
+
+# 2026-01-02
+# Locking Hugo version to 0.152 due to an issue with webp images in 0.153 and 0.154
+# see: https://github.com/gohugoio/hugo/issues/14282
+hugo-extended = "0.152"
 
 [tasks.bootstrap]
-alias = "deps"
+alias = "up"
 run = "hugo mod tidy"
 
+[tasks.build]
+run = "hugo --config hugo.yml --gc"
+
 [tasks.upgrade]
-run = ["mise upgrade --bump", "mise exec -- hugo mod get -u ./..."]
+run = ["mise upgrade --bump", "hugo mod get -u"]
 
 [tasks.nuke]
 depends = ["clean nuke"]

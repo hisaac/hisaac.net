@@ -12,7 +12,7 @@ As usual, I listened to a lot of stuff this month, but only one album was on con
 
 ## _Minds: Ohashi Junko No Sekai II_ by Junko Ohashi (1982)
 
-![Album cover for "Minds: Ohashi Junko No Sekai II" by Junko Ohashi](./assets/junko-ohashi-minds-ohashi-junko-no-sekai-ii.jpg )
+![Album cover for "Minds: Ohashi Junko No Sekai II" by Junko Ohashi](assets/junko-ohashi-minds-ohashi-junko-no-sekai-ii.jpg)
 
 tl;dr: This is a _fantastic_ city pop gem. It's got the catchy hooks and shiny production that any good city pop album has. What makes this one special in my opinion though is Ohashi's beautiful voice, and the mix of styles present throughout.
 
