@@ -1,0 +1,75 @@
+[[tools."github:gohugoio/hugo"]]
+version = "0.154.2"
+backend = 'github:gohugoio/hugo[platforms={ macos-arm64 = { asset_pattern = "hugo_extended_*_darwin-universal.pkg" } }]'
+"platforms.macos-arm64" = { checksum = "sha256:38c9a9378942b1a2e582259f0703bcb0782fd5596d7bdb153179a59a35fb82e4", url = "https://github.com/gohugoio/hugo/releases/download/v0.154.2/hugo_extended_0.154.2_darwin-universal.pkg", url_api = "https://api.github.com/repos/gohugoio/hugo/releases/assets/335553273"}
+
+[[tools.go]]
+version = "1.25.5"
+backend = "core:go"
+"platforms.linux-arm64" = { checksum = "sha256:b00b694903d126c588c378e72d3545549935d3982635ba3f7a964c9fa23fe3b9", url = "https://dl.google.com/go/go1.25.5.linux-arm64.tar.gz"}
+"platforms.macos-arm64" = { checksum = "sha256:bed8ebe824e3d3b27e8471d1307f803fc6ab8e1d0eb7a4ae196979bd9b801dd3", url = "https://dl.google.com/go/go1.25.5.darwin-arm64.tar.gz"}
+
+[[tools.hk]]
+version = "1.28.0"
+backend = "aqua:jdx/hk"
+"platforms.linux-arm64" = { checksum = "sha256:d1f50df29386046b815929d2947ebd84fcd7cb0d6f3cc6db991961271b80aede", url = "https://github.com/jdx/hk/releases/download/v1.28.0/hk-aarch64-unknown-linux-gnu.tar.gz"}
+"platforms.macos-arm64" = { checksum = "sha256:7b0ad12e5b6efa4ca55feec2e90ef5eb166f50293d109805d4938f708713e784", url = "https://github.com/jdx/hk/releases/download/v1.28.0/hk-aarch64-apple-darwin.tar.gz"}
+
+[[tools.hugo-extended]]
+version = "0.152.2"
+backend = "aqua:gohugoio/hugo/hugo-extended"
+"platforms.macos-arm64" = { checksum = "sha256:23e59fcd6951dadc0ee7552c918970aa0c9b00659566f0fa591837e204e87d39", url = "https://github.com/gohugoio/hugo/releases/download/v0.152.2/hugo_extended_0.152.2_darwin-universal.tar.gz"}
+
+[[tools.node]]
+version = "25.2.1"
+backend = "core:node"
+"platforms.linux-arm64" = { checksum = "sha256:905238a17be9ae62c16e596019268d8ca9f0fc3142602a1f860dc4a7c1ddbf82", url = "https://nodejs.org/dist/v25.2.1/node-v25.2.1-linux-arm64.tar.gz"}
+"platforms.macos-arm64" = { checksum = "sha256:be87e21bd235a451fad02c89e5bf7cb17e206e4cd89dd5664f20d19e7dfde6f9", url = "https://nodejs.org/dist/v25.2.1/node-v25.2.1-darwin-arm64.tar.gz"}
+
+[[tools.pipx]]
+version = "1.8.0"
+backend = "aqua:pypa/pipx"
+"platforms.linux-arm64" = { checksum = "sha256:b9eabd835dffe0677e36bd99416fc9837c592bd8c079235379bed3dfe043c601", url = "https://github.com/pypa/pipx/releases/download/1.8.0/pipx.pyz"}
+"platforms.macos-arm64" = { checksum = "sha256:b9eabd835dffe0677e36bd99416fc9837c592bd8c079235379bed3dfe043c601", url = "https://github.com/pypa/pipx/releases/download/1.8.0/pipx.pyz"}
+
+[[tools.pkl]]
+version = "0.30.2"
+backend = "aqua:apple/pkl"
+"platforms.linux-arm64" = { checksum = "sha256:8da3ae65104eb7058e35dc4a9fe46bd8ece2b6faf4b65d0b1054cadb2ede0246", url = "https://github.com/apple/pkl/releases/download/0.30.2/pkl-linux-aarch64"}
+"platforms.macos-arm64" = { checksum = "sha256:f1db44c0f6f859aee88c9d7d272f2371ae40ac95ec9957ae78eff51665158e04", url = "https://github.com/apple/pkl/releases/download/0.30.2/pkl-macos-aarch64"}
+
+[[tools.prettier]]
+version = "3.7.4"
+backend = "npm:prettier"
+
+[[tools.python]]
+version = "3.14.2"
+backend = "core:python"
+
+[[tools.shellcheck]]
+version = "0.11.0"
+backend = "aqua:koalaman/shellcheck"
+"platforms.linux-arm64" = { checksum = "sha256:12b331c1d2db6b9eb13cfca64306b1b157a86eb69db83023e261eaa7e7c14588", url = "https://github.com/koalaman/shellcheck/releases/download/v0.11.0/shellcheck-v0.11.0.linux.aarch64.tar.xz"}
+"platforms.macos-arm64" = { checksum = "sha256:56affdd8de5527894dca6dc3d7e0a99a873b0f004d7aabc30ae407d3f48b0a79", url = "https://github.com/koalaman/shellcheck/releases/download/v0.11.0/shellcheck-v0.11.0.darwin.aarch64.tar.xz"}
+
+[[tools.shfmt]]
+version = "3.12.0"
+backend = "aqua:mvdan/sh"
+"platforms.linux-arm64" = { checksum = "sha256:5f3fe3fa6a9f766e6a182ba79a94bef8afedafc57db0b1ad32b0f67fae971ba4", url = "https://github.com/mvdan/sh/releases/download/v3.12.0/shfmt_v3.12.0_linux_arm64"}
+"platforms.macos-arm64" = { checksum = "sha256:d903802e0ce3ecbc82b98512f55ba370b0d37a93f3f78de394f5b657052b33dd", url = "https://github.com/mvdan/sh/releases/download/v3.12.0/shfmt_v3.12.0_darwin_arm64"}
+
+[[tools.usage]]
+version = "2.11.0"
+backend = "aqua:jdx/usage"
+"platforms.linux-arm64" = { checksum = "sha256:850d04145ec52d859fcc5efdcab178a697155cf904fd8dda24c127de67ae0c69", url = "https://github.com/jdx/usage/releases/download/v2.11.0/usage-aarch64-unknown-linux-musl.tar.gz"}
+"platforms.macos-arm64" = { checksum = "sha256:fa1a8f1d8be4d4d2d3f0c49fa95265c170546effb322b2c7bca25e2bc3b8b916", url = "https://github.com/jdx/usage/releases/download/v2.11.0/usage-universal-apple-darwin.tar.gz"}
+
+[[tools.yamlfmt]]
+version = "0.20.0"
+backend = "aqua:google/yamlfmt"
+"platforms.linux-arm64" = { checksum = "sha256:26e2461caf96286c7958701acebce52089ce109645c20b5675496385c09f120a", url = "https://github.com/google/yamlfmt/releases/download/v0.20.0/yamlfmt_0.20.0_Linux_arm64.tar.gz"}
+"platforms.macos-arm64" = { checksum = "sha256:356fbf3c385f8e1211b4d8a40f73acc45fc44080a19f4b4181695a308b61998e", url = "https://github.com/google/yamlfmt/releases/download/v0.20.0/yamlfmt_0.20.0_Darwin_arm64.tar.gz"}
+
+[[tools.yamllint]]
+version = "1.37.1"
+backend = "pipx:yamllint"

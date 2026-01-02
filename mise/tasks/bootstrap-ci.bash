@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -x
-
 # shellcheck source=mise/lib/base.bash
 source "$(dirname "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")")/lib/base.bash"
 trap 'exit_handler "$?" "${0##*/}"' EXIT
@@ -25,7 +23,7 @@ function install_mise {
 		curl https://mise.run | sh
 		local -r mise_path="${HOME}/.local/bin/mise"
 	fi
-	mise trust --yes
+	"${mise_path}" trust --yes
 	eval "$("${mise_path}" activate -C "${project_root}" bash --shims)"
 }
 
@@ -42,7 +40,7 @@ function install_mise_plugins {
 	info "Installing mise plugins"
 	mise plugins update
 	mise install --yes
-	mise upgrade --bump
+	mise upgrade
 	mise reshim
 }
 

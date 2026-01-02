@@ -1,0 +1,11 @@
+---
+formatter:
+  type: basic
+
+  eof_newline: true
+  force_quote_style: double
+  include_document_start: true
+  max_line_length: 256
+  pad_line_comments: 2
+  retain_line_breaks_single: true
+  trim_trailing_whitespace: true
