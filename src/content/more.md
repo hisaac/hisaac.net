@@ -37,7 +37,7 @@ Here is a list of other blogs that I like to keep up on. Some of them haven't be
 	<a rel="external" referrerpolicy="no-referrer" href="https://eli.li">
 	  <img
     src="https://eli.li/_assets/_images/badge/02_88x31.png"
-    alt="A small, rectangular image with colored gradient background. Over the background is the word ‘oatmeal' followed by an emoji of a bowl."
+    alt="A small, rectangular image with colored gradient background. Over the background is the word 'oatmeal' followed by an emoji of a bowl."
 	  />
 	</a>
 - [512 Pixels](https://512pixels.net) by Stephen Hackett

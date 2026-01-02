@@ -1,0 +1,15 @@
+---
+# Documentation for this file: https://yamllint.readthedocs.io/en/stable/configuration.html
+extends: default
+rules:
+
+  # The default line-length of 80 is a bit too restrictive.
+  line-length:
+    max: 256
+    allow-non-breakable-words: true
+    allow-non-breakable-inline-mappings: true
+
+  # GitHub's workflow schema includes a key named "on" which trips this rule.
+  # We'll disable the check for keys only, so it will still check values.
+  truthy:
+    check-keys: false

@@ -37,8 +37,8 @@ params:
   # Author metadata. This is mostly used for the RSS feed of your site, but the
   # email is also added to the footer of each post
   author:
-    name: Isaac Halvorson # Your name as shown in the RSS feed metadata
-    email: hello@hisaac.net # Added to the footer so readers can reply to posts
+    name: Isaac Halvorson  # Your name as shown in the RSS feed metadata
+    email: hello@hisaac.net  # Added to the footer so readers can reply to posts
 
 markup:
   goldmark:

@@ -6,19 +6,14 @@ experimental = true
 hk = "latest"
 hugo-extended = "latest"
 pkl = "latest"
+prettier = "latest"
 python = "latest"
 shellcheck = "latest"
 shfmt = "latest"
 usage = "latest"
-
-node = "latest"
-"npm:prettier" = "latest"
-
+yamlfmt = "latest"
+yamllint = "latest"
 pipx = "latest"
-"pipx:yamllint" = "latest"
-
-[hooks]
-postinstall = "mise run bootstrap"
 
 [tasks.bootstrap]
 alias = "deps"
@@ -31,10 +26,16 @@ run = ["mise upgrade --bump", "mise exec -- hugo mod get -u ./..."]
 depends = ["clean nuke"]
 
 [tasks.ci]
-depends = ["build", "format"]
+depends = ["bootstrap", "build", "format"]
 
 [tasks.rebuild]
 depends = ["clean", "build"]
 
 [tasks.reset]
 depends = ["clean", "run"]
+
+[tasks.check]
+run = "hk check --all"
+
+[tasks.fix]
+run = "hk fix --all"
