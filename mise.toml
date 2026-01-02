@@ -18,14 +18,14 @@ pipx = "latest"
 "pipx:yamllint" = "latest"
 
 [hooks]
-postinstall = "mise run deps"
+postinstall = "mise run bootstrap"
 
-[tasks.deps-install]
+[tasks.bootstrap]
 alias = "deps"
 run = "hugo mod tidy"
 
-[tasks.deps-upgrade]
-run = ["mise upgrade --bump", "hugo mod get -u ./..."]
+[tasks.upgrade]
+run = ["mise upgrade --bump", "mise exec -- hugo mod get -u ./..."]
 
 [tasks.nuke]
 depends = ["clean nuke"]

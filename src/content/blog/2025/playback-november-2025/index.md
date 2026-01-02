@@ -1,5 +1,5 @@
 ---
-title: "My Auditory Diet - November 2025"
+title: "Playback - November 2025"
 date: 2025-11-30
 tags: [music]
 ---
