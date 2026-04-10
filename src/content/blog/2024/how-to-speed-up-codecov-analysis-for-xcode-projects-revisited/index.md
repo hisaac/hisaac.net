@@ -1,6 +1,7 @@
 ---
 title: "How to Speed Up Codecov Analysis for Xcode Projects, Revisited"
 date: 2024-09-01
+draft: true
 tags: [xcode, software, programming, swift, apple]
 ---
 

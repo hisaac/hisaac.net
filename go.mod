@@ -1,5 +1,5 @@
 module hisaac.net
 
-go 1.23
+go 1.26
 
-require github.com/KKKZOZ/hugo-admonitions v0.11.1 // indirect
+require github.com/KKKZOZ/hugo-admonitions v0.12.0 // indirect
