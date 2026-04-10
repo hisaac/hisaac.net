@@ -3,6 +3,7 @@
 .env
 
 # hugo
+_vendor/
 .hugo_build.lock
 public/
 resources/
@@ -12,3 +13,6 @@ node_modules/
 
 # legacy
 src~jekyll/
+
+# claude
+.claude/settings.local.json
