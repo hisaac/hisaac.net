@@ -4,11 +4,11 @@ date: 2023-06-29
 tags: [software, programming, swift, apple]
 ---
 
-<!-- <aside>
+<aside>
 <strong>💁🏻‍♂️ Update:</strong> Since writing this post, I've found a new method for converting Xcode's code coverage format to a format that Codecov can ingest. This method is slightly faster and — more importantly — removes the dependency on external tools, instead relying solely on tools included within Xcode's command line tools.
 
-Check out my [new post]({{/*< ref "how-to-speed-up-codecov-analysis-for-xcode-projects-revisited" >*/}}) for more details.
-</aside> -->
+Check out my [new post]({{< ref "how-to-speed-up-codecov-analysis-for-xcode-projects-revisited" >}}) for more details.
+</aside>
 
 <aside>
 <strong>💁🏻‍♂️ Note:</strong> A version of this post also appeared on the <a href="https://about.codecov.io/blog/pre-converting-xcresult-files-for-codecov-using-xcresultparser/">Codecov Blog</a> and <a href="https://thenewstack.io/speeding-up-codecov-analysis-for-xcode-projects/">The New Stack</a>.
