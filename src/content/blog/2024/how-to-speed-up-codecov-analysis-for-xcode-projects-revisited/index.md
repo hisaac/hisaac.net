@@ -1,7 +1,7 @@
 ---
 title: "How to Speed Up Codecov Analysis for Xcode Projects, Revisited"
 date: 2024-09-01
-draft: true
+updated: 2026-04-17
 tags: [xcode, software, programming, swift, apple]
 ---
 
@@ -29,82 +29,25 @@ First, we need to know the location of the DerivedData directory. In order to is
 xcrun xcodebuild test -derivedDataPath ./DerivedData ...
 ```
 
-## 2. Gather Information
+## 2. Convert the Coverage Data
 
-Next, we need to locate the Profile data generated during testing. This will be a file named `Coverage.profdata`, and will be located in a subdirectory of `DerivedData/Build/ProfileData`. You can use a `find` command to locate it like so:
+You'll need to fill in the app name and test target name in the following commands, but the general process is as follows:
 
-```bash
-find "./DerivedData/Build/ProfileData" -name "Coverage.profdata"
-
-# example result:
-# ./DerivedData/Build/ProfileData/00006000-000420CA0CA3801E/Coverage.profdata
+```shell
+xcrun llvm-cov export \
+	--format lcov \
+	--ignore-filename-regex "DerivedData" \
+	--instr-profile DerivedData/Build/ProfileData/*/Coverage.profdata \
+	DerivedData/Build/Products/Debug-iphonesimulator/<app_name>.app/<app_name>.debug.dylib \
+	> coverage.info
 ```
 
-Finally, we need to get a list of all the test bundles generated when running our tests. These will be files with a `.xctest` extension, and will be located in various locations within `./DerivedData/Build/Products`. We can use a `find` command to locate them like so:
+If needed, you can also post-process the `coverage.info` file to remove relative paths to the source files, which can be done with a simple `sed` command like so:
 
-```bash
-find "./DerivedData/Build/Products" -name "*.xctest"
-
-# example result:
-# ./DerivedData/Build/Products/Debug-iphoneos/MyAppUITests-Runner.app/PlugIns/MyAppUITests.xctest
-# ./DerivedData/Build/Products/Debug-iphoneos/MyApp.app/PlugIns/MyAppTests.xctest
-# ./DerivedData/Build/Products/Debug-iphoneos/.XCInstall/MyApp.app/Wrapper/MyApp.app/PlugIns/MyAppTests.xctest
+```shell
+sed -i '' sed "s|SF:$(pwd)/|SF:|" coverage.info
 ```
 
-What `llvm-cov` expects is the path to the binary within these test bundles. They will be located at the root of each bundle, and be named the same as the bundle itself. You can use the `basename` function in bash to get the name like so:
+## Conclusion
 
-```bash
-basename "./DerivedData/Build/Products/Debug-iphoneos/MyAppUITests-Runner.app/PlugIns/MyAppUITests.xctest" .xctest
-
-# example result:
-# MyAppUITests
-```
-
-## 3. Convert!
-
-Now that we've located that information, we can pass it to the `llvm-cov export` command. The command will need to be run separately for each test bundle you're handling, so we'll run it multiple times within a loop.
-
-Here's a simple bash script that puts all the pieces together:
-
-```bash
-#!/bin/bash
-
-set -o errexit  # Exit on error
-set -o nounset  # Exit on unset variable
-set -o pipefail # Exit on pipe failure
-
-function main() {
-	declare -r coverage_profdata_path="$(
-		find "./DerivedData/Build/ProfileData" -name "Coverage.profdata"
-	)"
-
-	declare -r xctest_bundles="$(
-		find "./DerivedData/Build/Products" -name "*.xctest"
-	)"
-
-	# Loop through each test bundle and convert the coverage data to lcov format
-	while IFS= read -r test_bundle; do
-
-		# Get the test bundle name
-		test_bundle_name="$(basename "$test_bundle" .xctest)"
-
-		# Get the test bundle binary path
-		test_bundle_binary_path="${test_bundle}/${test_bundle_name}"
-
-		# Define where the converted coverage data will be output
-		output_path="./artifacts/${test_bundle_name}.coverage.info"
-
-		# Convert the coverage data to lcov format
-		xcrun llvm-cov export --format lcov \
-			--instr-profile "${coverage_profdata_path}" \
-			"${test_bundle_binary_path}" >"${output_path}"
-
-	done <<<"${xctest_bundles}"
-}
-
-main "$@"
-```
-
-This script will produce a number of text files with the extension `.coverage.info` within a directory named `artifacts`. From there, you can upload these text files to Codecov and let it work its magic!
-
-As I said before, this does run slightly faster than the `xcresultparser` method, but the biggest win is the fact that it removes a dependency on a tool, which is always welcome.
+This method is slightly faster than the `xcresultparser` method, but the biggest win is the fact that it removes a dependency on a tool, which is always welcome.
