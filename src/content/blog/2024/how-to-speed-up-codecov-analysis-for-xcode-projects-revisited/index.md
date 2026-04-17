@@ -31,7 +31,7 @@ xcrun xcodebuild test -derivedDataPath ./DerivedData ...
 
 ## 2. Convert the Coverage Data
 
-You'll need to fill in the app name and test target name in the following commands, but the general process is as follows:
+You'll need to fill in the app name in the following command, but the general process is as follows:
 
 ```shell
 xcrun llvm-cov export \
@@ -42,10 +42,10 @@ xcrun llvm-cov export \
 	> coverage.info
 ```
 
-If needed, you can also post-process the `coverage.info` file to remove relative paths to the source files, which can be done with a simple `sed` command like so:
+If needed, you can also post-process the `coverage.info` file to strip the current working directory prefix from absolute source file paths, which can be done with a simple `sed` command like so:
 
 ```shell
-sed -i '' sed "s|SF:$(pwd)/|SF:|" coverage.info
+sed -i '' "s|SF:$(pwd)/|SF:|" coverage.info
 ```
 
 ## Conclusion
