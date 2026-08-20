@@ -34,7 +34,7 @@ In 2017, I graduated from [Prime Digital Academy](https://www.primeacademy.io), 
 
 Here are all the places you can find me elsewhere:
 
-- Mastodon: [@hisaac@allamaraine.io](https://allamaraine.io/@hisaac)
+- Mastodon: [@hisaac@mastodon.social](https://mastodon.social/@hisaac)
 - [GitHub](http://github.com/hisaac)
 - [Stack Exchange](http://stackexchange.com/users/5023139/hisaac)
 - [Bandcamp](https://bandcamp.com/hisaac)
